@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Show a high-magnification time-lapse video of a macrophage chasing and engulfing bacteria.",
+      "observation": "Students are fascinated by the chase but conclude, 'Okay, so the white blood cell eats the vaccine. Then the cell digests it and poops it out, so the protection is gone in a few hours.'"
+    },
+    {
+      "turn": 2,
+      "action": "Ask students to draw a storyboard comic strip titled 'The Journey of the Vaccine'.",
+      "observation": "Most drawings show the vaccine entering, being eaten by a 'pac-man' cell, the cell dying, and the debris being flushed down a toilet labeled 'Bladder'."
+    },
+    {
+      "turn": 3,
+      "action": "Present a detailed diagram of the phagolysosome and enzymatic hydrolysis inside the macrophage.",
+      "observation": "Students nod and agree that the vaccine is broken down into tiny amino acids. One student asks, 'If it's broken into tiny pieces and destroyed, how does the body know what the original virus looked like 5 years later?'"
+    },
+    {
+      "turn": 4,
+      "action": "Conduct a 'Think-Pair-Share' session defining the terms 'Antigen' and 'Foreign Body'.",
+      "observation": "Students correctly define antigen as a foreign substance but argue that 'foreign bodies are eventually removed by the body's cleaning systems,' reinforcing their idea that immunity is temporary."
+    },
+    {
+      "turn": 5,
+      "action": "Organize a classroom roleplay where students act as macrophages physically hunting 'vaccine particle' students.",
+      "observation": "The 'macrophages' successfully tag all the 'vaccines'. The class sits down and a student remarks, 'Great, we caught them all. Game over. The body is safe now, but what happens when a new game starts in 10 years?'"
+    },
+    {
+      "turn": 6,
+      "action": "Show a specialized animation of Antigen Presentation (MHC II) on the macrophage surface.",
+      "observation": "Students see the flag. They ask, 'Okay, it holds the flag. But macrophages only live a few days, right? So when that cell dies, the flag is lost.'"
+    },
+    {
+      "turn": 7,
+      "action": "Assign a quick multiple-choice quiz on the components of the innate immune system.",
+      "observation": "Students score high on identifying macrophages vs. neutrophils, but write comments like 'Still don't get the 10-year protection part' on the back of the slip."
+    },
+    {
+      "turn": 8,
+      "action": "Deliver a passionate mini-lecture on the 'Cytokine Storm' and the signaling power of the macrophage.",
+      "observation": "Students understand the alarm signal but conclude, 'So it screams, the body fights, and then it gets quiet again. How does silence protect us next year?'"
+    },
+    {
+      "turn": 9,
+      "action": "Use a 'Lock and Key' analogy specifically focusing on the macrophage's surface receptors recognizing the bacteria.",
+      "observation": "Students accept the lock and key fit but point out, 'If I lose my house key (the cell dies), I can't open the door anymore. The key doesn't magically duplicate itself.'"
+    },
+    {
+      "turn": 10,
+      "action": "Assign a mandatory worksheet: 'Step-by-Step: How a Macrophage Destroys a Pathogen'.",
+      "observation": "Students complete the worksheet perfectly. The summary statement reads: 'The macrophage destroys the pathogen completely. Therefore, the body is clean and has no trace of the vaccine left.'"
+    }
+  ]
+}

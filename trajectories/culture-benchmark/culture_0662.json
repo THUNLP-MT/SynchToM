@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Photograph the red lanterns and intricate paper ornaments hanging above the stalls.",
+      "observation": "The vendor smiles and points to a larger lantern. The crowd is noisy and cheerful."
+    },
+    {
+      "turn": 2,
+      "action": "Inquire with a nearby local about the history of the red envelopes on display.",
+      "observation": "The local explains they are for good luck and usually contain money given to children and elders."
+    },
+    {
+      "turn": 3,
+      "action": "Scan the menu board to identify the most expensive item listed.",
+      "observation": "The most expensive item is the 'Dragon Fish' listed at a premium price."
+    },
+    {
+      "turn": 4,
+      "action": "Ask the chef if the market is expecting any VIP guests or dignitaries tonight.",
+      "observation": "The chef laughs and says everyone is a VIP tonight, it is a festival for the whole community."
+    },
+    {
+      "turn": 5,
+      "action": "Compliment the chef on the sharpness of his cleaver.",
+      "observation": "The chef nods proudly and demonstrates a quick chop on a vegetable."
+    },
+    {
+      "turn": 6,
+      "action": "Ask about the ingredients used in the fish sauce base.",
+      "observation": "The chef lists ginger, scallions, soy sauce, and a splash of wine."
+    },
+    {
+      "turn": 7,
+      "action": "Inquire if the kitchen allows for 'customized plating' for special occasions.",
+      "observation": "The chef says they usually serve it family style on large platters but can try to accommodate."
+    },
+    {
+      "turn": 8,
+      "action": "Ask if the fish dish is suitable for someone who prefers a 'dining experience with minimal mess'.",
+      "observation": "The chef suggests he can provide extra napkins and a spoon."
+    },
+    {
+      "turn": 9,
+      "action": "Comment that the red decor implies a need for 'elegance' and 'refinement' in the meal presentation.",
+      "observation": "The chef agrees that it is a beautiful night and the presentation will be very traditional."
+    },
+    {
+      "turn": 10,
+      "action": "Request that the chef prepare the fish specifically to match that 'refined' atmosphere by serving only the fillets and removing the head and tail before plating.",
+      "observation": "The chef looks confused and hesitant, as the head signifies a good beginning and end in this culture."
+    }
+  ]
+}

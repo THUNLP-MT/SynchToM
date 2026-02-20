@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Visually scan the layout of the private dining room, focusing on the wall decorations and the general table setting.",
+      "observation": "The room is modest but private. The other men are relaxed, unbuttoning suit jackets."
+    },
+    {
+      "turn": 2,
+      "action": "Pick up the chopsticks and align them neatly on the chopstick rest, then glance at how the others are seated relative to the door.",
+      "observation": "The oldest man sits facing the door. He gestures for everyone to relax."
+    },
+    {
+      "turn": 3,
+      "action": "Lean forward to inspect the intricate artwork on the clear bottles on the Lazy Susan, nodding appreciatively at the design.",
+      "observation": "The host smiles and nods, seemingly pleased you noticed the bottles."
+    },
+    {
+      "turn": 4,
+      "action": "Sit back and wait silently, keeping hands in lap, observing the steam rising from the spicy stew.",
+      "observation": "The stew smells very pungent and spicy. The others are chatting but not eating yet."
+    },
+    {
+      "turn": 5,
+      "action": "Look around the room specifically for a side table, a refrigerator, or a service station.",
+      "observation": "There is no service station in the room, only the round table."
+    },
+    {
+      "turn": 6,
+      "action": "Gently rotate the Lazy Susan so the large stew pot is closer to the guests, moving the clear bottles and tiny goblets slightly to the side/background.",
+      "observation": "The host looks slightly confused but doesn't stop the rotation."
+    },
+    {
+      "turn": 7,
+      "action": "Fan mouth with hand while looking at the stew, then mime a drinking motion to the host using a hand shape resembling holding a pint glass.",
+      "observation": "The host points to the clear bottles on the Lazy Susan."
+    },
+    {
+      "turn": 8,
+      "action": "Smile politely at the bottles, then look past them toward the open door, trying to catch the eye of a passing waiter.",
+      "observation": "A waiter pauses at the doorway, noticing the eye contact."
+    },
+    {
+      "turn": 9,
+      "action": "Make a large pouring gesture with both hands (indicating a pitcher size) and point to the empty space on the table near the chopsticks.",
+      "observation": "The waiter steps into the room, looking at the host for confirmation."
+    },
+    {
+      "turn": 10,
+      "action": "Verbalize 'Cold?' and 'Beer?' to the waiter while pointing to the spicy stew.",
+      "observation": "The waiter looks surprised, and the host laughs."
+    }
+  ]
+}

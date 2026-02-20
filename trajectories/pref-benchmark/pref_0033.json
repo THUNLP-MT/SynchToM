@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Read the 'Assembly' section of the provided manual again, scanning specifically for a table of numbers or bolded Nm (Newton-meter) values.",
+      "observation": "The manual text says 'Tighten until snug' and features a large QR code labeled 'Watch Assembly Video for proper technique'."
+    },
+    {
+      "turn": 2,
+      "action": "Inspect the threads of the bolts and the receiving holes with a flashlight for any metal shavings or manufacturing debris.",
+      "observation": "The threads are perfectly clean. The parts slide together smoothy until the very last centimeter, where they bind up."
+    },
+    {
+      "turn": 3,
+      "action": "Flip through the entire booklet, including the warranty and safety warnings, looking for a 'Technical Specifications' appendix.",
+      "observation": "The back pages contain only warranty info in 12 languages and the same QR code for the instructional video."
+    },
+    {
+      "turn": 4,
+      "action": "Go to the manufacturer's website and search for 'Model 5000 Service Manual PDF' or 'Engineering Datasheet'.",
+      "observation": "The search results return the product page. The 'Support' tab only contains a link to the YouTube tutorial video and an FAQ."
+    },
+    {
+      "turn": 5,
+      "action": "Disassemble the unit entirely and lay out all parts on a flat surface to verify I haven't swapped two similar-looking screws.",
+      "observation": "All screws are identical in length and size. Re-assembling leads to the exact same jam at the final step."
+    },
+    {
+      "turn": 6,
+      "action": "Use a digital torque wrench set to 2.0 Nm and attempt to tighten the bolts in a star pattern.",
+      "observation": "The device jams immediately. You hear a grinding noise instead of a clean connection. The parts look slightly skewed."
+    },
+    {
+      "turn": 7,
+      "action": "Loosen everything and re-tighten using the torque wrench, this time stepping up from 0.5 Nm in 0.5 Nm increments.",
+      "observation": "At low tension, the parts are too loose and wobble. As soon as they are tight enough to hold, the device jams again. A red sticker on the part says 'See Video for Alignment'."
+    },
+    {
+      "turn": 8,
+      "action": "Scan the QR code to load the video page, but immediately pause the video to scroll down to the video description/caption text.",
+      "observation": "The description reads: 'Visual guide to the 3-point alignment system. Listen for the audible CLICK to know you are locked in.' Use closed captions if needed."
+    },
+    {
+      "turn": 9,
+      "action": "Check the plastic housing for mold injection marks or warping using a straight-edge ruler.",
+      "observation": "The parts appear straight. However, there is a small flexible tab you haven't noticed before that moves when the device is shaken."
+    },
+    {
+      "turn": 10,
+      "action": "Submit a support ticket with the subject line: 'URGENT: Missing Torque Specifications causing device failure'.",
+      "observation": "The automated chatbot replies: 'Most assembly issues are resolved by watching the 'Click-and-Lock' demonstration at timestamp 2:30 in our video guide.'"
+    }
+  ]
+}

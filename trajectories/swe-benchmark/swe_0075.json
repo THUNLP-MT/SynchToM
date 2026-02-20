@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Inspect the source code of the `SplitArrayField` class, specifically the `for` loop in the `render` method.",
+      "observation": "The code shows a standard python loop: `for i, value in enumerate(values):`. It calls `self.widget.render(name + '_%s' % i, value, attrs)` inside the loop."
+    },
+    {
+      "turn": 2,
+      "action": "Add a print statement inside the loop: `print(f'Iteration {i}: value={value}')`.",
+      "observation": "Console Output:\nIteration 0: value=True\nIteration 1: value=False\nIteration 2: value=False\n\nThe rendered HTML still shows all three checkboxes checked."
+    },
+    {
+      "turn": 3,
+      "action": "Check the form instantiation in the view to see if `initial` data is being passed with a default that overrides the instance data.",
+      "observation": "The form is instantiated with `instance=my_model`. The model data is confirmed to be `[True, False, False]`. No weird initial defaults are set."
+    },
+    {
+      "turn": 4,
+      "action": "Modify the loop to explicitly pass `False` to the widget render method for all indices greater than 0: `self.widget.render(..., False, attrs)`.",
+      "observation": "The rendered HTML output remains unchanged: `[Checked, Checked, Checked]`."
+    },
+    {
+      "turn": 5,
+      "action": "Add logging to print the `attrs` dictionary inside the loop immediately before the render call.",
+      "observation": "Console Output:\nIteration 0: attrs={'class': 'foo'}\nIteration 1: attrs={'class': 'foo', 'checked': True}\nIteration 2: attrs={'class': 'foo', 'checked': True}"
+    },
+    {
+      "turn": 6,
+      "action": "Delete all `__pycache__` directories and restart the development server.",
+      "observation": "Server restarts successfully. The issue persists exactly as before."
+    },
+    {
+      "turn": 7,
+      "action": "Modify the loop to create a deep copy of the widget for every iteration: `copy.deepcopy(self.widget).render(...)`.",
+      "observation": "The output is still `[Checked, Checked, Checked]`. The deep copy did not resolve the issue."
+    },
+    {
+      "turn": 8,
+      "action": "Inspect the browser's 'View Page Source' (raw HTML) versus the 'Inspect Element' (DOM).",
+      "observation": "Both the raw source and the DOM show `<input type='checkbox' checked>` for all three inputs."
+    },
+    {
+      "turn": 9,
+      "action": "Print the `id(attrs)` inside the loop to check object identity.",
+      "observation": "The `id(attrs)` is identical for all three iterations."
+    },
+    {
+      "turn": 10,
+      "action": "Change the code to pass `attrs.copy()` to the render method: `self.widget.render(..., value, attrs.copy())`.",
+      "observation": "The issue is resolved. The output is now `[Checked, Unchecked, Unchecked]`."
+    }
+  ]
+}

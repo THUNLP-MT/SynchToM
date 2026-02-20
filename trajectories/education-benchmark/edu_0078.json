@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Write the 'Algorithm for Distance in Non-Monotonic Motion' on the board: 1. Find v(t). 2. Set v(t)=0. 3. Check if t is in interval. 4. Calculate segments.",
+      "observation": "Students dutifully copy the steps into their notebooks. When asked to look at their previous answer (85m) versus the answer at t=5s (100m), they stare blankly, waiting for the teacher to tell them which step of the new list they missed."
+    },
+    {
+      "turn": 2,
+      "action": "Assign a new problem with different numbers: x(t) = 10 + 20t - 2t^2, asking for distance at t=8s.",
+      "observation": "Most students calculate position at t=8s correctly but fail to check for the turning point at t=5s. They provide the displacement value again. A few students ask, 'Do we use the formula on the board for this one too?'"
+    },
+    {
+      "turn": 3,
+      "action": "Create a structured worksheet with empty boxes for 'Step 1: Derivative', 'Step 2: Solve for t', and 'Step 3: Number Line Placement'.",
+      "observation": "Students fill in the boxes. They correctly identify the turning point time. However, at the bottom of the sheet, for the final answer, many still just subtract the final position from the initial position, ignoring the path length logic."
+    },
+    {
+      "turn": 4,
+      "action": "Review the mathematical concept of 'vertex of a parabola' using a static slide.",
+      "observation": "Students recognize the math. One says, 'Oh, it's -b/2a.' They can find the vertex time, but they treat it as an isolated math trivia question and do not connect it to the physical impossibility of their distance decreasing in the previous problem."
+    },
+    {
+      "turn": 5,
+      "action": "Conduct a 'drill' session where students only calculate the time of the turning point for 10 different functions, without calculating distance.",
+      "observation": "Students quickly become efficient at setting 40-10t=0 or similar linear equations. They seem bored. When asked, 'Why are we finding this time?', a student replies, 'Because it's Step 2 on your list.'"
+    },
+    {
+      "turn": 6,
+      "action": "Perform a demonstration walking back and forth in front of the class, verbally narrating: 'Positive velocity... stop... negative velocity.'",
+      "observation": "Students watch the walking. When the teacher walks back to the starting point and asks, 'What did I just do?', a student replies, 'You came back.' When asked about the distance, they check their calculators and ask, 'So is the answer 0 because you're back at the start?'"
+    },
+    {
+      "turn": 7,
+      "action": "Hand out a checklist titled 'The 5 Golden Rules of Kinematics' where Rule #1 is 'ALWAYS CHECK FOR TURNING POINTS'.",
+      "observation": "Students tape the checklist to their desks. On the next practice problem, they look at the checklist, find the turning point, but then ask, 'Okay, I found t=4. Now do I plug that into the distance formula?' (referring to the position equation)."
+    },
+    {
+      "turn": 8,
+      "action": "Deduct 50% of the points on the next quiz specifically for missing the 'Check v=0' step, circling it in red ink.",
+      "observation": "Students are frustrated. They argue, 'But I got the right position number!' They view the 'v=0' check as an arbitrary bureaucratic requirement rather than a tool to avoid nonsensical physical results."
+    },
+    {
+      "turn": 9,
+      "action": "Switch to using a graphing calculator to show the x(t) parabola and the v(t) line simultaneously.",
+      "observation": "Students agree the line crosses zero. One student points to the position graph going down after the peak and asks, 'Why did our answer say 85m if the graph is going down? Shouldn't it be negative?' They still don't grasp the scalar nature of distance."
+    },
+    {
+      "turn": 10,
+      "action": "Assign a 'Step-by-Step' essay where students must write out the algorithm in sentences without numbers.",
+      "observation": "Students write sentences like: 'First you take the derivative. Then you set it to zero. Then you do the math.' They submit the essays and immediately ask, 'Can we just use the formula x = vt for the test?'"
+    }
+  ]
+}

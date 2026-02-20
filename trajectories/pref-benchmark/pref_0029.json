@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Replay the voicemail on the phone specifically listening to the end of the message.",
+      "observation": "The voicemail plays clearly: 'Hi, I've outlined every single change required in the document I just emailed you. Please read it carefully before starting.' The message ends naturally."
+    },
+    {
+      "turn": 2,
+      "action": "Check the phone's signal strength and toggle Wi-Fi calling.",
+      "observation": "Signal strength is full bars. Wi-Fi calling is active and stable."
+    },
+    {
+      "turn": 3,
+      "action": "Call the client back immediately.",
+      "observation": "The call goes to voicemail. Then, a text message arrives from the client: 'In a meeting. Please refer to the brief sent earlier.'"
+    },
+    {
+      "turn": 4,
+      "action": "Check the 'Spam' and 'Deleted' folders in the voicemail inbox.",
+      "observation": "No new voicemails in Spam or Deleted folders. A notification pops up on the computer screen: 'New Email: Comprehensive Revision List (PDF Attached)'."
+    },
+    {
+      "turn": 5,
+      "action": "Restart the smartphone.",
+      "observation": "Phone restarts. The voicemail duration remains exactly 10 seconds. The email notification is still visible on the computer screen."
+    },
+    {
+      "turn": 6,
+      "action": "Reply to the client's text message.",
+      "observation": "User sends: 'The audio cut out, I didn't get the brief.' Client replies: 'It is written down. Check your inbox.'"
+    },
+    {
+      "turn": 7,
+      "action": "Open the email inbox and look for an audio file attachment (MP3/WAV).",
+      "observation": "There is one email from the client. It contains a 5MB PDF attachment named 'Project_Revisions_FINAL.pdf'. There are no audio files."
+    },
+    {
+      "turn": 8,
+      "action": "Check the company transcription software log.",
+      "observation": "The transcription reads: '...outlined every single change required in the document I just emailed you. Please read it carefully before starting.' User interprets this as the transcription tool failing to capture the rest."
+    },
+    {
+      "turn": 9,
+      "action": "Download the PDF attachment, but only check the file properties/metadata.",
+      "observation": "File type is standard PDF. Metadata shows it was created in MS Word. It contains 12 pages of text."
+    },
+    {
+      "turn": 10,
+      "action": "Email the client's assistant.",
+      "observation": "Assistant replies: 'The client is asking if you have opened the PDF document yet? The instructions are text, not audio.'"
+    }
+  ]
+}

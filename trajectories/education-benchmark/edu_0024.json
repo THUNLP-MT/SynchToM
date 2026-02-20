@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Arrange the lesson plan sequence as: 1. Modern Orbital Theory (Textbook), 2. Quantum Number Calculations, 3. Comparative Chart, 4. Timeline of Atomic Theory.",
+      "observation": "Students appear glazed over during the initial textbook reading. When moving to calculations, they are unable to start, asking basic conceptual questions that confuse the modern model with previous models they vaguely know."
+    },
+    {
+      "turn": 2,
+      "action": "Check the textbook chapter (Module 1) to ensure the diagrams of p-orbitals are high-resolution and clearly printed.",
+      "observation": "The diagrams are crisp and chemically accurate. The material is legible."
+    },
+    {
+      "turn": 3,
+      "action": "Cut the Timeline of Atomic Theory (Module 3) entirely and extend the time slot for Quantum Number Calculations (Module 2).",
+      "observation": "Students have more time for math, but they are making fundamental errors, plugging in numbers that violate physical laws (e.g., n=1, l=1) because they lack the conceptual scaffolding of how the theory evolved."
+    },
+    {
+      "turn": 4,
+      "action": "Rearrange the room seating into isolated rows facing the whiteboard.",
+      "observation": " The room is quiet, but student frustration is palpable. They are staring at the calculation problems without writing anything down."
+    },
+    {
+      "turn": 5,
+      "action": "Lecture for 20 minutes strictly on the rules of the Modern Orbital Theory (Module 1), explicitly forbidding questions about 'orbits' or 'planetary models'.",
+      "observation": "Students stop asking questions entirely. When forced to do the Comparative Chart (Module 4) later, they leave the 'Modern' column blank or copy definitions verbatim without understanding."
+    },
+    {
+      "turn": 6,
+      "action": "Replace the Comparative Chart (Module 4) with a second set of Quantum Number Calculations (Module 2).",
+      "observation": "Students begin rote-memorizing patterns in the numbers to get answers, but fail immediately when a question requires explaining the 'why' behind the numbers."
+    },
+    {
+      "turn": 7,
+      "action": "Inspect the lighting in the classroom and close the blinds to reduce glare on the whiteboard.",
+      "observation": "Visibility is perfect. Student comprehension remains unchanged."
+    },
+    {
+      "turn": 8,
+      "action": "Create a 'Cheat Sheet' that lists the mathematical rules of Modern Theory (Module 1) as axioms to be memorized before doing the math.",
+      "observation": "Students use the sheet to solve basic problems but cannot apply the concepts to novel situations. They complain that the rules feel 'random'."
+    },
+    {
+      "turn": 9,
+      "action": "Assign the Timeline of Atomic Theory (Module 3) as optional extra credit to be done at home, unrelated to the main grade.",
+      "observation": "No students complete the optional timeline. The class average on the final conceptual assessment regarding orbital theory is failing."
+    },
+    {
+      "turn": 10,
+      "action": "Conclude that this specific cohort of students lacks the necessary mathematical aptitude and reduce the difficulty of the calculations (Module 2) for the next session.",
+      "observation": "Students pass the simplified math test but leave the course with no understanding of atomic structure or how science evolves."
+    }
+  ]
+}

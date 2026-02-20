@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Label the two circles of the blank Venn diagram on the whiteboard as 'Prokaryotes' and 'Eukaryotes'.",
+      "observation": "Students look at their image stacks, which contain pictures of muscle tissue, leaf cross-sections, and high-magnification organelles, and seem unsure which images belong to 'Prokaryotes'."
+    },
+    {
+      "turn": 2,
+      "action": "Walk around the room and ask students to identify which images represent 'simple' cells and which represent 'complex' cells.",
+      "observation": "Students classify the mitochondria and nuclei images as 'complex' parts, but they categorize the cell wall images as 'structural' rather than 'simple' or 'bacterial'."
+    },
+    {
+      "turn": 3,
+      "action": "Instruct the class to place the 'Cell Wall' image into the 'Prokaryotes' circle and the 'Nucleus' image into the 'Eukaryotes' circle.",
+      "observation": "A student raises their hand and points out that the 'Leaf' cell text in the packet mentions a cell wall, so they ask if the leaf is a Prokaryote."
+    },
+    {
+      "turn": 4,
+      "action": "Explain that while plants have cell walls, for the purpose of this basic comparison, we are focusing on the bacterial cell wall as a primary protective structure.",
+      "observation": "Students place the cell wall in the Prokaryote circle, but are left with images of 'Many Mitochondria' (Muscle) and 'Chloroplasts' (Leaf) that don't fit the 'Animal vs. Bacteria' binary I've set up."
+    },
+    {
+      "turn": 5,
+      "action": "Ask students to set aside the 'Chloroplast' and 'Many Mitochondria' cards for a moment and focus only on the single Mitochondrion and Nucleus cards.",
+      "observation": "Students set aside the cards that depict the core lesson objective (specialization via organelle abundance), leaving them with a generic, stripped-down comparison."
+    },
+    {
+      "turn": 6,
+      "action": "Draw a large diagram on the board: a simple capsule (Bacteria) vs. a complex round cell (Animal), highlighting the size difference.",
+      "observation": "Students copy the drawing but look at the worksheet question: 'Why does Cell A need more energy than Cell B?', which they cannot answer using the size comparison."
+    },
+    {
+      "turn": 7,
+      "action": "Rephrase the worksheet question aloud: 'Ask yourselves, why does the Eukaryote have mitochondria while the Prokaryote does not?'",
+      "observation": "Students are confused because the images show two different cells that *both* have mitochondria, just in different amounts (Muscle vs. Leaf)."
+    },
+    {
+      "turn": 8,
+      "action": "Collect the 'Muscle' and 'Leaf' specific text blurbs and replace them with a generic 'Bacterial Structure' reading passage from the file cabinet.",
+      "observation": "Students stop working on the Venn diagram entirely because the new reading passage doesn't match the images of nuclei and mitochondria they still have on their desks."
+    },
+    {
+      "turn": 9,
+      "action": "Lecture for the remaining time on the Endosymbiotic Theory, explaining how mitochondria evolved from bacteria.",
+      "observation": "The bell rings. The students have not analyzed the relationship between organelle density and cell function (muscle energy vs. leaf photosynthesis)."
+    },
+    {
+      "turn": 10,
+      "action": "Assign homework: 'Create a T-Chart comparing a Strep bacteria cell to a Human skin cell.'",
+      "observation": "The unit test key assesses the ability to identify muscle cells by their high mitochondrial count and leaf cells by their cell walls and chloroplasts."
+    }
+  ]
+}

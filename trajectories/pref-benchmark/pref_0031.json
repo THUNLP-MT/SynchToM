@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Review the VR training completion logs and exit exam scores for the pilot team.",
+      "observation": "The logs show a 98% pass rate with distinction. The pilot team completed the VR modules in record time with zero safety violations recorded in the simulation."
+    },
+    {
+      "turn": 2,
+      "action": "Check the assembly line conveyor speed settings and compare them to the standard operating procedure.",
+      "observation": "Conveyor speed is set to 85% of standard speed—slower than usual—intended to accommodate the pilot team's first week."
+    },
+    {
+      "turn": 3,
+      "action": "Interview the shift lead, asking specifically: 'Do you feel like you're struggling to get a feel for how the components snap together?'",
+      "observation": "The shift lead rubs their eyes and responds, 'It's not really the snap... it's just really hard to see what we're doing. I can't tell if it's aligned until it's too late.'"
+    },
+    {
+      "turn": 4,
+      "action": "Draft the 'Problem Statement' section of the proposal, noting that operators are reporting an inability to 'perceive alignment' due to a lack of physical familiarity.",
+      "observation": "Defect reports generated while drafting show that the majority of errors are 'Surface Scratches' and 'Misaligned Pins' on the highly reflective metallic casings."
+    },
+    {
+      "turn": 5,
+      "action": "Request a maintenance audit on the pneumatic screwdrivers to ensure torque settings are within tolerance.",
+      "observation": "Maintenance returns the report immediately: All torque tools are calibrated perfectly. However, the maintenance tech mentions, 'It's bright as an operating room down there, tools look brand new.'"
+    },
+    {
+      "turn": 6,
+      "action": "Go to the production floor and observe the workers' posture and head movements during assembly.",
+      "observation": "Workers are seen frequently squinting, tilting their heads at extreme angles, and using their hands to shield the workspace shadow to get a better look at the connection points."
+    },
+    {
+      "turn": 7,
+      "action": "Pull a struggling worker off the line and take them to the breakroom (which has standard soft lighting) to perform a manual assembly test on a spare unit.",
+      "observation": "In the breakroom, the worker assembles the unit perfectly and quickly without squinting. They remark, 'Wow, that was way easier here.'"
+    },
+    {
+      "turn": 8,
+      "action": "Update the proposal to cite the breakroom experiment as definitive proof that 'hands-on mentorship' solves the defect issue immediately.",
+      "observation": "The plant manager replies to the update note: 'Are you sure it's the mentorship? Facilities mentioned the new LED arrays on the main floor are running at 120% intensity.'"
+    },
+    {
+      "turn": 9,
+      "action": "Inspect the stock of assembly gloves to see if a thinner material is available.",
+      "observation": "The gloves are the standard high-dexterity model used for years. There are no thinner options available that meet safety standards."
+    },
+    {
+      "turn": 10,
+      "action": "Finalize and submit the 'Master-Apprentice Shadowing Proposal,' explicitly rejecting the 'lighting excuse' as a distraction from the root cause: digital skill gaps.",
+      "observation": "The proposal is submitted. Simultaneously, a facility alert goes out: 'Dimming overhead LEDs by 40% to reduce glare on metallic parts.' Defect rates drop immediately."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "grep -r \"DESC =\" django/db/backends/",
+      "observation": "Found match in `django/db/backends/base/operations.py`: `DESC = 'DESC'`"
+    },
+    {
+      "turn": 2,
+      "action": "Edit `django/db/backends/base/operations.py` changing line `DESC = 'DESC'` to `DESC = ' DESC'`",
+      "observation": "File saved successfully."
+    },
+    {
+      "turn": 3,
+      "action": "Run `python manage.py sqlmigrate app 0001`",
+      "observation": "Output contains: `CREATE INDEX ... ON \"table\" (\"name\"DESC);` (The issue persists)."
+    },
+    {
+      "turn": 4,
+      "action": "find . -name \"*.pyc\" -delete",
+      "observation": "Deleted 420 .pyc files."
+    },
+    {
+      "turn": 5,
+      "action": "Run `python manage.py sqlmigrate app 0001` again",
+      "observation": "Output contains: `CREATE INDEX ... ON \"table\" (\"name\"DESC);`"
+    },
+    {
+      "turn": 6,
+      "action": "Check `git blame django/db/backends/base/operations.py`",
+      "observation": "Last commit was 6 months ago. No recent changes to this line."
+    },
+    {
+      "turn": 7,
+      "action": "Edit `django/db/backends/base/operations.py` changing `DESC = ' DESC'` to `DESC = '  DESC'` (two spaces)",
+      "observation": "File saved successfully."
+    },
+    {
+      "turn": 8,
+      "action": "Inspect `pip freeze` output",
+      "observation": "Django version matches the local development environment."
+    },
+    {
+      "turn": 9,
+      "action": "grep -r \".strip()\" django/db/backends/",
+      "observation": "Found 15 occurrences of `.strip()`, none immediately adjacent to index generation logic."
+    },
+    {
+      "turn": 10,
+      "action": "Add `print(f\"DEBUG: DESC constant is '{self.DESC}'\")` to `DatabaseOperations.__init__`",
+      "observation": "Console Output: `DEBUG: DESC constant is '  DESC'`\nSQL Output: `(\"name\"DESC)`\n(The constant has spaces, but `ddl_references.py` ignores it and concatenates the raw suffix, which the user fails to realize)."
+    }
+  ]
+}

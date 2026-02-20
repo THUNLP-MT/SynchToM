@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Select Option C: 'Carbon Dioxide levels will become the limiting factor, inhibiting growth in both plants.'",
+      "observation": "System Feedback: Incorrect. Consider how the different wavelengths of light (Green vs. Blue) interact with the pigments in the plant leaves."
+    },
+    {
+      "turn": 2,
+      "action": "Check the experiment duration specified in the problem text.",
+      "observation": "Text Highlight: 'The plants are observed over a period of 48 hours.'"
+    },
+    {
+      "turn": 3,
+      "action": "Check the light intensity values for both setups.",
+      "observation": "Data Table: Both light sources are set to an intensity of 500 µmol m⁻² s⁻¹."
+    },
+    {
+      "turn": 4,
+      "action": "Select Option C again.",
+      "observation": "System Feedback: Incorrect. Please review the absorption spectrum of Chlorophyll a and b."
+    },
+    {
+      "turn": 5,
+      "action": "Investigate the plant species mentioned.",
+      "observation": "Text Specification: 'Phaseolus vulgaris (Common Bean)' - a standard C3 plant."
+    },
+    {
+      "turn": 6,
+      "action": "Select Option A: 'The plant under green light will exhibit greater growth.'",
+      "observation": "System Feedback: Incorrect. Recall that green light is largely reflected by chlorophyll, resulting in minimal energy absorption for photosynthesis."
+    },
+    {
+      "turn": 7,
+      "action": "Search the question metadata/tags for 'Respiration' or 'Gas Exchange'.",
+      "observation": "Tags found: 'Photosynthesis', 'Light Spectrum', 'Pigments'."
+    },
+    {
+      "turn": 8,
+      "action": "Select Option B: 'The plant under blue light will exhibit greater growth.'",
+      "observation": "System Feedback: Correct! Chlorophyll absorbs light most efficiently in the blue and red parts of the spectrum, leading to higher photosynthetic rates compared to green light."
+    },
+    {
+      "turn": 9,
+      "action": "Click 'Rate this Question' / 'Give Feedback'.",
+      "observation": "Feedback form opens: 'Describe the issue with this item.'"
+    },
+    {
+      "turn": 10,
+      "action": "Submit detailed error report.",
+      "observation": "System Notification: 'Thank you for your feedback. It has been sent to the curriculum team for review.'"
+    }
+  ]
+}

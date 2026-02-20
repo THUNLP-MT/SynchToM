@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Check application error logs during the load test.",
+      "observation": "Logs show 'FATAL: remaining connection slots are reserved for non-replication superuser roles' and 'Connection reset by peer' errors appearing once the load hits 20 concurrent users."
+    },
+    {
+      "turn": 2,
+      "action": "Ping the database endpoint continuously from the application server while running the load test.",
+      "observation": "Ping latency is stable at 2ms with 0% packet loss, even while the application is throwing database connection errors."
+    },
+    {
+      "turn": 3,
+      "action": "Reduce the `connectionTimeout` in the driver configuration from 30s to 10s and enable `autoReconnect=true`.",
+      "observation": "The application disconnects faster. The error rate remains exactly the same, occurring precisely when the 21st user attempts to log in."
+    },
+    {
+      "turn": 4,
+      "action": "Modify the driver's `tcpKeepAlive` setting to 'true' and set the probe interval to 5 seconds.",
+      "observation": "The load test fails at the same point. The database management console shows a red status indicator: 'Connection Limit Reached'."
+    },
+    {
+      "turn": 5,
+      "action": "Check the application server's RAM and CPU usage during the crash.",
+      "observation": "CPU and RAM usage are negligible (under 10%). The application is healthy, but the database refuses new connections."
+    },
+    {
+      "turn": 6,
+      "action": "Increase the `minPoolSize` to 50 and `maxPoolSize` to 100 in the connection pool configuration.",
+      "observation": "The application fails to start entirely. The logs read: 'FATAL: sorry, too many clients already. current=20, max=20'."
+    },
+    {
+      "turn": 7,
+      "action": "Restart the database instance via the cloud provider dashboard.",
+      "observation": "Database restarts. The dashboard displays a banner: 'Free Tier Alert: Upgrade to Pro for >20 concurrent connections.' The application works for 2 seconds, then crashes again under load."
+    },
+    {
+      "turn": 8,
+      "action": "Switch the database driver library to an older 'stable' version (v4.2 instead of v5.0).",
+      "observation": "The older driver throws the exact same 'too many clients' exception immediately upon load testing."
+    },
+    {
+      "turn": 9,
+      "action": "Disable server-side prepared statements in the connection string options.",
+      "observation": "Performance drops slightly, but the disconnects persist exactly when the 21st concurrent request hits the server."
+    },
+    {
+      "turn": 10,
+      "action": "Implement a custom 'retry strategy' in the code that waits 500ms and tries to reconnect whenever a socket exception occurs.",
+      "observation": "The application slows to a crawl. Logs are flooded with retry attempts, all failing with 'Connection refused' as the connection limit remains hard-capped at 20."
+    }
+  ]
+}

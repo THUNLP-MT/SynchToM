@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Draw a diagram on the whiteboard showing the cross-section of a flute (cylinder) and a trumpet (conical flare) with straight lines representing sound 'rays' bouncing off the inner walls.",
+      "observation": "The students look at the ray diagram, then back at the oscilloscope. They point out that the oscilloscope shows a repeating, wiggly periodic graph (time domain), not a path of travel."
+    },
+    {
+      "turn": 2,
+      "action": "Verify that both instruments are playing exactly the same pitch (A4, 440Hz) using a digital tuner.",
+      "observation": "Both instruments are confirmed to be playing at 440Hz. The trumpet's waveform is jagged and sawtooth-like, while the flute's waveform is nearly a smooth sine wave."
+    },
+    {
+      "turn": 3,
+      "action": "Calculate the path length difference between a direct ray traveling down the center of the tube and a ray reflecting once off the wall for both instruments.",
+      "observation": "The calculation shows a negligible time delay that would result in a tiny phase shift, but the oscilloscope shows a complex superposition of waves, not just a simple phase-shifted interference pattern."
+    },
+    {
+      "turn": 4,
+      "action": "Swap the microphones being used to record the trumpet and the flute.",
+      "observation": "The waveforms remain unchanged on the display. The trumpet still produces a complex, jagged wave and the flute produces a smooth wave."
+    },
+    {
+      "turn": 5,
+      "action": "Explain the concept of 'specular vs. diffuse reflection' and inspect the inner surface polish of the trumpet.",
+      "observation": "The trumpet's brass is highly polished and smooth, acting as a perfect reflector. A spectrum analyzer is brought up, showing the trumpet has strong energy at 880Hz, 1320Hz, etc. (harmonics), which are absent or weak in the flute."
+    },
+    {
+      "turn": 6,
+      "action": "Interpret the spectrum analyzer peaks as 'secondary ray sources' created by refraction into the metal boundaries.",
+      "observation": "The students ask about standing waves and boundary conditions (open vs. closed pipe), noting that the trumpet acts like a closed pipe at one end and the flute like an open pipe."
+    },
+    {
+      "turn": 7,
+      "action": "Ask the trumpet player to play significantly louder (fortissimo) to see if the waveform shape changes.",
+      "observation": "The amplitude of the wave increases, and the wave shape actually becomes slightly more jagged (more high-frequency harmonics are excited), but the fundamental difference in shape remains."
+    },
+    {
+      "turn": 8,
+      "action": "Focus the discussion on the 'focal point' of the trumpet's bell, treating it as a diverging mirror.",
+      "observation": "Physics simulation software shows that the bell acts as an impedance matching device that allows high-frequency standing waves to radiate efficiently, rather than focusing rays."
+    },
+    {
+      "turn": 9,
+      "action": "Attempt to apply Snell's Law to the air-brass interface to calculate the 'critical angle' for total internal reflection of the sound.",
+      "observation": "The math yields non-sensical results for this context because the acoustic impedance mismatch between air and brass is so high that sound reflects effectively regardless of the angle, supporting standing wave formation."
+    },
+    {
+      "turn": 10,
+      "action": "Assign the students a task to map the 'caustic curves' (envelopes of light rays) of the trumpet's shape to explain the waveform peaks.",
+      "observation": "The students are unable to complete the task because the waveform peaks correspond to harmonic frequencies (Fourier series components), not geometric focal points of rays."
+    }
+  ]
+}

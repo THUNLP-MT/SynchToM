@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask the student: 'Can you explain what this arrow represents in the context of the plant's physiology?'",
+      "observation": "The student replies, 'The arrow just shows that the light intensity is the thing I'm changing to see what happens to the bubbles.'"
+    },
+    {
+      "turn": 2,
+      "action": "Check the diagram to see if the units for light intensity and time are clearly labeled.",
+      "observation": "The diagram labels the lamp distance in 'cm' and the bubbling rate in 'bubbles/min'."
+    },
+    {
+      "turn": 3,
+      "action": "Prompt the student: 'That's the method, but what is the biological engine driving that arrow? Label the process.'",
+      "observation": "The student writes 'Independent Variable' above 'Light Intensity' and 'Dependent Variable' above 'Rate of Bubbling'."
+    },
+    {
+      "turn": 4,
+      "action": "Ask: 'Have you considered the range of values you will use for the light source?'",
+      "observation": "The student points to a list: 'Yes, I'm moving the lamp 10cm, 20cm, 30cm, 40cm, and 50cm away.'"
+    },
+    {
+      "turn": 5,
+      "action": "Critique the diagram: 'You've shown a direct line, but biological systems are complex. Where are the intermediate steps like ATP production?'",
+      "observation": "The student looks confused and says, 'I can't measure ATP production with the equipment we have, I can only count bubbles.'"
+    },
+    {
+      "turn": 6,
+      "action": "Inspect the student's written procedure to see if they mention safety goggles.",
+      "observation": "The procedure list includes 'Wear safety goggles' as step 1."
+    },
+    {
+      "turn": 7,
+      "action": "Gesture to the 'Rate of bubbling' node and ask: 'What is the limiting factor preventing this from going to infinity? Show that on the diagram.'",
+      "observation": "The student draws a box around the diagram and labels it 'Controlled Variables: Temperature and CO2' to show they are keeping other factors constant."
+    },
+    {
+      "turn": 8,
+      "action": "Say: 'You are listing controls, but I want to see the mechanism. Draw the inputs and outputs of the chloroplast specifically.'",
+      "observation": "The student draws a simple box labeled 'System' around the pondweed and draws an arrow entering labeled 'Input' and an arrow exiting labeled 'Output'."
+    },
+    {
+      "turn": 9,
+      "action": "Ask: 'Why is the arrow straight? Does the rate increase linearly forever in nature?'",
+      "observation": "The student responds, 'I don't know the shape of the graph yet. This arrow just means there is a relationship. I will plot the graph after I collect the data.'"
+    },
+    {
+      "turn": 10,
+      "action": "Mark the diagram as 'Lacking Theoretical Detail' and instruct: 'Please revise this to show the chemical equation and energy conversion, not just the setup.'",
+      "observation": "The student sighs and asks, 'But doesn't the chemical equation go in the introduction? I thought this was just for planning the variables.'"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "python manage.py test myapp.tests.ModelInheritanceTests --failfast",
+      "observation": "Creating test database for alias 'default'...\nTraceback (most recent call last):\n  File \"django/db/models/sql/compiler.py\", line 720, in find_ordering_name\n    if '.' in name:\nAttributeError: 'OrderBy' object has no attribute 'split'"
+    },
+    {
+      "turn": 2,
+      "action": "cat django/db/models/sql/compiler.py | grep -C 5 \"def find_ordering_name\"",
+      "observation": "    def find_ordering_name(self, name, opts, alias=None, default_order='ASC', already_seen=None):\n        \"\"\"\n        Returns the table alias and column name for a given ordering name.\n        \"\"\"\n        if '.' in name:\n            name, order = name.split('.', 1)"
+    },
+    {
+      "turn": 3,
+      "action": "ls -la myapp/migrations/",
+      "observation": "total 16\n-rw-r--r--  1 dev  staff     0 Jan 10 10:00 __init__.py\n-rw-r--r--  1 dev  staff  1420 Jan 10 10:05 0001_initial.py"
+    },
+    {
+      "turn": 4,
+      "action": "vim django/db/models/sql/compiler.py",
+      "observation": "(Developer adds `print(self.query.alias_map)` to the code. Output during test run:)\n{'myapp_child': Table('myapp_child', alias='myapp_child')}\nTraceback (most recent call last)...\nAttributeError: 'OrderBy' object has no attribute 'split'"
+    },
+    {
+      "turn": 5,
+      "action": "grep -r \"check_models\" django/core/management/commands/test.py",
+      "observation": "        self.check(databases=databases)"
+    },
+    {
+      "turn": 6,
+      "action": "cat myapp/models.py",
+      "observation": "class Child(Parent):\n    class Meta:\n        ordering = [models.F('parent_field').desc()]"
+    },
+    {
+      "turn": 7,
+      "action": "python manage.py shell -c \"from myapp.models import Child; print(Child.objects.all().query)\"",
+      "observation": "SELECT \"myapp_child\".\"parent_ptr_id\", \"myapp_parent\".\"parent_field\" ... ORDER BY \"myapp_parent\".\"parent_field\" DESC"
+    },
+    {
+      "turn": 8,
+      "action": "vim django/db/models/sql/compiler.py",
+      "observation": "(Developer adds `print(f'DEBUG NAME: {name} type: {type(name)}')`)\nDEBUG NAME: F(parent_field) DESC type: <class 'django.db.models.expressions.OrderBy'>\nAttributeError: 'OrderBy' object has no attribute 'split'"
+    },
+    {
+      "turn": 9,
+      "action": "grep -r \"setup_joins\" django/db/models/sql/",
+      "observation": "django/db/models/sql/query.py:    def setup_joins(self, names, opts, alias, can_reuse=None, allow_many=True):"
+    },
+    {
+      "turn": 10,
+      "action": "export DJANGO_TEST_PROCESSES=1; python manage.py test myapp.tests.ModelInheritanceTests",
+      "observation": "Creating test database for alias 'default'...\nTraceback (most recent call last):\nAttributeError: 'OrderBy' object has no attribute 'split'"
+    }
+  ]
+}

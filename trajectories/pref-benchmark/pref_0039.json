@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Pull a comprehensive report on bug density and regression rates from the last sprint.",
+      "observation": "The report shows a 40% increase in regressions. Comments on Jira tickets frequently mention 'legacy spaghetti code,' 'hotfix for deadline,' and 'insufficient time for refactoring.'"
+    },
+    {
+      "turn": 2,
+      "action": "Send a survey to the engineering team asking: 'Did you feel the recent workshops provided enough accountability for your learning goals?'",
+      "observation": "Only 15% of the team responds. The few responses received are short: 'Too busy to attend,' 'Workshops are fine but we have too many tickets,' and 'Need dedicated time to fix technical debt, not more meetings.'"
+    },
+    {
+      "turn": 3,
+      "action": "Schedule a meeting with the Finance department to review the remaining Learning & Development budget for the fiscal year.",
+      "observation": "Finance confirms there is budget available, but notes that the department's overtime costs are currently 200% over budget due to late-night pushes."
+    },
+    {
+      "turn": 4,
+      "action": "Research top-tier training vendors, specifically filtering for those offering 'Verified Digital Badges' and 'LMS Integration'.",
+      "observation": "Several vendors are found. Meanwhile, the team velocity slows down further. The lead architect complains that the team is exhausted and asks to pause all non-essential activities."
+    },
+    {
+      "turn": 5,
+      "action": "Email the lead architect: 'I hear your concerns about velocity. I am finalizing a partnership with a certified training provider to upskill the team, which will make them more efficient and reduce the workload long-term.'",
+      "observation": "The architect replies with frustration: 'We don't need training on how to code; we need time to pay down the debt. Please do not add more mandatory hours to our schedule.'"
+    },
+    {
+      "turn": 6,
+      "action": "Review the exit interview notes of a Senior Developer who resigned yesterday.",
+      "observation": "The exit interview cites 'Burnout,' 'Unrealistic deadlines,' and 'Constant firefighting on brittle infrastructure' as the primary reasons for leaving."
+    },
+    {
+      "turn": 7,
+      "action": "Sign a contract with 'CodeCertify Pro' and announce a mandatory 'Level 1 Quality Assurance' course for all developers, requiring a passing grade on the final exam.",
+      "observation": "Team morale hits an all-time low. Slack channels are silent except for bot notifications. Two developers call in sick due to stress. Code reviews are now being rubber-stamped without reading to save time."
+    },
+    {
+      "turn": 8,
+      "action": "Check the 'CodeCertify Pro' dashboard to monitor login times and quiz scores.",
+      "observation": "The dashboard shows 100% completion rates for the videos, but the timestamps indicate users are playing videos at 2x speed in the background while working."
+    },
+    {
+      "turn": 9,
+      "action": "Implement a new policy: 'Annual bonuses will be contingent on achieving the Level 2 Advanced Certification badge within 60 days.'",
+      "observation": "The engineering manager reports that three more developers have handed in their resignation notices. The current sprint is failing to meet any deliverables."
+    },
+    {
+      "turn": 10,
+      "action": "Contact an external 'Agile Discipline Consultant' to conduct an audit on why the team is resistant to professional certification.",
+      "observation": "The CTO schedules an emergency meeting with you to discuss 'Immediate retention strategies and the suspension of all training programs.'"
+    }
+  ]
+}

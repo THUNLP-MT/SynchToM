@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Execute `\\d app_modelname` in the PostgreSQL database shell (`dbshell`).",
+      "observation": "Output shows the table structure. Listed under 'Indexes':\n1. `app_modelname_field1_field2_idx` (btree, columns: field1, field2)\n2. `app_modelname_field1_field2_uniq` (UNIQUE CONSTRAINT, btree, columns: field1, field2)\nNo other obvious indexes on these columns are visible."
+    },
+    {
+      "turn": 2,
+      "action": "Run query: `SELECT * FROM pg_indexes WHERE tablename = 'app_modelname';`",
+      "observation": "The query returns exactly two rows for that table involving those columns: the standard index and the unique index (backing the unique constraint). Both cover the same columns."
+    },
+    {
+      "turn": 3,
+      "action": "Run `python manage.py showmigrations` and check the `django_migrations` table.",
+      "observation": "Migration history is consistent. All previous migrations are marked as applied. The `django_migrations` table matches the file state."
+    },
+    {
+      "turn": 4,
+      "action": "Run `VACUUM ANALYZE app_modelname;` in the database.",
+      "observation": "Vacuum completes successfully. Re-running the migration results in the same error: `ValueError: Found wrong number (2) of constraints`."
+    },
+    {
+      "turn": 5,
+      "action": "Manually execute `DROP INDEX app_modelname_field1_field2_idx;` in the database, then run `python manage.py migrate`.",
+      "observation": "Index dropped manually. Migration runs and crashes again, but this time with `ValueError: Found wrong number (1) of constraints` (It found the Unique constraint, but the code logic expected to find a specific index or 0, or the internal counter logic is still failing validation)."
+    },
+    {
+      "turn": 6,
+      "action": "Restore the database dump to the pre-migration state (bringing back the index). Then, inspect `pg_constraint` looking for `contype = 'u'` vs `contype = 'i'`.",
+      "observation": "The query shows the Unique Constraint (`contype='u'`) and the Primary Key. The standard index appears in `pg_class`/`pg_index` but not `pg_constraint` (as expected for standard indexes in Postgres). Everything looks technically correct, which implies the 'duplicate' is subtle."
+    },
+    {
+      "turn": 7,
+      "action": "Restart the PostgreSQL service and the local development server.",
+      "observation": "Services restarted. The migration crashes with the exact same error: `ValueError: Found wrong number (2) of constraints`."
+    },
+    {
+      "turn": 8,
+      "action": "Modify the migration file to print the results of `schema_editor._constraint_names` before the crash.",
+      "observation": "The debug print shows a list containing two names: `['app_modelname_field1_field2_idx', 'app_modelname_field1_field2_uniq']`. (The user sees this and thinks: 'See! It is finding the Unique constraint and counting it as a duplicate index! The DB is returning the wrong type of object for an index query.')"
+    },
+    {
+      "turn": 9,
+      "action": "Manually rename the Unique Constraint in the database to something completely different, like `temp_ignore_me_uniq`.",
+      "observation": "Renaming successful. Migration runs. Crash: `ValueError: Found wrong number (2) of constraints`. (The introspection looks at columns, not just names, so it still finds both the index and the unique constraint covering the same columns)."
+    },
+    {
+      "turn": 10,
+      "action": "Edit the migration file: Comment out `RemoveIndex` and replace it with `migrations.RunSQL('DROP INDEX app_modelname_field1_field2_idx')`.",
+      "observation": "The migration applies successfully."
+    }
+  ]
+}

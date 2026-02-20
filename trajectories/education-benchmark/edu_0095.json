@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Distribute aluminum cubes and wooden blocks to student groups and ask them to press them against their cheeks to determine which is 'colder'.",
+      "observation": "The students unanimously agree that the aluminum cubes are significantly colder than the wooden blocks. One student comments, 'The metal one is definitely freezing.'"
+    },
+    {
+      "turn": 2,
+      "action": "Instruct students to place digital thermometers on both the wood and aluminum blocks and wait for the reading to stabilize.",
+      "observation": "The thermometers read 22°C for both materials. The students look confused. One student argues, 'The thermometer is just measuring the surface, but the cold is hiding deep inside the metal.'"
+    },
+    {
+      "turn": 3,
+      "action": "Ask students to swap thermometers with a neighboring group to verify their equipment isn't faulty.",
+      "observation": "The readings remain consistent across all groups. The students accept the numbers are correct but seem unconvinced that the numbers represent the 'real' coldness."
+    },
+    {
+      "turn": 4,
+      "action": "Place an ice cube on the aluminum block and another on the wood block. Ask students to predict which will melt first.",
+      "observation": "Students predict the ice on the metal will stay frozen. When the ice on the metal melts rapidly, they are astonished. A student exclaims, 'Whoa, the metal is sucking all the cold out of the ice really fast!'"
+    },
+    {
+      "turn": 5,
+      "action": "Draw a diagram on the whiteboard showing an arrow labeled 'Heat' moving from the Table -> Metal -> Ice.",
+      "observation": "Students copy the diagram but seem skeptical. One student raises a hand and asks, 'If heat is going in, why does the metal still feel like it's pushing cold out?'"
+    },
+    {
+      "turn": 6,
+      "action": "Walk around the room and check if any air conditioning vents are blowing directly on specific lab tables.",
+      "observation": "The air is still. There are no drafts or temperature anomalies in the room."
+    },
+    {
+      "turn": 7,
+      "action": "Bring out samples of Styrofoam (insulator) and Copper (conductor) to provide a more extreme contrast than wood and aluminum.",
+      "observation": "Students touch the samples. They agree the Styrofoam feels warm and the Copper feels icy. They conclude, 'The Styrofoam is really good at keeping the cold away, but the Copper lets the cold flow right through.'"
+    },
+    {
+      "turn": 8,
+      "action": "Have students wrap their hands around the Copper pipe for two full minutes, then touch their own faces with that hand.",
+      "observation": "Students complain that the copper hurts to hold. After touching their faces, they say, 'My hand caught the cold from the copper. It transferred over.'"
+    },
+    {
+      "turn": 9,
+      "action": "Inspect the surface texture of the wood blocks to ensure they aren't damp or coated in a varnish that feels like plastic.",
+      "observation": "The wood is dry, unfinished pine. The texture is standard."
+    },
+    {
+      "turn": 10,
+      "action": "Wrap the copper pipe in a thick wool sock and ask students to hold it again.",
+      "observation": "Students hold the wrapped pipe. They nod and agree, 'The wool is doing a great job trapping the cold inside the pipe so it can't get out to us.'"
+    }
+  ]
+}

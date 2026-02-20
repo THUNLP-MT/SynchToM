@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "print(sliced_wcs.wcs.pc)",
+      "observation": "Output:\narray([[ 1.12, -0.23],\n       [-0.23,  0.98]])"
+    },
+    {
+      "turn": 2,
+      "action": "print(np.linalg.det(sliced_wcs.wcs.pc))",
+      "observation": "Output: 1.0447"
+    },
+    {
+      "turn": 3,
+      "action": "print(sliced_wcs.world_axis_physical_types)",
+      "observation": "Output: ['pos.eq.ra', 'pos.eq.dec']"
+    },
+    {
+      "turn": 4,
+      "action": "print(np.linalg.cond(sliced_wcs.wcs.pc))",
+      "observation": "Output: 1.34"
+    },
+    {
+      "turn": 5,
+      "action": "sliced_wcs.wcs.crval += 0.01\nprint(sliced_wcs.world_to_pixel(test_coords))",
+      "observation": "Output: [inf, inf]"
+    },
+    {
+      "turn": 6,
+      "action": "print(sliced_wcs.pixel_bounds)",
+      "observation": "Output: None"
+    },
+    {
+      "turn": 7,
+      "action": "# Attempting a slice along a different axis to test topological dependence\nalt_slice = original_3d_wcs[:, :, 0]\nprint(alt_slice.world_to_pixel(alt_coords))",
+      "observation": "Output: [100.5, 200.5] (Valid coordinates returned)"
+    },
+    {
+      "turn": 8,
+      "action": "print(sliced_wcs.wcs.get_pv())",
+      "observation": "Output: [] (Empty list)"
+    },
+    {
+      "turn": 9,
+      "action": "sliced_wcs.wcs.pc = np.eye(2)\nprint(sliced_wcs.world_to_pixel(test_coords))",
+      "observation": "Output: [nan, nan]"
+    },
+    {
+      "turn": 10,
+      "action": "from astropy.wcs import WCS\n# Rebuilding WCS from scratch to strip the 3D context\nclean_wcs = WCS(naxis=2)\nclean_wcs.wcs.pc = sliced_wcs.wcs.pc\nclean_wcs.wcs.crval = sliced_wcs.wcs.crval\nprint(clean_wcs.world_to_pixel(test_coords))",
+      "observation": "Output: [50.2, 50.2] (Valid coordinates returned)"
+    }
+  ]
+}

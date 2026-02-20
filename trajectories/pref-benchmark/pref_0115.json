@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open the in-game Audio Settings menu immediately upon launch.",
+      "observation": "The menu opens very slowly with a visible stutter. You drag the Master Volume slider to 0. The speakers go silent, but the loud, mechanical roaring noise coming from the computer tower continues at full volume."
+    },
+    {
+      "turn": 2,
+      "action": "Exit the application and look for a 'Safe Mode' or 'Low Intensity' launch option in the shortcut properties.",
+      "observation": "You find a 'Safe Mode' (usually for debugging). You launch it. The screen resolution is lower, but within seconds, the loud roaring noise returns and the mouse cursor lags heavily across the screen."
+    },
+    {
+      "turn": 3,
+      "action": "Unplug the external speakers and headphones physically from the computer.",
+      "observation": "You unplug all audio devices. The roaring noise (coming from the GPU fans) persists at maximum intensity. The screen freezes for a second, then updates, then freezes again (thermal throttling)."
+    },
+    {
+      "turn": 4,
+      "action": "Go into the Video Settings and disable 'Camera Shake', 'Motion Blur', and V-Sync.",
+      "observation": "You toggle the settings. The screen continues to stutter rhythmically (low frame rate due to throttling). The roaring noise fluctuates slightly in pitch but remains deafeningly loud."
+    },
+    {
+      "turn": 5,
+      "action": "Open Task Manager and close all background applications like Discord and Chrome.",
+      "observation": "Cpu usage drops, but the GPU usage remains at 100%. The roaring noise does not stop. The application remains sluggish."
+    },
+    {
+      "turn": 6,
+      "action": "Place a hand on the computer case to see if it is vibrating from the 'bass' of the sound effect.",
+      "observation": "The computer case is extremely hot to the touch, almost burning. The vibration is constant and high-frequency (fans spinning at 3000+ RPM)."
+    },
+    {
+      "turn": 7,
+      "action": "Uninstall the 'NVIDIA High Definition Audio' driver in Device Manager.",
+      "observation": "Driver uninstalled. The screen flickers briefly. The roaring noise continues uninterrupted. The system is now noticeably sluggish even on the desktop."
+    },
+    {
+      "turn": 8,
+      "action": "Open the application's config.ini file in Notepad and search for 'Rumble', 'Feedback', or 'Immersion'.",
+      "observation": "You find lines for 'RenderQuality' and 'ParticleEffects'. You don't see 'Rumble', but you change 'MaxFPS' to 30, hoping to limit the 'intensity' of the simulation."
+    },
+    {
+      "turn": 9,
+      "action": "Launch the application again and hold the mouse perfectly still on a soft surface.",
+      "observation": "The application launches. The fans immediately ramp up to 100% speed (roaring). The intro logo stutters and hangs for 5 seconds before skipping frames."
+    },
+    {
+      "turn": 10,
+      "action": "Force quit the application and write a support ticket complaining about 'Unauthorized Hardware Manipulation'.",
+      "observation": "As you type the ticket, the monitor suddenly goes black and the fans stop. The computer has performed an emergency thermal shutdown."
+    }
+  ]
+}

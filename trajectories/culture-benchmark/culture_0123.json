@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Order the 'Spicy Diced Chicken' with the 'Wei La' (Little Spicy) option selected.",
+      "observation": "The waiter takes the order. Ten minutes later, a large plate arrives piled high with dried red chilies and glistening with a significant amount of red oil."
+    },
+    {
+      "turn": 2,
+      "action": "Take a hearty spoonful of the chicken and sauce, ensuring to get a good mix of the coating.",
+      "observation": "Upon chewing, an intense, numbing heat immediately floods the mouth. The spice level is objectively high, causing immediate sweating and a burning sensation."
+    },
+    {
+      "turn": 3,
+      "action": "Check the front of the menu and the signage inside the restaurant for any 'Sichuan' or 'Hunan' branding.",
+      "observation": "The menu and signage are generic. The restaurant is a standard, popular local eatery in the Chaoyang district with no specific regional branding visible."
+    },
+    {
+      "turn": 4,
+      "action": "Flag down the waiter and politely point out that there must be a mistake, asking if the kitchen accidentally prepared the 'Te La' (Extra Spicy) version instead.",
+      "observation": "The waiter checks the ticket and politely confirms that this is indeed the 'Wei La' (Little Spicy) version as ordered."
+    },
+    {
+      "turn": 5,
+      "action": "Pick up a piece of chicken and vigorously scrape off all visible chili seeds and oil against the side of the bowl before eating it.",
+      "observation": "The chicken itself has been marinated in the spicy mixture. Even after scraping, the meat retains a potent, lingering heat that burns the tongue."
+    },
+    {
+      "turn": 6,
+      "action": "Order a bottle of chilled soy milk.",
+      "observation": "The soy milk provides temporary relief, but the burning sensation returns quickly after swallowing."
+    },
+    {
+      "turn": 7,
+      "action": "Ask the waiter to bring a bowl of hot water.",
+      "observation": "The waiter brings the water. Dunking the chicken turns the water red instantly. The washed chicken is wet and bland but still retains a deep, peppery heat that has penetrated the fibers."
+    },
+    {
+      "turn": 8,
+      "action": "Order a side of plain rice and mix a small amount of the chicken sauce into a large portion of rice.",
+      "observation": "The ratio required to make the spice palatable makes the dish flavorless, while any attempt to taste the sauce brings the overwhelming heat back."
+    },
+    {
+      "turn": 9,
+      "action": "Ask the waiter if the head chef is originally from Chengdu or Chongqing.",
+      "observation": "The waiter looks confused and states that the chef is local, and this is simply the standard way this dish is prepared to ensure it tastes correct."
+    },
+    {
+      "turn": 10,
+      "action": "Push the plate away and ask for the bill, leaving the majority of the food uneaten.",
+      "observation": "The waiter processes the bill, noticing the uneaten food, but offers no further explanation. The environment remains unchanged."
+    }
+  ]
+}

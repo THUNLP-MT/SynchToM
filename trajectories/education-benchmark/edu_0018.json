@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Inventory check for starch powder, iodine solution, and Benedict's reagent.",
+      "observation": "Inventory is sufficient. A note from the previous teacher is found attached to the starch: 'Consider using glucose monitoring strips for the nutrition unit instead.'"
+    },
+    {
+      "turn": 2,
+      "action": "Draft the inquiry prompt: 'Design an experiment to determine how long it takes for saliva to chemically alter a cracker.'",
+      "observation": "Students read the prompt and ask, 'We know it changes, but why does it matter if the cracker changes? What does the body do with it?'"
+    },
+    {
+      "turn": 3,
+      "action": "Add a constraint to the lab: Students must test the reaction at 37°C (body temperature) versus room temperature.",
+      "observation": "Students successfully collect data showing faster reactions at 37°C but conclude, 'The body is warm so enzymes work fast,' without connecting it to cellular energy needs."
+    },
+    {
+      "turn": 4,
+      "action": "Reserve the water baths and set up a station for glassware cleaning.",
+      "observation": "The lab technician sets up the equipment as requested."
+    },
+    {
+      "turn": 5,
+      "action": "Create a scaffolded data table for students to record 'Color of Iodine' and 'Color of Benedict's Solution' at 2-minute intervals.",
+      "observation": "The Coordinator reviews the draft and comments: 'This assesses chemical observation skills, but how does this measure their understanding of nutrient availability for the bloodstream?'"
+    },
+    {
+      "turn": 6,
+      "action": "Modify the lab prep to include a 'mechanical digestion' phase where students must crush the cracker with a mortar and pestle before adding amylase.",
+      "observation": "Students enjoy crushing the crackers. They write conclusions stating, 'Chewing makes the pieces smaller so the color changes faster.' They still do not mention blood or cells."
+    },
+    {
+      "turn": 7,
+      "action": "Assign students to groups of three: one Manager, one Recorder, one Materials Handler.",
+      "observation": "Groups form and begin arguing over who gets to use the pestle."
+    },
+    {
+      "turn": 8,
+      "action": "Prepare a 'Hint Card' for struggling groups that shows a diagram of the 'Lock and Key' model of enzyme action.",
+      "observation": "Students copy the diagram into their notes. When asked 'How does this keep you alive?', they answer, 'Because the key fits the lock.'"
+    },
+    {
+      "turn": 9,
+      "action": "Decide to use dialysis tubing to hold the starch solution, placing it in a beaker of water, to simulate the intestine.",
+      "observation": "Students observe the sugar moving out. They conclude: 'Big things stay in, small things go out.' They treat it as a physics diffusion problem, missing the metabolic context (glucose levels rising in blood)."
+    },
+    {
+      "turn": 10,
+      "action": "Finalize the assessment rubric to heavily weight 'Accuracy of Iodine Test Results' and 'Explanation of Enzyme Specificity'.",
+      "observation": "The final assessment grades are low on the 'physiological causality' criterion. The Coordinator intervenes to mandate a lesson on blood glucose regulation."
+    }
+  ]
+}

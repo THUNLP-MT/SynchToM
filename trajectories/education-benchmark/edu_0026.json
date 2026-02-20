@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Command the students to lower their Bunsen burners to the lowest setting that maintains a bubble.",
+      "observation": "The students hesitantly lower the flames but complain that the water is going to 'cool down' and the experiment won't work as well."
+    },
+    {
+      "turn": 2,
+      "action": "Inspect the gas nozzles and rubber tubing for potential blockages or pressure drops.",
+      "observation": "The gas lines are clear and pressure is nominal; the high flames are purely a result of student choice."
+    },
+    {
+      "turn": 3,
+      "action": "Draw a process diagram on the whiteboard illustrating 'Energy Input' vs. 'Solvent Loss' with a flat line for 'Process Temperature'.",
+      "observation": "Students look at the graph and ask why the 'Process Temperature' line is flat, insisting that in their experience, more fire makes things hotter."
+    },
+    {
+      "turn": 4,
+      "action": "Instruct students to measure the volume of water lost after 10 minutes of vigorous boiling versus 10 minutes of gentle simmering.",
+      "observation": "Students record the data. They observe the high volume loss with the high flame and conclude that the high flame is 'more effective' because it did more work on the water."
+    },
+    {
+      "turn": 5,
+      "action": "Check the calibration of the thermometers distributed to the class.",
+      "observation": "All thermometers are functioning correctly and reading exactly 100°C in the boiling water."
+    },
+    {
+      "turn": 6,
+      "action": "Lectures the class on the specific cost of natural gas and calculates the financial loss of their 'runaway evaporation'.",
+      "observation": "Students seem confused why cost matters, arguing that 'getting the water hotter' to finish the lab quickly is worth a few cents."
+    },
+    {
+      "turn": 7,
+      "action": "Ask the students to calculate the rate of vaporization ($dm^3/s$) and compare it to the heat input ($kJ/s$).",
+      "observation": "Students perform the calculation but interpret the higher rate of vaporization as proof that the water molecules have higher kinetic energy (temperature)."
+    },
+    {
+      "turn": 8,
+      "action": "Check the laboratory manual to see if the instructions regarding 'gentle boil' were printed clearly.",
+      "observation": "The manual clearly states 'bring to a boil', which the students interpret as 'make it bubble as much as possible'."
+    },
+    {
+      "turn": 9,
+      "action": "Explain the concept of 'Process Control' and 'Steady State', emphasizing that a stable liquid level is crucial for consistent concentration.",
+      "observation": "Students nod but point out that according to the Arrhenius equation, temperature has an exponential effect on rate, so they still prefer the high flame over maintaining volume."
+    },
+    {
+      "turn": 10,
+      "action": "Implement a 'Solvent Quota', penalizing any group that requires a water refill during the lab.",
+      "observation": "Students become visibly frustrated, complaining that the teacher is forcing them to use 'colder water' which will ruin their experiment results."
+    }
+  ]
+}

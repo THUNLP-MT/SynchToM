@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Order the 'Signature Beef Noodles' and explicitly point to the 'Add Beef: 2 Liang' option, emphasizing '2 Liang' to the waiter.",
+      "observation": "The waiter nods and writes down the order. A few minutes later, a steaming bowl of noodles arrives with approximately 5-6 slices of braised beef on top."
+    },
+    {
+      "turn": 2,
+      "action": "Pick up chopsticks and thoroughly stir the noodles from the bottom up, lifting the noodles high to inspect the broth underneath.",
+      "observation": "The stirring reveals no hidden meat. The amount of beef visible is consistent with what was on top—roughly 50g of cooked meat in total."
+    },
+    {
+      "turn": 3,
+      "action": "Pull out smartphone and quickly check a unit converter app for '2 Liang to grams'.",
+      "observation": "The app confirms: 2 Liang = 100 grams."
+    },
+    {
+      "turn": 4,
+      "action": "Take out a portable pocket food scale, place a clean napkin on it, and meticulously transfer every slice of beef from the bowl onto the scale.",
+      "observation": "The scale stabilizes at 52 grams."
+    },
+    {
+      "turn": 5,
+      "action": "Flag down the waiter, point to the scale reading '52g', and then point to the menu item '2 Liang'. say, 'Excuse me, mistake. I paid for 2 Liang.'",
+      "observation": "The waiter looks at the scale, then at the bowl, smiles politely, and says in broken English, 'Yes, 2 Liang beef. Correct.'"
+    },
+    {
+      "turn": 6,
+      "action": "Shake head firmly, tap the scale again, and use a translation app to say: 'This is only 50 grams. 2 Liang is 100 grams. Where is the rest?'",
+      "observation": "The waiter gestures to the kitchen and mimics a cooking process, saying, 'Raw meat big. Cook... water go... meat small. Standard.'"
+    },
+    {
+      "turn": 7,
+      "action": "Pick up the menu and inspect it closely under the light, looking for any asterisks or fine print next to the beef add-on.",
+      "observation": "The menu lists 'Add Beef: 2 Liang - 25 RMB'. There is no fine print in English or obvious disclaimers about raw weight."
+    },
+    {
+      "turn": 8,
+      "action": "Stand up and walk near the open kitchen to watch the chef slicing the beef for the next order.",
+      "observation": "The chef takes a large braised block, slices off a standard portion (which looks like ~50g), and places it directly onto a bowl. No one is stealing meat; the portion size is consistent across all orders."
+    },
+    {
+      "turn": 9,
+      "action": "Return to the table and ask to speak to the manager. Show the manager the scale and the 52g of meat.",
+      "observation": "The manager arrives, listens, and apologizes for the misunderstanding. He reiterates, 'We sell by raw weight. 100g raw beef makes this much cooked beef. It is the rule in China.'"
+    },
+    {
+      "turn": 10,
+      "action": "Sigh loudly, roll eyes, and say, 'Fine, bring me another order of 2 Liang beef then,' while calculating the negative impact on the meal's cost-per-gram ratio.",
+      "observation": "The waiter brings a second portion of beef. The user dumps it into the bowl. The total meat now weighs ~104g. The user eats, convinced the shop has dishonest advertising."
+    }
+  ]
+}

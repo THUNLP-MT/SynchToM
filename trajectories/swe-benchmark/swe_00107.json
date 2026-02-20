@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Install django-debug-toolbar and inspect the raw SQL query generated for the form field.",
+      "observation": "The debug toolbar shows a query using a LEFT OUTER JOIN between the main table and the filtered table. The result set returned by the database indeed contains multiple rows with the same ID for the dropdown options."
+    },
+    {
+      "turn": 2,
+      "action": "Clear browser cache and cookies, then hard refresh the page.",
+      "observation": "The page reloads, but the dropdown menu still contains duplicate entries for the specific filter criteria."
+    },
+    {
+      "turn": 3,
+      "action": "Connect to the PostgreSQL shell and run '\\d tablename' to inspect the current indices on the foreign key columns involved in the join.",
+      "observation": "The database shell shows that standard B-tree indexes exist on the ID columns and the Foreign Key columns. Primary keys are marked as PRIMARY KEY."
+    },
+    {
+      "turn": 4,
+      "action": "Run 'EXPLAIN ANALYZE' on the SQL query captured in Turn 1 directly in the database console.",
+      "observation": "The query plan shows a Hash Join or Nested Loop. It estimates and returns multiple rows because the join condition matches multiple records in the related table (one for each match found), resulting in the duplicates."
+    },
+    {
+      "turn": 5,
+      "action": "Run 'VACUUM FULL ANALYZE' on the affected tables.",
+      "observation": "The VACUUM command completes successfully. The database statistics are updated. However, reloading the Django form shows the duplicates are still present."
+    },
+    {
+      "turn": 6,
+      "action": "Restart the Gunicorn/Django application server.",
+      "observation": "The server restarts. The first request to the form still renders the dropdown with duplicate options."
+    },
+    {
+      "turn": 7,
+      "action": "Create and run a Django migration to add a composite index (index_together) on the field being filtered and the foreign key.",
+      "observation": "The migration applies successfully. The database now has the new composite index. The dropdown menu still shows the exact same duplicate entries."
+    },
+    {
+      "turn": 8,
+      "action": "Check the project's 'requirements.txt' and upgrade the 'psycopg2-binary' database driver.",
+      "observation": "The driver is upgraded to the latest version. The application is redeployed. The duplicates persist in the form field."
+    },
+    {
+      "turn": 9,
+      "action": "Check the PostgreSQL transaction isolation level in 'settings.py'.",
+      "observation": "The setting is using the default isolation level (usually READ COMMITTED). Changing it or verifying it shows no anomaly that would cause consistent duplication on a static dataset."
+    },
+    {
+      "turn": 10,
+      "action": "Manually drop the local database and restore it from a production dump, then run 'REINDEX DATABASE'.",
+      "observation": "The database is fresh. The indexes are rebuilt. The form is loaded, the filter is applied, and the dropdown menu still contains duplicate entries (because the query logic still lacks distinctness)."
+    }
+  ]
+}

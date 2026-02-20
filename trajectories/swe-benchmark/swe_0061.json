@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open `forms.py` and inspect the `UserForm` class definition.",
+      "observation": "The code shows `class Meta:` with `model = User` and `fields = ['username', 'email']`. A custom `__init__` method exists below the Meta class."
+    },
+    {
+      "turn": 2,
+      "action": "Open `models.py` to verify the `User` model definition.",
+      "observation": "The User model defines `username = models.CharField(max_length=150, unique=True)`."
+    },
+    {
+      "turn": 3,
+      "action": "Perform a hard refresh (Ctrl+F5) in the browser.",
+      "observation": "The page reloads. Inspecting the element shows `<input type='text' name='username' ...>` still without the `maxlength` attribute. Infinite characters can still be typed."
+    },
+    {
+      "turn": 4,
+      "action": "Modify `forms.py` to change `fields = ['username', 'email']` to `fields = '__all__'` inside the `Meta` class.",
+      "observation": "The form renders with all user fields, but the username input still lacks the `maxlength` attribute."
+    },
+    {
+      "turn": 5,
+      "action": "Restart the Django development server.",
+      "observation": "Server restarts successfully. The username field behavior remains unchanged; no `maxlength` attribute."
+    },
+    {
+      "turn": 6,
+      "action": "Add a `widgets` dictionary to the `Meta` class explicitly defining `widgets = {'username': forms.TextInput()}`.",
+      "observation": "The form renders. The widget is a TextInput, but it still lacks the `maxlength` attribute."
+    },
+    {
+      "turn": 7,
+      "action": "Comment out the entire `def __init__` method in `UserForm`.",
+      "observation": "The form renders. The `maxlength='150'` attribute SUDDENLY APPEARS in the HTML."
+    },
+    {
+      "turn": 8,
+      "action": "Uncomment `__init__`, but move the `super().__init__(*args, **kwargs)` call to the very bottom of the method.",
+      "observation": "The application crashes with an `AttributeError` because `self.fields` cannot be accessed before `super().__init__` is called."
+    },
+    {
+      "turn": 9,
+      "action": "Revert the `super()` call to the top of `__init__`, but delete all custom logic inside `__init__` except for the `super()` call.",
+      "observation": "The `maxlength` attribute appears. (This confirms that the specific logic inside the user's original `__init__`—which was modifying the field—was responsible, but the user attributes it to 'stripping away Meta work')."
+    },
+    {
+      "turn": 10,
+      "action": "Restore the original `__init__` logic, but add `labels = {'username': 'User Name'}` to the `Meta` class.",
+      "observation": "The label updates to 'User Name', but the `maxlength` attribute is missing again. The form validates correctly on the server, but the frontend constraint is gone."
+    }
+  ]
+}

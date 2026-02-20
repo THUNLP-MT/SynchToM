@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Draft a 2-page text document titled 'Comprehensive Reporting Guidelines' describing the reporting lines.",
+      "observation": "New hires read the document but immediately ask follow-up questions like, 'So, who is my primary manager for performance reviews versus project work?'"
+    },
+    {
+      "turn": 2,
+      "action": "Request the official job descriptions and departmental bylaws from HR.",
+      "observation": "HR provides the documents, which contain complex lists of dual-responsibilities and a note suggesting that 'reporting lines are best understood contextually.'"
+    },
+    {
+      "turn": 3,
+      "action": "Expand the document to 6 pages, adding a 'Scenario Analysis' section that describes specific reporting instances in paragraph form.",
+      "observation": "Feedback from the pilot group indicates the document is 'dense' and 'hard to visualize.' One user asks if there is a diagram available."
+    },
+    {
+      "turn": 4,
+      "action": "Schedule a review meeting with the Department Heads to fact-check the scenario descriptions.",
+      "observation": "The Department Heads confirm the facts are correct but mention that even they have trouble tracking the relationships without seeing the org chart."
+    },
+    {
+      "turn": 5,
+      "action": "Rewrite the guide using a strictly linear narrative format, removing bullet points to enforce a chronological reading flow.",
+      "observation": "New hires complain that the document is a 'wall of text' and struggle to find specific answers quickly. They continue to make reporting errors."
+    },
+    {
+      "turn": 6,
+      "action": "Send the draft to the Technical Writing team for a grammar and syntax audit.",
+      "observation": "The Technical Writing team returns the draft with minor edits but strongly suggests adding a visual aid, noting that the matrix structure is 'cognitively overloading' in text form."
+    },
+    {
+      "turn": 7,
+      "action": "Add a 4-page 'Definitions and Glossary' section to the front of the document.",
+      "observation": "During onboarding, observed employees flip past the text and try to sketch their own diagrams on scrap paper to make sense of the structure."
+    },
+    {
+      "turn": 8,
+      "action": "Create a mandatory 20-question reading comprehension quiz that employees must pass after reading the guide.",
+      "observation": "Employees are failing the quiz or guessing answers. They report feeling frustrated that they can't 'see' how the teams overlap based on the descriptions."
+    },
+    {
+      "turn": 9,
+      "action": "Break the document into a 'Choose Your Own Adventure' style text-based logic tree (e.g., 'If you are in Marketing, go to Page 12, Paragraph 3').",
+      "observation": "The document is now 25 pages long. New hires are completely overwhelmed and are bypassing the document entirely to just ask their neighbors who they report to."
+    },
+    {
+      "turn": 10,
+      "action": "Organize a seminar where I read the document aloud to the new hires, pausing to explain the syntax of the reporting lines.",
+      "observation": "The session runs overtime. Attendees appear glazed over. At the end, a manager walks to the whiteboard, draws three circles and two lines, and the room collectively says, 'Oh, why didn't you just say that?'"
+    }
+  ]
+}

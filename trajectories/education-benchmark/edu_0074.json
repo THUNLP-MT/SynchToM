@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask the student: 'When you use the word immunity, are you thinking about how a human body fights off a cold after getting a virus?'",
+      "observation": "The student replies: 'Kind of. It's like when something bad attacks you, your body has to get stronger to stop it from killing you.'"
+    },
+    {
+      "turn": 2,
+      "action": "Ask the student to define the difference between 'immunity' and 'resistance' in their own words.",
+      "observation": "The student says: 'Immunity is when you are totally safe. Resistance is when you have to fight hard against the poison to stay alive.'"
+    },
+    {
+      "turn": 3,
+      "action": "Explain the difference between somatic changes (like getting a tan or fighting a cold) and genetic traits.",
+      "observation": "The student nods but adds: 'Right, so the poison went into their bodies, and they had to change their bodies to handle it, or they would have gone extinct.'"
+    },
+    {
+      "turn": 4,
+      "action": "Use an analogy: 'Think about a flu shot. That trains your immune system, but it doesn't change your DNA. Insects with DDT are different.'",
+      "observation": "The student looks thoughtful and says: 'Okay, but the flu shot helps us survive because we need it. The DDT made the insects change because they needed to survive the spray.'"
+    },
+    {
+      "turn": 5,
+      "action": "Ask the student to draw a timeline of a single insect before, during, and after the DDT spray.",
+      "observation": "The student draws a normal insect, then shows it getting sprayed and looking sick, then shows the same insect growing a thicker shell and looking strong."
+    },
+    {
+      "turn": 6,
+      "action": "Explicitly state: 'Insects do not have B-cells or antibodies. They cannot biologically 'learn' to fight a poison once it is inside them.'",
+      "observation": "The student looks confused and says: 'I don't know what B-cells are. I just mean that since the poison was there, they had to adapt to it.'"
+    },
+    {
+      "turn": 7,
+      "action": "Have the student read the definition of 'Natural Selection' from the textbook aloud.",
+      "observation": "The student reads the text but emphasizes the phrase 'survival of the fittest' and says: 'See? The fittest ones are the ones that were able to change themselves to beat the poison.'"
+    },
+    {
+      "turn": 8,
+      "action": "Ask: 'If a bodybuilder works out and gets huge muscles, will their baby be born with huge muscles?'",
+      "observation": "The student replies: 'No, usually not. But if the baby *needed* muscles to survive in a dangerous world, then nature would make sure they were born with them.'"
+    },
+    {
+      "turn": 9,
+      "action": "Draw a graph showing that the resistance gene existed in the population at low levels *before* DDT was ever invented.",
+      "observation": "The student looks at the graph and asks: 'But if they had it before, why did they use it? They probably only activated it when the poison showed up because they needed it then.'"
+    },
+    {
+      "turn": 10,
+      "action": "Assign a Venn Diagram worksheet comparing 'Human Acquired Immunity' vs. 'Insect Genetic Resistance'.",
+      "observation": "The student fills out the worksheet. Under 'Both', they write: 'The body changes to protect itself from danger.'"
+    }
+  ]
+}

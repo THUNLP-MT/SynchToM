@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask the student to describe exactly what happens to the legs when the bug curls up.",
+      "observation": "The student looks at the bug and says, 'It hides its legs so nothing can bite them.'"
+    },
+    {
+      "turn": 2,
+      "action": "Hand the student a higher-power hand lens and ask her to look again.",
+      "observation": "The student peers through the lens and says, 'Wow, it really wants to protect its soft tummy!'"
+    },
+    {
+      "turn": 3,
+      "action": "Ask the student to draw a diagram of the pill bug in its curled position.",
+      "observation": "The student draws a circle and labels it 'Hiding Bug'."
+    },
+    {
+      "turn": 4,
+      "action": "Point specifically to the overlapping plates on the bug's back and ask, 'How do these shapes fit together?'",
+      "observation": "The student glances and says, 'They fit tight like a shield to keep the bad guys out.'"
+    },
+    {
+      "turn": 5,
+      "action": "Move the bug into better sunlight to increase visibility.",
+      "observation": "The bug feels the heat and uncurls slightly. The student says, 'Oh look, it thinks it's safe now!'"
+    },
+    {
+      "turn": 6,
+      "action": "Frustrated, ask the student to count the number of visible segments while it is curled.",
+      "observation": "The student counts quickly and adds, 'It has lots of armor pieces so it can roll up fast if a bird comes.'"
+    },
+    {
+      "turn": 7,
+      "action": "Ask a peer to come over and describe what they see to the first student.",
+      "observation": "The second student looks and says, 'Yeah, it's playing dead because we are huge giants to it.'"
+    },
+    {
+      "turn": 8,
+      "action": "Verbally restrict the student's answer: 'Do not tell me why. Tell me the shape of the curve.'",
+      "observation": "The student looks confused and says, 'It's a ball shape... because that's the best shape for defense?'"
+    },
+    {
+      "turn": 9,
+      "action": "Check the student's science journal to see if previous observations were recorded correctly.",
+      "observation": "The journal is full of questions like 'Why do ants follow lines?' and 'How do worms know where to go?'"
+    },
+    {
+      "turn": 10,
+      "action": "Take the hand lens myself, look at the bug, and dictate: 'Notice how the rear segment locks into the head segment. Now you say it.'",
+      "observation": "The student repeats the sentence mechanically but adds, '...so it stays locked until the danger is gone.'"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open settings and maximize the 'Brightness' and 'Gamma' sliders.",
+      "observation": "The game becomes washed out and white. The textures look flat, highlighting the repetitive design of the environment. The gameplay loop remains exactly the same."
+    },
+    {
+      "turn": 2,
+      "action": "Navigate to the character customization menu to find a bright, colorful outfit.",
+      "observation": "You equip a bright neon skin. You walk down the same corridor you did before; the interaction prompts are identical and offer no new challenges."
+    },
+    {
+      "turn": 3,
+      "action": "Turn the 'Music Volume' and 'SFX Volume' down to 0.",
+      "observation": "The game is now silent. Without the sound cues, the lack of impact when hitting enemies makes the combat feel even more weightless and tedious."
+    },
+    {
+      "turn": 4,
+      "action": "Search the inventory for a flashlight or torch item and spam the usage button.",
+      "observation": "The flashlight toggles on and off. There is nothing in the corners. You continue walking in a straight line with no puzzles or enemies to engage with."
+    },
+    {
+      "turn": 5,
+      "action": "Go to an online forum and search: 'Is [Game Name] supposed to be a horror game?'",
+      "observation": "Search results show threads titled 'Game is too short', 'Combat is boring', and 'Why is the world so empty?'. No one mentions horror."
+    },
+    {
+      "turn": 6,
+      "action": "Change the game language to a language I don't understand (e.g., Japanese) just to see the vibe.",
+      "observation": "The text is now unreadable. The mission objectives are unclear, leaving you wandering aimlessly in the empty level, increasing the monotony."
+    },
+    {
+      "turn": 7,
+      "action": "Switch the graphics mode from 'Fidelity' to 'Performance' (Low Graphics).",
+      "observation": "The frame rate increases, making the simple animations look smoother, but the core activity remains just pressing 'Forward' and occasionally 'A'."
+    },
+    {
+      "turn": 8,
+      "action": "Quit the current level and look for a 'Creative' or 'Sandbox' mode.",
+      "observation": "There is no sandbox mode. The only other option is 'New Game+', which just restarts the same repetitive campaign with higher enemy health."
+    },
+    {
+      "turn": 9,
+      "action": "Post a review: 'Good potential, but ruins the fun with forced creepy atmosphere. Needs a peaceful mode.'",
+      "observation": "A user replies to your review: 'What creepy atmosphere? I fell asleep playing this because nothing happens.'"
+    },
+    {
+      "turn": 10,
+      "action": "Request a refund and ask for recommendations for 'Games like this but strictly wholesome/rated E'.",
+      "observation": "The refund is processed. The store suggests 'Animal Crossing' and 'Stardew Valley'—games that are engaging because of deep resource management, not just because they lack horror."
+    }
+  ]
+}

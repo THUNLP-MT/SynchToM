@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Stand at the threshold and scan the ceiling and corners of the room, looking specifically for ventilation ducts or heavy-duty lighting fixtures.",
+      "observation": "The ceiling has standard track lighting and a few cobwebs. There is a smell of old paper and coffee."
+    },
+    {
+      "turn": 2,
+      "action": "Walk over to the '100 Years Cafe' sign and inspect the mounting brackets and the wall behind it.",
+      "observation": "The sign is hung loosely on a nail. It looks decorative."
+    },
+    {
+      "turn": 3,
+      "action": "Pick up the Thomas the Tank Engine toy, rotate it in hand to check its weight, then place it back on a shelf slightly apart from the other items.",
+      "observation": "No one reacts. The toy sits where placed."
+    },
+    {
+      "turn": 4,
+      "action": "Approach the counter, smile politely, and ask, 'Is the facility currently operational?'",
+      "observation": "The person behind the counter nods enthusiastically and says, 'Yes, yes, we are open! Welcome.'"
+    },
+    {
+      "turn": 5,
+      "action": "Gesture toward the hanging ceramic mugs and ask, 'Are these samples from the local area?'",
+      "observation": "The clerk says, 'Yes, very old, very nice. Five dollars.'"
+    },
+    {
+      "turn": 6,
+      "action": "Ignore the price quote and look past the clerk toward the rear wall, asking, 'Do you keep the heavier stock in a separate warehouse, or is it all on-site?'",
+      "observation": "The clerk looks confused and points to a back curtain. 'More things back there. Bathroom also.'"
+    },
+    {
+      "turn": 7,
+      "action": "Walk to the bull horns, tap them with a knuckle, and ask, 'Do you have the source for these? I am looking for the provider.'",
+      "observation": "The clerk shrugs. 'Vintage. Came with the shop.'"
+    },
+    {
+      "turn": 8,
+      "action": "Take out a notebook and pen, looking at the 'LEATHER FACTORY' sign, and ask, 'Who handles the accounts for the factory materials?'",
+      "observation": "The clerk laughs nervously. 'I take the money. Cash or card.'"
+    },
+    {
+      "turn": 9,
+      "action": "Lean in slightly and lower voice, asking, 'I understand the front is for the public. But if I want to discuss the raw inventory—the unfinished goods—is the proprietor available?'",
+      "observation": "The clerk stares blankly. 'Unfinished? No, everything is finished. We have coffee, we have antiques.'"
+    },
+    {
+      "turn": 10,
+      "action": "Point specifically to the word 'FACTORY' on the sign and ask, 'So the production line is closed today? I was hoping to negotiate a rate for the hides.'",
+      "observation": "The clerk looks at the sign, then back at you. 'Ah! No, no factory. Just name. Cool name, yes?'"
+    }
+  ]
+}

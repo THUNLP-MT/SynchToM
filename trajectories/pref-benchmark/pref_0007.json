@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Disable the 'Achievement Unlocked' sound effects and pop-up animations.",
+      "observation": "Engagement drops by another 5%. User feedback includes comments like 'The training feels very dry now' and 'It's hard to stay awake.'"
+    },
+    {
+      "turn": 2,
+      "action": "Check the server logs for page load latency.",
+      "observation": "Server logs show the system is lightning fast. Average session duration is 3 minutes before users quit."
+    },
+    {
+      "turn": 3,
+      "action": "Change the UI color theme from 'Vibrant' to 'Corporate Slate' and remove the progress bars.",
+      "observation": "Completion rates plummet. Users complain they have no idea how much of the course is left or where they are in the modules."
+    },
+    {
+      "turn": 4,
+      "action": "Remove the 'Leaderboard' and 'Peer Comparison' widgets from the dashboard.",
+      "observation": "Login frequency decreases. The few users who do log in spend 50% less time on the platform than before."
+    },
+    {
+      "turn": 5,
+      "action": "Review the training text content for grammatical errors.",
+      "observation": "The text is grammatically perfect, but consists of 15-page blocks of dense legal jargon without breaks."
+    },
+    {
+      "turn": 6,
+      "action": "Replace the interactive 'Drag-and-Drop' quizzes with standard multiple-choice text forms.",
+      "observation": "Quiz failure rates increase. Users are blindly clicking answers just to get through the pages faster."
+    },
+    {
+      "turn": 7,
+      "action": "Send a memo to all department heads regarding the importance of the new training module.",
+      "observation": "There is a spike in logins for one hour, followed by immediate drop-offs. HR receives complaints about the software being 'punishingly boring.'"
+    },
+    {
+      "turn": 8,
+      "action": "Remove the user profile avatars and the 'Welcome, [Name]' greeting.",
+      "observation": "User alienation increases. Feedback suggests the platform feels 'cold' and 'disconnecting'."
+    },
+    {
+      "turn": 9,
+      "action": "Increase the font density and remove whitespace margins to fit more text on the screen.",
+      "observation": "Bounce rate hits 99%. Users open the module, see a 'Wall of Text', and immediately close the browser window."
+    },
+    {
+      "turn": 10,
+      "action": "Request IT to block access to Spotify and YouTube during training sessions.",
+      "observation": "Staff morale hits rock bottom. The training completion rate remains at nearly zero, and employees are petitioning to switch back to the old PDF manuals."
+    }
+  ]
+}

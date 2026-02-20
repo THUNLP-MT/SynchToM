@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Inspect the bill closely for a 'Service Charge' or 'Gratuity' line item.",
+      "observation": "The bill lists only the food items and a fixed total in RMB. There is no line for tips, only a QR code for WeChat Pay and Alipay."
+    },
+    {
+      "turn": 2,
+      "action": "Ask the server, 'Does the machine have a tip option?' while holding out a credit card.",
+      "observation": "The server looks blankly at the user, takes the card, and immediately punches in the exact total from the bill without offering any options."
+    },
+    {
+      "turn": 3,
+      "action": "Check the payment terminal brand and look for Visa/Mastercard logos on the counter.",
+      "observation": "The terminal is a standard Chinese bank POS. It accepts Visa, but the interface is entirely in Chinese."
+    },
+    {
+      "turn": 4,
+      "action": "Calculate 15% of the total on a phone calculator and try to hand that amount in cash directly to the server.",
+      "observation": "The server steps back and waves their hands in refusal, saying 'No, no, price is here,' pointing emphatically at the receipt total."
+    },
+    {
+      "turn": 5,
+      "action": "Smile knowingly and tuck the cash under the tea cup on the table before standing up to leave.",
+      "observation": "As the user walks toward the exit, the server rushes over, grabs the money from under the cup, and chases the user down, insisting, 'You forgot money!'"
+    },
+    {
+      "turn": 6,
+      "action": "Use a translation app to type 'This is for you, for your excellent service' and show the screen to the server.",
+      "observation": "The server reads the screen, looks awkward and slightly panicked, and shakes his head vigorously, trying to force the bills back into the user's hand."
+    },
+    {
+      "turn": 7,
+      "action": "Gestures for the floor manager to come over.",
+      "observation": "The manager arrives, looking concerned that there is a customer complaint. He asks, 'What is wrong? Food not good?'"
+    },
+    {
+      "turn": 8,
+      "action": "Explain to the manager, 'I want to pay extra. Please add 15% to the bill for the staff.'",
+      "observation": "The manager looks confused and consults the POS system. He says, 'System cannot change price. Price is fixed. No extra charge allowed.'"
+    },
+    {
+      "turn": 9,
+      "action": "Look around the restaurant to see if other tables have left cash or if there is a visible tip jar near the register.",
+      "observation": "Tables are cleared quickly; no money is left behind. The register counter is clean with no jars, only a lucky cat statue."
+    },
+    {
+      "turn": 10,
+      "action": "Take the merchant copy of the credit card receipt, cross out the total, write the new total (Bill + 15%), sign it heavily, and leave.",
+      "observation": "The staff watches the user leave with a mix of confusion and relief. They later process the payment for the original menu amount only, ignoring the handwritten addition."
+    }
+  ]
+}

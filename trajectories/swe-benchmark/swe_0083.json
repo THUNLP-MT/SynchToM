@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Navigate to and open `django/forms/widgets.py` to inspect the `RadioSelect` class definition.",
+      "observation": "The `RadioSelect` class is very minimal and inherits almost everything from `ChoiceWidget`. There is no explicit logic handling `required` attributes or filtering options in the `RadioSelect` class itself."
+    },
+    {
+      "turn": 2,
+      "action": "Modify the form definition to explicitly pass the required attribute: `widget=forms.RadioSelect(attrs={'required': True})`.",
+      "observation": "The rendered HTML now includes `required=\"True\"` on the input elements, but the first option is still a checked radio button labeled '---------'."
+    },
+    {
+      "turn": 3,
+      "action": "Open the browser's Developer Tools and inspect the '---------' radio button input element.",
+      "observation": "The input exists with `value=\"\"` and `required` attributes. The browser is rendering exactly what Django sent: an explicit option for an empty value."
+    },
+    {
+      "turn": 4,
+      "action": "Create a custom widget class `StrictRadioSelect(forms.RadioSelect)` and override the `optgroups` method to invoke `pdb.set_trace()`.",
+      "observation": " The debugger pauses inside `optgroups`. Inspecting `self.choices` reveals that the choices list *already* contains the empty label ('', '---------') as the first item."
+    },
+    {
+      "turn": 5,
+      "action": "In the debugger, inspect `self.attrs` and `self.is_required`.",
+      "observation": "`self.is_required` is `True`. The widget has all the necessary information to behave correctly but is still processing the empty choice as if it were valid data."
+    },
+    {
+      "turn": 6,
+      "action": "Temporarily change the widget in the form definition to `forms.Select` and refresh the page.",
+      "observation": "The `Select` widget also renders the '---------' option. (The user interprets this as 'Acceptable for a dropdown, but a UI bug for radio buttons', maintaining the belief that RadioSelect requires special handling)."
+    },
+    {
+      "turn": 7,
+      "action": "Check the database schema definition for the ForeignKey column.",
+      "observation": "The database column is defined as `NOT NULL`. The model definition is correct (`blank=False`). The issue is definitely in the frontend/form layer."
+    },
+    {
+      "turn": 8,
+      "action": "Search the project for any custom form templates or `FORM_RENDERER` settings.",
+      "observation": "No custom form renderers or widget template overrides are found. The project is using standard Django templates."
+    },
+    {
+      "turn": 9,
+      "action": "Attempt to filter `self.fields['my_field'].widget.choices` in the Form's `__init__` method.",
+      "observation": "The `choices` object is a `ModelChoiceIterator`. Attempting to modify it directly is difficult and feels like fighting the framework, but it confirms the data is coming from the field."
+    },
+    {
+      "turn": 10,
+      "action": "Set `empty_label=None` on the `ModelChoiceField` definition in the form.",
+      "observation": "The '---------' option disappears. The form now renders only the valid model options."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Pull the sprint velocity charts and error logs for the last 48 hours.",
+      "observation": "Sprint velocity is down 60%. The error logs are flooded with 'DependencyConflictException' and 'LegacyModuleLinkageError' messages during the build process."
+    },
+    {
+      "turn": 2,
+      "action": "Post a message in the general Slack channel asking the team to share their 'pain points' regarding the new syntax.",
+      "observation": "Several engineers reply stating the syntax is fine, but the build tools are crashing whenever they touch the old billing module. One engineer shares a screenshot of a stack trace."
+    },
+    {
+      "turn": 3,
+      "action": "Check the internal wiki to see if the workshop recording and PDF slides were actually uploaded by HR.",
+      "observation": "The recordings and slides are present. The view count is very high, indicating the team has been repeatedly referencing them."
+    },
+    {
+      "turn": 4,
+      "action": "Schedule a mandatory 1-hour 'Lunch and Learn' for tomorrow to do a group code-along.",
+      "observation": "During the session, the Senior Developer attempts to run the 'Hello World' example from the new toolchain within the main repo. It fails immediately with a core dump error."
+    },
+    {
+      "turn": 5,
+      "action": "Email the manager of the Mobile App team (who uses a modern codebase) to ask how their team handled the transition.",
+      "observation": "The Mobile Manager replies: 'It's been great! Smooth sailing, the new tools are super fast. We haven't had a single issue.'"
+    },
+    {
+      "turn": 6,
+      "action": "Reply to the team's complaints about the 'crashes' by sending a link to the 'Advanced Configuration' chapter of the workshop slides.",
+      "observation": "The team lead responds: 'We followed that chapter. The configuration is correct, but the new toolchain doesn't support the 32-bit libraries our legacy system uses. We need to roll back.'"
+    },
+    {
+      "turn": 7,
+      "action": "Contact the external workshop vendor to request an instructor for a full-day 'Intensive Coding Bootcamp'.",
+      "observation": "The vendor asks for a sample of the code causing issues to prepare the instructor."
+    },
+    {
+      "turn": 8,
+      "action": "Send the vendor the error logs but specifically request the instructor focus on 'Basic Syntax Drills' and 'Overcoming Resistance to New Tools'.",
+      "observation": "The vendor reviews the logs and replies: 'These logs look like a fundamental incompatibility with your architecture. Drills won't fix a segfault. Are you sure you want a trainer?'"
+    },
+    {
+      "turn": 9,
+      "action": "Review the department budget to see if there are funds for 'Gamified Learning' licenses.",
+      "observation": "There is budget available. Meanwhile, the CI/CD pipeline has completely halted due to the new toolchain enforcing rules that the legacy code violates."
+    },
+    {
+      "turn": 10,
+      "action": "Override the team's objections and officially book the 'All-Day Practical Coding Session' for Friday, mandating that all legacy code be refactored using the new tools during the session.",
+      "observation": "The team spends the entire Friday session staring at error screens as the new toolchain refuses to compile the refactored legacy code, resulting in zero lines of working code produced."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open Gameplay Settings and look for 'Combat Pacing', 'Active Time Battle', or 'Stamina' toggles.",
+      "observation": "The menu contains options for 'Difficulty', 'Gore', and 'AI Aggression', but no settings related to stamina, pacing, or turn modes."
+    },
+    {
+      "turn": 2,
+      "action": "Lower the 'Graphics Quality' preset from Ultra to Low.",
+      "observation": "Frame rate increases significantly to 144fps. During combat, a character runs toward an enemy, hits a crate, and stands perfectly still for 4 seconds before attacking again."
+    },
+    {
+      "turn": 3,
+      "action": "Equip the 'Boots of Haste' and 'Ring of Alacrity' on the main character.",
+      "observation": "The character moves very quickly, runs into a wall near the enemy, and vibrates in place without attacking for several seconds."
+    },
+    {
+      "turn": 4,
+      "action": "Change the control input from Mouse/Keyboard to a Gamepad.",
+      "observation": "The character responds to the stick immediately, runs in a circle, but stops dead when trying to navigate around a group of allies to reach a target."
+    },
+    {
+      "turn": 5,
+      "action": "Edit the character's 'Endurance' and 'Willpower' stats to 999 using console commands.",
+      "observation": "The character sprints instantly into a corner, gets stuck between a tree and a rock, and enters an idle animation while the enemy attacks them."
+    },
+    {
+      "turn": 6,
+      "action": "Change the AI setting from 'Aggressive' to 'Defensive'.",
+      "observation": "The characters move less frequently. When they do move, they take long pauses behind cover, often facing the wrong way while rotating slowly."
+    },
+    {
+      "turn": 7,
+      "action": "Download and install a third-party 'Attack Speed Uncap' mod.",
+      "observation": "The attack animations play twice as fast, but the character still spends 50% of the battle standing still while enemies move around obstacles."
+    },
+    {
+      "turn": 8,
+      "action": "Rapidly click the move command on empty ground instead of clicking the enemy directly.",
+      "observation": "The character moves to the empty spot successfully. When clicked to attack the enemy across a bridge, the character stops at the bridge entrance and idles."
+    },
+    {
+      "turn": 9,
+      "action": "Lure enemies into a wide-open flat field with absolutely no trees or rocks.",
+      "observation": "The characters move and attack almost perfectly with very little pausing, as there are no obstacles to block their path."
+    },
+    {
+      "turn": 10,
+      "action": "Search game files for 'Terrain_Movement_Cost' values to edit them to zero."
+    }
+  ]
+}

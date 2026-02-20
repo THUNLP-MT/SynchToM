@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Review the hierarchy of the Hypothalamic-Pituitary axis on the whiteboard.",
+      "observation": "Students can successfully list the order of glands (Hypothalamus -> Pituitary -> Target) but still fail to explain how the final hormone interacts with the target cell membrane."
+    },
+    {
+      "turn": 2,
+      "action": "Ask students to draw a visual timeline of a hormonal event from start to finish.",
+      "observation": "Students draw the release from the brain perfectly but depict a steroid hormone bouncing off the target cell membrane like a peptide."
+    },
+    {
+      "turn": 3,
+      "action": "Provide a matching activity connecting Releasing Hormones (e.g., CRH) to their corresponding Tropic Hormones (e.g., ACTH).",
+      "observation": "Students match the factors 100% correctly but ask, 'Does the releasing factor decide if the hormone enters the nucleus?'"
+    },
+    {
+      "turn": 4,
+      "action": "Implement a 'Think-Pair-Share' session regarding the concept of 'Initiation'.",
+      "observation": "Students spend the time debating whether 'initiation' means the hypothalamic signal or the binding at the target cell receptor."
+    },
+    {
+      "turn": 5,
+      "action": "Deliver a focused mini-lecture on the 'Three Types of Endocrine Stimuli': Humoral, Neural, and Hormonal.",
+      "observation": "Students take notes on stimuli but remain unable to predict which hormones require a second messenger system vs direct gene activation."
+    },
+    {
+      "turn": 6,
+      "action": "Distribute a glossary of key terms including 'Ligand', 'Receptor', and 'First Messenger'.",
+      "observation": "Students define 'First Messenger' correctly but apply it to the Releasing Factor from the brain, not the hormone at the target cell surface."
+    },
+    {
+      "turn": 7,
+      "action": "Show a complex diagram of the Negative Feedback Loops involving releasing factors.",
+      "observation": "Students analyze the feedback loops correctly but write that the target cells process all these signals via cAMP, ignoring chemical structure."
+    },
+    {
+      "turn": 8,
+      "action": "Assign a case study on 'Hypothalamic-Pituitary Disconnection' (stalk section).",
+      "observation": "Students correctly identify the loss of signal but erroneously describe the treatment (hormone replacement) as needing to be injected directly into the nucleus."
+    },
+    {
+      "turn": 9,
+      "action": "Create an analogy comparing Releasing Factors to 'Keys' and the Pituitary hormones to 'Doors'.",
+      "observation": "Students like the analogy but are now confused why some 'Doors' (target cells) don't have locks on the outside (intracellular receptors)."
+    },
+    {
+      "turn": 10,
+      "action": "Conduct a final review session dedicated exclusively to memorizing the specific Releasing Factor for every major hormone.",
+      "observation": "Students perform perfectly on questions about the hypothalamus but fail every question regarding lipid-solubility and gene activation mechanisms."
+    }
+  ]
+}

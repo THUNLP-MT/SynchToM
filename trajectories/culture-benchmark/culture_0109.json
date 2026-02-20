@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Scoop a large spoonful of the amber paste and drop it directly into the center of the boiling water pot.",
+      "observation": "The paste sinks immediately to the bottom of the pot like a stone. It does not dissolve or cloud the water; it simply sits there as a dense lump."
+    },
+    {
+      "turn": 2,
+      "action": "Use a ladle to stir the water vigorously in a circular motion.",
+      "observation": "The large lump breaks into several smaller, sticky chunks that swirl around the bottom. The water remains mostly clear with just a few oil droplets surfacing."
+    },
+    {
+      "turn": 3,
+      "action": "Turn the induction cooktop heat to the maximum setting.",
+      "observation": "The water boils furiously. The chunks of paste dance around the pot but remain solid and distinct, refusing to melt into a broth."
+    },
+    {
+      "turn": 4,
+      "action": "Scrape the entirety of the remaining paste from the bowl into the pot.",
+      "observation": "The water becomes slightly murky and oily. The kitchen begins to smell strongly of toasted sesame and peanuts, but the liquid still looks thin and watery."
+    },
+    {
+      "turn": 5,
+      "action": "Use the back of a spoon to crush the floating clumps of paste against the side of the pot.",
+      "observation": "The paste is extremely sticky and viscous. Instead of dissolving, it smears onto the spoon and the side of the pot in a thick, peanut-butter-like layer."
+    },
+    {
+      "turn": 6,
+      "action": "Add a generous splash of soy sauce to the boiling water.",
+      "observation": "The water turns a darker, translucent brown. The blobs of sesame paste remain separate from the dark salty water."
+    },
+    {
+      "turn": 7,
+      "action": "Taste a spoonful of the hot liquid.",
+      "observation": "The liquid tastes like hot, salty water with a jarring, diluted nuttiness. It lacks any umami or savory depth associated with soup stock."
+    },
+    {
+      "turn": 8,
+      "action": "Inspect the empty paste bowl and the table for any other packets or sachets.",
+      "observation": "There are no other packets. Only the jar the paste came from and the empty bowl are present."
+    },
+    {
+      "turn": 9,
+      "action": "Scoop a ladle of boiling water back into the original small bowl to catch the paste residue, whisking it rapidly with chopsticks.",
+      "observation": "In the small bowl, the hot water mixes with the residue to form a smooth, creamy, tan-colored sauce (which is the intended texture for dipping). The user sees this as success."
+    },
+    {
+      "turn": 10,
+      "action": "Pour the creamy slurry from the small bowl back into the main boiling pot.",
+      "observation": "The small amount of creamy sauce instantly dilutes into the large volume of boiling water, disappearing into a thin, unappetizing greyish liquid. The flavor remains weak and disjointed."
+    }
+  ]
+}

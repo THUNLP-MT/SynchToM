@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "grep -A 5 \"def save\" apps/users/models.py",
+      "observation": "    def save(self, *args, **kwargs):\n        if not self.pk:\n            self.set_referral_token()\n        super().save(*args, **kwargs)"
+    },
+    {
+      "turn": 2,
+      "action": "psql -U postgres -d app_db -c \"\\d users_user\"",
+      "observation": "                                     Table \"public.users_user\"\n      Column       |          Type          | Collation | Nullable |           Default            \n-------------------+------------------------+-----------+----------+------------------------------\n referral_source   | character varying(50)  |           | not null | 'direct'::character varying"
+    },
+    {
+      "turn": 3,
+      "action": "grep -r \"pre_save\" apps/",
+      "observation": "apps/profiles/signals.py:@receiver(pre_save, sender=UserProfile)\napps/core/signals.py:@receiver(pre_save, sender=LogEntry)\napps/users/tests/test_signals.py:        pre_save.connect(self.handler, sender=User)"
+    },
+    {
+      "turn": 4,
+      "action": "sed -i \"/return cleaned_data/i \\        print(f'DEBUG CLEANED: {cleaned_data.get(\\\"referral_source\\\")}')\" apps/users/forms.py && curl -X POST http://localhost:8000/register/ -d \"username=testuser\"",
+      "observation": "DEBUG CLEANED: partner_api\n[28/Oct/2023 14:23:01] \"POST /register/ HTTP/1.1\" 302 0"
+    },
+    {
+      "turn": 5,
+      "action": "cat config/settings.py | grep \"INSTALLED_APPS\" -A 20",
+      "observation": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    ...\n    'rest_framework',\n    'django_extensions',\n    'apps.users',\n    'apps.core',\n]"
+    },
+    {
+      "turn": 6,
+      "action": "vim apps/users/models.py",
+      "observation": "Added: print(f\"DEBUG MODEL SAVE: {self.referral_source}\")\n\nOutput during request:\nDEBUG CLEANED: partner_api\nDEBUG MODEL SAVE: direct"
+    },
+    {
+      "turn": 7,
+      "action": "grep -r \"receiver\" . | grep \"User\"",
+      "observation": "./apps/users/signals.py:@receiver(post_save, sender=User)\n./apps/billing/signals.py:@receiver(post_save, sender=User)\n./apps/notifications/signals.py:@receiver(post_save, sender=User)"
+    },
+    {
+      "turn": 8,
+      "action": "grep -r \"mixin\" apps/users/models.py",
+      "observation": "class User(AbstractUser, TimeStampedMixin, UUIDModel):\n    ..."
+    },
+    {
+      "turn": 9,
+      "action": "git log -p apps/core/models.py",
+      "observation": "commit a1b2c3d\nAuthor: Dev <dev@company.com>\nDate:   2 weeks ago\n\n    Refactor: Add ordering to TimeStampedMixin\n\n-    class Meta:\n-        abstract = True\n+    class Meta:\n+        abstract = True\n+        ordering = ['-created']"
+    },
+    {
+      "turn": 10,
+      "action": "cat > debug_signals.py <<EOF\nfrom django.db.models.signals import pre_save\nfrom django.dispatch import receiver\nfrom apps.users.models import User\nimport sys\n\n@receiver(pre_save, sender=User)\ndef spy(sender, instance, **kwargs):\n    print(f\"SIGNAL SPY: {instance.referral_source}\", file=sys.stderr)\nEOF\n# (Then running the server with this loaded)",
+      "observation": "SIGNAL SPY: direct\n(Developer interprets this as: \"See! It's already 'direct' here! The other signal must have higher priority or ran earlier! I just need to find it.\")"
+    }
+  ]
+}

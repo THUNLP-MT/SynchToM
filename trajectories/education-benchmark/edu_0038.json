@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Distribute voltmeters and ammeters to student groups, instructing them to check for zero-errors before connecting them to the circuit.",
+      "observation": "Students eagerly grab equipment but immediately start arguing that the second bulb will definitely be dimmer because 'it gets the electricity last'."
+    },
+    {
+      "turn": 2,
+      "action": "Circulate the room and instruct students to draw a data table with three columns: 'Component', 'Voltage (V)', and 'Current (A)', ensuring they include units in the headers.",
+      "observation": "Students draw the tables quickly/messily and rush to turn on the switch, gasping when they see both bulbs light up with equal brightness."
+    },
+    {
+      "turn": 3,
+      "action": "Remind students to open the switch between readings to prevent the wires and battery from overheating.",
+      "observation": "Students nod, but one group is heard saying, 'Maybe the second bulb is bright because the battery is fresh? If we leave it on, the second one will get dimmer like we predicted.'"
+    },
+    {
+      "turn": 4,
+      "action": "Observe students looking confused; interrupt the class to demand they focus on reading the digital display to two decimal places rather than just staring at the bulbs.",
+      "observation": "Students record the numbers (which are identical for both bulbs), but many are shaking the meters or tapping them, convinced the equipment is broken because it contradicts their prediction."
+    },
+    {
+      "turn": 5,
+      "action": "Notice a group writing 'Equipment Error' in their observations column. Intervene and insist they cross it out and record exactly what the screen says.",
+      "observation": "The group reluctantly writes down the equal voltage values but whispers, 'This doesn't make sense, the current has to be used up. The teacher gave us bad meters.'"
+    },
+    {
+      "turn": 6,
+      "action": "Direct students to swap roles so that the person recording data is now the person handling the probes.",
+      "observation": "Students switch roles. The new probe-handlers measure the same equal values. The class is now visibly frustrated, with some students asking, 'Why is this happening?'"
+    },
+    {
+      "turn": 7,
+      "action": "Address the frustration by telling the class to ensure their 'Predicted' column is clearly separated from their 'Actual' column to highlight the discrepancy.",
+      "observation": "Students separate the columns. A student raises a hand and asks, 'But Sir, if the current goes through the first one, how is there enough left for the second one to be just as bright?'"
+    },
+    {
+      "turn": 8,
+      "action": "Respond by pointing to the data table and saying, 'Your data shows there is enough. Trust the data. Now, calculate the percentage difference between your readings.'",
+      "observation": "The student stops asking questions and mindlessly calculates a 0% difference, looking bored and unconvinced. The cognitive conflict is suppressed, not resolved."
+    },
+    {
+      "turn": 9,
+      "action": "Assign a concluding paragraph where students must explicitly write: 'My hypothesis was incorrect because the data shows X = Y.'",
+      "observation": "Students write the sentence mechanically. One student writes, 'The hypothesis was wrong because the lab is weird,' retaining their original misconception about current consumption."
+    },
+    {
+      "turn": 10,
+      "action": "Collect the lab reports and grade them immediately, giving full marks to anyone with neat tables, correct units, and a statement rejecting their hypothesis.",
+      "observation": "Students leave the class with perfect grades on the lab, but still firmly believe that electricity gets used up in a circuit, having learned nothing about the physics of the situation."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Visually inspect the bag, lift it to gauge the heft, and ask the vendor to place it on the scale again.",
+      "observation": "The vendor places the bag on the digital scale. The red LED display clearly reads '1.000 kg'. The vendor smiles and says, 'Exactly two jin, very precise.'"
+    },
+    {
+      "turn": 2,
+      "action": "Lean over the counter to check if the scale is resting on a cord or if the tare has been manipulated.",
+      "observation": " The scale sits flat on the stainless steel counter. The display shows 'Zero' when the bag is lifted and returns to '1.000 kg' when placed back. No obstructions are visible."
+    },
+    {
+      "turn": 3,
+      "action": "Shake head firmly and tell the vendor, 'This isn't enough. Please add more until it's the full amount.'",
+      "observation": "The vendor looks confused. They point to the display again. 'It is already full weight. Two jin. One kilogram. How much more do you want?'"
+    },
+    {
+      "turn": 4,
+      "action": "Take a 500ml sealed water bottle from my bag and place it on the scale to test calibration.",
+      "observation": "The scale reads '0.515 kg' (reflecting the water plus the plastic bottle weight). The vendor sighs, 'The scale is accurate, look, standard weight.'"
+    },
+    {
+      "turn": 5,
+      "action": "Put the fruit bag back on the scale and physically add two more large apples from the pile until the scale reads approx 1.2kg.",
+      "observation": "The scale now reads '1.205 kg'. The vendor immediately starts typing a new price into the calculator. 'Okay, if you want 2.4 jin, that is extra money.'"
+    },
+    {
+      "turn": 6,
+      "action": "Push the original agreed amount of money for 'two jin' toward the vendor while pointing at the 1.2kg reading.",
+      "observation": "The vendor blocks your hand and refuses the money. 'No, no. You pay for weight on scale. That is more than two jin. You pay more or take apples out.'"
+    },
+    {
+      "turn": 7,
+      "action": "Remove the extra apples, pull out a calculator, and show the vendor: '600 times 2 is 1200'.",
+      "observation": "The vendor looks at the calculator and shakes their head, laughing slightly. They type '500 * 2 = 1000' on their own calculator and show it to you."
+    },
+    {
+      "turn": 8,
+      "action": "Scoff at their calculator and inspect the side of the scale for a 'Unit' button to switch modes.",
+      "observation": "The scale is a simple model with no visible unit toggle accessible to customers. It is hard-coded or sealed to metric standards."
+    },
+    {
+      "turn": 9,
+      "action": "Look around the market for an older vendor using a traditional steelyard balance (wooden rod with weight).",
+      "observation": "Most vendors are using identical digital scales. A nearby sign on a pillar reads 'Fair Market Standards: 1 Jin = 500g'."
+    },
+    {
+      "turn": 10,
+      "action": "Photograph the vendor's stall and the 'short' 1kg weight, threatening to report them to the Consumer Council for short-weighting.",
+      "observation": "The vendor waves a hand dismissively, 'Go ahead, report. This is Mainland standard.' The vendor turns to the next customer."
+    }
+  ]
+}

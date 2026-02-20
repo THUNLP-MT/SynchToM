@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Curate a station lab featuring fossil distribution maps, glacial striation patterns, and coastline shapes for students to analyze.",
+      "observation": "Students treat the activity as a simple matching puzzle, quickly concluding that the continents fit together, but they view it as a static fact rather than a developing idea."
+    },
+    {
+      "turn": 2,
+      "action": "Require students to formulate a formal hypothesis before moving to the next station.",
+      "observation": "Students write generic hypotheses like 'The continents were once one piece' and ask if they are done, showing no engagement with how this conclusion was reached or contested historically."
+    },
+    {
+      "turn": 3,
+      "action": "Introduce a complex dataset regarding paleomagnetism and seafloor spreading rates.",
+      "observation": "Students struggle with the math and ask, 'Who figured this out?' and 'Why didn't they just look at the maps?' indicating confusion about the timeline of discovery."
+    },
+    {
+      "turn": 4,
+      "action": "Provide a scaffolded worksheet focusing on data interpretation of the magnetic anomalies.",
+      "observation": "Students successfully complete the worksheet, confirming the current theory, but when asked about the 'dynamic nature of science,' they reference the movement of plates, not the evolution of the theory itself."
+    },
+    {
+      "turn": 5,
+      "action": "Organize students into 'Research Teams' to compare their data findings and reach a consensus on the rate of spreading.",
+      "observation": "Groups argue about significant figures and calculation errors, but the discussion remains entirely focused on mathematical accuracy rather than the debate over the validity of the theory."
+    },
+    {
+      "turn": 6,
+      "action": "Remove the supplementary reading passage about Alfred Wegener and the rejection of Continental Drift.",
+      "observation": "Students now view Plate Tectonics as a truth that has always existed, completely missing the concept that scientific consensus changes over time."
+    },
+    {
+      "turn": 7,
+      "action": "Add a final station with GPS data showing modern plate movement velocities.",
+      "observation": "Students interpret this as 'technology getting better' and do not connect it to the refinement or validation of a scientific model over time."
+    },
+    {
+      "turn": 8,
+      "action": "Assign a lab report where the conclusion must be strictly supported by the data collected in class.",
+      "observation": "The reports are technically perfect verifications of Plate Tectonics, but the department head notes the lesson failed to address the 'Nature of Science' standard regarding paradigm shifts."
+    },
+    {
+      "turn": 9,
+      "action": "Create a rubric that penalizes any mention of historical opinions or 'feelings' about the theory.",
+      "observation": "Students become frustrated, asking why they can't talk about how the theory changed, as the textbook chapter mentions it. They feel the 'process' is just following instructions."
+    },
+    {
+      "turn": 10,
+      "action": "Plan a follow-up lesson using raw, unorganized sonar data from the 1960s for students to map themselves.",
+      "observation": "Students are overwhelmed by the difficulty of the task and disengage, learning nothing about the historical debate or the collective nature of scientific consensus building."
+    }
+  ]
+}

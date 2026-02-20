@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Sprint towards the nearest rock formation while rotating the camera wildly.",
+      "observation": "The character sprints for about 4 seconds. The yellow 'Stamina' bar at the top left rapidly depletes to zero. The character suddenly falls prone, panting heavily, unable to move."
+    },
+    {
+      "turn": 2,
+      "action": "Open the main menu and frantically click on 'Leave World'.",
+      "observation": "A system message appears: 'Action Failed: Cannot leave session while character is Exhausted.' The character remains on the ground, recovering stamina very slowly."
+    },
+    {
+      "turn": 3,
+      "action": "Open the 'Network Statistics' overlay to check for packet loss or high ping.",
+      "observation": "The network overlay shows a stable 30ms ping and 0% packet loss. The character stands up as the stamina bar refills to 20%."
+    },
+    {
+      "turn": 4,
+      "action": "Consume a 'Potion of Iron Skin' and equip the 'Heavy Plate' armor set from inventory.",
+      "observation": "The character equips the heavy gear. Movement speed decreases significantly. The user begins sprinting again; due to the heavy load, the stamina bar drains twice as fast. The character collapses again after only 2 seconds of running."
+    },
+    {
+      "turn": 5,
+      "action": "Type in Global Chat: 'Nice aimbot. Enjoy the report.'",
+      "observation": "The chat message posts. There is no reply. The character is still lying on the ground waiting for the stamina recharge cycle to finish."
+    },
+    {
+      "turn": 6,
+      "action": "Go to Video Settings and lower 'Foliage Density' to Low and increase 'Gamma' to maximum.",
+      "observation": " The screen becomes very bright and the grass disappears. No other players are visible in the vast open field. The user starts sprinting again immediately."
+    },
+    {
+      "turn": 7,
+      "action": "Sprint in a zig-zag pattern while spamming the 'Jump' button.",
+      "observation": "Jumping consumes a large chunk of stamina instantly. Combined with sprinting, the stamina bar hits zero in mid-air. The character ragdolls into the ground and the screen blurs slightly to indicate 'Fainting'."
+    },
+    {
+      "turn": 8,
+      "action": "Attempt to 'Fast Travel' to the starting city hub.",
+      "observation": "System Message: 'Cannot Fast Travel. Stamina too low.' The character is lying face down in the dirt."
+    },
+    {
+      "turn": 9,
+      "action": "Open the 'Recent Players' list to block everyone nearby.",
+      "observation": "The 'Recent Players' list is empty, as there are no other players in the vicinity. The character's stamina has regenerated to full while the user was in the menu."
+    },
+    {
+      "turn": 10,
+      "action": "Physically unplug the ethernet cable (simulate forcing a connection drop).",
+      "observation": "The game freezes and displays 'Connection Lost'. The character stops moving entirely."
+    }
+  ]
+}

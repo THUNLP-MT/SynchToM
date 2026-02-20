@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Rewrite the upcoming 'Goblin Ambush' encounter. Replace the goblins with 'Neon-Skull Cyber-Gangers' and change the setting from a forest road to a rain-slicked futuristic highway.",
+      "observation": "The players encounter the Cyber-Gangers. When combat starts, the first round takes 45 minutes because players are struggling to calculate the 'Variable Range Modifiers' and 'Armor Deflection Values' required by the system."
+    },
+    {
+      "turn": 2,
+      "action": "Change the loot rewards. Instead of gold pieces and magic items, give them 'Corporate Credit Chits' and 'Experimental Tech Blueprints'.",
+      "observation": "The players receive the Credit Chits but spend 20 minutes arguing about the 'Encumbrance by Volume' rules and how to calculate the exchange rate using the system's complex economic tables."
+    },
+    {
+      "turn": 3,
+      "action": "Draft a message to the group chat asking about everyone's availability for next week and if anyone has dietary restrictions for snacks.",
+      "observation": "Players respond quickly about snacks, but two of them mention they are 'dreading' the boss fight next week because 'it's going to take all night to get through just a few turns.'"
+    },
+    {
+      "turn": 4,
+      "action": "Rename all the player skills on their character sheets. Change 'Archery' to 'Ballistics' and 'Arcana' to 'Netrunning', and add flavor text describing the gritty, high-tech nature of these skills.",
+      "observation": "A player tries to use 'Netrunning' but gets frustrated when they realize they still have to roll on the 'd100 Table of Magical Mishaps' (now called 'System Glitches') which requires three different cross-references."
+    },
+    {
+      "turn": 5,
+      "action": "Spend time generating a high-resolution, animated battle map of a dystopian nightclub with flashing lights and techno music.",
+      "observation": "The players admit the map looks 'cool', but gameplay halts as they try to measure diagonal movement distances using the system's non-Euclidean movement cost rules."
+    },
+    {
+      "turn": 6,
+      "action": "Introduce a complex noir mystery plot involving a rogue AI, replacing the 'Rescue the Princess' storyline.",
+      "observation": "The players seem confused. They stop roleplaying entirely to stare at their character sheets, trying to figure out which specific modifiers apply to 'Interrogating an AI' versus 'Persuading a Human'."
+    },
+    {
+      "turn": 7,
+      "action": "Implement a 'Ticking Clock' mechanic: The players have been injected with nano-poison that kills them in 24 hours unless they find the antidote.",
+      "observation": "The added pressure causes severe analysis paralysis. Players spend 30 minutes debating a single move because the penalty for failure in the ruleset is mathematically punishing."
+    },
+    {
+      "turn": 8,
+      "action": "Look up a list of 1980s Cyberpunk slang terms to integrate into NPC dialogue.",
+      "observation": "The NPCs use the slang, but the players are disengaged, checking their phones while waiting for the GM to calculate the 'thac0' equivalent for the NPC's attack roll."
+    },
+    {
+      "turn": 9,
+      "action": "Rewrite the 'Magic Missile' spell mechanics to be described as 'Smart-Link Auto-Targeting Rounds'. Keep the damage dice and hit calculations exactly the same.",
+      "observation": "The player sighs and asks, 'Okay, but do I still have to calculate the spell slot matrix and the component cost coefficient? It's just so much math for a small attack.'"
+    },
+    {
+      "turn": 10,
+      "action": "Decide to scrap the 'Cyberpunk' city setting and move the players to a 'Post-Human Biopunk Space Station'.",
+      "observation": "The players groan audibly. One asks if they can just switch to a 'Rules Light' system, regardless of the setting, but the GM is already describing the flesh-walls of the space station."
+    }
+  ]
+}

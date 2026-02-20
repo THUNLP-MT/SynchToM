@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open inventory and equip the 'Colossal Greatsword' (highest raw damage weapon available).",
+      "observation": "You swing the Colossal Greatsword. It connects heavily, but a metallic 'CLANG' echoes. A grey shield icon appears over the boss. You deal 14 damage (normally 1400)."
+    },
+    {
+      "turn": 2,
+      "action": "Consume 'Potion of Giant Strength' and 'Berserker Brew' before re-engaging.",
+      "observation": "Your character glows red with power. You strike the boss again. Damage increases to 21. The boss walks past a rack of glowing green Acid Vials to attack you."
+    },
+    {
+      "turn": 3,
+      "action": "Dodge roll repeatedly and inspect the boss's health bar while waiting for cooldowns.",
+      "observation": "The boss takes no damage while you dodge. It picks up a barrel and throws it, missing you and smashing a pipe that leaks green acid onto the floor."
+    },
+    {
+      "turn": 4,
+      "action": "Leave the boss arena and fast-travel to the 'Sector 3 Grind Spot'.",
+      "observation": "You leave the fight. Enemies in Sector 3 die in one hit. You spend 30 minutes grinding, gaining 2 levels."
+    },
+    {
+      "turn": 5,
+      "action": "Open the Game Settings menu and check the Difficulty tab.",
+      "observation": "The difficulty is set to 'Normal'. All settings are standard."
+    },
+    {
+      "turn": 6,
+      "action": "Return to the boss, ignore defensive maneuvers, and spam highest DPS combo.",
+      "observation": "You deal 25 damage per hit. The boss ignores your attacks and knocks you into a shelf labeled 'Corrosive Materials', dealing massive damage to you."
+    },
+    {
+      "turn": 7,
+      "action": "Use a 'Respec Token' to reset all stats, dumping 100% of points into Strength and Critical Hit Chance.",
+      "observation": "Stats reset. You now have 500 Strength but only 100 Health. You enter the boss room again."
+    },
+    {
+      "turn": 8,
+      "action": "Attack the boss's back specifically.",
+      "observation": "You strike the back. A 'Deflected' text appears. You deal 25 damage. The boss turns and kills you in one hit due to your low health."
+    },
+    {
+      "turn": 9,
+      "action": "Equip the 'Ring of Armor Penetration' (ignoring that it only works on soft targets).",
+      "observation": "You attack. Damage increases from 25 to 26. The boss stands next to a glowing Acid Vial, taunting you."
+    },
+    {
+      "turn": 10,
+      "action": "Open the in-game chat/forum overlay to complain.",
+      "observation": "You see forum posts titled 'Sector 4 Boss Guide: Use the Acid!' and 'Puzzle Boss Help'. You ignore these, clicking on a thread titled 'Damage Scaling Bug in Sector 4?'"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Instruct the students to brainstorm a mind map connecting 'Atmospheric Changes' to every other environmental issue they can think of, such as deforestation, plastic waste, and ocean acidification.",
+      "observation": "The students create a sprawling map linking the ozone hole to plastic straws and saving the whales. When asked to explain the connection, they say 'It's all pollution,' but cannot identify the specific cause of the ozone hole."
+    },
+    {
+      "turn": 2,
+      "action": "Assign specific roles to group members: a 'Creative Director' for visuals, a 'Storyteller' for the narrative, and a 'Connector' to find links between the topics.",
+      "observation": "The groups organize enthusiastically. The 'Storyteller' begins writing a script about a tree that loses its leaves because the sky is sad, while the 'Connector' struggles to find a factual link between logging and the ozone layer."
+    },
+    {
+      "turn": 3,
+      "action": "Provide a set of artistic magazines and photos of global industrialization to cut out for a collage element on the poster.",
+      "observation": "Students enjoy cutting out pictures of factories and cars. They paste a picture of a smoggy city next to the ozone hole diagram, labeling it 'Smoke breaks the Ozone,' ignoring the CFC data sheet provided in the textbook."
+    },
+    {
+      "turn": 4,
+      "action": "Intervene in a group discussion where a student mentions 'Chlorofluorocarbons' and steer them back to the concept of 'Planetary Boundaries' and overconsumption.",
+      "observation": "The student drops the data sheet on CFC concentrations. The group nods and writes 'Stop Buying Things' in big letters on the poster, but the section on the specific mechanism of atmospheric damage remains blank."
+    },
+    {
+      "turn": 5,
+      "action": "Move the groups to larger tables and provide A1-sized paper instead of A3.",
+      "observation": "The students fill the extra space with drawings of animals and trees. The scientific graph showing the correlation between CFCs and ozone levels is shrunk to a tiny corner and is drawn incorrectly."
+    },
+    {
+      "turn": 6,
+      "action": "Introduce a 'Empathy Exercise' where students must write a short paragraph from the perspective of the Atmosphere feeling the impact of various human actions.",
+      "observation": "Students write emotional passages about the sky 'choking on smoke.' One student asks, 'But does the smoke from the wood fire actually break the ozone molecules?' The group looks confused."
+    },
+    {
+      "turn": 7,
+      "action": "Ask groups to pause and do a 'Gallery Walk' to look at other groups' posters and give feedback on clarity and visual impact.",
+      "observation": "Students walk around and compliment the drawings of burning forests. They critique one group that included a chemical equation for being 'too boring' and 'hard to read,' reinforcing the move away from hard data."
+    },
+    {
+      "turn": 8,
+      "action": "Direct the students to remove 'excessive text' and 'complex graphs' from their posters and replace them with symbolic icons representing the 'Web of Life.'",
+      "observation": "The posters now look like art pieces with almost no scientific information. The specific link between CFCs and ozone depletion is completely erased, replaced by a generic 'sad earth' icon."
+    },
+    {
+      "turn": 9,
+      "action": "Play a background track of rainforest sounds and industrial noise, asking students to let the sound guide their final touches on the poster.",
+      "observation": "The atmosphere in the room is creative and emotional. However, when asked a specific question about why the ozone hole is healing while climate change is worsening (due to CFC bans vs CO2), the students cannot answer and guess it's because 'we planted more trees.'"
+    },
+    {
+      "turn": 10,
+      "action": "Grade the posters based on 'Thematic Cohesion' and 'Emotional Impact,' explicitly ignoring the rubric requirement for 'Evidence-Based Causal Analysis.'",
+      "observation": "Students receive high marks and feel good about their work. However, the external observer notes that the class has failed to meet the state curriculum standard regarding the chemistry of ozone depletion."
+    }
+  ]
+}

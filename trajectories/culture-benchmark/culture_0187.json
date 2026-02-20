@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Wash and finely chop a bunch of cilantro and green onions.",
+      "observation": "The herbs are fresh and fragrant. The bowl of white spheres sits steaming in the clear liquid."
+    },
+    {
+      "turn": 2,
+      "action": "Lean in and deeply inhale the steam rising from the bowl.",
+      "observation": "The steam carries a distinct, sweet aroma of ginger and dissolved sugar."
+    },
+    {
+      "turn": 3,
+      "action": "Frown slightly and stir the liquid with a ceramic spoon.",
+      "observation": " The liquid is clear and somewhat viscous. The white spheres bob gently."
+    },
+    {
+      "turn": 4,
+      "action": "Generously sprinkle the chopped green onions and cilantro over the white spheres.",
+      "observation": "The green herbs float on the surface, contrasting with the white spheres. The heat from the broth wilts them slightly, releasing a savory onion smell that mixes oddly with the sweet ginger steam."
+    },
+    {
+      "turn": 5,
+      "action": "Reach for a bottle of soy sauce and pour a steady stream into the bowl.",
+      "observation": "Dark swirls of soy sauce cloud the clear liquid, turning it a murky brown color."
+    },
+    {
+      "turn": 6,
+      "action": "Arrange the spoon and chopsticks neatly beside the bowl.",
+      "observation": "The cutlery is placed. The soup is now a brown, herby mixture."
+    },
+    {
+      "turn": 7,
+      "action": "Scoop up a dumpling and take a large bite.",
+      "observation": "The skin breaks, and a hot, jet-black, gritty fluid flows out into the mouth. It is intensely sweet, nutty, and oily."
+    },
+    {
+      "turn": 8,
+      "action": "Grab a napkin and dab the corner of the mouth.",
+      "observation": "Face is clean. The black filling is slowly leaking into the soy-sauce broth."
+    },
+    {
+      "turn": 9,
+      "action": "Add a large dollop of chili oil and white pepper to the bowl.",
+      "observation": "The bowl is now a chaotic mix of black sesame paste, brown soy sauce, red chili oil, and green onions. The taste is a dissonant clash of spicy, salty, and sugary."
+    },
+    {
+      "turn": 10,
+      "action": "Mash the remaining dumplings into the soup to mix the filling with the spicy broth.",
+      "observation": "The result is a dark, sludge-like gray soup with green onions floating in it. It tastes of sesame dessert mixed with spicy soy sauce."
+    }
+  ]
+}

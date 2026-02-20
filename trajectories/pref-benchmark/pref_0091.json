@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Analyze the feedback forms from the failed session, specifically looking for keywords related to 'tone', 'immersion', or 'setting'.",
+      "observation": "The feedback forms contain repeated phrases: 'Unfair advantage,' 'Pointless to keep playing after turn 3,' 'Math feels broken,' and 'Frustrating experience.'"
+    },
+    {
+      "turn": 2,
+      "action": "Create a comprehensive inventory of all game assets (cards, tokens, board elements) in a spreadsheet.",
+      "observation": "Inventory created. It lists: 50 'Mana Crystal' tokens, 100 'Gold Coin' tokens, 1 'Dragon's Lair' board zone, and 30 'Spell' cards."
+    },
+    {
+      "turn": 3,
+      "action": "Rename the resource 'Mana Crystals' to 'Coal' and 'Gold Coins' to 'Capital'. Update the card text to refer to 'Factories' instead of 'Spell Towers'.",
+      "observation": "Text assets updated. The underlying mechanic remains: 'Coal' generates exponentially based on the number of 'Factories', allowing the leader to hoard all 'Capital' quickly."
+    },
+    {
+      "turn": 4,
+      "action": "Schedule a new playtest session, specifically recruiting players who list 'Historical Wargames' and 'Economic Sims' as their interests.",
+      "observation": "New playtest group recruited. They begin playing the text-updated version of the game."
+    },
+    {
+      "turn": 5,
+      "action": "Observe the playtest and take notes on player engagement during the mid-game phase.",
+      "observation": "Players stop playing at Turn 5. Player A has 500 Capital; Players B and C have 0. Player B says, 'The market logic is completely broken, I literally cannot take an action.'"
+    },
+    {
+      "turn": 6,
+      "action": "Increase the font size on the resource cards and improve the contrast on the board icons.",
+      "observation": "UI clarity improved. The resource generation formula remains unchanged."
+    },
+    {
+      "turn": 7,
+      "action": "Commission new art assets to replace the 'Dragon' boss with a 'Monopoly Regulation' event and replace 'Wizards' with 'Railroad Tycoons'.",
+      "observation": "Art assets replaced. The 'Monopoly Regulation' event (formerly Dragon) still destroys the assets of the poorest players while the richest player is immune."
+    },
+    {
+      "turn": 8,
+      "action": "Rewrite the flavor text for the 'Monopoly Regulation' event to be darker and more cynical, emphasizing the harsh reality of the 19th century.",
+      "observation": "Flavor text now reads: 'The weak suffer what they must.' The mechanics still result in the leading player having a 100% win rate by turn 4."
+    },
+    {
+      "turn": 9,
+      "action": "Draft a new 'Designer's Note' for the rulebook explaining the historical context of the Industrial Revolution.",
+      "observation": "Rulebook updated with a 2-page historical essay. The game rules and math remain identical."
+    },
+    {
+      "turn": 10,
+      "action": "Order heavy, die-cast metal coins to replace the plastic tokens for the 'Capital' resource.",
+      "observation": "Premium components ordered. The game remains mathematically unsolvable for trailing players."
+    }
+  ]
+}

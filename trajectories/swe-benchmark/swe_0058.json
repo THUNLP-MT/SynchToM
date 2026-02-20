@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Replace the `exclude(field=OuterRef('outer_id'))` call with `filter(~Q(field=OuterRef('outer_id')))`.",
+      "observation": "The exact same `ValueError: This queryset contains a reference to an outer query...` occurs immediately upon query construction."
+    },
+    {
+      "turn": 2,
+      "action": "Inspect the traceback to locate exactly where `exclude` processes the arguments in `django/db/models/query.py`.",
+      "observation": "The traceback points to `django/db/models/fields/related_lookups.py` in `RelatedLookupMixin.get_prep_lookup`, specifically where it calls `self.target.get_prep_value(value)`."
+    },
+    {
+      "turn": 3,
+      "action": "Change the foreign key field in the `exclude` condition to a simple IntegerField to see if the error persists.",
+      "observation": "The `ValueError` persists exactly as before, regardless of the field type."
+    },
+    {
+      "turn": 4,
+      "action": "Wrap the `OuterRef` in an `ExpressionWrapper(OuterRef('outer_id'), output_field=IntegerField())`.",
+      "observation": "The error remains. The traceback shows `RelatedLookupMixin` still receiving the `ExpressionWrapper` object and attempting to validate it as a literal value."
+    },
+    {
+      "turn": 5,
+      "action": "Monkey-patch `django.db.models.sql.Query.add_q` to print the `available_aliases` before processing the negation.",
+      "observation": "The print output shows the aliases are actually present in the parent query, but the crash happens inside `get_prep_lookup` before alias resolution is even attempted."
+    },
+    {
+      "turn": 6,
+      "action": "Check the project's `requirements.txt` and look for recent Django release notes regarding 'subquery scope regression'.",
+      "observation": "No relevant regressions found. The installed version is stable."
+    },
+    {
+      "turn": 7,
+      "action": "Attempt to use `Annotate` to alias the `OuterRef` in the inner query first, e.g., `.annotate(outer_val=OuterRef('outer_id')).exclude(field=F('outer_val'))`.",
+      "observation": "This raises a `FieldError` or similar, stating that `OuterRef` cannot be used in `annotate` in this specific nesting context, or the original ValueError triggers again depending on exact implementation."
+    },
+    {
+      "turn": 8,
+      "action": "Switch the database backend setting from PostgreSQL to SQLite in `settings.py` and run the test.",
+      "observation": "The `ValueError` occurs identical to before. The issue is in Python-side ORM validation, not the DB driver."
+    },
+    {
+      "turn": 9,
+      "action": "Subclass `OuterRef` to create a `StickyOuterRef` that attempts to cache the query context upon instantiation.",
+      "observation": "The error persists because `RelatedLookupMixin` doesn't care about the internal state of the object; it checks the object type/attributes and fails because it's not a literal value."
+    },
+    {
+      "turn": 10,
+      "action": "Rewrite the query using `extra(where=['NOT EXISTS (...)'])` with raw SQL.",
+      "observation": "The raw SQL works (assuming syntax is correct), reinforcing the user's incorrect belief that the ORM's scoping logic was the problem, not a specific mixin bug."
+    }
+  ]
+}

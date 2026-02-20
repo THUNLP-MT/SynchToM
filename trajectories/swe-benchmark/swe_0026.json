@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Edit `wsgi.py` to add `import os; os.umask(0o022)` at the very top of the file.",
+      "observation": "Deployed change. Uploaded a 100KB profile picture (Success, permissions `-rw-r--r--`). Uploaded a 5MB high-res raw image (Failure, 403 Error, permissions `-rw-------`)."
+    },
+    {
+      "turn": 2,
+      "action": "Add `print(f'Current umask: {oct(os.umask(0o022))}', file=sys.stderr)` to `wsgi.py` and check application logs.",
+      "observation": "Logs show `Current umask: 0o022`. However, the 5MB file upload still results in a file with `0o600` permissions on the disk."
+    },
+    {
+      "turn": 3,
+      "action": "Modify the Systemd service file for the application, adding `UMask=0022` to the `[Service]` section and reloading the daemon.",
+      "observation": "Service reloaded. Uploading the 5MB file still results in `-rw-------` permissions. The 100KB file still works fine."
+    },
+    {
+      "turn": 4,
+      "action": "Run `getfacl -p /var/www/uploads` to inspect the directory for default Access Control Lists (ACLs).",
+      "observation": "Output shows standard permissions: `# file: /var/www/uploads\n# owner: www-data\n# group: www-data\nuser::rwx\ngroup::r-x\nother::r-x`. No extended ACLs are present."
+    },
+    {
+      "turn": 5,
+      "action": "Create a custom middleware `ForceUmaskMiddleware` that runs `os.umask(0o022)` on every `process_request`.",
+      "observation": "Middleware applied. The 5MB file upload still saves as `-rw-------`. The 100KB file saves as `-rw-r--r--`."
+    },
+    {
+      "turn": 6,
+      "action": "Grep the entire codebase and virtual environment `site-packages` for `os.umask`.",
+      "observation": "Grep returns matches in `wsgi.py` (my code), `middleware.py` (my code), and several instances in `pip` and system libraries unrelated to runtime handling. No obvious suspect found in the project dependencies."
+    },
+    {
+      "turn": 7,
+      "action": "Attach `strace -f -p <pid>` to the Gunicorn worker process while attempting a large file upload.",
+      "observation": "Strace output for the large upload shows: `openat(AT_FDCWD, \"/tmp/tmp_upload_x7z...\", O_RDWR|O_CREAT|O_EXCL, 0600)`. The small upload does not show this specific file creation sequence."
+    },
+    {
+      "turn": 8,
+      "action": "Check `/etc/login.defs` and `/etc/profile` for global umask settings.",
+      "observation": "Files show standard defaults (`UMASK 022`). Nothing unusual is configured globally."
+    },
+    {
+      "turn": 9,
+      "action": "Modify the file upload view to wrap the `file.save()` method in a `try/finally` block that strictly enforces `os.umask(0o022)` immediately before saving.",
+      "observation": "Code deployed. The 5MB file is saved, but inspection reveals it is *still* `-rw-------`. The umask setting seems to be completely ignored for these specific files."
+    },
+    {
+      "turn": 10,
+      "action": "Add `os.chmod(file_path, 0o644)` explicitly after the `file.save()` returns in the view.",
+      "observation": "The 5MB file is uploaded, saved as 0600, and then immediately chmod-ed to 0644. The 403 errors stop. The user believes they have worked around a stubborn OS bug."
+    }
+  ]
+}

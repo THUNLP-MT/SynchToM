@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Draw two parallel lines on the whiteboard representing a narrow axon and two wider parallel lines representing a wide axon, then label the 'axoplasm' inside.",
+      "observation": "The student looks at the lines and nods, acknowledging one is bigger, but asks, 'I see it's wider, but why does having more space make the electricity zoom faster? Doesn't it just have more space to get lost?'"
+    },
+    {
+      "turn": 2,
+      "action": "Ask the student to read the definition of 'resistance' aloud from the textbook.",
+      "observation": "The student reads the definition correctly but looks up and says, 'Okay, resistance stops flow. But I still don't get how the width changes that just by looking at these lines.'"
+    },
+    {
+      "turn": 3,
+      "action": "Add detailed red dots inside the drawn axons to represent ions and draw arrows showing the direction of current flow, making the arrows thicker in the wider axon.",
+      "observation": "The student squints at the board. 'Okay, so there are more red dots in the big one. Does that mean more dots push each other harder? It looks really crowded.'"
+    },
+    {
+      "turn": 4,
+      "action": "Erase the board and pull up a high-resolution digital diagram on the projector showing the cross-section of an axon with labeled microtubules and neurofilaments.",
+      "observation": "The student stares blankly at the complex image. 'Wow, that's a lot of parts. Is the answer one of those labeled things? Like, do the neurofilaments pull the signal?'"
+    },
+    {
+      "turn": 5,
+      "action": "Check the time and the lesson plan to see how many minutes are left for this topic.",
+      "observation": "There are 15 minutes left. The student murmurs, 'It's kind of like how a wide hallway is easier to walk through than a narrow one, right?'"
+    },
+    {
+      "turn": 6,
+      "action": "Ignore the hallway comment and switch to a split-screen view on the projector: one side showing a longitudinal cross-section, the other showing a transverse cross-section with color-coded depolarization zones.",
+      "observation": "The student looks deflated. 'I'm trying to follow the colors, but I keep losing track of which way the signal goes. It just looks like a lot of biology parts.'"
+    },
+    {
+      "turn": 7,
+      "action": "Walk to the screen and physically trace the path of the action potential with a laser pointer, circling the center of the axon to highlight 'axial resistance' (Ra).",
+      "observation": "The student follows the laser pointer. 'You're pointing at the middle. So the middle is special? I wish I could just picture it like water in a pipe or something simple.'"
+    },
+    {
+      "turn": 8,
+      "action": "Ask the student if they have their lab notebook with them.",
+      "observation": "The student pulls out the notebook. 'Yeah, I have it. Should I write down the pipe idea?'"
+    },
+    {
+      "turn": 9,
+      "action": "Instruct the student to ignore the pipe idea and instead carefully copy the diagram from the screen into their notebook, using three different colored pencils for membrane, cytoplasm, and ions.",
+      "observation": "The student sighs and starts coloring. 'Okay... I'm drawing the red circle. It's big. I still don't know why that makes it faster, but I'm drawing it.'"
+    },
+    {
+      "turn": 10,
+      "action": "Bring up an animated GIF showing the propagation of the action potential, looping it at 0.5x speed.",
+      "observation": "The student watches the animation. 'I see the top one moving faster. I believe *that* it happens. I just... I guess I'll just memorize that big equals fast.'"
+    }
+  ]
+}

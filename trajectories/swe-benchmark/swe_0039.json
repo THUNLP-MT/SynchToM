@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Execute `obj.delete()` and immediately print `obj.pk` to verify deletion.",
+      "observation": "The console prints the integer ID of the object (e.g., `42`). No exception is raised."
+    },
+    {
+      "turn": 2,
+      "action": "Enable `django.db.backends` logger to DEBUG level and run the deletion again.",
+      "observation": " The logs output `DELETE FROM \"app_model\" WHERE \"app_model\".\"id\" = 42`. The statement appears to be generated."
+    },
+    {
+      "turn": 3,
+      "action": "Wrap the deletion in an explicit `with transaction.atomic():` block.",
+      "observation": "The code runs without error. After exiting the block, `obj.pk` still evaluates to `42`."
+    },
+    {
+      "turn": 4,
+      "action": "Inspect `obj._state.db` and the database router configuration.",
+      "observation": "`obj._state.db` returns `'default'`. The configuration points to a standard single-database setup."
+    },
+    {
+      "turn": 5,
+      "action": "Call `obj.save()` immediately after the `obj.delete()` call.",
+      "observation": "`obj.save()` executes successfully without raising any exceptions. (Note: Django performs an UPDATE query here; since the row is gone in reality, it updates 0 rows, but standard Django behavior doesn't raise an error for 0 updates, leading the user to misinterpret this as a successful save of an existing row)."
+    },
+    {
+      "turn": 6,
+      "action": "Disable all signal handlers temporarily using a context manager.",
+      "observation": "With signals disabled, `obj.delete()` runs, but `obj.pk` remains `42`."
+    },
+    {
+      "turn": 7,
+      "action": "Use `select_for_update()` to lock the row before deleting.",
+      "observation": "The lock is acquired successfully. The delete runs. `obj.pk` is still `42`."
+    },
+    {
+      "turn": 8,
+      "action": "Check the database transaction isolation level in `settings.py` and try setting it to `SERIALIZABLE`.",
+      "observation": "Isolation level changes to `SERIALIZABLE`. The behavior is identical: `obj.pk` persists after delete."
+    },
+    {
+      "turn": 9,
+      "action": "Inject a raw SQL cursor execution: `cursor.execute('DELETE FROM table WHERE id = %s', [obj.pk])` instead of using the ORM method.",
+      "observation": "The raw SQL executes. The user checks `obj.pk` on the python object, which is unchanged (`42`)."
+    },
+    {
+      "turn": 10,
+      "action": "Review the `psycopg2` (or relevant driver) changelogs for bugs regarding `autocommit` behavior in distributed environments.",
+      "observation": "No relevant bugs are found. The `obj.pk` remains `42`."
+    }
+  ]
+}

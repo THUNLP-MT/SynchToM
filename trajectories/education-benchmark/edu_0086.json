@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Draft a lesson plan centered on the 'Great Debate': Thomson's Plum Pudding vs. Rutherford's Nuclear Model.",
+      "observation": "The curriculum coordinator reviews the draft and asks, 'How does this connect to the Unit Learning Goal regarding the nature of the chemical bond and intermolecular forces?'"
+    },
+    {
+      "turn": 2,
+      "action": "Curate primary source letters between Bohr and Rutherford to use as reading material.",
+      "observation": "Students struggle with the dense text. When asked to find evidence regarding 'how atoms stick together,' they come up empty-handed because the letters focus entirely on spectral lines and electron orbits."
+    },
+    {
+      "turn": 3,
+      "action": "Add a 'Bridge' lecture explaining that one cannot understand molecular forces without first mastering the Bohr model's electron shells.",
+      "observation": "Students seem confused about why they are reviewing atomic structure (which they learned last year) in a new unit about Molecular Forces. They ask when they get to build molecules."
+    },
+    {
+      "turn": 4,
+      "action": "Design a 'Team Rutherford' vs. 'Team Bohr' roleplay activity.",
+      "observation": "The debate is lively, but the arguments focus entirely on alpha particles and collapsing orbits. The concept of 'shared electrons' or 'molecular orbitals'—the core of the unit—is never mentioned."
+    },
+    {
+      "turn": 5,
+      "action": "Create a Venn Diagram worksheet for students to compare the two models.",
+      "observation": "Students fill the diagram with notes about 'nucleus size' and 'empty space.' The 'Consensus' section of the worksheet remains blank regarding how these models explain chemical bonding."
+    },
+    {
+      "turn": 6,
+      "action": "Extend the Atomic Model timeline activity to take up three days instead of one.",
+      "observation": "The department head points out that the class is now falling behind schedule for the Molecular Forces unit test, which covers VSEPR theory and hybridization."
+    },
+    {
+      "turn": 7,
+      "action": "Set up a projector to show the PhET simulation of Rutherford Scattering.",
+      "observation": "Students enjoy the simulation but ask, 'Does this show how water holds together?' The teacher has to answer 'Not exactly,' which confuses the class further."
+    },
+    {
+      "turn": 8,
+      "action": "Create a 'Concept Map' assignment linking the Bohr Model directly to Intermolecular Forces, skipping Lewis Structures.",
+      "observation": "Students fail to make the leap. They cannot explain how a planetary orbit model leads to molecular geometry or polarity without the intermediate steps of bonding theory history."
+    },
+    {
+      "turn": 9,
+      "action": "Argue to the coordinator that the 'History of Bonding' (hooks/Lewis) is historically inaccurate and shouldn't be taught as the main controversy.",
+      "observation": "The coordinator provides the state standards which explicitly require tracing the development of bonding theory from Valency to MO Theory."
+    },
+    {
+      "turn": 10,
+      "action": "Reframe the unit introduction: 'Why the Bohr Model is the Ultimate Truth and Bonding Theories are just approximations.'",
+      "observation": "Students perform well on the history of the atom questions but fail the unit assessment on Molecular Forces because they view bonding theories as 'fake' or 'unimportant' approximations."
+    }
+  ]
+}

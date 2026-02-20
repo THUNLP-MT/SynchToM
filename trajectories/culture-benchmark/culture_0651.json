@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Present the snapped willow twig to the counterpart with a slight, formal bow, holding it with both hands.",
+      "observation": "The counterpart looks confused, glances at the dirty twig, and hesitantly reaches out to take it, holding it by the very tip with two fingers."
+    },
+    {
+      "turn": 2,
+      "action": "Glance around the square to check the position of the sun and the flow of the crowd, looking for a quieter angle.",
+      "observation": "Tourists are walking past eating bratwurst. The counterpart is still holding the stick awkwardly, looking around for a trash can."
+    },
+    {
+      "turn": 3,
+      "action": "Recite a translated verse: 'The green willow droops, reluctant to let the traveler go,' while gesturing to the twig.",
+      "observation": "The counterpart smiles politely but looks puzzled. 'Yes, the trees are nice here. But did you find this on the ground? It's dirty.'"
+    },
+    {
+      "turn": 4,
+      "action": "Gently take the twig back, snap the end of it to create a fresh, green break, and offer it again with greater intensity.",
+      "observation": "The counterpart frowns slightly. 'Hey, be careful. You shouldn't break the plants in the public park, the city fines people for that.'"
+    },
+    {
+      "turn": 5,
+      "action": "Straighten my coat and brush a speck of dust from my sleeve.",
+      "observation": "The counterpart checks their watch and shifts their weight, looking like they are ready to leave."
+    },
+    {
+      "turn": 6,
+      "action": "Nod knowingly and say, 'I understand your hesitation, the ancients also found farewells difficult,' then press the twig firmly into their palm.",
+      "observation": "The counterpart pulls their hand away. 'Okay, seriously, I don't want the stick. Why are you trying to give me garden waste?'"
+    },
+    {
+      "turn": 7,
+      "action": "Look visibly moved and step closer, whispering, 'Do not worry about the custom of the land, true friendship transcends borders.'",
+      "observation": "The counterpart takes a step back, looking uncomfortable. 'I really have to go catch my train now. Please drop the stick.'"
+    },
+    {
+      "turn": 8,
+      "action": "Check the pockets of my jacket to ensure I haven't forgotten anything else.",
+      "observation": "The counterpart uses this moment of distraction to start walking away briskly."
+    },
+    {
+      "turn": 9,
+      "action": "Chase after them slightly and break the twig in half, holding one piece up and offering the other.",
+      "observation": "The counterpart speeds up, waving a dismissive hand without turning around. 'Bye! Don't follow me!'"
+    },
+    {
+      "turn": 10,
+      "action": "Stand still and recite the final couplet of the farewell poem to their retreating back, clutching the willow pieces to my chest.",
+      "observation": "Passersby stare at the person shouting poetry at a fleeing pedestrian. The counterpart disappears around the corner."
+    }
+  ]
+}

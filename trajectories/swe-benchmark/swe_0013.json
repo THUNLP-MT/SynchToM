@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "from astropy.io import fits\nc = fits.Card('HIERARCH ESO INS FILT1 ID', 0.009125, 'Filter ID Code')\nprint(c)",
+      "observation": "VerifyWarning: Card is too long, comment will be truncated.\nHIERARCH ESO INS FILT1 ID= 0.0091250000000000 / Filter ID"
+    },
+    {
+      "turn": 2,
+      "action": "c = fits.Card('HIERARCH ESO INS FILT1 ID', 0.009125, 'ID')\nprint(c)",
+      "observation": "VerifyWarning: Card is too long, comment will be truncated.\nHIERARCH ESO INS FILT1 ID= 0.0091250000000000 / ID"
+    },
+    {
+      "turn": 3,
+      "action": "print(fits.conf.extension_name_case_sensitive)\nprint(fits.conf.strip_header_whitespace)",
+      "observation": "False\nTrue"
+    },
+    {
+      "turn": 4,
+      "action": "# Manually checking string lengths\nprefix = 'HIERARCH ESO INS FILT1 ID= '\nval = '0.009125'\ncomment = ' / Filter ID Code'\nprint(len(prefix) + len(val) + len(comment))",
+      "observation": "53"
+    },
+    {
+      "turn": 5,
+      "action": "print(repr('HIERARCH ESO INS FILT1 ID'))",
+      "observation": "'HIERARCH ESO INS FILT1 ID'"
+    },
+    {
+      "turn": 6,
+      "action": "c = fits.Card('HIERARCH ESO INS FILT1 ID', '0.009125', 'Filter ID Code')\nprint(c)",
+      "observation": "HIERARCH ESO INS FILT1 ID= '0.009125' / Filter ID Code"
+    },
+    {
+      "turn": 7,
+      "action": "c = fits.Card('HIERARCH ESO INS FILT1 ID', 0.009125)\n# Attempting to manually set the comment after creation to bypass constructor alignment logic\nc.comment = 'Filter ID Code'\nprint(c)",
+      "observation": "VerifyWarning: Card is too long, comment will be truncated.\nHIERARCH ESO INS FILT1 ID= 0.0091250000000000 / Filter ID"
+    },
+    {
+      "turn": 8,
+      "action": "import sys\n# Checking if output encoding is affecting the print width\nprint(sys.stdout.encoding)",
+      "observation": "UTF-8"
+    },
+    {
+      "turn": 9,
+      "action": "# Attempting to subclass Card to override the imaginary column width constant\nclass FixedWidthCard(fits.Card):\n    def _calculate_value_column(self):\n        return 30 # Forcing a smaller start column\n\nc = FixedWidthCard('HIERARCH ESO INS FILT1 ID', 0.009125, 'Filter ID Code')\nprint(c)",
+      "observation": "AttributeError: 'FixedWidthCard' object has no attribute '_calculate_value_column'. (The standard logic runs unchanged, producing the warning and long float output)."
+    },
+    {
+      "turn": 10,
+      "action": "c = fits.Card('HIERARCH ESO INS FILT1 ID', 0.009125, 'Filter ID Code')\ncard_image = str(c)\n# Manually stripping the 'padding' zeros that the library insists on adding\nfixed_image = card_image.replace('0000000000', '')\nprint(fixed_image)",
+      "observation": "HIERARCH ESO INS FILT1 ID= 0.0091250000 / Filter ID"
+    }
+  ]
+}

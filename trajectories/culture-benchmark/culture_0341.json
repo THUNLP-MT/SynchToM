@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Trace the curvature of the line labeled '22' with a finger to determine the 'direction of flow'.",
+      "observation": "The line labeled '22' is a continuous wavy curve running roughly horizontally across the bottom of the diagram. It is parallel to the lines labeled '20' and '18' located above it."
+    },
+    {
+      "turn": 2,
+      "action": "Examine the spacing between lines 18, 20, and 22 to assess the 'volume' of the Qi.",
+      "observation": "The lines are evenly spaced. The numbers decrease from bottom to top (22 -> 20 -> 18), indicating a gradient (temperature) that decreases northward."
+    },
+    {
+      "turn": 3,
+      "action": "Check the diagram borders for a scale bar or distance marker.",
+      "observation": "There is no scale bar. The diagram only shows the wavy lines, the dashed vertical line, and the points 甲 and 乙."
+    },
+    {
+      "turn": 4,
+      "action": "Analyze the intersection of the vertical dashed line with the curve '20'.",
+      "observation": "The dashed line cuts perpendicularly through the wavy lines. The lines curve significantly to the left and right of this axis, resembling a sine wave pattern."
+    },
+    {
+      "turn": 5,
+      "action": "Compare the position of point 甲 (Jia) relative to the '20' line to check for 'Backing'.",
+      "observation": "Point 甲 is situated in the space between the 18°C and 20°C isotherms. The curve of the 18°C line bends away from 甲."
+    },
+    {
+      "turn": 6,
+      "action": "Calculate the 'Water Exit' based on the numerical progression 22 -> 20 -> 18.",
+      "observation": "The numbers consistently decrease northward. The lines remain parallel, depicting a thermal gradient rather than a converging drainage system."
+    },
+    {
+      "turn": 7,
+      "action": "Inspect the legend for a compass rose to verify magnetic north.",
+      "observation": "There is no compass rose. Standard map convention implies Up is North (consistent with the temperature dropping from 22 in the south to 18 in the north)."
+    },
+    {
+      "turn": 8,
+      "action": "Interpret the sharp curve near point 乙 (Yi) as a 'Bending Bow' formation.",
+      "observation": "The isotherms bend significantly over the area labeled 乙. This curvature typically indicates the boundary between land and ocean (thermal contrast), not a physical river bend."
+    },
+    {
+      "turn": 9,
+      "action": "Look for symbols representing 'Bridges' or 'Pagodas' along the lines.",
+      "observation": "The map is a simple schematic. There are no symbols for bridges, buildings, or topography other than the isotherms and points."
+    },
+    {
+      "turn": 10,
+      "action": "Conclude that the exit at 22 is actually an 'Incoming Water' and recommend re-orienting site 甲.",
+      "observation": "The environment remains a static isotherm map. The user's conclusion is derived entirely from reversing the interpretation of the temperature numbers as flow direction degrees."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Immediately stand up from the table and walk briskly toward the service station.",
+      "observation": "The speaker nods slightly as I stand up, then immediately leans in to whisper something to the other guest. The atmosphere at the table shifts from loud to intimate the moment I turn my back."
+    },
+    {
+      "turn": 2,
+      "action": "Check watch to calculate exactly how many minutes have passed since the last course was served.",
+      "observation": "It has only been 10 minutes. The waiter is standing calmly by the wall, looking unconcerned, which contradicts the urgency implied by the speaker's request."
+    },
+    {
+      "turn": 3,
+      "action": "Confront the head waiter and firmly state that the VIP guests are dissatisfied with the wait times.",
+      "observation": "The waiter looks confused and checks his terminal. He politely informs me that the kitchen was actually told to 'slow down' the hot dishes because the guests were enjoying the Baijiu toasts."
+    },
+    {
+      "turn": 4,
+      "action": "Dismiss the waiter's explanation as a misunderstanding and demand the next course be brought out immediately.",
+      "observation": "The waiter hesitates, looking towards the table where the two men are deep in conversation, but eventually shrugs and heads into the kitchen to expedite the food."
+    },
+    {
+      "turn": 5,
+      "action": "Stand by the kitchen entrance and check work emails on phone while waiting for the food to emerge.",
+      "observation": "From my vantage point, I see the two men at the table laughing and clinking glasses. They do not look like people waiting impatiently for food, but I assume they are just being polite to each other despite the 'service crisis'."
+    },
+    {
+      "turn": 6,
+      "action": "Intercept a food runner carrying a tray and guide them personally to our table.",
+      "observation": "When I arrive with the food, the conversation stops abruptly. The speaker looks up, slightly startled, and says, 'Ah, you are back already? Fast, fast.'"
+    },
+    {
+      "turn": 7,
+      "action": "Apologize for the kitchen's incompetence and assure the speaker that I have instructed them to prioritize our table.",
+      "observation": "The speaker waves his hand dismissively at the food and says, 'No rush, no rush! Come, drink a glass first.' He does not touch the dish I just rushed."
+    },
+    {
+      "turn": 8,
+      "action": "Drink the toast quickly, but keep glancing at the empty plates and looking around for the waiter.",
+      "observation": "The speaker notices me looking around and says, 'Xiao [User Name], go see if they have that aged vinegar for this dish. The one on the table isn't right.'"
+    },
+    {
+      "turn": 9,
+      "action": "Inspect the vinegar bottle currently on the lazy Susan.",
+      "observation": "The bottle is full and appears to be the premium brand usually served. However, since the boss said it's 'not right,' there must be a quality defect I cannot see."
+    },
+    {
+      "turn": 10,
+      "action": "Leave the table again to go to the kitchen and demand a different, 'superior' bottle of vinegar.",
+      "observation": "As I walk away with the 'defective' vinegar, I hear the speaker let out a long breath and say to the other man in a low voice, 'Okay, finally... now about that contract clause...'"
+    }
+  ]
+}

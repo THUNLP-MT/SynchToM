@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open video settings and maximize 'Gamma' and 'Brightness'.",
+      "observation": "The game becomes washed out and extremely bright. You walk forward, but immediately bump into a wall that looked exactly like the hallway floor because the layout twists sharply."
+    },
+    {
+      "turn": 2,
+      "action": "Search Google for '[Game Name] HD texture pack mod'.",
+      "observation": "Search results return zero texture packs. The top results are forum threads titled 'Navigation tips' and 'How to stop getting lost (Map Mod Request)'."
+    },
+    {
+      "turn": 3,
+      "action": "Change the game resolution from 1080p to 4K DSR (Dynamic Super Resolution).",
+      "observation": "The pixels become incredibly sharp squares. You enter a large room with three identical-looking exits. You choose the left one and realize 10 minutes later you are back in the starting room."
+    },
+    {
+      "turn": 4,
+      "action": "Disable 'CRT Filter', 'Scanlines', and 'Bloom' in the options menu.",
+      "observation": "The image is crisp and clean. You walk down a corridor that looks clear, but it leads to a dead-end loop. There were no visual cues indicating it was a dead end."
+    },
+    {
+      "turn": 5,
+      "action": "Watch a 'Let's Play' video on a second monitor.",
+      "observation": "The streamer has the same graphics as you. They pause frequently, look around confused, and say, 'Okay, I think I've been here before, let's try the other way.' You ignore their dialogue and stare at their contrast settings."
+    },
+    {
+      "turn": 6,
+      "action": "Download and install 'ReShade' with a 'Luma Sharpen' and 'Clarity' filter.",
+      "observation": "The game looks gritty and over-sharpened. You see a clear path ahead, walk down it, and fall into a pit trap that was hidden around a blind corner."
+    },
+    {
+      "turn": 7,
+      "action": "Move the character closer to the screen and squint while playing.",
+      "observation": "You spend 15 minutes staring at the floor tiles. You successfully navigate one corridor, but then get turned around in a room with four symmetrical pillars and lose your sense of direction again."
+    },
+    {
+      "turn": 8,
+      "action": "Post on the Steam Community forums: 'Is there a config fix for the blurry art style?'",
+      "observation": "Replies arrive quickly: 'The art is crisp, it's just a maze dude,' 'Draw a map on paper,' and 'There is no mini-map, you have to memorize landmarks.'"
+    },
+    {
+      "turn": 9,
+      "action": "Attempt to force 'Anisotropic Filtering x16' via the Nvidia Control Panel.",
+      "observation": "The floor textures are technically clearer at a distance. However, because the level is a labyrinth of identical corridors, seeing further down the hall just reveals more identical hallways."
+    },
+    {
+      "turn": 10,
+      "action": "Write a negative review citing 'Visual clutter makes navigation impossible' and request a refund.",
+      "observation": "The refund is denied because you have played for 4 hours. You are still standing in the exact same hub area where you started, surrounded by pixelated walls."
+    }
+  ]
+}

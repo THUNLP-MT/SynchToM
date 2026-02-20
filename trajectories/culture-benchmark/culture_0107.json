@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Search online for 'Traditional Winter Solstice festival food recipe'",
+      "observation": "Search results display lists of 'Top 10 Dumpling (Jiaozi) Fillings for Winter Solstice', 'How to make Jiaozi dough', and 'Why we eat Dumplings on Dongzhi'. Images show plates of steaming savory dumplings."
+    },
+    {
+      "turn": 2,
+      "action": "Check the digital calendar for 'Winter Solstice date'",
+      "observation": "Calendar confirms today is December 22nd, Winter Solstice (Dongzhi)."
+    },
+    {
+      "turn": 3,
+      "action": "Refine search to 'Winter Solstice symbolic round food recipe'",
+      "observation": "Results show 'Round Jiaozi shapes', 'Fried Dough Balls', and ads for frozen dumplings. One result mentions 'Eating Jiaozi to prevent ears from freezing'."
+    },
+    {
+      "turn": 4,
+      "action": "Check the local weather forecast and temperature",
+      "observation": "Forecast shows -15°C (5°F), Heavy Snow Warning. Location: Harbin, China (or similar Northern city)."
+    },
+    {
+      "turn": 5,
+      "action": "Search for 'Sweet soup dessert for Winter Solstice family reunion'",
+      "observation": "Search results are sparse. Some mention 'Red bean soup' or 'Hot sugar water'. A prominent snippet says: 'In this region, sweet soups are rare for Dongzhi; Jiaozi is the staple.'"
+    },
+    {
+      "turn": 6,
+      "action": "Open a food delivery app and search for 'Tangyuan' near current location",
+      "observation": "App shows 'No results found for Tangyuan'. It recommends 'Dumpling House', 'Noodle Station', and 'Steamed Buns'. Most dessert shops are closed or selling cakes."
+    },
+    {
+      "turn": 7,
+      "action": "Search for 'Why is it hard to find Tangyuan on Winter Solstice?'",
+      "observation": "Articles explain the 'North-South Divide': 'Northern China eats Jiaozi (Dumplings) for Winter Solstice; Southern China eats Tangyuan. You are in the North.'"
+    },
+    {
+      "turn": 8,
+      "action": "Search for 'Glutinous rice flour near me'",
+      "observation": "Map shows the nearest Asian grocery is 5 miles away. Inventory status: 'Low stock' or 'Out of stock' due to supply chain delays from the snowstorm."
+    },
+    {
+      "turn": 9,
+      "action": "Search for 'Can I make Tangyuan using wheat flour?'",
+      "observation": "Cooking forums warn: 'Wheat flour makes dough/dumplings, not sticky rice balls. It will not have the chewy texture of Tangyuan. Do not substitute.'"
+    },
+    {
+      "turn": 10,
+      "action": "Post on a local expat community forum: 'Where to find REAL Winter Solstice food (Tangyuan)? Sick of dumplings.'",
+      "observation": "Replies from locals and residents: 'Welcome to the North! Do as the Romans do. It's too cold for light soup, eat the Jiaozi or your ears will fall off! Tangyuan is for Lantern Festival in a few months.'"
+    }
+  ]
+}

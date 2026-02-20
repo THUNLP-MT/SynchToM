@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Lean in to closely inspect the digital display on the scale, specifically looking at the unit price indicator.",
+      "observation": "The scale clearly displays '1.000 kg' and the total price. The vendor waits patiently."
+    },
+    {
+      "turn": 2,
+      "action": "Ask the vendor if the weight of the packaging bag is included in the total price.",
+      "observation": "The vendor shakes his head and presses a 'Tare' button to show the scale is zeroed for the bag."
+    },
+    {
+      "turn": 3,
+      "action": "Gesture to a different tray of pastries and ask if mixing a few of those in would change the price per unit.",
+      "observation": "The vendor says the price is the same for all items and asks if you want to swap some out."
+    },
+    {
+      "turn": 4,
+      "action": "Pick up the bag, heft it in one hand to estimate the weight, and then place it back on the scale.",
+      "observation": "The scale settles instantly back to exactly 1.000 kg."
+    },
+    {
+      "turn": 5,
+      "action": "Ask the vendor politely, 'Just to double-check, this is exactly two jin, correct?'",
+      "observation": "The vendor nods confidently and says, 'Yes, exactly two jin. 500 grams per jin. 1 kilogram total.'"
+    },
+    {
+      "turn": 6,
+      "action": "Look at the price tag on the shelf to see if the price is listed 'per 500g' or 'per kg'.",
+      "observation": "The sign lists the price with the character for 'Jin' but does not explicitly state the gram conversion on the handwritten tag."
+    },
+    {
+      "turn": 7,
+      "action": "Ask, 'If I wanted to add another half jin to this order, roughly how much more would that cost?'",
+      "observation": "The vendor quickly calculates a price that corresponds to 250g, not the 300g I would expect for a half-jin."
+    },
+    {
+      "turn": 8,
+      "action": "Smile and say, 'I actually need a little bit more volume for a gift. Could you add a few more pieces to the bag?'",
+      "observation": "The vendor grabs a pair of tongs and adds two more pastries. The scale ticks up to 1.120 kg."
+    },
+    {
+      "turn": 9,
+      "action": "Watch the scale and say, 'A little more please, I'm trying to fill the bag a bit better.'",
+      "observation": "The vendor looks slightly confused but adds another pastry. The scale reads 1.180 kg."
+    },
+    {
+      "turn": 10,
+      "action": "Point to one specific small pastry and ask for that one to be added, noting it should bring the total to the right amount.",
+      "observation": "The vendor adds the small piece. The scale hits 1.205 kg. The user nods, satisfied."
+    }
+  ]
+}

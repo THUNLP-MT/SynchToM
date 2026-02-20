@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "I put on white cotton gloves and gently run a finger along the spine of the manuscript to check for binding damage.",
+      "observation": "The spine is intact, though the leather is worn."
+    },
+    {
+      "turn": 2,
+      "action": "I lean in close to examine the ink density and calligraphy style on the top page, asking, 'Is this a historical document or a modern reproduction?'",
+      "observation": "The ink appears modern, likely a recent print or draft."
+    },
+    {
+      "turn": 3,
+      "action": "I look around the desk and ask, 'Do we categorize files by language family or by subject matter here?'",
+      "observation": "The filing system is organized primarily by project status."
+    },
+    {
+      "turn": 4,
+      "action": "I flip through the thick stack of pages on the right side rapidly to see if there are any illustrations or diagrams inserted.",
+      "observation": "There are no illustrations, just dense text."
+    },
+    {
+      "turn": 5,
+      "action": "I pick up a separate English paperback from the desk and place it next to the manuscript, comparing their total thickness.",
+      "observation": "The manuscript is roughly the same total thickness as the paperback."
+    },
+    {
+      "turn": 6,
+      "action": "I gently smooth down the few pages on the left side of the spine, ensuring they are lying flat.",
+      "observation": "The pages on the left lie flat."
+    },
+    {
+      "turn": 7,
+      "action": "I ask, 'Is there a summary or abstract available for this? I want to know what the premise is before I file it.'",
+      "observation": "No separate summary sheet is visible."
+    },
+    {
+      "turn": 8,
+      "action": "I tap the thick stack of pages on the right side and say, 'It looks like there is a significant amount of translation work required for this one.'",
+      "observation": "The colleague nods ambiguously."
+    },
+    {
+      "turn": 9,
+      "action": "I glance at the thin stack on the left again and mutter, 'Well, at least the introduction seems concise.'",
+      "observation": "The manuscript remains open where it was."
+    },
+    {
+      "turn": 10,
+      "action": "I pick up the manuscript and move to place it into the tray labeled 'Phase 1: Just Started'.",
+      "observation": "The manuscript is placed in the tray."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Lean in to closely examine the open book on the desk.",
+      "observation": "The book is a math workbook. It is clean, though there are several doodles of robots in the margins where answers should be."
+    },
+    {
+      "turn": 2,
+      "action": "Grab the boy's hands and inspect his fingertips and palms.",
+      "observation": "The boy's hands are dry. There is a smudge of blue ink on his middle finger. He pulls his hands away, looking annoyed."
+    },
+    {
+      "turn": 3,
+      "action": "Look under the desk and chair.",
+      "observation": "The floor is clean, except for a few eraser shavings. The mother taps the table impatiently."
+    },
+    {
+      "turn": 4,
+      "action": "Reach out and firmly pat the boy's pants pockets.",
+      "observation": "The pockets feel flat and empty. The boy jumps up in surprise. The mother scolds him, 'Sit down! Stop wiggling and focus!'"
+    },
+    {
+      "turn": 5,
+      "action": "Ask the mother, 'Did you check the refrigerator count this morning?'",
+      "observation": "The mother looks confused and replies, 'The fridge? I'm worried about his grades, not the fridge! He does this every afternoon!'"
+    },
+    {
+      "turn": 6,
+      "action": "Pick up the boy's school backpack from the floor and look inside.",
+      "observation": "The bag contains a hidden comic book and a handheld game console. The mother sees them and yells, 'Aha! I knew it!'"
+    },
+    {
+      "turn": 7,
+      "action": "Ignore the comics and feel the bottom of the bag for crumbs or grease stains.",
+      "observation": "The bottom of the bag is dusty but dry. No food residue is found. The mother confiscates the game console."
+    },
+    {
+      "turn": 8,
+      "action": "Walk to the kitchen and inspect the trash can.",
+      "observation": "The trash can contains vegetable peelings and eggshells from dinner prep. No chicken bones or wrappers are visible."
+    },
+    {
+      "turn": 9,
+      "action": "Ask the boy in a serious whisper, 'Are you still hungry? Did you not get enough lunch?'",
+      "observation": "The boy frowns and whispers back, 'I'm not hungry, I'm bored. I just want to play.'"
+    },
+    {
+      "turn": 10,
+      "action": "Turn to the mother and suggest, 'Maybe the cat took it and he is taking the blame?'",
+      "observation": "The mother stares blankly. 'Cat? We don't have a cat. Why are you talking about food? I'm talking about him slacking off (tau1 gai1) on his math!'"
+    }
+  ]
+}

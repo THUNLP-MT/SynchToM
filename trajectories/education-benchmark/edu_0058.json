@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Draw a simplified cross-section of the Downs cell and highlight the collection hood at the top.",
+      "observation": "The student looks at the top of the diagram but points back to the middle of the electrolyte, asking, 'But does the sodium start moving because it's liquid?'"
+    },
+    {
+      "turn": 2,
+      "action": "Ask the class to recall the density of sodium metal compared to sodium chloride.",
+      "observation": "A few students answer that sodium is less dense. The target student nods but adds, 'So the density makes it go to the cathode?'"
+    },
+    {
+      "turn": 3,
+      "action": "Explicitly explain that molten sodium is less dense (0.97 g/cm³) than the molten salt (2.1 g/cm³), causing it to float.",
+      "observation": "The student looks confused and says, 'I thought opposites attract. Doesn't it go to the cathode because of that?'"
+    },
+    {
+      "turn": 4,
+      "action": "Re-label the diagram clearly, marking the 'Anode (+)' and 'Cathode (-)' with large distinct colors.",
+      "observation": "The student acknowledges the labels but persists, 'Okay, so the sodium atoms are attracted to the negative side, right?'"
+    },
+    {
+      "turn": 5,
+      "action": "Explain the function of the steel gauze screen that separates the anode and cathode compartments.",
+      "observation": "The student seems impatient. 'I know they stay apart. I just want to know if the sodium moves there because it's a liquid metal.'"
+    },
+    {
+      "turn": 6,
+      "action": "Use an analogy of oil floating on water to describe the sodium rising into the collection pipe.",
+      "observation": "The student writes down 'Sodium = Oil' but whispers to a neighbor, 'But why does the oil go to the negative wall?'"
+    },
+    {
+      "turn": 7,
+      "action": "Pause to praise the student for thinking about the industrial feasibility of the cell.",
+      "observation": "The student sighs and looks at the multiple-choice options again, hovering their pen over Option D (the distractor about neutral atoms flowing)."
+    },
+    {
+      "turn": 8,
+      "action": "Describe the riser pipe mechanism where the sodium overflows into the external container.",
+      "observation": "The student asks, 'Does the riser pipe pull the sodium atoms across the cell?'"
+    },
+    {
+      "turn": 9,
+      "action": "Clarify that the riser pipe doesn't 'pull,' but that the hydrostatic pressure pushes the sodium up.",
+      "observation": "The student puts their head in their hand. 'I just don't get the movement. I thought it was electric.'"
+    },
+    {
+      "turn": 10,
+      "action": "Assign a specific reading on 'Industrial Cell Design and fluid handling' for homework.",
+      "observation": "The student circles Option D (neutral sodium atoms flow to cathode), convinced that the movement is a physical flow of liquid rather than electrochemical migration."
+    }
+  ]
+}

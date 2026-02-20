@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Draw a diagram on the whiteboard showing System A (Bucket) and System B (Cup) in contact with a thermometer (System C), and write the formal definition of the Zeroth Law of Thermodynamics.",
+      "observation": "The students copy the definition diligently. However, when asked again, a student raises their hand and asks, 'I get that they balance with the thermometer, but doesn't the bucket have more temperature to give because it's bigger?'"
+    },
+    {
+      "turn": 2,
+      "action": "Swap the alcohol thermometers for high-precision digital thermocouples and repeat the measurement for the class.",
+      "observation": "The digital displays both read exactly 50.0°C. The students agree the numbers are the same, but chatter continues: 'Yeah, the numbers are the same, but that's just the intensity. The bucket still holds a larger amount of that 50 degrees.'"
+    },
+    {
+      "turn": 3,
+      "action": "Perform a 'Thermal Contact' demonstration: Place the small cup inside the large bucket and wait 10 minutes, then measure both again.",
+      "observation": "After 10 minutes, the temperatures remain 50°C. Students interpret this as: 'The bucket is so strong it forces the cup to stay at 50. The bucket has enough heat energy to dominate the cup.'"
+    },
+    {
+      "turn": 4,
+      "action": "Introduce a hydraulic analogy: Draw two connected water tanks, one wide and one narrow, both filled to the same height.",
+      "observation": "Students nod at the drawing. One student says, 'Right, the levels are the same. But the big tank has way more water. So if temperature is like the water, the bucket has more temperature.'"
+    },
+    {
+      "turn": 5,
+      "action": "Check the water source and verify that both containers are using distilled water from the same carboy.",
+      "observation": "Students confirm the water is identical. They remark, 'Since it's the same water, and there's more of it in the bucket, there's definitely more moving energy in the bucket. So, more temperature.'"
+    },
+    {
+      "turn": 6,
+      "action": "Write the equation 'Heat Flow (Q) = 0 when T_A = T_B' and emphasize the 'No Net Flow' condition.",
+      "observation": "Students are confused by the equation. One asks, 'But doesn't the bucket have more molecules moving? If we added up all their motion, wouldn't the bucket be hotter in total?'"
+    },
+    {
+      "turn": 7,
+      "action": "Ignore the comment about 'molecules' and instead draw a rigid adiabatic wall (insulation) around the systems on the board.",
+      "observation": "Students look bored by the diagram of insulation. They accept the boundary conditions but persist: 'Okay, it's insulated. But inside the insulation, the big bucket still has more total hotness than the cup.'"
+    },
+    {
+      "turn": 8,
+      "action": "Ask the students to open their textbooks and read the chapter on 'Thermometric Properties' and 'State Postulates' silently for 10 minutes.",
+      "observation": "Students read the text. They highlight the definition of temperature. When asked to summarize, they say, 'It says Temperature is a property. The bucket has more property because it has more mass.'"
+    },
+    {
+      "turn": 9,
+      "action": "Set up a 'Transitivity' logic puzzle: System A (Bucket) is in equilibrium with Thermometer. System B (Cup) is in equilibrium with Thermometer. Therefore A = B.",
+      "observation": "Students accept the logic A=B mathematically. However, they qualify it: 'They are equal in reading, yes. But physically, the bucket is equivalent to like, 50 cups. So it has 50 times the temperature impact.'"
+    },
+    {
+      "turn": 10,
+      "action": "Assign a homework set focusing on calculating 'Degrees of Freedom' and 'State Variables' for macroscopic blocks.",
+      "observation": "Students leave the class frustrated. They feel the instructor is ignoring the obvious reality that 'more stuff = more heat', while the instructor is frustrated that they refuse to accept the definition of equilibrium."
+    }
+  ]
+}

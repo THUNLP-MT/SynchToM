@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Order 2 'liang' of the sliced beef shank.",
+      "observation": "The waiter nods and brings a small plate of sliced beef. To your eye, the portion looks significantly smaller than the 100g portions you usually prep at home."
+    },
+    {
+      "turn": 2,
+      "action": "Inspect the density and moisture content of the meat slices.",
+      "observation": "The beef is standard braised shank, moist and tender, not dehydrated or jerky-like."
+    },
+    {
+      "turn": 3,
+      "action": "Call the waiter over and ask, 'Are you sure this is 2 liang?'",
+      "observation": "The waiter looks at the plate and replies confidently, 'Yes, sir, that is exactly 2 liang.'"
+    },
+    {
+      "turn": 4,
+      "action": "Pull out a portable digital food scale from gym bag and place the meat on it.",
+      "observation": "The digital scale stabilizes and reads exactly 75 grams."
+    },
+    {
+      "turn": 5,
+      "action": "Check the batteries and re-zero the scale on the table surface.",
+      "observation": "The scale re-zeros perfectly. You weigh your phone (known weight) and it reads accurately. The scale is functioning correctly."
+    },
+    {
+      "turn": 6,
+      "action": "Establish eye contact with the waiter and point at the scale reading (75g), saying 'Look, you are shorting me. 2 liang is 100g.'",
+      "observation": "The waiter looks confused, shakes their head, and points to the menu price again, insisting, 'No short. That is 2 liang standard size here.'"
+    },
+    {
+      "turn": 7,
+      "action": "Ask if the weight listed on the menu refers to the raw meat before cooking.",
+      "observation": "The waiter clarifies, 'No, we weigh the meat after slicing, right on the counter. What you see is what you pay for.'"
+    },
+    {
+      "turn": 8,
+      "action": "Search Google for 'Taiwan Yi Pin beef noodle scam' or 'tourist trap reviews'.",
+      "observation": "Search results show high ratings. Reviews mention 'traditional flavors' and 'good value,' with no recent mentions of scams or short-changing."
+    },
+    {
+      "turn": 9,
+      "action": "Order an additional 0.5 liang of beef.",
+      "observation": "The waiter brings a very small additional portion. When you add it to the scale, the total weight rises from 75g to roughly 93-94g. (Context: 0.5 liang = 18.75g)."
+    },
+    {
+      "turn": 10,
+      "action": "Visibly frustrated, log the meal as '100g Beef' in the fitness app despite the scale reading 94g, and leave.",
+      "observation": "You finish the meal, convinced you were cheated by a dishonest shop, unaware that 2.5 Taiwanese liang (37.5g * 2.5) equals exactly 93.75g."
+    }
+  ]
+}

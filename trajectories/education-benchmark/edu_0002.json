@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Draft a worksheet with three columns labeled 'Texture', 'Color', and 'Shape' and ask students to draw lines connecting the fruits to the correct descriptive words.",
+      "observation": "Students successfully connect 'yellow' to the banana and 'round' to the orange. The assessment rubric highlights that students did not identify which body part was used to gather this information."
+    },
+    {
+      "turn": 2,
+      "action": "Review the vocabulary words 'Rough', 'Smooth', 'Bumpy', and 'Squishy' using flashcards before handing out the next worksheet.",
+      "observation": "Students repeat the words enthusiastically. They can define 'rough' as 'like sandpaper'."
+    },
+    {
+      "turn": 3,
+      "action": "Modify the worksheet to include a 'Taste Test' section where students eat a slice of orange and circle either 'Sweet' or 'Salty'.",
+      "observation": "Students circle 'Sweet'. One student asks, 'Why do we have to circle it?' The observer notes that the students are identifying the fruit's sugar content, not explaining the function of the tongue."
+    },
+    {
+      "turn": 4,
+      "action": "Bring out a 'Mystery Box' containing a pineapple (very rough) and a balloon (very smooth). Ask a student to reach in, feel it, and describe the texture to the class without looking.",
+      "observation": "The student feels the pineapple and says, 'It's spiky and hard!' The class cheers. The learning objective 'Link stimulus to sensory organ' remains unmet."
+    },
+    {
+      "turn": 5,
+      "action": "Move the students from their desks to the carpet area to sit in a circle for a group discussion.",
+      "observation": "Students sit quietly and wait for instructions."
+    },
+    {
+      "turn": 6,
+      "action": "Create a Venn Diagram on the whiteboard comparing a Pear and a Banana. Ask students to list physical properties that are shared and different.",
+      "observation": "Students correctly place 'Yellow' in the Banana side and 'Green' in the Pear side. The observer writes: 'Students are comparing fruits, not analyzing their own sensory processing.'"
+    },
+    {
+      "turn": 7,
+      "action": "Introduce a blindfold activity where students must sort a pile of plastic shapes into 'Triangles' and 'Squares' using only touch.",
+      "observation": "Students sort the shapes with 100% accuracy. The observer asks a student, 'How did you know it was a triangle?' The student says, 'Because it has three points,' instead of 'I felt the points with my fingers.'"
+    },
+    {
+      "turn": 8,
+      "action": "Revise the final worksheet to require three adjectives for every fruit instead of just one.",
+      "observation": "Students write 'Yellow, Long, Soft' for the banana. The lesson objective 'Identify the senses and their function' is marked as 'Not Achieved'."
+    },
+    {
+      "turn": 9,
+      "action": "Have students trade papers and correct their partner's adjective choices if they disagree with the description.",
+      "observation": "Students argue over whether the pear is 'hard' or 'soft'. They do not discuss eyes or skin."
+    },
+    {
+      "turn": 10,
+      "action": "Create a final 'Master of Senses' certificate for students who can correctly identify 5 different fruits solely by looking at close-up photos of their skin textures.",
+      "observation": "Students identify the fruits correctly. The principal observes that the students have become excellent botanists but still cannot verbally explain what their eyes do."
+    }
+  ]
+}

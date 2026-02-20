@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Review the meeting recording and time the seconds spent on the timeline slide.",
+      "observation": "The recording shows the slide was on screen for 5 minutes. The stakeholders are seen leaning in close to their monitors and squinting."
+    },
+    {
+      "turn": 2,
+      "action": "Draft a new script adding explicit cues like 'Please listen closely to this part' and 'Let me tell you the story of Q3'.",
+      "observation": "A colleague reviews the plan and says, 'The script is fine, but are you keeping that visual? It's really dense.'"
+    },
+    {
+      "turn": 3,
+      "action": "Check the microphone settings and research better audio compression software.",
+      "observation": "The audio test comes back crystal clear. The slide on the screen remains a blur of 8pt font and overlapping jagged lines."
+    },
+    {
+      "turn": 4,
+      "action": "Practice the presentation again, focusing on slowing down my cadence by 20%.",
+      "observation": "During the practice run, the screen is shared. The text 'Project Launch' is pixelated and unreadable against the dark background."
+    },
+    {
+      "turn": 5,
+      "action": "Schedule a follow-up meeting titled 'Deep Dive: Walking Through the Narrative of the Timeline'.",
+      "observation": "Stakeholders accept, but one comments via email: 'Can you just send the raw data in Excel? We couldn't read the dates on the chart.'"
+    },
+    {
+      "turn": 6,
+      "action": "Reply to the email: 'I will explain the dates in detail during the call to ensure you understand the context behind them.'",
+      "observation": "The stakeholder replies, 'Okay, but the chart resolution was really low, we literally couldn't see the numbers.'"
+    },
+    {
+      "turn": 7,
+      "action": "Check internet bandwidth and screen-sharing optimization settings for 'video/motion' rather than 'static content'.",
+      "observation": "Settings are changed to 'optimize for video'. The static slide now looks even fuzzier due to compression artifacts."
+    },
+    {
+      "turn": 8,
+      "action": "Rewrite the script again, replacing data-heavy sentences with purely emotional/visionary language.",
+      "observation": "In the follow-up meeting, the slide is displayed. A manager interrupts: 'Sorry to stop you, but is this slide supposed to look like this? It's very cluttered.'"
+    },
+    {
+      "turn": 9,
+      "action": "Ask a peer: 'Do I use too much jargon? Is my vocabulary alienating them?'",
+      "observation": "Peer looks at the slide and says, 'Your words are fine. I think they mean the 50 text boxes on one slide.'"
+    },
+    {
+      "turn": 10,
+      "action": "Create a 10-minute video recording of myself explaining the slide, using a pointer to trace the lines, and send it to the group.",
+      "observation": "Recipients open the video. They see a mouse pointer moving over illegible blobs while a voice enthusiastically explains what the blobs represent."
+    }
+  ]
+}

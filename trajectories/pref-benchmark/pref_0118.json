@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open the main menu and navigate to 'Graphics Settings' to find a 'Floor Opacity' or 'Ground Texture' slider.",
+      "observation": "The menu shows options for 'Texture Quality' (Low/Med/High). Changing it to 'High' renders a detailed concrete texture, but the user still feels a lurch in their stomach and a sense of swaying when looking down at their feet."
+    },
+    {
+      "turn": 2,
+      "action": "Open the performance overlay to check the frame rate and refresh rate.",
+      "observation": "The performance overlay shows a stable 90 FPS with low latency. The visual fluidity is perfect, yet the sensation of physical imbalance persists whenever the user's head tilts downward."
+    },
+    {
+      "turn": 3,
+      "action": "Go to 'Environment Settings' and attempt to change the background from 'Skybox' to something like 'Basement' or 'Cave'.",
+      "observation": "The background changes to a dark cave wall, but the floor grid still appears to 'float' slightly relative to the user's proprioception. The user's brain interprets the mismatch as standing on a transparent surface suspended in the cave."
+    },
+    {
+      "turn": 4,
+      "action": "Look down at my feet and lift one leg high, then stomp down firmly, watching the virtual feet.",
+      "observation": "The user stomps. The real foot hits the physical floor with a thud, but visually, the virtual foot stops a few inches *above* the virtual floor mesh. The disconnect reinforces the sensation of hovering or standing on an invisible layer."
+    },
+    {
+      "turn": 5,
+      "action": "Take off the headset, wipe the lenses thoroughly with a microfiber cloth, and put it back on tight.",
+      "observation": "The visuals are now crystal clear. The clarity actually makes the height discrepancy more noticeable. The user feels even more unstable as they clearly see their virtual feet hovering."
+    },
+    {
+      "turn": 6,
+      "action": "Search the 'Accessibility' tab for a 'Fear of Heights' mode or 'Grounding' toggle.",
+      "observation": "The user finds a 'Vignette on Move' setting and enables it. It restricts peripheral vision during movement, but while standing still and looking down, the sensory conflict from the floor offset remains unchanged."
+    },
+    {
+      "turn": 7,
+      "action": "Crouch down slowly to the ground and attempt to touch the virtual floor with the palm of my hand.",
+      "observation": "The user's real hand touches the carpet, but the virtual hand is visibly hovering about 3 inches above the virtual concrete. The user interprets this gap as the thickness of the invisible glass platform they are standing on."
+    },
+    {
+      "turn": 8,
+      "action": "Check the controllers for drift or battery issues in the system menu.",
+      "observation": "Controller battery is 80%, tracking is precise. The controllers accurately track the hand position in 3D space, maintaining the consistent vertical offset caused by the headset's floor calibration."
+    },
+    {
+      "turn": 9,
+      "action": "Place a real physical rug in the center of the play space and try to align the virtual character exactly on top of it.",
+      "observation": "The user stands on the rug. The added height of the rug slightly changes the tactile feedback, but visually the virtual feet are still floating. The user shuffles cautiously, terrified of stepping off the rug onto the 'glass'."
+    },
+    {
+      "turn": 10,
+      "action": "Exit the application and write a negative review complaining about forced verticality.",
+      "observation": "The application closes. The system home environment loads, where the floor is also miscalibrated (floating). The user assumes the 'glass platform' theme is a system-wide default they cannot disable."
+    }
+  ]
+}

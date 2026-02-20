@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open the in-game Graphics Settings and lower 'Texture Quality' to Low and disable 'HD Asset Pack'.",
+      "observation": "The settings are applied and the game requires a restart. Upon restarting and loading a save, the loading bar stalls at 30% for a long time. The total load time is unchanged at 60 seconds."
+    },
+    {
+      "turn": 2,
+      "action": "Verify the integrity of game files via the Steam client.",
+      "observation": "The verification process takes an unusually long time to complete as the antivirus scans every file being checked. Steam reports 'All files validated successfully'."
+    },
+    {
+      "turn": 3,
+      "action": "Navigate to the game's installation folder, locate the `GameData/StreamingAssets/HighRes` folder, and rename it to `HighRes_BACKUP`.",
+      "observation": "When launching the game, the launcher detects the 'missing' files and immediately begins a 'Repair' process to re-download the high-resolution assets before the game will start. The disk usage spikes during this process."
+    },
+    {
+      "turn": 4,
+      "action": "Open Task Manager and monitor the 'Disk' tab while the game loads.",
+      "observation": "Disk Active Time is at 100%. The process list shows the Game Executable reading data, and 'Antimalware Service Executable' is also using significant CPU and Disk resources just below it. The read speed fluctuates heavily."
+    },
+    {
+      "turn": 5,
+      "action": "Edit the `engine.ini` configuration file manually. Add lines: `r.TextureStreaming=0` and `r.MaxTextureSize=1024`.",
+      "observation": "The game loads, and the visual quality is noticeably worse (blurry textures), confirming the settings worked. However, the load time between areas remains consistently slow (60+ seconds)."
+    },
+    {
+      "turn": 6,
+      "action": "Perform a 'Clean Install' of the latest GPU drivers.",
+      "observation": "The driver installation is successful. Upon rebooting and launching the game, the load times are identical to before."
+    },
+    {
+      "turn": 7,
+      "action": "Add launch arguments to the game shortcut: `-notexturestreaming -useallavailablecores -lowmemory`.",
+      "observation": "The game launches. The antivirus software performs a deep scan of the game executable again because the launch parameters have changed its behavior signature. Load times increase slightly to 70 seconds."
+    },
+    {
+      "turn": 8,
+      "action": "Move the game installation from the secondary SATA SSD to the primary NVMe M.2 drive.",
+      "observation": "The transfer process takes a long time as the antivirus scans files during the move. Once on the faster drive, the load times improve only marginally (by 2-3 seconds) as the real-time scanning is still the bottleneck."
+    },
+    {
+      "turn": 9,
+      "action": "Disconnect the computer from the internet and launch Steam in Offline Mode.",
+      "observation": "The game launches in offline mode. The load times remain consistently long. The antivirus continues to scan local file reads in the background."
+    },
+    {
+      "turn": 10,
+      "action": "Uninstall the game and write a negative review.",
+      "observation": "The uninstallation triggers a final scan from the antivirus. The user leaves the ecosystem believing the game is poorly optimized."
+    }
+  ]
+}

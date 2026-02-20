@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Pull a completion report from the Learning Management System (LMS) filtered by 'Not Started'.",
+      "observation": "The report generates successfully. It shows 95% of users have status 'In Progress' with 0% duration viewed, or 'Not Started'."
+    },
+    {
+      "turn": 2,
+      "action": "Send a mass email to the department with the subject line 'URGENT: Training Deadline' and the link to the module.",
+      "observation": "Within minutes, several replies arrive: 'I clicked the link but the screen is just black,' and 'It says loading but never plays.'"
+    },
+    {
+      "turn": 3,
+      "action": "Reply to the thread: 'Please stop using technical excuses. Try a different browser or clear your cache. This needs to be done.'",
+      "observation": "Users reply that they have tried Chrome, Edge, and Firefox, but a 'Plugin Blocked' icon appears in the address bar for all of them."
+    },
+    {
+      "turn": 4,
+      "action": "Log into the Room Booking System to find a slot for Friday afternoon.",
+      "observation": "The Room Booking System works perfectly. Conference Room B is available Friday at 2 PM."
+    },
+    {
+      "turn": 5,
+      "action": "Attempt to open the training module on my own laptop to prepare discussion questions for the live session.",
+      "observation": "The video player frame loads, but the content area remains gray. A popup notification from the browser antivirus says 'Threat Blocked: Outdated Plugin Attempt'."
+    },
+    {
+      "turn": 6,
+      "action": "Refresh the page three times, then check my internet connection speed.",
+      "observation": "Speed test shows 1Gbps connection. The training page still shows the gray screen and the security notification."
+    },
+    {
+      "turn": 7,
+      "action": "Send a calendar invite: 'MANDATORY Live Training Session - No Exceptions'.",
+      "observation": "Invite sent. An employee replies: 'Does the conference room computer have different security settings? We still can't view the content due to the policy update.'"
+    },
+    {
+      "turn": 8,
+      "action": "Call IT Helpdesk and ask them to 'prioritize bandwidth' for the conference room on Friday.",
+      "observation": "IT Helpdesk response: 'Bandwidth isn't the issue. That legacy training module uses Flash, which we blocked globally this morning for security compliance.'"
+    },
+    {
+      "turn": 9,
+      "action": "Demand the IT Helpdesk whitelist the conference room computer immediately.",
+      "observation": "IT Helpdesk response: 'We cannot override a global security policy for a deprecated plugin. The vendor needs to supply an HTML5 version.'"
+    },
+    {
+      "turn": 10,
+      "action": "Print the PDF transcript of the training module to read aloud in the meeting.",
+      "observation": "Printer works. The user heads to the conference room with a stack of papers, while the digital module remains broken for the entire company."
+    }
+  ]
+}

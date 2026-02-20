@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Distribute physical copies of the 10-year cardiovascular mortality trend graphs to each student group.",
+      "observation": " The students look confused. One raises their hand and asks where the 'Stakeholder Role Cards' are, mentioning the board says they are supposed to be playing 'Factory Owners' and 'Local Residents'."
+    },
+    {
+      "turn": 2,
+      "action": "Check the supplementary material packet to see if the 'Role Cards' are mislabeled data sets.",
+      "observation": "The packet contains narrative profiles. The 'Factory Owner' card describes economic pressures and job creation, while the 'Resident' card describes asthma symptoms and fear of losing income. There are no data tables."
+    },
+    {
+      "turn": 3,
+      "action": "Instruct the students to highlight every numerical figure found in the narrative profiles.",
+      "observation": "Students find very few numbers: '300 jobs,' '2 kids with asthma,' and '10 years.' They start asking questions like, 'Is it fair to close the factory if 300 people lose their jobs?'"
+    },
+    {
+      "turn": 4,
+      "action": "Interrupt the discussion and draw a blank X/Y axis on the whiteboard, labeling it 'Emissions vs. Mortality'.",
+      "observation": "The students ignore the graph. A group starts debating loudly about whether the factory could install filters instead of closing down. The noise level rises as they discuss solutions."
+    },
+    {
+      "turn": 5,
+      "action": "Check the classroom tablet settings to ensure the 'Simulation App' is loaded correctly.",
+      "observation": "The tablets are working perfectly. They are displaying a 'Town Hall Voting' interface where students can submit policy proposals and vote on them."
+    },
+    {
+      "turn": 6,
+      "action": "Announce to the class that the 'Voting' interface is for submitting their calculated probability of the headline being true.",
+      "observation": "Students stare blankly. One student asks, 'I voted to keep the factory but add fines. How do I calculate the probability of that?'"
+    },
+    {
+      "turn": 7,
+      "action": "Walk around to the groups and ask them to show their 'calculations' before they are allowed to use the tablet.",
+      "observation": "The groups show lists of pros and cons written on poster paper. One list says 'Pro: Clean air is good. Con: Dad loses job.' There is no math visible."
+    },
+    {
+      "turn": 8,
+      "action": "Consult the Teacher's Guide specifically looking for the 'Answer Key' or 'Data Validation' section.",
+      "observation": "The Teacher's Guide has a rubric. The criteria are: 'Active Listening,' 'Use of Evidence to Support Opinion,' 'Respectful Disagreement,' and 'Creativity of Solution.'"
+    },
+    {
+      "turn": 9,
+      "action": "Interpret 'Use of Evidence' in the rubric as a mandate for the mortality trend graphs and hand out calculators.",
+      "observation": "Students use the calculators to subtract the year the factory opened from the current year to see how long it has been running, but immediately return to arguing about the ethics of pollution."
+    },
+    {
+      "turn": 10,
+      "action": "Write 'HOMEWORK: Validate the 4,000 deaths statistic using the provided graph' on the board.",
+      "observation": "The bell rings. As students leave, they are excitedly talking about how they 'saved the town.' The lesson objective 'Evaluate trade-offs of remediation strategies' was successfully met, despite the user's interference."
+    }
+  ]
+}

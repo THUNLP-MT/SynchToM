@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open the lesson by drawing the chemical structure of an ethylene molecule on the board and defining 'monomer' as the fundamental unit.",
+      "observation": "Students stare blankly at the board. A few ask, 'What is that?' and 'Why are we doing chemistry diagrams?' They seem unable to connect the drawing to the unit title 'Polymers'."
+    },
+    {
+      "turn": 2,
+      "action": "Create a strict seating chart to separate friends who are talking.",
+      "observation": "The room is quieter, but students are still looking around the room or doodling rather than looking at the chemical structures on the board."
+    },
+    {
+      "turn": 3,
+      "action": "Replace the chemical structure with a generic diagram of a single red circle, labeling it 'The General Unit'.",
+      "observation": "Students understand that it is a circle, but they are now asking if this is a math class. They still have no idea they are studying materials or plastics."
+    },
+    {
+      "turn": 4,
+      "action": "Adjust the window blinds to reduce glare on the whiteboard.",
+      "observation": "Visibility is perfect. Student engagement remains near zero. One student asks, 'When do we get to see the slime or plastic?'"
+    },
+    {
+      "turn": 5,
+      "action": "Explain the theoretical rule of 'covalent bonding' as the glue that holds units together.",
+      "observation": "The cognitive load seems to skyrocket. Students look overwhelmed by the sudden introduction of bonding theory without a concrete context to anchor it."
+    },
+    {
+      "turn": 6,
+      "action": "Distribute a worksheet that lists definitions of 'monomer', 'polymer', and 'bond' for memorization, with no pictures of real-world items.",
+      "observation": "Students fill out the worksheet mechanically but when asked 'What is a polymer in this room?', they cannot identify the plastic chair they are sitting on."
+    },
+    {
+      "turn": 7,
+      "action": "Use a 'Call and Response' technique where the class repeats the definition of a monomer in unison.",
+      "observation": "The class chants the definition perfectly, but immediately after, a student asks, 'Okay, but does this actually exist in real life?'"
+    },
+    {
+      "turn": 8,
+      "action": "Lecture on the history of chemical synthesis and the discovery of the first synthetic chain.",
+      "observation": "Students have completely tuned out. The coordinator observes that the students are failing to grasp the 'big picture' because they are lost in abstract details."
+    },
+    {
+      "turn": 9,
+      "action": "Assign homework requiring students to memorize the structures of five different monomers.",
+      "observation": "Students groan and complain that the homework is 'too hard' and 'doesn't make sense'. They still don't know what these structures build."
+    },
+    {
+      "turn": 10,
+      "action": "Finally show a plastic water bottle in the last 2 minutes of class as an example of the theory.",
+      "observation": "Students exclaim, 'Oh! It's just plastic! Why didn't you start with that?' The educator interprets this relief as the successful culmination of the theoretical buildup."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "I pick up my chopsticks and vigorously whisk the garlic, cilantro, and scallions into the amber oil within the small bowl.",
+      "observation": "The mixture swirls readily. The oil is viscous and coats the sides of the bowl. The waiter places a platter of raw sliced beef on the table."
+    },
+    {
+      "turn": 2,
+      "action": "I lift the bowl to my nose and inhale deeply, analyzing the bouquet.",
+      "observation": "The scent is intense and nutty. The boiling pot in front of you releases clouds of spicy, pepper-infused steam."
+    },
+    {
+      "turn": 3,
+      "action": "I glance around the table setting, looking for a ladle or a larger spoon than the one provided for eating.",
+      "observation": "There is a slotted ladle and a soup ladle hooked onto the side of the main pot. The waiter is watching you, smiling politely."
+    },
+    {
+      "turn": 4,
+      "action": "I dip the tip of my chopsticks into the bowl and taste a small drop of the oil.",
+      "observation": "It tastes purely of sesame oil and raw garlic. It is savory but lacks the high salinity of a soup concentrate. This is confusing—perhaps the salt is already in the pot and this is just for the 'top notes' of the soup."
+    },
+    {
+      "turn": 5,
+      "action": "I reach for the control knob on the induction burner and lower the heat slightly to bring the pot from a rolling boil to a simmer.",
+      "observation": "The bubbling slows down. The waiter steps forward and turns the heat back up, gesturing to the raw meat and making a 'cooking' motion with his hands."
+    },
+    {
+      "turn": 6,
+      "action": "I pick up the bowl of oil and move it deliberately toward the center of the boiling pot, tilting it slightly to pour.",
+      "observation": " The waiter gasps and swiftly reaches out, gently blocking your hand. He points to the bowl, then to your empty plate, and says, 'Dip. Sauce. No soup.'"
+    },
+    {
+      "turn": 7,
+      "action": "I nod understandingly at the waiter but keep the bowl in my hand, gesturing to the red broth.",
+      "observation": "The waiter looks distressed. He mimes taking a piece of cooked meat from the pot and dipping it into your oil bowl."
+    },
+    {
+      "turn": 8,
+      "action": "I pick up my tea cup and take a slow sip, resetting my palate.",
+      "observation": "The waiter lingers for a moment, ensuring you put the bowl down, then retreats to a nearby station to fill water glasses."
+    },
+    {
+      "turn": 9,
+      "action": "I use the soup ladle to scoop up some of the spicy red broth from the pot and inspect its clarity and color.",
+      "observation": "The broth is heavy with tallow and chilies. It looks exactly like standard Sichuan hotpot broth."
+    },
+    {
+      "turn": 10,
+      "action": "Seizing the moment while the waiter is turned away, I grab the bowl and confidently dump the entire mixture of oil, garlic, and cilantro into the boiling pot.",
+      "observation": "The cold oil hits the boiling tallow. The cilantro wilts instantly and disappears into the red churn. The waiter turns around, sees the empty bowl and the green bits floating in the pot, and slaps his forehead in exasperation."
+    }
+  ]
+}

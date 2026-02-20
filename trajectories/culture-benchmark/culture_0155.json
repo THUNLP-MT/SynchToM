@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Walk slowly around the perimeter of the pond to view the signage board from three different angles.",
+      "observation": "The sign is visible from all angles, but the reflection is clearest from the south bank."
+    },
+    {
+      "turn": 2,
+      "action": "Observe the behavior of other pedestrians in the park to see if anyone pauses in front of the sign or takes photographs of it.",
+      "observation": "Most people walk past quickly; a few joggers run by without looking."
+    },
+    {
+      "turn": 3,
+      "action": "Take a high-resolution photograph of the board using a zoom lens, focusing on the calligraphy strokes.",
+      "observation": "The image captures the blue background and white characters clearly, along with the red triangle."
+    },
+    {
+      "turn": 4,
+      "action": "Scan the immediate vicinity (50m radius) to see if there are other similar blue boards spaced at regular intervals.",
+      "observation": "There are no other signs nearby; this one stands alone near the water's edge."
+    },
+    {
+      "turn": 5,
+      "action": "Look closely at the red triangular symbol and then scan the nearby pavilion's roof architecture for matching geometric shapes.",
+      "observation": "The pavilion has a curved roof; the red triangle on the sign is a standard equilateral shape."
+    },
+    {
+      "turn": 6,
+      "action": "Open a notebook and sketch the layout of the text relative to the water line.",
+      "observation": "The text is arranged in two horizontal lines."
+    },
+    {
+      "turn": 7,
+      "action": "Stand completely still for a moment, listening to the ambient sounds of the water while looking at the characters.",
+      "observation": "The water is quiet, save for occasional splashing."
+    },
+    {
+      "turn": 8,
+      "action": "Approach a passerby and ask politely, \"Does this writing refer to the name of this specific spot in the garden?\"",
+      "observation": "The passerby looks confused, glances at the sign, shakes their head, and says 'It's just for the water.'"
+    },
+    {
+      "turn": 9,
+      "action": "Use a translation app to scan only the first two characters, looking for keywords related to nature or seasons.",
+      "observation": "The app translates the first character roughly as 'Deep' or 'Depth'."
+    },
+    {
+      "turn": 10,
+      "action": "Gestures towards the reflection of the sign in the water and asks a local guide, \"Is the text meant to be read in the reflection?\"",
+      "observation": "The guide looks alarmed and gestures for you to step back from the edge."
+    }
+  ]
+}

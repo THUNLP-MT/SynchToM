@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "I will attempt to navigate to the 'Next Lesson' control using the 'Tab' key and then try to activate it using the 'Enter' key.",
+      "observation": "Pressing 'Tab' skips over the 'Next Lesson' text entirely, moving focus to the footer. Pressing 'Enter' does nothing."
+    },
+    {
+      "turn": 2,
+      "action": "I am opening the source code and replacing the `<div class='next-btn'>` tag with a semantic `<button class='next-btn'>` tag.",
+      "observation": "The control is now focusable. When clicked, the page creates a network request that fails with a 500 Internal Server Error. The UI displays a generic 'Something went wrong' message."
+    },
+    {
+      "turn": 3,
+      "action": "I will add `aria-label='Next Lesson'` and explicitly bind a `keydown` event listener to the button to handle both 'Enter' and 'Space' keys.",
+      "observation": "The button visually reacts to the 'Enter' key, but the application still returns a 500 Internal Server Error and displays the error message."
+    },
+    {
+      "turn": 4,
+      "action": "I'm going to clear the browser cache, cookies, and local storage, then refresh the page.",
+      "observation": "After a full refresh and login, clicking the 'Next Lesson' button still results in a 500 Internal Server Error."
+    },
+    {
+      "turn": 5,
+      "action": "I will remove the `event.preventDefault()` call from the click handler function in the JavaScript file.",
+      "observation": "The request is sent upon clicking, but the server continues to respond with a 500 Internal Server Error."
+    },
+    {
+      "turn": 6,
+      "action": "I'm inspecting the computed CSS styles to check the `z-index` and look for any invisible pseudo-elements (`::before` or `::after`) covering the button.",
+      "observation": "The `z-index` is valid and there are no overlapping elements obscuring the button."
+    },
+    {
+      "turn": 7,
+      "action": "I will replace the `<button>` element with a semantic anchor tag `<a>` pointing to the next lesson's URL, removing the JavaScript click handler entirely.",
+      "observation": "Clicking the link initiates a navigation request, but the server responds with a 500 Internal Server Error page."
+    },
+    {
+      "turn": 8,
+      "action": "I am opening the Network tab in developer tools to inspect the headers of the failed request.",
+      "observation": "The Network tab shows the request to `/api/lesson/next` failed with status 500. The headers look standard."
+    },
+    {
+      "turn": 9,
+      "action": "I will attempt to trigger the control using a different browser (Firefox) and a screen reader emulator.",
+      "observation": "The behavior is identical in Firefox: the control is announced correctly, but activating it triggers a 500 Internal Server Error."
+    },
+    {
+      "turn": 10,
+      "action": "I am going to wrap the 'Next Lesson' button in a standard HTML `<form>` tag with `method='POST'` and use a standard submit input.",
+      "observation": "Submitting the form triggers a page reload, which results in a 500 Internal Server Error displayed in the browser window."
+    }
+  ]
+}

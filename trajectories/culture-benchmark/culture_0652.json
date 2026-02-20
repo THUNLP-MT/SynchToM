@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Smile broadly at the delivery person and reach out with both hands to accept the large pot of chrysanthemums.",
+      "observation": "The delivery person, dressed in a somber black suit, quietly places the heavy pot on the stone ledge of the grave rather than handing it over, nodding solemnly before backing away."
+    },
+    {
+      "turn": 2,
+      "action": "Lean in to inspect the soil moisture and the turgidity of the petals.",
+      "observation": "The soil is damp and dark. The white flowers are tightly packed in a dense, uniform dome shape, typical of long-lasting cemetery arrangements."
+    },
+    {
+      "turn": 3,
+      "action": "Search through the dense foliage to find the small card envelope.",
+      "observation": "A small white envelope with a black border is stapled to a purple ribbon. The card inside reads standard printed text: 'Sincere Condolences'."
+    },
+    {
+      "turn": 4,
+      "action": "Tuck the card into my pocket and attempt to hoist the heavy pot into my arms, aiming for the cemetery gate.",
+      "observation": "The pot is incredibly heavy and wide, designed for stability against wind. As it is lifted, loose dirt spills onto the inscription of the headstone below. An elderly woman nearby gasps audibly."
+    },
+    {
+      "turn": 5,
+      "action": "Pause to adjust my scarf and button my coat against the wind.",
+      "observation": " The wind rustles the cypress trees. The elderly woman is now staring fixedly, her hand covering her mouth."
+    },
+    {
+      "turn": 6,
+      "action": "Turn to the staring woman and ask cheerfully, 'Excuse me, do you know the quickest way to the parking lot? I don't want to drop this!'",
+      "observation": "The woman does not answer the question. Instead, she points a trembling finger firmly at the ground where the pot was sitting."
+    },
+    {
+      "turn": 7,
+      "action": "Nod at her pointing finger, say 'Oh, don't worry, I won't leave a mess!' and resume walking toward the exit with the pot.",
+      "observation": "Several other visitors have stopped their vigils and are now watching with furrowed brows. A man in a dark coat steps into the path, blocking the way."
+    },
+    {
+      "turn": 8,
+      "action": "Pull out my phone and quickly snap a photo of the arrangement while holding it.",
+      "observation": "The camera flash goes off in the dim light. The man blocking the path looks incredulous and crosses his arms tightly."
+    },
+    {
+      "turn": 9,
+      "action": "Address the man blocking the path: 'Sir, you look strong! Could you actually help me carry this to my car? It's for a centerpiece.'",
+      "observation": "The man speaks in a low, stern voice: 'This is not for you to take. It belongs to the sleepers. Put it back.'"
+    },
+    {
+      "turn": 10,
+      "action": "Laugh awkwardly and explain, 'No, you don't understand, I paid for these! They're just delivered here by mistake,' and attempt to step around him.",
+      "observation": "The man physically places a hand on the rim of the pot and firmly pushes it down toward the grave, shaking his head slowly and refusing to move."
+    }
+  ]
+}

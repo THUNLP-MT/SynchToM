@@ -1,0 +1,58 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Send a company-wide survey asking employees to rate the 'engagement level' and 'readability' of the new safety manual.",
+      "observation": "Survey results come back. Most employees rated 'engagement' as neutral, but filled the comment sections with specific questions like 'How do I perform step 3 if step 2 is required but unavailable?'"
+    },
+    {
+      "turn": 2,
+      "action": "Schedule a meeting with the team leads to discuss the rollout timeline and deadline extensions.",
+      "observation": "The leads state the timeline is fine, but they are currently halted because the manual forbids opening the safety valve (Page 5) while simultaneously requiring the pressure to be vented (Page 6).",
+      "red_herring": true
+    },
+    {
+      "turn": 3,
+      "action": "Create a 'TL;DR' one-page summary using bright colors, bold fonts, and simplified bullet points.",
+      "observation": "Employees attempt to follow the one-pager. They report that Bullet Point A ('Keep machine running') directly conflicts with Bullet Point B ('Cut power before maintenance')."
+    },
+    {
+      "turn": 4,
+      "action": "Hire a freelance graphic designer to convert the entire manual into an infographic flowchart.",
+      "observation": "The designer emails back saying they can't complete the job because the flowchart logic loops back on itself infinitely, creating a deadlock in the process."
+    },
+    {
+      "turn": 5,
+      "action": "Check the IT server logs to see exactly who has opened the PDF and for how long.",
+      "observation": "Logs show that every employee has opened the document multiple times and spent hours with the file open on their screens.",
+      "red_herring": true
+    },
+    {
+      "turn": 6,
+      "action": "Host a mandatory 'Gamified' workshop where employees compete in quizzes about the safety protocols for gift cards.",
+      "observation": "During the quiz, the room erupts in an argument because the 'correct' answer to Question 4 violates the rule established in Question 1. The team refuses to accept the answer key."
+    },
+    {
+      "turn": 7,
+      "action": "Consult with the Marketing department to rewrite the manual's introduction using 'punchier, active voice' copy.",
+      "observation": "Marketing rewrites the intro. The engineering team responds that while the intro is exciting, the technical specifications in Chapter 3 still physically cannot be performed by a human with only two hands.",
+      "red_herring": true
+    },
+    {
+      "turn": 8,
+      "action": "Break the manual down into a series of 30-second TikTok-style instructional videos.",
+      "observation": "Comments on the internal video platform point out that Video #4 demonstrates a procedure that Video #7 explicitly bans as a safety violation."
+    },
+    {
+      "turn": 9,
+      "action": "Organize a dramatic reading session where I read the manual aloud to the team with enthusiastic intonation.",
+      "observation": "As you read aloud, you stumble when a sentence logically negates the previous sentence. The team looks at you expectantly, waiting for you to explain the impossibility. The room is silent."
+    },
+    {
+      "turn": 10,
+      "action": "Change the document font to 'Dyslexie' (a font designed for dyslexia) and increase line spacing to 2.0.",
+      "observation": "A senior engineer submits a formal resignation letter, citing that they cannot be responsible for implementing a safety protocol that is logically impossible, regardless of the font choice.",
+      "red_herring": true
+    }
+  ]
+}

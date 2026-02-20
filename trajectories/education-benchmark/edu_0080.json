@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Display the photograph of the woman dragging the heavy table (Option A) on the main projector.",
+      "observation": "The students nod in agreement. One student remarks, 'Yeah, just like moving my dresser. If you stop pushing, it stops immediately.'"
+    },
+    {
+      "turn": 2,
+      "action": "Ask the class to raise their hands if they have ever had to move heavy furniture at home.",
+      "observation": "Most students raise their hands. The class is engaged, but they are focused entirely on the effort/force aspect, reinforcing the idea that force is necessary for motion."
+    },
+    {
+      "turn": 3,
+      "action": "Draw a large arrow on the whiteboard pointing to the right (representing the push) and a large arrow pointing to the left (representing friction) over the image of the table.",
+      "observation": "Students look confused. One asks, 'If the arrows are the same size, shouldn't the table be staying still?' They are conflating static equilibrium with dynamic equilibrium because the visual implies a struggle."
+    },
+    {
+      "turn": 4,
+      "action": "Loudly emphasize the phrase 'Constant Velocity' while tapping the image of the moving table.",
+      "observation": "A student responds, 'Right, constant velocity means you have to keep pushing constantly.' The misconception that force maintains velocity is strengthened."
+    },
+    {
+      "turn": 5,
+      "action": "Walk to the back of the room to check if the text labels on the diagram are legible from the furthest row.",
+      "observation": "The text is perfectly legible. The students are simply unable to decouple the concept of motion from the concept of effort because the image (Option A) inherently links them."
+    },
+    {
+      "turn": 6,
+      "action": "Ask students to imagine the floor is made of sandpaper, making the table even harder to push.",
+      "observation": "Students agree readily. 'Yeah, then you'd have to push way harder or it would stop faster.' They are now thinking exclusively about deceleration and resistance, moving further away from the concept of inertia (motion continuing)."
+    },
+    {
+      "turn": 7,
+      "action": "Write the equation 'F_push - F_friction = 0' next to the photo of the woman dragging the table.",
+      "observation": "The students interpret the '0' as '0 motion'. They look at the table, see the heavy friction, and assume the math proves that without a push, the result is zero movement."
+    },
+    {
+      "turn": 8,
+      "action": "Switch the marker color from black to red to highlight the 'F_friction' variable.",
+      "observation": "Students focus on the red text. Attention is drawn further toward the resistive force, cementing the idea that the natural state of objects is rest unless forced."
+    },
+    {
+      "turn": 9,
+      "action": "Physically demonstrate pushing the teacher's heavy desk across the front of the room, mimicking the photo.",
+      "observation": "The teacher pushes the desk and stops. The desk stops immediately. The class concludes, 'See? You stopped pushing, so it stopped. Force causes motion.'"
+    },
+    {
+      "turn": 10,
+      "action": "Assign a homework problem asking students to calculate the coefficient of friction for the table in the photograph.",
+      "observation": "Students leave the class convinced that physics confirms their belief: objects only move when you push them, and heavier tables require more push. The concept of inertia (Option D) remains completely unaddressed."
+    }
+  ]
+}

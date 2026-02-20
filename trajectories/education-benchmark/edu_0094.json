@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "I point to the student's first drawing and ask, 'Did your picture turn out to be a match for the real puddle?'",
+      "observation": "The student points one finger at the square ice cube drawing and another at the round puddle drawing, moving their fingers back and forth between them."
+    },
+    {
+      "turn": 2,
+      "action": "I smile warmly and say, 'I really like how you used the dark blue crayon to color in the water here. You filled in the whole shape.'",
+      "observation": "The student barely acknowledges the praise, instead pushing the two papers closer together so the edges touch."
+    },
+    {
+      "turn": 3,
+      "action": "I tap the first drawing and say, 'Since you drew a square here, and the water is round now, was your guess correct or incorrect?'",
+      "observation": "The student looks up and says, 'It got bigger. The square is small, but the water is big.'"
+    },
+    {
+      "turn": 4,
+      "action": "I nod and respond, 'Right, so the square drawing was not the right answer. It's okay to be wrong in science! Let's write 'Hypothesis Not Supported' on the back.'",
+      "observation": "The student hesitates to write, looking confused, and says, 'But the ice turned into the water... see?' tracing the line from one to the other."
+    },
+    {
+      "turn": 5,
+      "action": "I ask the student to pin their papers up on the whiteboard next to the other students' work.",
+      "observation": "The student pins the papers up. The class starts pointing at the different shapes and talking about how the ice melted."
+    },
+    {
+      "turn": 6,
+      "action": "I address the class: 'Look at all these square drawings. Raise your hand if you actually drew a puddle for your first guess. Who got it right?'",
+      "observation": "Only one student raises their hand. The rest of the class looks at their own 'wrong' drawings and stops discussing the melting process."
+    },
+    {
+      "turn": 7,
+      "action": "I turn back to the confused student: 'See, almost everyone guessed a square. That means our class prediction was largely inaccurate today.'",
+      "observation": "The student frowns deeply and asks, 'So we did a bad job?' ignoring the physical changes they were just analyzing."
+    },
+    {
+      "turn": 8,
+      "action": "I check the time on the clock and ask everyone to clear their desks of pencils and crayons.",
+      "observation": "The students shuffle their papers, but the first student keeps staring at the two drawings side-by-side."
+    },
+    {
+      "turn": 9,
+      "action": "I lean in close to the student and say, 'Next time, try to think harder about what the water will really look like before you draw. We want our first drawing to match the end result.'",
+      "observation": "The student looks defeated, folds the 'Before' drawing so the ice cube is hidden, and only looks at the puddle drawing."
+    },
+    {
+      "turn": 10,
+      "action": "I conclude the lesson by saying, 'Today we learned that it is very difficult to predict the future accurately. Next week, we will practice guessing again.'",
+      "observation": "The students pack up, having learned that their observations of change were failures of prediction."
+    }
+  ]
+}

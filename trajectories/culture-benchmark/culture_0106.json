@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Photograph the yellow patchwork fields and ask a nearby farmer about the planting schedule and harvest season.",
+      "observation": "The farmer smiles and explains these are rapeseed flowers (canola) planted for the winter season, not wheat."
+    },
+    {
+      "turn": 2,
+      "action": "Walk towards the riverbank and observe the fishing boats, looking for any specific festive decorations or ritual preparations.",
+      "observation": "There are bamboo rafts and cormorant birds, but no red lanterns or specific festival decorations are visible on the boats."
+    },
+    {
+      "turn": 3,
+      "action": "Enter the local market and survey the vegetable stalls, taking notes on the availability and freshness of Napa cabbage and chives.",
+      "observation": "There is some cabbage, but the stalls are overwhelmingly stocked with leafy water spinach, bamboo shoots, and tarot roots."
+    },
+    {
+      "turn": 4,
+      "action": "Visit the village square and observe the elderly residents, listening for the sound of chopping or dough rolling.",
+      "observation": "The square is quiet except for the sound of Mahjong tiles clicking and elders drinking tea."
+    },
+    {
+      "turn": 5,
+      "action": "Respectfully ask a shopkeeper about the 'hottest' or most 'warming' dish served during the coldest days of winter.",
+      "observation": "The shopkeeper recommends a spicy river snail soup or a hot pot with goat meat to stay warm."
+    },
+    {
+      "turn": 6,
+      "action": "Inquire about the local availability of vinegar and soy sauce blends at a condiment stall.",
+      "observation": "The vendor shows a wide variety of chili oils and pickled sour bamboo shoots, but standard black vinegar is on a bottom shelf."
+    },
+    {
+      "turn": 7,
+      "action": "Ask a group of locals if families typically gather to 'wrap' or 'shape' their dinner together tonight.",
+      "observation": "One local nods enthusiastically and says yes, the whole family sits around to roll the round shapes together."
+    },
+    {
+      "turn": 8,
+      "action": "Purchase a small bag of flour and ask the seller for their recommendation on the water-to-flour ratio for a 'chewy' texture.",
+      "observation": "The seller hands over a bag of glutinous rice flour (sticky rice powder) and explains it needs warm water to be soft and pliable."
+    },
+    {
+      "turn": 9,
+      "action": "Ask a butcher if he has any minced pork left, or if it has all been sold out for the evening festivities.",
+      "observation": "The butcher has plenty of pork left, but notes that he sold out of sesame paste and crushed peanuts earlier."
+    },
+    {
+      "turn": 10,
+      "action": "Comment to a local cook that 'ears must be protected' tonight and ask if they boil or steam the 'ears' in this village.",
+      "observation": "The cook looks confused by the 'ears' comment, clarifies that tonight they boil 'Tangyuan' (round sweet rice balls) for reunion, not savory ears."
+    }
+  ]
+}

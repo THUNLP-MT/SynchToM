@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Check the combat event log for 'Fatal Damage' entries immediately after the enemy falls.",
+      "observation": "Log shows: 'Hit: Torso, Damage: 95'. Unit state changed to 'Incapacitated'. No 'Unit_Death' event recorded. The unit remains on the ground."
+    },
+    {
+      "turn": 2,
+      "action": "Enable 'Debug_Hitbox_Visualizer' and shoot the enemy in the head while they are on the ground.",
+      "observation": "The bullet impacts the head hitbox. Blood particle effect plays. The enemy unit twitches slightly (part of the 'Feign Death' reaction animation) but remains prone."
+    },
+    {
+      "turn": 3,
+      "action": "Search the entire AI codebase for strings: 'RESURRECT', 'REVIVE', 'UNDEAD', or 'SECOND_WIND'.",
+      "observation": "Search returns 0 matches. Found related terms in `AI_Tactics.cpp`: 'Recover_Stamina', 'Check_Pulse', 'Deception_Routine'."
+    },
+    {
+      "turn": 4,
+      "action": "Disable the 'Recover_Stamina' function in `AI_Tactics.cpp` and re-run the scenario.",
+      "observation": "The enemy soldier is shot, falls to the ground, waits 5 seconds, and stands up again to shoot the player. The behavior is unchanged because the logic is in 'Deception_Routine'."
+    },
+    {
+      "turn": 5,
+      "action": "Inspect the animation timeline for the enemy model to see if the 'Death' animation has a hidden transition back to 'Idle'.",
+      "observation": "Animation sequence observed: `anim_impact_chest` -> `anim_fall_prone` -> `anim_prone_idle_stealth` -> `anim_stand_rapid`."
+    },
+    {
+      "turn": 6,
+      "action": "Open the entity properties inspector and watch the 'HP_Regen_Rate' variable while the enemy is on the ground.",
+      "observation": "HP remains constant at 5/100 (Critical Threshold) while on the ground. It does not regenerate. The unit stands up with 5 HP."
+    },
+    {
+      "turn": 7,
+      "action": "Scan the immediate area (50m radius) for other enemy units with 'Healer' or 'Officer' tags.",
+      "observation": "No other units detected in the vicinity. The enemy soldier is operating solo using the 'Lone_Wolf_Ambush' behavior tree."
+    },
+    {
+      "turn": 8,
+      "action": "Force a network flush and restart the local server before shooting the enemy.",
+      "observation": "The scenario plays out exactly the same. The enemy falls after being shot, lies still, then suddenly stands up and fires."
+    },
+    {
+      "turn": 9,
+      "action": "Locate the `Deception_Routine` found earlier and delete the entire block, assuming it's a wrapper for the magic system.",
+      "observation": "The enemy soldier is shot and remains standing until health hits 0, then dies normally. (The user has successfully removed the Feign Death tactic, but believes they removed a resurrection spell)."
+    },
+    {
+      "turn": 10,
+      "action": "Post a bug report on the internal tracker titled: 'CRITICAL: Hidden Fantasy Resurrection Logic found in AI Deception Module'.",
+      "observation": "Ticket created. The AI Lead marks it as 'Not a Bug - Working as Intended (Milsim Tactic: Feign Death)', which the user will likely interpret as the devs doubling down on their fantasy design."
+    }
+  ]
+}

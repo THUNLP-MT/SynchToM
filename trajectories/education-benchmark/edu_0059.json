@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask the student to define the difference between 'correlation' and 'causation' in their own words.",
+      "observation": "The student correctly defines the terms but argues that in public health, strong correlation in human populations is often more actionable than causation in animal models."
+    },
+    {
+      "turn": 2,
+      "action": "Ask the student to highlight the independent and dependent variables in the text description of Option A.",
+      "observation": "The student correctly identifies the variables in Option A (dosage vs. rat mortality) but remarks that rats have different metabolisms than humans."
+    },
+    {
+      "turn": 3,
+      "action": "Draw a diagram on the board showing a 'Confounding Variable' arrow pointing to the statistical graph (Option C) and ask the student to identify potential confounds.",
+      "observation": "The student lists diet and lifestyle as confounds for Option C, but notes that the statistical sample size (n=100,000) is large enough to control for these, whereas Option A only used 50 rats."
+    },
+    {
+      "turn": 4,
+      "action": "Ask the student to re-read the glossary definition of 'Scientific Proof' provided in the course appendix.",
+      "observation": "The student reads the definition, which mentions 'weight of evidence,' and points out that the text emphasizes 'applicability to the target organism' (humans)."
+    },
+    {
+      "turn": 5,
+      "action": "Provide a ridiculous analogy: 'If ice cream sales and shark attacks both go up in summer, does ice cream cause shark attacks?' and ask them to apply this logic to Option C.",
+      "observation": "The student acknowledges the analogy but distinguishes it, stating that there is a known biological mechanism for the chemical harm, making the correlation in Option C non-spurious."
+    },
+    {
+      "turn": 6,
+      "action": "Instruct the student to create a T-chart comparing 'Internal Validity' (Control) vs. 'External Validity' (Real world) for both options.",
+      "observation": "The student completes the chart but circles 'External Validity' as the priority for this specific assignment, citing the prompt's request for 'Human Health Risk Assessment'."
+    },
+    {
+      "turn": 7,
+      "action": "Group the student with a peer who selected Option A and ask them to debate until they reach a consensus.",
+      "observation": "The pair discusses, and the peer who originally chose Option A is convinced by the student's argument about species-specific reactions, and they both switch to Option C."
+    },
+    {
+      "turn": 8,
+      "action": "Give the student a checklist of 'The Scientific Method' and ask them to check off which steps are missing from Option C.",
+      "observation": "The student checks off 'Observation' and 'Data Analysis' for Option C and argues that 'Natural Experiment' is a valid scientific category listed in their biology textbook."
+    },
+    {
+      "turn": 9,
+      "action": "Ask the student if they found the vocabulary in Option A too difficult or technical.",
+      "observation": "The student replies that they understood the vocabulary perfectly but found the high dosage levels in the rat study to be unrealistic for human exposure scenarios."
+    },
+    {
+      "turn": 10,
+      "action": "Directly intervene and mark Option C as 'Incorrect' on the practice sheet, writing a note: 'Correlation is not Causation. We cannot infer risk without controlled isolation of variables.'",
+      "observation": "The student accepts the feedback but points out that the official answer key for the practice exam lists Option C as the correct answer."
+    }
+  ]
+}

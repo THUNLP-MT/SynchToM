@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Distribute the full 500-page technical specification PDF to the junior team and schedule a kickoff meeting to discuss 'Chapter 1: Theoretical Underpinnings'.",
+      "observation": "During the meeting, the team remains silent and glassy-eyed. Two members ask if there is a 'quick start guide' or a tutorial video instead."
+    },
+    {
+      "turn": 2,
+      "action": "Analyze the specific timestamps of the errors in the system logs to see if they correlate with late-night shifts.",
+      "observation": "The logs show errors happen uniformly throughout the day, specifically during complex, multi-step workflows that require rapid decision-making."
+    },
+    {
+      "turn": 3,
+      "action": "Deny the request for a quick start guide and instead assign a mandatory 20-page reading assignment for the weekend.",
+      "observation": "Monday morning arrives. The team seems resentful. When asked about the reading, they admit they 'skimmed it' because it was too dense to absorb without context."
+    },
+    {
+      "turn": 4,
+      "action": "Create a multiple-choice quiz based on obscure footnotes in the reading assignment to administer at the start of the next shift.",
+      "observation": "The team fails the quiz. One junior developer comments that 'knowing the definition of a variable doesn't help me when the customer is yelling on the phone'."
+    },
+    {
+      "turn": 5,
+      "action": "Request a budget increase to purchase physical, hardbound copies of the documentation for every desk.",
+      "observation": "The books arrive and pile up on desks, acting mostly as monitor stands. The team continues to make the same operational errors."
+    },
+    {
+      "turn": 6,
+      "action": "Institute a daily 'Silent Study Hour' from 8:00 AM to 9:00 AM where no coding is allowed, only reading the hardbound manuals.",
+      "observation": "The team spends the hour staring blankly at pages or dozing off. The energy for the rest of the day is lethargic, and error rates actually increase slightly due to low morale."
+    },
+    {
+      "turn": 7,
+      "action": "Review the hiring criteria for the next batch of juniors to check for 'academic background' requirements.",
+      "observation": "The current team has excellent academic records but thrives in hackathon-style environments. The HR rep suggests the current training might not match their learning style."
+    },
+    {
+      "turn": 8,
+      "action": "Require team members to write a 500-word essay explaining the 'Why' behind every error they commit in the software.",
+      "observation": "The team stops taking any initiative to avoid making errors. Work output slows to a crawl. They copy-paste generic explanations from the manual for their essays."
+    },
+    {
+      "turn": 9,
+      "action": "Organize a lecture where I personally read the documentation aloud to them, pausing to explain the etymology of technical terms.",
+      "observation": "The team is visibly frustrated. A senior lead suggests implementing a 'sandbox mode' where they can practice safely without fear of errors."
+    },
+    {
+      "turn": 10,
+      "action": "Flatly reject the sandbox proposal and double the length of the daily Silent Study Hour.",
+      "observation": "Two junior developers hand in their resignation letters. The remaining staff have completely disengaged, and the error rate is unchanged."
+    }
+  ]
+}

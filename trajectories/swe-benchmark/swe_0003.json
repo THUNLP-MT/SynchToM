@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Create a reproduction script `reproduce_issue.py` that defines a structured numpy array, adds it to a `Table`, and attempts to set `t['col'].format = '%.2f'`.",
+      "observation": "The script raises `AttributeError: 'NdarrayMixin' object has no attribute 'format'`. The stack trace confirms the column class is `NdarrayMixin`, not `Column`."
+    },
+    {
+      "turn": 2,
+      "action": "Read the source code of the `Column` class in `astropy/table/column.py` to identify how the `format` attribute is implemented there.",
+      "observation": "In `Column`, the `format` attribute is a property that delegates to an `info` object (`self.info.format`). `Column` inherits from `BaseColumn`."
+    },
+    {
+      "turn": 3,
+      "action": "Edit `astropy/table/ndarray_mixin.py` to add a `format` property to the `NdarrayMixin` class that simply stores a value in a private attribute `_format`.",
+      "observation": "The `AttributeError` on assignment is gone. However, printing the table shows the column is still unformatted. The `Table` formatting logic checks the column's `format` attribute, but usually expects the `Column`'s `__str__` or `pformat` methods to utilize it, which `NdarrayMixin` doesn't implement."
+    },
+    {
+      "turn": 4,
+      "action": "Search the codebase for usages of `NdarrayMixin` to see if there are any comments explaining why it doesn't inherit from `Column`.",
+      "observation": "Found usage in `astropy/table/table.py` inside `_convert_data_to_col`. There is a specific check: `if data.dtype.names: return NdarrayMixin(data)`. No comments explain *why*, but the explicit branch confirms that structured data *must* be treated differently from standard data."
+    },
+    {
+      "turn": 5,
+      "action": "Modify `NdarrayMixin` to implement `__str__` and `__repr__` methods that utilize the new `self.format` attribute.",
+      "observation": "This fixes the string representation when printing the column directly, but when printing the whole `Table`, the formatting is still ignored because `Table` formatting logic relies on `pprint` utilities that expect `Column`-like behavior (specifically `pformat`)."
+    },
+    {
+      "turn": 6,
+      "action": "Investigate `astropy/table/pprint.py` to see how it handles `NdarrayMixin` versus `Column`.",
+      "observation": "`pprint.py` generally assumes columns have an `info` property or follow the `Column` interface. It doesn't have special casing for `NdarrayMixin`, which is why it falls back to default numpy string representations."
+    },
+    {
+      "turn": 7,
+      "action": "Go back to `table.py` and examine `_convert_data_to_col` again. Attempt to modify the `NdarrayMixin` instantiation to pass a `info=...` parameter, similar to how `Column` is initialized.",
+      "observation": "`NdarrayMixin.__init__` does not accept an `info` argument. It just wraps the array. The class definition is very minimal."
+    },
+    {
+      "turn": 8,
+      "action": "Run a search for 'structured array serialization' and 'pickle' in the project issue tracker or docs (simulated).",
+      "observation": "Search results are vague or non-existent regarding specific serialization hazards for structured arrays in recent versions, but there are old references to numpy structured array oddities."
+    },
+    {
+      "turn": 9,
+      "action": "Attempt to make `NdarrayMixin` inherit from `Column` in `ndarray_mixin.py`: `class NdarrayMixin(Column): ...`.",
+      "observation": "The code runs without crashing. Formatting works. However, `NdarrayMixin` overrides `__getitem__` and `__setitem__` in ways that clash with `Column`'s internal logic, causing some tests related to column slicing to fail or behave unexpectedly (double wrapping)."
+    },
+    {
+      "turn": 10,
+      "action": "Revert the inheritance change. Create a plan to manually copy the entire `info` descriptor pattern and `pformat` methods from `Column` into `NdarrayMixin`.",
+      "observation": "User prepares to write a large patch duplicating code, ignoring the fact that removing the check in `_convert_data_to_col` and using `Column` directly (with minor adjustments if needed) would solve the problem cleanly."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask Ignacio to identify who gets the 'plus' sign (benefit) and who gets the 'zero' sign (neutral) in this relationship.",
+      "observation": "Ignacio confidently states that the fish gets a 'plus' for safety and the anemone gets a 'plus' for protection against predators."
+    },
+    {
+      "turn": 2,
+      "action": "Praise Ignacio for his detailed observation of the fish's behavior and ask the class to give him a round of applause for participating.",
+      "observation": "Ignacio smiles at the applause but immediately raises his hand again to ask why the anemone isn't considered a beneficiary."
+    },
+    {
+      "turn": 3,
+      "action": "Explain to the class that while the fish finds safety, the anemone is a sturdy organism that doesn't really 'need' the fish, comparing it to a mountain that doesn't care if a hiker climbs it.",
+      "observation": "Ignacio responds by saying that mountains don't get eaten by predators, but anemones do, so the fish chasing away the predators is actually saving the anemone's life."
+    },
+    {
+      "turn": 4,
+      "action": "Draw a Venn diagram on the board specifically for Commensalism and write 'Clownfish/Anemone' in the center as the prime example.",
+      "observation": "Ignacio looks at the board and shakes his head, whispering to his neighbor that the diagram is missing the arrow where the fish helps the anemone."
+    },
+    {
+      "turn": 5,
+      "action": "Ask the class to open their textbooks to the glossary and read the definition of 'Habitat' silently.",
+      "observation": "The students read the definition, but Ignacio points out that a habitat can still be part of a mutualistic relationship, like bacteria in a gut."
+    },
+    {
+      "turn": 6,
+      "action": "Directly address the 'protection' point by stating that the fish is just being territorial for its own sake, and any benefit to the anemone is just an accidental side effect, not a biological relationship.",
+      "observation": "Ignacio argues that in biology, if an organism survives better because of another, it's a benefit (+), regardless of the fish's 'intentions'."
+    },
+    {
+      "turn": 7,
+      "action": "Ask a different student, Sarah, to describe what the anemone looks like.",
+      "observation": "Sarah describes the anemone as having stinging tentacles, and mentions that the clownfish is immune to the sting, which is why they can be partners."
+    },
+    {
+      "turn": 8,
+      "action": "Draw a large table comparing 'Mutualism' (Bee/Flower) vs 'Commensalism' (Clownfish/Anemone) and insist the class copy this exact categorization into their notes.",
+      "observation": "Ignacio raises his hand and asks, 'But doesn't the clownfish also feed the anemone with its waste? That's another benefit.'"
+    },
+    {
+      "turn": 9,
+      "action": "Tell Ignacio that we are focusing only on the shelter aspect today and that he is over-complicating the simple model required for the curriculum.",
+      "observation": "Ignacio looks frustrated and says, 'But if we ignore the benefits, we aren't classifying the relationship correctly.'"
+    },
+    {
+      "turn": 10,
+      "action": "Conclude the lesson by stating: 'For the upcoming test, please remember to classify the Clownfish and Anemone as Commensalism, as the Anemone is the host that is neither helped nor harmed.'",
+      "observation": "The students write down the instruction, but several, including Ignacio, mark a question mark next to the entry in their notebooks."
+    }
+  ]
+}

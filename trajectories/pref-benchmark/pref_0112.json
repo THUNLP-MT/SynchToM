@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Sprint towards the ledge and press jump at the very last second.",
+      "observation": " The character jumps, hits the wall well below the ledge, and slides back down. There is a clearly lit open doorway to the left."
+    },
+    {
+      "turn": 2,
+      "action": "Look around the immediate area for a crate or rock to push against the wall.",
+      "observation": "The room is empty of movable objects. The only interactive element is the open door leading to a hallway on the left."
+    },
+    {
+      "turn": 3,
+      "action": "Attempt a 'coyote jump' by running off a small nearby debris pile and jumping mid-air towards the ledge.",
+      "observation": "The debris pile has no collision box; the character walks through it. The jump height remains insufficient to reach the ledge."
+    },
+    {
+      "turn": 4,
+      "action": "Unequip the character's sword and shield, then attempt the sprint jump again.",
+      "observation": "The character model looks lighter, but the jump height and gravity physics remain exactly the same. The ledge is still out of reach."
+    },
+    {
+      "turn": 5,
+      "action": "Pause the game and check the 'Controls' menu for a crouch or slide input.",
+      "observation": "The menu lists 'Jump', 'Attack', and 'Interact'. There are empty slots for abilities labeled 'Locked' and 'Locked'. "
+    },
+    {
+      "turn": 6,
+      "action": "Repeatedly jump while mashing the directional stick into the corner where the wall meets the ledge.",
+      "observation": "The character jitters slightly against the wall but gravity consistently pulls them down. A tutorial prompt appears: 'Explore to find new paths.' "
+    },
+    {
+      "turn": 7,
+      "action": "Perform a Jump, then immediately press Attack, then Jump again (Animation Cancel).",
+      "observation": "The character performs an aerial attack. The vertical momentum stops during the attack, causing the character to fall faster afterward."
+    },
+    {
+      "turn": 8,
+      "action": "Open the map and zoom in fully on the area above the ledge.",
+      "observation": "The area above is blacked out. The area to the left (through the open door) shows a long, mapped corridor with a '?' icon at the end."
+    },
+    {
+      "turn": 9,
+      "action": "Sprint at the wall, jump, and pause the game rapidly (Pause Buffering) at the peak of the jump.",
+      "observation": "The game pauses and unpauses. The character continues to fall naturally. No ledge grab animation exists in the current moveset."
+    },
+    {
+      "turn": 10,
+      "action": "Jump away from the wall, turn 180 degrees in mid-air, and attempt to back-flip onto the ledge.",
+      "observation": "The character turns around and falls. The ledge remains unreachable. The open door to the left remains the only accessible path."
+    }
+  ]
+}

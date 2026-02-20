@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Check the filament spool label against the slicer software settings.",
+      "observation": "The spool recommends 190-220°C. The current setting is 200°C. The print begins, but the first layer looks inconsistent—some lines are squished, others are round and loose. It detaches at layer 20."
+    },
+    {
+      "turn": 2,
+      "action": "Increase the printing bed temperature from 60°C to 65°C.",
+      "observation": "The printer heats up. The nozzle moves across the bed. On the right side, the filament doesn't touch the plate at all; on the left, it adheres slightly. The print fails due to detachment."
+    },
+    {
+      "turn": 3,
+      "action": "Clean the build plate surface with Isopropyl Alcohol.",
+      "observation": "The plate is spotless. The print starts. The nozzle scrapes the bed in the center, but the corners are loose. The print detaches."
+    },
+    {
+      "turn": 4,
+      "action": "Increase the 'Initial Layer Height' parameter from 0.2mm to 0.3mm.",
+      "observation": "The nozzle sits physically higher now. The filament comes out like loose spaghetti and drags around the bed without squishing at all. Immediate failure."
+    },
+    {
+      "turn": 5,
+      "action": "Lower 'Initial Layer Height' to 0.15mm and increase Nozzle Temperature to 215°C.",
+      "observation": "The nozzle grinds against the glass on the left side of the bed (making a scratching sound), but the right side still doesn't stick. The extruder clicks as it jams against the bed."
+    },
+    {
+      "turn": 6,
+      "action": "Disable the part cooling fan for the first 5 layers.",
+      "observation": "The plastic stays molten longer, but because the nozzle distance varies across the bed, the molten plastic just curls up around the nozzle in the low spots."
+    },
+    {
+      "turn": 7,
+      "action": "Search online forums for 'correct temperature profile [Printer Model]'.",
+      "observation": "Search results show a 'Sticky Thread' titled: 'READ FIRST: Watch the Bed Leveling Video! The paper test is mandatory.' Another user comments, 'My prints failed until I did the friction test.'"
+    },
+    {
+      "turn": 8,
+      "action": "Ignore the 'Sticky Thread' and download a user-made 'High Heat / High Flow' slicer profile.",
+      "observation": "The printer runs very hot. The filament oozes out uncontrollably. It sticks in one corner where the bed is high, but creates a bird's nest of plastic in the center where the bed is low."
+    },
+    {
+      "turn": 9,
+      "action": "Re-slice the model with a 'Raft' adhesion type and set Bed Temperature to 80°C (Max Limit).",
+      "observation": "The raft prints unevenly—transparently thin on one side, non-existent on the other. The intense heat causes the edges of the raft to curl up (warp) and detach."
+    },
+    {
+      "turn": 10,
+      "action": "Order a new upgraded extruder assembly and a glass bed online.",
+      "observation": "The printer sits idle. The bed leveling knobs remain untouched in their incorrect positions."
+    }
+  ]
+}

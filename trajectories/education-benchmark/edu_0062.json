@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Arranges the prep table, placing the set of nesting dolls in the center and pushing the cooked egg and orange to the periphery.",
+      "observation": "Students enter and immediately point at the egg, asking, 'Are we going to smash the egg to see what's inside?'"
+    },
+    {
+      "turn": 2,
+      "action": "Reads the lesson title 'Visualizing Earth's Internal Layers' aloud to the class.",
+      "observation": "A student looks at the textbook image which shows a cross-section of Earth with a very thin crust and thick mantle."
+    },
+    {
+      "turn": 3,
+      "action": "Holds up the largest nesting doll and explains, 'Imagine the Earth is like a series of boxes, one inside the other, that don't touch.'",
+      "observation": "Students look confused. One student asks, 'But isn't the Earth solid rock and magma? How can it be empty boxes?'"
+    },
+    {
+      "turn": 4,
+      "action": "Opens the first nesting doll to reveal the second one, emphasizing the 'pop' sound of separation.",
+      "observation": "A student picks up the egg and asks, 'Doesn't the shell look more like the crust because it's super thin?'"
+    },
+    {
+      "turn": 5,
+      "action": "Takes the egg from the student, peels off the shell entirely, and places the shell in one pile and the white in another, ignoring the yolk.",
+      "observation": "The egg white is slippery and the yolk is visible inside it. Students notice the white is much thicker than the shell pieces."
+    },
+    {
+      "turn": 6,
+      "action": "Wipes the egg residue off hands with a paper towel and moves the segmented orange back to the supply bin.",
+      "observation": "Students watch the orange being put away; one mentions, 'My brother said the orange slices look like tectonic plates.'"
+    },
+    {
+      "turn": 7,
+      "action": "Draws a diagram on the board showing three concentric circles with perfectly equal spacing between them.",
+      "observation": "A student raises their hand and says, 'The chart in the book says the Mantle is the biggest layer, 84% of Earth's volume. Your drawing makes them all look the same.'"
+    },
+    {
+      "turn": 8,
+      "action": "Taps the whiteboard marker on the 'Mantle' circle and says, 'Focus on the order, not the size. The Mantle is simply the second container.'",
+      "observation": "Students begin checking out, whispering that the teacher's drawing doesn't look like the pictures in the book which clearly differentiate thickness."
+    },
+    {
+      "turn": 9,
+      "action": "Asks the class, 'If we remove the outer layer, is the inner layer affected?'",
+      "observation": "Students reply, 'Well, if you take off the crust, the mantle would probably explode or cool down because of the pressure change,' referencing the physical properties."
+    },
+    {
+      "turn": 10,
+      "action": "Hands out a worksheet requiring students to label the nesting dolls as Crust, Mantle, and Core, and instructs them to ignore the relative sizes.",
+      "observation": "Students complete the worksheet but the exit tickets show they believe the Earth is hollow and made of wood-like shells."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Send a text message to the colleague who sent the flowers with a selfie of the user smiling broadly next to the bouquet.",
+      "observation": "The colleague replies immediately with a short message: 'I am praying for you. Please let me know if you need anything during this difficult time.' They include a 'folded hands' emoji (🙏)."
+    },
+    {
+      "turn": 2,
+      "action": "Search online for 'best location to place lotus flowers for feng shui'. (Red Herring)",
+      "observation": "Search results discuss placement, but also heavily feature articles about Buddhist altars and offering guidelines. The user scrolls past the 'altar' references, focusing only on 'energy flow'."
+    },
+    {
+      "turn": 3,
+      "action": "Reply to the colleague: 'Thank you! Yes, it was a struggle, but I'm coming out of it stronger. The prayers for my success are appreciated!'",
+      "observation": "The colleague does not reply with text, but sends a digital gift card for a food delivery service with the note: 'Please eat something properly. Take care of your health.'"
+    },
+    {
+      "turn": 4,
+      "action": "Inspect the card attached to the flowers, which has a black and silver cord (Mizuhiki) and grey calligraphy.",
+      "observation": "The card reads 'Gokouden' (Offering for the departed) in stylized kanji, which the user cannot read. The ribbon is tied in a 'musubi-kiri' (knot that cannot be untied) style, used for funerals to symbolize 'never again'."
+    },
+    {
+      "turn": 5,
+      "action": "Post a photo of the flowers on Instagram with the caption: 'Lotus rising! 🌸 Thank you [Colleague Name] for celebrating my new beginning. #Rebirth #Wellness #MountFujiLife'.",
+      "observation": "Japanese followers begin commenting phrases like 'Go-shushou-sama desu' (My condolences) and 'R.I.P.' A few expats comment 'Beautiful!', but a Japanese friend DMs: 'I didn't know... who passed away?'"
+    },
+    {
+      "turn": 6,
+      "action": "Reply to the Japanese friend's DM: 'The old me! 😉 Just kidding, it's about shedding the past and blooming anew. No one died, don't worry!'",
+      "observation": "The friend replies: 'But... those are funeral flowers. And the ribbon... are you sure there wasn't a mistake?'"
+    },
+    {
+      "turn": 7,
+      "action": "Move the flowers to the yoga mat area to use as a focal point for meditation. (Red Herring)",
+      "observation": "The flowers have a distinct, somber scent often associated with incense used at wakes. The user finds the scent 'earthy and grounding'."
+    },
+    {
+      "turn": 8,
+      "action": "Draft a handwritten thank-you note on bright yellow stationery: 'Dear [Colleague], Your gift captures my spirit perfectly. Like the lotus, I rise! Let's grab lunch soon to celebrate.'",
+      "observation": "The user's spouse walks in, sees the flowers, and looks horrified. 'Why are there death flowers on the table? Did the landlord die?'"
+    },
+    {
+      "turn": 9,
+      "action": "Look for a different vase, thinking the current container is the problem. (Red Herring)",
+      "observation": "The stems are cut specifically for an offering stand and are too short for the user's tall glass vases. They flop over awkwardly when moved."
+    },
+    {
+      "turn": 10,
+      "action": "Finalize the note, adding a postscript: 'P.S. Everyone keeps asking who died! 😂 I told them it's just the death of my stress! Thanks for the deep metaphor.'",
+      "observation": "The user seals the envelope, satisfied that this cheerful note perfectly acknowledges the 'fresh start' the colleague intended to celebrate."
+    }
+  ]
+}

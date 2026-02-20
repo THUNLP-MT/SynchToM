@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Search the library for 'The Personal Letters of Tsar Nicholas II and Kaiser Wilhelm'.",
+      "observation": "The book contains hundreds of letters, but they are mostly formal diplomatic telegrams discussing railway schedules and mobilization timetables."
+    },
+    {
+      "turn": 2,
+      "action": "Create a color-coded mind map connecting the European leaders based on their family relationships.",
+      "observation": "The resulting map shows that cousins were on opposing sides, while unrelated leaders were allies based on strict treaty obligations signed years prior."
+    },
+    {
+      "turn": 3,
+      "action": "Watch a 10-hour documentary series titled 'The Great War'.",
+      "observation": "The documentary spends the first three hours detailing the logistical specifics of the Schlieffen Plan and the precise tonnage of naval dreadnoughts."
+    },
+    {
+      "turn": 4,
+      "action": "Skip the textbook chapter on 'The July Crisis Timeline' and read the biography of Gavrilo Princip instead.",
+      "observation": "The biography explains that while Princip fired the shot, the war started due to a pre-existing web of automatic mobilization clauses triggered by the ultimatum deadline."
+    },
+    {
+      "turn": 5,
+      "action": "Highlight every sentence in the textbook that contains an adjective describing an emotion (e.g., 'angry', 'fearful').",
+      "observation": "Only about 2% of the text is highlighted; the rest of the pages are dense paragraphs explaining the legal text of the Triple Alliance and the exact dates of troop movements."
+    },
+    {
+      "turn": 6,
+      "action": "Ask a study partner: 'Who do you think is the main antagonist of the 1914 arc?'",
+      "observation": "The study partner replies that there isn't really a single antagonist, but rather a complex convergence of Imperialism, Nationalism, and rigid military timetables."
+    },
+    {
+      "turn": 7,
+      "action": "Write a fictionalized screenplay scene depicting the conversation between the Austrian Foreign Minister and the German Chancellor.",
+      "observation": "The practice quiz asks for the specific date the 'Blank Cheque' was issued, which was not included in the dramatic dialogue written."
+    },
+    {
+      "turn": 8,
+      "action": "Purchase a historical fiction novel set during WWI.",
+      "observation": "The novel changes the timeline of events for dramatic effect, placing the Russian mobilization *after* the German declaration of war, contradicting the actual sequence required for the exam."
+    },
+    {
+      "turn": 9,
+      "action": "Make a set of flashcards featuring the portraits of the generals.",
+      "observation": "The exam questions require matching the generals to specific battle dates and logistical failures, unrelated to their facial features or personalities."
+    },
+    {
+      "turn": 10,
+      "action": "Submit an essay arguing that the war was caused by 'The Kaiser's insecurity' rather than listing the sequence of mobilizations.",
+      "observation": "The essay receives a failing grade with the feedback: 'Interesting psychological theory, but you failed to list the sequence of events in the July Crisis or mention the treaty obligations that actually triggered the conflict.'"
+    }
+  ]
+}

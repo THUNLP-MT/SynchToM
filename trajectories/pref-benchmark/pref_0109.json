@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open settings menu and increase 'Mouse Sensitivity' and 'Look Smoothing' to maximum.",
+      "observation": " The camera now spins wildly fast when the mouse is moved, but the character's walking speed remains a slow, heavy plod. The character breathes audibly."
+    },
+    {
+      "turn": 2,
+      "action": "Spam the spacebar repeatedly to attempt a 'bunny hop' movement chain.",
+      "observation": "The character performs one tiny, heavy hop (barely 2 inches off the ground) and then refuses to jump again. A red 'stamina' bar appears and instantly drains to zero. A small icon of a backpack flashes red in the corner."
+    },
+    {
+      "turn": 3,
+      "action": "Pause game, turn off V-Sync, set all graphics to 'Low', and check frame rate counter.",
+      "observation": "The frame rate counter jumps to 144 FPS. The game looks terrible, but the character still moves with a lumbering, heavy gait, clanking loudly with every step."
+    },
+    {
+      "turn": 4,
+      "action": "Open the developer console (~) and type 'physics.gravity_scale 0.5'.",
+      "observation": "Console returns: 'Command not recognized: physics.gravity_scale'. The character stops moving entirely to catch their breath, hunching over."
+    },
+    {
+      "turn": 5,
+      "action": "Alt-Tab out of the game and open Task Manager to set the game process priority to 'Realtime'.",
+      "observation": "Windows warns about system instability. Upon tabbing back in, the game runs smoothly, but the character still cannot sprint and walks at a crawl."
+    },
+    {
+      "turn": 6,
+      "action": "Locate the game's installation folder, open 'config.ini', and change 'bEnableRealisticInertia' from '1' to '0'.",
+      "observation": "After restarting the game, the character still moves exactly the same. The game engine overrides the config file because the movement speed is dictated by the 'Current Load' variable in the code."
+    },
+    {
+      "turn": 7,
+      "action": "In-game, attempt to perform a 'slide-cancel' by sprinting and crouching rapidly.",
+      "observation": "The sprint button does nothing. When crouching, the character falls to one knee and struggles to stand back up. A text prompt 'Cannot Sprint!' appears in the center of the screen."
+    },
+    {
+      "turn": 8,
+      "action": "Walk the character off a high ledge to test the fall speed.",
+      "observation": "The character plummets like a stone, taking massive fall damage. The screen shakes violently upon impact, and the sound of breaking bones plays. The 'Overburdened' icon is now solid red."
+    },
+    {
+      "turn": 9,
+      "action": "Download and inject a third-party 'SpeedHack' trainer to force movement speed to 200%.",
+      "observation": "The hack activates. The character's legs move furiously fast in a walking animation, but they barely cover any distance, looking like they are moonwalking on a treadmill due to the movement penalty cap."
+    },
+    {
+      "turn": 10,
+      "action": "Go to the game's official forum and post a thread titled 'BUG: Input lag and broken gravity makes movement impossible - Fix your engine'.",
+      "observation": "The character stands motionless in the game world, carrying 450kg of loot in a 100kg capacity bag, while the user types the complaint."
+    }
+  ]
+}

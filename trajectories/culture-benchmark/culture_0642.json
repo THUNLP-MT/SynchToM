@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Pick up the bill and scrutinize the itemized list of food and drinks ordered, checking the prices against the menu.",
+      "observation": "The prices on the bill match the menu exactly."
+    },
+    {
+      "turn": 2,
+      "action": "Ask the server, 'Is the service charge already included in this total, or is there a separate cover charge?'",
+      "observation": "The server replies, 'No, tax is included, but gratuity is not included in the total.'"
+    },
+    {
+      "turn": 3,
+      "action": "Look around the room to observe if the server is highlighting this line on bills for other tables, or just mine.",
+      "observation": "The server is seen highlighting the line for a local couple at the next table as well."
+    },
+    {
+      "turn": 4,
+      "action": "Ask the server, 'Do you accept credit cards, or is this highlighting indicating a preference for cash payment?'",
+      "observation": "The server smiles and says, 'We accept all cards. The highlight is just for your convenience.'"
+    },
+    {
+      "turn": 5,
+      "action": "Ask the server, 'Is it the restaurant owner's policy to circle this specific line, or is this something you decided to do yourself?'",
+      "observation": "The server says, 'It's just a habit I have to help customers see the total clearly.'"
+    },
+    {
+      "turn": 6,
+      "action": "Ask the server in a serious tone, 'Does the restaurant pay you a full salary for your work here?'",
+      "observation": "The server looks slightly uncomfortable and explains they get an hourly wage plus tips."
+    },
+    {
+      "turn": 7,
+      "action": "Place the bill down and ask, 'If I pay exactly the amount listed for the food, is the transaction considered complete?'",
+      "observation": "The server says, 'Technically yes, but tipping is customary for service.'"
+    },
+    {
+      "turn": 8,
+      "action": "Request to speak to the manager regarding 'clarification on billing protocols.'",
+      "observation": "The manager arrives at the table."
+    },
+    {
+      "turn": 9,
+      "action": "Ask the manager, 'Is the restaurant currently facing financial difficulties that require customers to directly subsidize staff wages?'",
+      "observation": "The manager looks confused and assures me the restaurant is profitable."
+    },
+    {
+      "turn": 10,
+      "action": "Hand the bill to the manager and state, 'I wish to file a formal complaint regarding the staff soliciting additional funds on the receipt; it creates an uncomfortable environment.'",
+      "observation": "The manager apologizes for the discomfort and takes the feedback."
+    }
+  ]
+}

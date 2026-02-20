@@ -1,0 +1,53 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Send a company-wide email reminder emphasizing the training deadline and the importance of 'continuous learning'.",
+      "observation": "Completion rates remain stagnant at 12%. Several replies to the email state: 'I tried to finish it, but I couldn't submit the final quiz.'"
+    },
+    {
+      "turn": 2,
+      "action": "Schedule a mandatory 'Kick-off and Motivation' Zoom call for all participants.",
+      "observation": "High attendance on the call. During the Q&A, multiple employees type in the chat: 'The content is fine, but the Submit button on the last page doesn't click.' The completion rate remains unchanged after the call."
+    },
+    {
+      "turn": 3,
+      "action": "Pull the backend learning management system (LMS) logs to analyze the average 'Time Spent' per module.",
+      "observation": "The logs show that users are spending adequate time on all modules but dropping off effectively 100% of the time at the exact timestamp associated with the final quiz screen."
+    },
+    {
+      "turn": 4,
+      "action": "Implement a 'Buddy System' where employees are paired up and required to email each other their key takeaways.",
+      "observation": "Employees participate in the email exchange, but the LMS still shows no new completions. Partners report to me: 'My buddy finished the work, but the system won't record it.'"
+    },
+    {
+      "turn": 5,
+      "action": "Distribute an anonymous survey asking: 'On a scale of 1-10, how connected do you feel to your learning cohort?'",
+      "observation": "Survey results are mixed on connection, but the open text field is flooded with: 'PLEASE FIX THE SUBMIT BUTTON' and 'I am using Chrome and it freezes at the end.'"
+    },
+    {
+      "turn": 6,
+      "action": "Mandate weekly synchronous video check-ins for all participants (The Goal).",
+      "observation": "During the first check-in, an employee shares their screen to demonstrate the bug. The button is grayed out. The user dismisses it as 'probably a glitch on your specific laptop'."
+    },
+    {
+      "turn": 7,
+      "action": "Create a 'Wall of Fame' virtual background for those who complete the course to use in meetings.",
+      "observation": "No one uses the background because no one can complete the course. IT sends a ticket: 'We identified a JavaScript conflict in the LMS affecting all WebKit browsers.'"
+    },
+    {
+      "turn": 8,
+      "action": "Host a 'Live Study Hall' where everyone stays on camera for an hour to complete the final quiz together.",
+      "observation": "50 people sit on the call, click the button simultaneously, and nothing happens. The chat explodes with frustration. The user says: 'Keep trying! It's about persistence!'"
+    },
+    {
+      "turn": 9,
+      "action": "Send a memo on 'Digital Resilience' and 'Problem Solving' to the team.",
+      "observation": "HR receives complaints about the L&D manager ignoring valid technical reports. Completion rate is still 12% (only those few using Firefox/Edge)."
+    },
+    {
+      "turn": 10,
+      "action": "Cancel the self-paced program entirely and replace it with mandatory, in-person full-day workshops."
+    }
+  ]
+}

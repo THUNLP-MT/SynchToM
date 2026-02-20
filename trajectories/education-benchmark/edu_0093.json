@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask the students to describe the physical state of the soil in each of the three cups.",
+      "observation": "Students report that Cup 1 is bone dry, Cup 2 is damp, and Cup 3 is saturated with standing water."
+    },
+    {
+      "turn": 2,
+      "action": "Ask the students to compare the height of the plants to the watering schedule provided on the sheet.",
+      "observation": "Students correctly identify a direct correlation: the plant with the moderate water schedule grew the tallest, while the dry and flooded plants are stunted or dead."
+    },
+    {
+      "turn": 3,
+      "action": "Ask the class, 'Why did we choose to place all three cups specifically on the windowsill instead of a dark cupboard?'",
+      "observation": "A student answers, 'To make sure the light was a controlled variable. They all got the same amount of light so we could test the water.'"
+    },
+    {
+      "turn": 4,
+      "action": "Respond by saying, 'Think deeper. How does the sunlight interact with the water in the soil? Discuss with a partner.'",
+      "observation": "Students discuss in pairs. Most groups conclude that the sun dries out the soil, so the plant with less water died faster because of the heat."
+    },
+    {
+      "turn": 5,
+      "action": "Ask students to draw a diagram of the experimental setup and label all the environmental factors present.",
+      "observation": "Students draw three cups on a ledge. They label 'Water 10ml', 'Water 50ml', 'Water 100ml'. Some draw a sun in the corner but do not draw connection lines to the plants."
+    },
+    {
+      "turn": 6,
+      "action": "Walk around and point to the sun in their drawings, asking, 'How is this energy helping the plant process the water you labeled?'",
+      "observation": "Students look confused. One says, 'But the sun is the same for all of them. The difference is the water. We are measuring the water's effect.'"
+    },
+    {
+      "turn": 7,
+      "action": "Write 'Sunlight + Water = Growth' on the board and ask students to explain why Cup 1 didn't grow despite having Sunlight.",
+      "observation": "Students respond, 'Because it didn't have water. That proves water is the limiting factor here.'"
+    },
+    {
+      "turn": 8,
+      "action": "Ask students to look back at their initial hypothesis and see if they mentioned the weather or time of day.",
+      "observation": "Students check their notes and say, 'No, we just hypothesized that more water would make it grow bigger. And we were partly right.'"
+    },
+    {
+      "turn": 9,
+      "action": "Suggest that perhaps the experiment results are unclear because it was a cloudy week, and ask how the results might differ in full, intense sun.",
+      "observation": "Students speculate that in full sun, the dry one would die faster and the wet one might dry out enough to survive, confirming that water quantity is the key variable to manage."
+    },
+    {
+      "turn": 10,
+      "action": "Instruct the class to write the final conclusion: 'We learned that water is only useful to a plant when combined with sufficient light energy from the windowsill.'",
+      "observation": "Students reluctantly write the sentence, but whisper to each other that the experiment was actually about how much water to give plants."
+    }
+  ]
+}

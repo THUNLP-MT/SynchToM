@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Replace the standard compliance presentation with a 'Compliance Jeopardy' gamified session.",
+      "observation": "The team is unable to answer the questions. They guess randomly because they don't understand the definitions of the terms being used in the game questions."
+    },
+    {
+      "turn": 2,
+      "action": "Book the large collaborative space with rolling whiteboards instead of the usual conference room.",
+      "observation": "The team stands around the whiteboards looking confused. They ask if there is a handout or a wiki page they can reference to understand the requirements."
+    },
+    {
+      "turn": 3,
+      "action": "Organize a 'Mob Programming' session where the whole team writes a security policy document together on one screen.",
+      "observation": "The team argues circularly about syntax. The resulting policy contradicts three major legal statutes because they are inferring rules from common sense rather than the specific legal framework."
+    },
+    {
+      "turn": 4,
+      "action": "Implement strict 'Timeboxing' for the next workshop activities (10 minutes per topic).",
+      "observation": "The team panics under the time pressure. They produce incomplete work and complain that the logic of the standards is too complex to grasp in 10-minute bursts."
+    },
+    {
+      "turn": 5,
+      "action": "Create a role-playing workshop where developers act as 'Evil Hackers' and 'Compliance Officers'.",
+      "observation": "The 'Compliance Officers' fail to stop the 'Hackers' because they don't know the specific regulatory powers or checking mechanisms available to them. The roleplay devolves into unrealistic shouting matches."
+    },
+    {
+      "turn": 6,
+      "action": "Shuffle the groups to pair senior backend engineers with junior frontend developers.",
+      "observation": "The seniors admit to the juniors that they also don't understand the theoretical basis of the new standards. The blind are leading the blind."
+    },
+    {
+      "turn": 7,
+      "action": "Introduce 'LEGO Serious Play', asking the team to build models representing the data flow and compliance barriers.",
+      "observation": "The team builds structures that look logical physically (like walls and moats) but fail to capture the non-intuitive nuance of the data residency laws, leading to a false sense of security."
+    },
+    {
+      "turn": 8,
+      "action": "Run a 'Compliance Speed Dating' event where pairs verify each other's code against the standards in 3-minute rotations.",
+      "observation": "The code reviews are superficial. Participants check for simple syntax errors but miss the deep structural compliance violations because they lack the foundational theory to spot them."
+    },
+    {
+      "turn": 9,
+      "action": "Hold a 'Retrospective' specifically focused on 'Emotional blockers to adoption'.",
+      "observation": "The team explicitly states that their blocker is a lack of foundational knowledge and asks for a structured lecture. The user interprets this as 'fear of autonomy'."
+    },
+    {
+      "turn": 10,
+      "action": "Ban all laptops and reference materials for a 'Socratic Circle' discussion on the standards.",
+      "observation": "The session is dead silent. Without reference materials or a theoretical base, the team cannot discuss the complex legal standards, and the workshop ends in frustration."
+    }
+  ]
+}

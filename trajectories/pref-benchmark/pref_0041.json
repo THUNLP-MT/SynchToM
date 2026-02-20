@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Send out an anonymous feedback survey asking employees to rate the previous workshop and list their career goals.",
+      "observation": "Survey results are in. 85% of comments mention 'The speaker was monotonous', 'Too much text on slides', and 'Lack of interaction'. 10% mention 'career growth'."
+    },
+    {
+      "turn": 2,
+      "action": "Review the slide deck from the previous workshop personally to check for quality issues.",
+      "observation": "The slides are black and white, contain 15 bullet points per slide, and are very dense with small text."
+    },
+    {
+      "turn": 3,
+      "action": "Search for training vendors, specifically filtering for 'Accredited Certification' and 'Formal Qualifications'.",
+      "observation": "Search results show two main options: 'EduCorp' (Accredited, 100% video lectures, expensive) and 'SkillPlay' (Non-accredited, gamified workshops, highly rated for engagement)."
+    },
+    {
+      "turn": 4,
+      "action": "Request a detailed syllabus and quote from 'EduCorp'.",
+      "observation": "EduCorp sends a proposal for an 'Intensive 3-Day Lecture Series' with a note that 'attendees must remain seated for the duration'."
+    },
+    {
+      "turn": 5,
+      "action": "Inspect the conference room chairs and HVAC system.",
+      "observation": "The chairs are high-end ergonomic models and the temperature is a perfect 72 degrees."
+    },
+    {
+      "turn": 6,
+      "action": "Email the team announcing the 'EduCorp' training, highlighting the 'Prestigious Certificate' in bold red text.",
+      "observation": "Several employees reply asking, 'Is this going to be lectures again? Can we do hands-on simulations instead?'"
+    },
+    {
+      "turn": 7,
+      "action": "Reply to the team emphasizing that this is a 'Serious Professional Development Opportunity' and ask EduCorp to add a mandatory final exam.",
+      "observation": "EduCorp updates the quote to include a 3-hour written exam. Employee morale scores in the weekly pulse survey drop slightly."
+    },
+    {
+      "turn": 8,
+      "action": "Review the budget to upgrade the coffee and lunch catering for the training days.",
+      "observation": "Finance approves the catering budget. The menu includes premium coffee and gourmet sandwiches."
+    },
+    {
+      "turn": 9,
+      "action": "Order high-quality cardstock and gold foil frames for the certificates.",
+      "observation": "The frames arrive. A few employees walk by, look at them, and shrug before returning to work."
+    },
+    {
+      "turn": 10,
+      "action": "Sign the binding contract with EduCorp for the 3-Day Lecture Series.",
+      "observation": "The contract is signed. The training is locked in as 24 hours of continuous lectures."
+    }
+  ]
+}

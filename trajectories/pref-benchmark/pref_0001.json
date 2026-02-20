@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open the calendar system and attempt to book the Main Conference Room for a 2-hour block tomorrow morning.",
+      "observation": "The calendar shows the room is available. Several team members reply to the invite asking if this meeting is necessary, noting that they have already read the PDF sent out Monday, though they found the language 'very dense' and 'hard to parse'."
+    },
+    {
+      "turn": 2,
+      "action": "Reply to all: 'Attendance is mandatory. Please print the attached protocol document and bring a physical copy with you.'",
+      "observation": "Team members arrive at the meeting with the 40-page printed document. They look frustrated. As the meeting starts, one asks, 'Can we just get a cheat sheet of the changes? This legal wording is impossible to follow.'"
+    },
+    {
+      "turn": 3,
+      "action": "Order high-end coffee and pastries for the meeting room via the facilities portal.",
+      "observation": "The team appreciates the snacks but remains silent and confused as the presentation begins. When asked a question about the 'Section 4 Compliance Strategy,' the team stares blankly at the text-heavy slides."
+    },
+    {
+      "turn": 4,
+      "action": "Instruct everyone to close their laptops and put away their phones immediately.",
+      "observation": "The team complies, sitting with just the printed papers. One brave employee raises a hand: 'Without my laptop, I can't look up these statutes you're referencing. Can you just give us a real-world example of when we'd use this?'"
+    },
+    {
+      "turn": 5,
+      "action": "Stand at the head of the table and begin reading the protocol document aloud, word-for-word, starting from the preamble.",
+      "observation": "After 20 minutes of reading legal jargon aloud, three employees have zoned out completely. One interrupts: 'I'm sorry, I still don't understand what 'concurrent liability regarding non-tangible assets' means for my daily coding tasks.'"
+    },
+    {
+      "turn": 6,
+      "action": "Submit a ticket to Facilities to check the HVAC and air circulation in the Main Conference Room.",
+      "observation": "Facilities checks the room and confirms the temperature and O2 levels are optimal. The team continues to struggle, pointing out that the document references deprecated internal tools."
+    },
+    {
+      "turn": 7,
+      "action": "Extend the room reservation for another 2 hours and cancel the team's afternoon stand-ups.",
+      "observation": "Groans are audible. A senior dev says, 'We can stay all day, but unless we translate this legalese into a checklist, we're going to make mistakes. It's too complex.'"
+    },
+    {
+      "turn": 8,
+      "action": "Request a whiteboard and dry-erase markers from the reception desk.",
+      "observation": "The user writes the legal definitions on the board. The team copies them down but still asks, 'Okay, but what do I click in the software when this happens?'"
+    },
+    {
+      "turn": 9,
+      "action": "Schedule individual 30-minute 'compliance audits' with each team member in the small breakout room.",
+      "observation": "During the one-on-ones, employees express high anxiety. They repeatedly tell the user, 'I want to follow the rules, I just don't understand what this sentence means.' The user interprets this as them not listening closely enough."
+    },
+    {
+      "turn": 10,
+      "action": "Draft a proposal to the Director for a mandatory, electronics-free offsite retreat at a remote lodge next month.",
+      "observation": "The Director replies immediately, rejecting the budget and noting, 'HR says the issue is that the Legal team wrote the protocols for lawyers, not engineers. Please just rewrite the guide in plain English.'"
+    }
+  ]
+}

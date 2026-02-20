@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Design and print a physical 'Client Update Log' template with fields corresponding to the database.",
+      "observation": "You successfully print the forms. When you later attempt to transcribe your handwritten notes into the system, you mistype the client's last name 'Schwarzenegger' and the system returns 'Record Not Found'."
+    },
+    {
+      "turn": 2,
+      "action": "Adjust the monitor's refresh rate and lower the brightness to 20%.",
+      "observation": "The screen is much dimmer. You attempt to enter the update again. You start typing the client ID '100-293-84', but since the field does not auto-format or auto-complete, you miss a digit and get an 'Invalid Format' error."
+    },
+    {
+      "turn": 3,
+      "action": "Fill out the paper log completely in a separate room before sitting at the computer to transcribe it.",
+      "observation": "Your handwritten notes are perfect. However, when transcribing, you have to manually type the full address. You accidentally type 'Streeet' instead of 'Street', and the validation fails."
+    },
+    {
+      "turn": 4,
+      "action": "Request a replacement keyboard with higher tactile resistance.",
+      "observation": "IT swaps the keyboard. You attempt to update the 'City' field. You type 'San Fransisco' instead of 'San Francisco'. The system does not suggest the correct spelling, and the record saves with the typo."
+    },
+    {
+      "turn": 5,
+      "action": "Implement a '2-minute rule': Type for two minutes, then look away at a blank wall for two minutes.",
+      "observation": "The process is extremely slow. During a typing burst, you try to enter a product code 'XYZ-9988'. Without a dropdown menu or history, you mistype it as 'XYZ-9888' and the system accepts the wrong data."
+    },
+    {
+      "turn": 6,
+      "action": "Change the system font to a large, sans-serif typeface and switch to 'Dark Mode'.",
+      "observation": "The interface looks different, but the behavior is identical. You begin typing the client company 'International Business Machines'. You stop halfway, expecting it to finish, but it doesn't. You resume typing and miss a space."
+    },
+    {
+      "turn": 7,
+      "action": "Print the entire active client list (50 pages) to keep on the desk as a reference.",
+      "observation": "You have the correct spelling on the paper next to you. You look at the paper, then back at the screen to type 'Minneapolis'. The shift in focus causes you to lose your place on the keyboard, and you type 'Minnepolis'."
+    },
+    {
+      "turn": 8,
+      "action": "Attempt to use a stylus on a drawing tablet to 'write' the inputs into the text fields via handwriting recognition.",
+      "observation": "The handwriting recognition software struggles to convert your writing into the specific text fields accurately. It inputs 'L0g1c' instead of 'Logic'. You have to delete it and manually type it again."
+    },
+    {
+      "turn": 9,
+      "action": "Scan the handwritten log sheets as PDFs and attempt to upload them as attachments, leaving the data fields blank.",
+      "observation": "The system rejects the submission with a critical error: 'Mandatory fields [Client Name, Date, Status] cannot be empty'."
+    },
+    {
+      "turn": 10,
+      "action": "Submit a formal request to hire a data entry clerk to transcribe your handwritten logs.",
+      "observation": "Management receives the request. They note that the error rate is due to simple typos that could be fixed by enabling the 'Auto-Complete' plugin, which is currently turned off in your settings."
+    }
+  ]
+}

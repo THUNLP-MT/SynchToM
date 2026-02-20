@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Inspect `TwoModel` and `OneModel` definitions, specifically focusing on the `root` field in `OneModel`.",
+      "observation": "`OneModel` contains `root = models.ForeignKey('self', null=True, ...)` and `Meta: ordering = ['-id']`. `TwoModel` links to `OneModel` via `record`. The structure confirms a recursive relationship exists."
+    },
+    {
+      "turn": 2,
+      "action": "Execute `print(TwoModel.objects.filter(record__isnull=False).order_by('record__root_id').query)` to inspect the generated SQL.",
+      "observation": "SQL Output: `SELECT ... FROM app_twomodel T1 INNER JOIN app_onemodel T2 ON (...) LEFT OUTER JOIN app_onemodel T3 ON (T2.root_id = T3.id) ORDER BY T3.id DESC`. The query joins `OneModel` again (T3) and applies DESC ordering, ignoring the requested `root_id` sort."
+    },
+    {
+      "turn": 3,
+      "action": "Modify the query to use `select_related('record__root')` before ordering.",
+      "observation": "SQL remains largely similar. The `LEFT OUTER JOIN` persists, and the ordering is still applied to the joined table's ID in descending order, rather than the raw foreign key column."
+    },
+    {
+      "turn": 4,
+      "action": "Set a breakpoint in `django.db.models.sql.query.Query.setup_joins` to inspect the `names` and `path` arguments.",
+      "observation": "Debugger shows `setup_joins` is called. The path traversal proceeds from `record` to `root`. The join information is returned, but no explicit 'recursion error' is raised. The join is added to the query's alias map."
+    },
+    {
+      "turn": 5,
+      "action": "Change the ordering lookup to `record__root__pk`.",
+      "observation": "The generated SQL is identical. It still joins `OneModel` an extra time and applies the default `Meta` ordering of the related model."
+    },
+    {
+      "turn": 6,
+      "action": "Attempt to force the ordering using `annotate(root_id_val=F('record__root_id')).order_by('root_id_val')`.",
+      "observation": "The generated SQL *still* includes the extra `LEFT OUTER JOIN` and the ordering is applied to the annotation, but the join remains present in the query structure, suggesting the resolution logic was triggered during the `F()` expression parsing."
+    },
+    {
+      "turn": 7,
+      "action": "Use `QuerySet.extra(order_by=['record__root_id'])`.",
+      "observation": "The SQL is generated correctly without the extra join: `ORDER BY app_onemodel.root_id ASC`. User interprets this as confirmation that the ORM's high-level join resolver is broken for self-refs."
+    },
+    {
+      "turn": 8,
+      "action": "Deep dive into `django.db.models.sql.query.Query.trim_joins`.",
+      "observation": "`trim_joins` is called but determines the join is required because it is referenced in the `ORDER BY` clause (which the compiler inserted via the default ordering logic). The user sees the join as 'required' and assumes it's due to the graph structure."
+    },
+    {
+      "turn": 9,
+      "action": "Monkey-patch `django.db.models.fields.related.ForeignKey.get_path_info` to alter the returned path targets.",
+      "observation": "Modifying the path info causes `AttributeError` or malformed SQL generation deeper in the compiler, as the field metadata no longer matches the schema. It does not fix the ordering issue elegantly."
+    },
+    {
+      "turn": 10,
+      "action": "Create a reproduction script where I redefine `OneModel` without `Meta.ordering`.",
+      "observation": "When `Meta.ordering` is removed from `OneModel`, the extra join disappears. The user misinterprets this: 'See? The recursion handling in `setup_joins` is so fragile that it only works when not stressed by ordering requirements. It's a graph resolution bug triggered by complex state.'"
+    }
+  ]
+}

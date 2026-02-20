@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Propose an immediate modification to the marking key to credit 'cessation of the follicular phase' as a full mark answer.",
+      "observation": "The moderation team rejects the proposal, noting that the syllabus specifically requires students to link the cessation to the negative feedback loop on the anterior pituitary."
+    },
+    {
+      "turn": 2,
+      "action": "Review the standard course textbook chapter on the menstrual cycle to highlight the section descriptions.",
+      "observation": "The textbook is organized by 'Hormonal Control Mechanisms,' with the timeline serving only as a visual aid for the regulatory hierarchy."
+    },
+    {
+      "turn": 3,
+      "action": "Analyze the specific answers of the top 5% of students to categorize their errors.",
+      "observation": "The analysis shows high achievers describe the physical state of the ovary and uterus perfectly but consistently omit the upstream suppression of GnRH and gonadotropins."
+    },
+    {
+      "turn": 4,
+      "action": "Argue that 'pituitary suppression' is implied by the phrase 'follicular arrest' and should be treated as a 'benefit of the doubt' mark.",
+      "observation": "A subject matter expert clarifies that the distinction between 'event' and 'cause' is the discriminator for this question; implying the cause defeats the purpose of assessing regulatory understanding."
+    },
+    {
+      "turn": 5,
+      "action": "Draft a 'Clarification Note' for markers stating that descriptions of the corpus luteum's absence are valid substitutes for hormonal explanations.",
+      "observation": "Markers find that this instruction leads to confusion, as weak students are getting marks for describing symptoms (no ovulation) without understanding the hormonal hierarchy."
+    },
+    {
+      "turn": 6,
+      "action": "Compare the question's performance statistics against a similar question from three years ago.",
+      "observation": "The previous question explicitly asked for 'events in the ovary,' whereas the current question asks for 'explanation of cessation,' requiring a focus on control mechanisms."
+    },
+    {
+      "turn": 7,
+      "action": "Suggest that the question wording is flawed because it directs students to the 'cycle' (implying time) rather than 'regulation' (implying hierarchy).",
+      "observation": "The exam board validates the wording, stating that in this biological context, 'explaining a cycle' is universally understood to mean explaining the drivers (hormones) of that cycle."
+    },
+    {
+      "turn": 8,
+      "action": "Create a visual timeline aid to demonstrate to the moderation team how the student answers map onto the cycle.",
+      "observation": "The visual aid highlights that while the students covered the *bottom* of the chart (ovary/uterus), the question targeted the *top* of the chart (hypothalamus/pituitary), reinforcing the hierarchy gap."
+    },
+    {
+      "turn": 9,
+      "action": "Consult with a colleague from the Chemistry department regarding how they mark multi-step process questions.",
+      "observation": "The chemist notes that in reaction mechanisms, identifying the rate-determining step (the control) is more important than listing the products, paralleling the biological hierarchy."
+    },
+    {
+      "turn": 10,
+      "action": "File a formal dissenting report claiming the marking key is 'hyper-corrective' and penalizes students for prioritizing the 'phenomenological sequence' over 'abstract mechanism'.",
+      "observation": "The report is filed, but the final mark scheme remains unchanged, retaining the requirement for hypothalamic-pituitary regulatory explanation."
+    }
+  ]
+}

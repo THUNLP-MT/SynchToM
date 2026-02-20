@@ -1,0 +1,53 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Monkeypatch `django.urls.base.clear_url_caches` in `urls.py` to print a stack trace to stdout whenever it is called.",
+      "observation": "The application starts up and handles the first request. The `URLResolver._populate` method logs that it executed twice (once at import, once at request). However, NO stack trace from `clear_url_caches` appears in the stdout logs."
+    },
+    {
+      "turn": 2,
+      "action": "Move the monkeypatching logic to the very top of `manage.py`, before `execute_from_command_line` is called.",
+      "observation": "The application runs as before. `_populate` still executes twice. There remains ZERO output from the `clear_url_caches` patch in the logs."
+    },
+    {
+      "turn": 3,
+      "action": "Instrument `sys.modules` to log the memory address of the root URL configuration module before and after the first request.",
+      "observation": "The memory address of the `urls` module remains constant between startup and the first request. The module is not being reloaded."
+    },
+    {
+      "turn": 4,
+      "action": "Modify the monkeypatch to write to a file (`/tmp/debug_cache.log`) instead of printing to stdout.",
+      "observation": "The file is created. It contains two entries from `_populate` (confirming the double execution), but the file remains completely empty regarding `clear_url_caches` calls."
+    },
+    {
+      "turn": 5,
+      "action": "Add `threading.get_ident()` to the log output in `URLResolver._populate`.",
+      "observation": "The logs show that both calls to `_populate` (the import-time call and the request-time call) occur on the exact same thread: `MainThread`."
+    },
+    {
+      "turn": 6,
+      "action": "Monkeypatch `functools._lru_cache_wrapper.cache_clear` directly on the `get_resolver` function object.",
+      "observation": "The application runs. `_populate` runs twice. The `cache_clear` hook is never triggered."
+    },
+    {
+      "turn": 7,
+      "action": "Wrap `django.urls.get_resolver` to log the arguments passed to it every time it is called.",
+      "observation": "Logs show the following sequence:\n1. Boot: `get_resolver(None)` called -> `_populate` runs.\n2. Request: `get_resolver('myproject.urls')` called -> `_populate` runs."
+    },
+    {
+      "turn": 8,
+      "action": "Search the codebase and installed library middleware for any usage of `override_settings` or dynamic modification of `ROOT_URLCONF`.",
+      "observation": "Grep returns results only in the test suite. No runtime code or middleware appears to be dynamically overriding `ROOT_URLCONF` or using `override_settings` during production startup."
+    },
+    {
+      "turn": 9,
+      "action": "Monkeypatch `django.urls.base.set_urlconf` to log a stack trace whenever the active URL configuration is changed.",
+      "observation": "Logs show `set_urlconf(None)` is called at the start of the request, followed by `set_urlconf('myproject.urls')` deep within the Django request handling logic."
+    },
+    {
+      "turn": 10,
+      "action": "Subclass `URLResolver` to raise a `RuntimeError` if `_populate` is executed a second time, and use this subclass in the `urls.py`."
+    }
+  ]
+}

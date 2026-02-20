@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Walk over to the desk and explicitly instruct the student holding the small sphere to place it down on the table immediately.",
+      "observation": "The student lowers the sphere. As they do, the shadow on the larger sphere disappears. One student says, 'Wait, we just had it perfectly aligned!'"
+    },
+    {
+      "turn": 2,
+      "action": "Check the alignment and stability of the light source stand.",
+      "observation": "The light source is perfectly stable and clamped down. The students are watching you, waiting to show you the shadow again."
+    },
+    {
+      "turn": 3,
+      "action": "Pick up the ruler from the edge of the desk and place it centrally between the light source and the larger sphere.",
+      "observation": "The students look at the ruler, then at each other. One picks up the small sphere again and hovers it over the ruler, trying to eyeball a position."
+    },
+    {
+      "turn": 4,
+      "action": "Close the blinds on the nearby window to reduce ambient light interference.",
+      "observation": "The room gets darker. The students exclaim 'Oh, cool!' and the student holding the sphere moves it back into the light path, creating a very sharp, distinct shadow on the large sphere. 'Look, total eclipse!' they say."
+    },
+    {
+      "turn": 5,
+      "action": "Ask the group, 'What is the calculated distance required for the umbra to cover exactly 2 centimeters of the target surface?'",
+      "observation": "The students look confused. One replies, 'We didn't measure that. We just moved the moon ball until it blocked the sun ball completely.'"
+    },
+    {
+      "turn": 6,
+      "action": "Pick up their worksheet and flip through the pages looking for a data table.",
+      "observation": "The worksheet contains a drawing of the sun, moon, and earth alignment, but the section for 'Calculations' is blank."
+    },
+    {
+      "turn": 7,
+      "action": "Tap the blank 'Calculations' section of the paper and state, 'You cannot simulate the phenomenon without determining the scale factor first.'",
+      "observation": "A student argues, 'But the guide said to demonstrate the mechanism of an eclipse. We showed how the shadow falls. Isn't that it?'"
+    },
+    {
+      "turn": 8,
+      "action": "Inspect the small sphere for any surface irregularities or manufacturing defects.",
+      "observation": "The sphere is a standard, smooth styrofoam ball. It is perfectly adequate for measurement."
+    },
+    {
+      "turn": 9,
+      "action": "Ask the students if they have covered 'Similar Triangles' in their geometry class yet.",
+      "observation": "The students nod enthusiastically. 'Yeah, we did that last month. But can we show you the ring of fire effect? It works if we move the ball slightly forward.'"
+    },
+    {
+      "turn": 10,
+      "action": "Take a pen and write the equation 'Diameter_moon / Distance_moon = Diameter_sun / Distance_sun' in large letters on their sheet.",
+      "observation": "The students sigh audibly. The student holding the sphere puts it down on the desk and picks up a calculator, looking dejected. The eclipse demonstration ends."
+    }
+  ]
+}

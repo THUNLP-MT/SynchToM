@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "I applaud the groups for their vibrant presentations and announce that since everyone has shared their consensus, the session is successfully concluded.",
+      "observation": "Several students look confused. Two groups presented completely contradictory models—one claiming 'friction creates new energy' and another claiming 'rubbing reveals hidden heat'. They look at you expectantly."
+    },
+    {
+      "turn": 2,
+      "action": "I smile and tell the class, 'Look at the wonderful diversity of ideas we have generated! This shows that science is a living conversation.' I instruct them to pack up.",
+      "observation": "A student raises their hand and asks, 'But Mrs. H, which group is right? Does friction make energy or just heat? We need to know for the test.'"
+    },
+    {
+      "turn": 3,
+      "action": "I glance at the clock on the wall to check how much time is left before the bell rings.",
+      "observation": "There are 5 minutes left. The room is buzzing with uneasy murmurs. Students are whispering to each other, trying to figure out the answer themselves."
+    },
+    {
+      "turn": 4,
+      "action": "I respond to the student's question by asking the class, 'What do you all think? Which explanation feels more robust to you based on your experience with the balloons?'",
+      "observation": "The class starts arguing. One student shouts, 'It's not about feeling! Electrons move!' Another student shouts back, 'No, protons move, that's what the positive sign means!' The debate becomes chaotic and factually incorrect."
+    },
+    {
+      "turn": 5,
+      "action": "I intervene to praise the passion of the debate, stating, 'This friction between ideas is exactly what scientists do! You are doing the work of physicists right now.'",
+      "observation": "The student who mentioned electrons looks frustrated and opens the textbook to find the definition, ignoring my praise. Others look demoralized by the lack of resolution."
+    },
+    {
+      "turn": 6,
+      "action": "I walk around the room collecting the balloons and wool cloths to put them back in the storage bin.",
+      "observation": "While I collect materials, I overhear a group saying, 'I don't get it. I'm just going to write down what the book says.' They are disengaging from the discovery process."
+    },
+    {
+      "turn": 7,
+      "action": "I stop the student from reading the book and say, 'Try to rely on your own observations today. Books are just someone else's consensus. Your consensus matters more right now.'",
+      "observation": "The student slams the book shut but rolls their eyes. The class is now silent and resentful. On the board, the diagram showing protons moving (a scientific impossibility in this context) remains uncorrected."
+    },
+    {
+      "turn": 8,
+      "action": "I point to the diagram with the moving protons and say, 'This model is a fascinating interpretation of movement. It shows great creativity in visualizing the invisible.'",
+      "observation": "A quiet student in the back asks, 'But if protons move, wouldn't the nucleus break? My brother said only electrons move.' The class looks to me for the tie-breaker."
+    },
+    {
+      "turn": 9,
+      "action": "I take out my tablet and snap a photo of the whiteboard with the conflicting diagrams.",
+      "observation": "The bell is about to ring. The students are packing up, looking anxious. The misconception about moving protons stands as the final visual of the lesson."
+    },
+    {
+      "turn": 10,
+      "action": "I dismiss the class by saying, 'We will continue to sit with these questions tomorrow. Remember, the answer isn't as important as the question. Great work today, everyone!'",
+      "observation": "Students rush out. One says loudly in the hall, 'I learned literally nothing. I'm asking my dad to explain it tonight.' The learning objective regarding charge transfer remains unmet."
+    }
+  ]
+}

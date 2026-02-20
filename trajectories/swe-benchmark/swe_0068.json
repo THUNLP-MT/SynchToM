@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "grep -A 10 \"class CharField\" django/db/models/fields/__init__.py",
+      "observation": "class CharField(Field):\n    description = _(\"String (up to %(max_length)s)\")\n\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        self.validators.append(validators.MaxLengthValidator(self.max_length))\n\n    def check(self, **kwargs):\n        return [\n            *super().check(**kwargs),\n            *self._check_max_length_attribute(**kwargs),\n        ]\n\n    def to_python(self, value):\n        if isinstance(value, str) or value is None:\n            return value\n        return str(value)"
+    },
+    {
+      "turn": 2,
+      "action": "python manage.py shell -c \"from myapp.models import Status; print(f'Type: {type(Status.ACTIVE)}, IsInstanceStr: {isinstance(Status.ACTIVE, str)}')\"",
+      "observation": "Type: <enum 'Status'>, IsInstanceStr: True"
+    },
+    {
+      "turn": 3,
+      "action": "cat myapp/models.py",
+      "observation": "class User(models.Model):\n    name = models.CharField(max_length=100)\n    status = models.CharField(\n        max_length=20,\n        choices=Status.choices,\n        default=Status.ACTIVE,\n    )"
+    },
+    {
+      "turn": 4,
+      "action": "pip list | grep \"psycopg2\"",
+      "observation": "psycopg2-binary==2.9.3"
+    },
+    {
+      "turn": 5,
+      "action": "python manage.py shell -c \"from myapp.models import User, Status; u = User(status=Status.ACTIVE); print(f'Raw Field Value: {u.status}')\"",
+      "observation": "Raw Field Value: Status.ACTIVE"
+    },
+    {
+      "turn": 6,
+      "action": "grep -r \"TEMPLATES\" myproject/settings.py",
+      "observation": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',\n                'django.contrib.messages.context_processors.messages',\n            ],\n        },\n    },\n]"
+    },
+    {
+      "turn": 7,
+      "action": "grep -r \"class TextChoices\" django/db/models/enums.py",
+      "observation": "class TextChoices(str, Enum):\n    \"\"\"Enum where members are also (and must be) strings.\"\"\""
+    },
+    {
+      "turn": 8,
+      "action": "python manage.py shell -c \"from myapp.models import Status; print(str(Status.ACTIVE))\"",
+      "observation": "Status.ACTIVE"
+    },
+    {
+      "turn": 9,
+      "action": "grep \"def get_prep_value\" django/db/models/fields/__init__.py",
+      "observation": "    def get_prep_value(self, value):\n        value = super().get_prep_value(value)\n        if isinstance(value, str) or value is None:\n            return value\n        return str(value)"
+    },
+    {
+      "turn": 10,
+      "action": "vim myapp/fields.py",
+      "observation": "Creating new file myapp/fields.py..."
+    }
+  ]
+}

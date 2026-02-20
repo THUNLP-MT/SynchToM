@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Read the textbook chapter on stereochemistry extensively, deliberately skimming over the figures to focus entirely on the written explanations.",
+      "observation": "You take a practice quiz. You fail to identify which molecules are enantiomers (mirror images) because the text describes the concept generally, but the questions require analyzing specific drawn structures."
+    },
+    {
+      "turn": 2,
+      "action": "Search for a chemistry podcast or audio-lecture series that covers molecular geometry.",
+      "observation": "The podcast host explains the theory well but constantly references 'Figure 4.2' or says 'as you can see in the diagram, the bond rotates here.' You are unable to follow the spatial changes being described."
+    },
+    {
+      "turn": 3,
+      "action": "Create a glossary of terms. instead of drawing the molecules, write detailed definitions for 'tetrahedral', 'trigonal planar', and 'bent'.",
+      "observation": "On the next assignment, you are asked to predict the bond angle of a specific complex molecule. Knowing the definition of 'tetrahedral' doesn't help you see how the lone pairs on this specific drawing distort the shape."
+    },
+    {
+      "turn": 4,
+      "action": "Take the worksheet of molecular diagrams and write a paragraph next to each one describing it, then cover the drawing with a sticky note so I only see the text.",
+      "observation": "When reviewing, your text descriptions are extremely long and cumbersome. You struggle to answer questions about how the molecule interacts with others because you can't quickly 'see' the exposed surface area from your paragraph."
+    },
+    {
+      "turn": 5,
+      "action": "Email the professor to ask if there is a version of the exam that uses word problems instead of structural diagrams.",
+      "observation": "The professor replies: 'Chemistry is the study of matter in 3D space. You must learn to read the diagrams or use a physical model kit to pass. The visuals are not optional.'."
+    },
+    {
+      "turn": 6,
+      "action": "Purchase the recommended physical model kit, but leave the plastic atoms in the box. Read the instruction booklet's text descriptions of the bond angles repeatedly.",
+      "observation": "You memorize that sp3 carbons have 109.5-degree angles. However, on the test, you fail a question asking to identify a molecule in a 'boat' vs 'chair' conformation because you never physically built it to see the twist."
+    },
+    {
+      "turn": 7,
+      "action": "Record voice notes of myself describing the molecules in the homework and listen to them on a loop while walking.",
+      "observation": "You can recite the description of a glucose molecule perfectly, but when presented with a drawing of glucose rotated 180 degrees, you cannot recognize it as the same thing you described."
+    },
+    {
+      "turn": 8,
+      "action": "Download a 'text-to-speech' app and attempt to scan the textbook diagrams to have the AI read them to me.",
+      "observation": "The software fails to interpret the 3D wedges and dashes, outputting gibberish like 'Line, Line, Letter C, Double Line, Letter O.' It provides no structural context."
+    },
+    {
+      "turn": 9,
+      "action": "Hire a tutor, but instruct them strictly: 'Do not draw anything. Just explain the molecular changes to me using analogies and stories.'",
+      "observation": "The tutor tries to explain steric hindrance using a 'crowded elevator' analogy. You understand the analogy, but still fail the exam question which asks you to draw the specific Newman Projection of the molecule."
+    },
+    {
+      "turn": 10,
+      "action": "File a formal complaint with the department regarding the course materials, citing them as 'unnecessarily visually cluttered' and requesting a text-based alternative curriculum.",
+      "observation": "The complaint is rejected. You are advised that spatial reasoning is a core competency of the course. You are failing the class."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "cat myapp/models.py",
+      "observation": "class Product(models.Model):\n    sku = models.CharField(max_length=100)\n    # ... other fields ...\n\n    class Meta:\n        constraints = [\n            models.UniqueConstraint(fields=['sku'], name='unique_sku')\n        ]"
+    },
+    {
+      "turn": 2,
+      "action": "python manage.py showmigrations",
+      "observation": "admin\n [X] 0001_initial\nauth\n [X] 0001_initial\nmyapp\n [X] 0001_initial\n [X] 0002_add_sku_constraint"
+    },
+    {
+      "turn": 3,
+      "action": "psql -U postgres -d mydb -c \"\\d myapp_product\"",
+      "observation": "Indexes:\n    \"myapp_product_pkey\" PRIMARY KEY, btree (id)\n    \"unique_sku\" UNIQUE CONSTRAINT, btree (sku)"
+    },
+    {
+      "turn": 4,
+      "action": "grep -r \"DATABASES\" myproject/settings.py",
+      "observation": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': os.environ.get('DB_NAME', 'mydb'),\n        # ...\n    }\n}"
+    },
+    {
+      "turn": 5,
+      "action": "rm -rf myapp/__pycache__ && python manage.py shell",
+      "observation": "(InteractiveConsole)\n>>> from myapp.models import Product\n>>> Product.objects.in_bulk(['ABC-123'], field_name='sku')\nTraceback (most recent call last):\n  File \"<console>\", line 1, in <module>\n  File \".../django/db/models/manager.py\", line 85, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \".../django/db/models/query.py\", line 1350, in in_bulk\n    raise ValueError(\"in_bulk()'s field_name must be a unique field but %r isn't.\" % field_name)\nValueError: in_bulk()'s field_name must be a unique field but 'sku' isn't."
+    },
+    {
+      "turn": 6,
+      "action": "grep -A 5 \"def in_bulk\" .../django/db/models/query.py",
+      "observation": "def in_bulk(self, id_list=None, *, field_name='pk'):\n    # ...\n    if field_name != 'pk':\n        field = self.model._meta.get_field(field_name)\n        if not field.unique:\n            raise ValueError(\"in_bulk()'s field_name must be a unique field but %r isn't.\" % field_name)"
+    },
+    {
+      "turn": 7,
+      "action": "pip freeze | grep Django",
+      "observation": "Django==4.2.7"
+    },
+    {
+      "turn": 8,
+      "action": "python manage.py makemigrations myapp --dry-run --verbosity 3",
+      "observation": "No changes detected in app 'myapp'"
+    },
+    {
+      "turn": 9,
+      "action": "python manage.py shell -c \"from myapp.models import Product; print(f'Constraints: {Product._meta.constraints}'); print(f'Field Unique: {Product._meta.get_field('sku').unique}')\"",
+      "observation": "Constraints: [UniqueConstraint(fields=['sku'], name='unique_sku')]\nField Unique: False"
+    },
+    {
+      "turn": 10,
+      "action": "systemctl restart postgresql",
+      "observation": "Job for postgresql.service failed because the control process exited with error code.\nSee \"systemctl status postgresql.service\" and \"journalctl -xe\" for details. (Simulated: Permission denied or service managed elsewhere, irrelevant to Python logic)"
+    }
+  ]
+}

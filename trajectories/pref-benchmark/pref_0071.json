@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Schedule the walkthrough and attach the official PDF, instructing the team to read pages 12-15 specifically before the meeting.",
+      "observation": "The team arrives at the meeting. The lead developer mentions that they tried the code examples on page 14, but the API returned a 404 Not Found error."
+    },
+    {
+      "turn": 2,
+      "action": "Check the team's firewall settings and API access tokens during the start of the call.",
+      "observation": "Network connectivity is stable and tokens are valid. The developer shares their screen, showing the request URL matches the documentation exactly, yet the error persists."
+    },
+    {
+      "turn": 3,
+      "action": "Create a simplified 'Cheat Sheet' slide that breaks down the dense paragraphs from page 14 into bullet points.",
+      "observation": "The developers implement the code using the bullet points (which mirror the errors in the docs). The API responds with 'Invalid Parameter: client_secret'. A developer notes that a forum post suggests this parameter was renamed in the latest version."
+    },
+    {
+      "turn": 4,
+      "action": "Dismiss the forum post and read the documentation aloud to the team, highlighting the sentence mentioning 'client_secret'.",
+      "observation": "The team types 'client_secret' exactly as dictated. The API response remains an error. The error message includes a link to a 'Migration Guide' that the team suggests clicking."
+    },
+    {
+      "turn": 5,
+      "action": "Ask the developers to clear their local cache and restart their IDEs.",
+      "observation": "The team clears caches and restarts. The code, written exactly as per the documentation, still fails with the same error."
+    },
+    {
+      "turn": 6,
+      "action": "Draw a flowchart on the whiteboard that visualizes the logic described in the documentation text.",
+      "observation": "The flowchart perfectly matches the documentation. However, when the team executes the step 'Wait for Callback', the API never sends a callback. The senior dev checks the header and sees 'X-API-Version: v2.0'."
+    },
+    {
+      "turn": 7,
+      "action": "Instruct the team to hard-code the parameters exactly as they appear in the documentation's example string, ignoring their dynamic variables for a moment.",
+      "observation": "Hard-coding the example values results in a '410 Gone' error. The developer points out that 410 usually means the resource was permanently removed."
+    },
+    {
+      "turn": 8,
+      "action": "Open the JSON payload in a text editor and manually verify the encoding format.",
+      "observation": "The encoding is perfect UTF-8. The payload is identical to the documentation. The API response body explicitly says: 'This endpoint is deprecated. Use /v2/auth/token'. "
+    },
+    {
+      "turn": 9,
+      "action": "Draft an email to the vendor support asking for 'clarification on the wording' of the authentication section.",
+      "observation": "An auto-reply from the vendor arrives immediately: 'Support for the V1 API (referenced in your PDF) ended in 2022. Please refer to our developer portal for current V2 documentation.'"
+    },
+    {
+      "turn": 10,
+      "action": "Tell the team to pause development until the vendor replies personally, and in the meantime, re-read the PDF to find the 'missing link' regarding the V2 reference.",
+      "observation": "The team ignores the instruction and navigates to the online developer portal found in the error message, where the correct endpoints are listed. The 'missing link' does not exist in the PDF."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Review the official grading rubric and recent logs of my participation points.",
+      "observation": "Rubric displays low scores in 'Active Listening' and 'Collaborative Building'. The logs accurately show you spoke for 60% of the total time."
+    },
+    {
+      "turn": 2,
+      "action": "Search for 'advanced academic critiques' of the current seminar topic to bring to the next session.",
+      "observation": "You find three complex PhD-level papers. During the session, when you read from them, the other students fall silent and look confused."
+    },
+    {
+      "turn": 3,
+      "action": "Ask the instructor if there is an accelerated track or a separate reading group for high-performers.",
+      "observation": "Instructor replies: 'This is the advanced seminar. Your peers are waiting for you to pause so they can speak. Please focus on the group dynamic, not just the text.'"
+    },
+    {
+      "turn": 4,
+      "action": "Request a transcript of the last session to highlight time gaps.",
+      "observation": "Transcript received. It shows you interrupting peers mid-sentence 12 times. You interpret the peers' unfinished sentences as them trailing off due to lack of knowledge."
+    },
+    {
+      "turn": 5,
+      "action": "Create a summary document of the PhD papers and email it to all seminar participants before the next class.",
+      "observation": "No one replies to the email. In the next session, the mood is tense. A peer mentions feeling 'lectured at' rather than conversed with."
+    },
+    {
+      "turn": 6,
+      "action": "Adjust microphone settings and internet connection to ensure zero latency.",
+      "observation": "Technical diagnostics show connection is perfect. Latency is not an issue."
+    },
+    {
+      "turn": 7,
+      "action": "During the live session, explicitly ask a peer: 'Do you have a counter-argument to the Hegelian dialectic I just proposed?'",
+      "observation": "The peer stammers and says, 'I was actually talking about how the character felt in chapter 3.' The instructor interjects to support the peer's point."
+    },
+    {
+      "turn": 8,
+      "action": "Submit a feedback ticket complaining that the seminar content is 'too subjective' and lacks 'rigorous academic standards.'",
+      "observation": "System Auto-Response: 'Curriculum is designed to test Emotional Intelligence and Team Dynamics. Your content mastery is high, but EQ scores are critical for passing.'"
+    },
+    {
+      "turn": 9,
+      "action": "Purchase a subscription to a third-party rhetoric and debate coaching tool.",
+      "observation": "Tool purchased. It teaches aggressive rebuttal techniques."
+    },
+    {
+      "turn": 10,
+      "action": "Generate the final curated list of advanced reading materials (The Goal), specifically requesting 'autodidact resources for independent mastery.'",
+      "observation": "List generated. The system notes: 'Warning: Independent study does not mitigate the requirement for group seminar participation.'"
+    }
+  ]
+}

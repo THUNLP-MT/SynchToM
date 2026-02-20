@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Submit a requisition form to DevOps for a high-performance AWS instance dedicated as an 'Unguided Sandbox'.",
+      "observation": "DevOps approves the request but notes that the current development environment usage logs show very little activity, suggesting the team isn't writing much code at all."
+    },
+    {
+      "turn": 2,
+      "action": "Schedule a team meeting to announce the 'Sandbox' and mandate that every developer must deploy at least one 'Hello World' variation by EOD.",
+      "observation": "The team deploys their variations. The code works, but every single submission wraps the functional components in unnecessary class structures and attempts to maintain internal state where it shouldn't exist."
+    },
+    {
+      "turn": 3,
+      "action": "Review the pull requests from the main project and leave comments focusing on syntax efficiency and library import optimization.",
+      "observation": "The syntax is syntactically correct, but the logic flows are convoluted. Functions are modifying global variables, causing unpredictable behavior in the asynchronous parts of the framework."
+    },
+    {
+      "turn": 4,
+      "action": "Disable the strict linting rules and type-checker on the Sandbox server.",
+      "observation": "Without type safety, the team starts passing objects with incorrect shapes. The application crashes silently at runtime, and the team expresses confusion about why their old OOP patterns aren't working."
+    },
+    {
+      "turn": 5,
+      "action": "Upgrade the Sandbox server's instance size to double the RAM and CPU.",
+      "observation": "The build times improve significantly. The team produces code faster, but the code introduces severe race conditions because they are treating immutable data structures as mutable."
+    },
+    {
+      "turn": 6,
+      "action": "Organize an internal 'Hackathon' on the Sandbox: The developer who commits the most lines of working code gets a gift card.",
+      "observation": "The team generates a massive amount of code. However, the 'working' code is brittle; they have copy-pasted boilerplate to bypass the framework's core functional composition features."
+    },
+    {
+      "turn": 7,
+      "action": "Send a survey asking the team if they have access to the official API documentation and the IDE plugins.",
+      "observation": "All team members confirm they have full access and are reading the docs. One developer notes, 'I read the docs, but I don't understand why there are no Classes in this framework.'"
+    },
+    {
+      "turn": 8,
+      "action": "Wipe the Sandbox database and set up a script that auto-deploys their code on every save, removing the manual build step.",
+      "observation": "The instant deploy loop results in the application being in a constant crashed state. The team asks for a training session on 'Functional Reactive Programming concepts'."
+    },
+    {
+      "turn": 9,
+      "action": "Reject the training request and instead schedule daily 'Mob Programming' sessions in the Sandbox where I watch them type.",
+      "observation": "During the session, a developer tries to mutate a variable. You correct the syntax. They ask 'Why can't I change this?', and the error persists because the architectural logic relies on side effects."
+    },
+    {
+      "turn": 10,
+      "action": "Create a repository of 'Code Snippets' containing complex, working implementation examples and tell the team to 'reverse engineer' them in the Sandbox.",
+      "observation": "The team copies the snippets but implements them in the wrong contexts. They use a database connection pattern for a UI component, proving they still fundamentally misunderstand the separation of concerns in the new paradigm."
+    }
+  ]
+}

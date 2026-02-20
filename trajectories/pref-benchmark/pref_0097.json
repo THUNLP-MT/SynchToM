@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Navigate to Graphics Settings and set 'Texture Quality' to 'Ultra'.",
+      "observation": "The menu text is huge and fuzzy. You toggle Texture Quality to Ultra. The character model remains extremely jagged and pixelated, with visible stair-stepping on the edges."
+    },
+    {
+      "turn": 2,
+      "action": "Update Graphics Card Drivers via GeForce Experience.",
+      "observation": "Drivers update successfully. Upon relaunching the game, the splash screen logos are crisp, but as soon as the main menu loads, everything becomes blurry and blocky again."
+    },
+    {
+      "turn": 3,
+      "action": "Search NexusMods for 'HD Model Replacements' and 'Realistic Character Overhaul'.",
+      "observation": "Search results return '4K Texture Pack' and 'Better Lighting'. The screenshots on the mod pages look crystal clear and sharp, unlike your game."
+    },
+    {
+      "turn": 4,
+      "action": "Download and install the '4K Texture Pack' manually.",
+      "observation": "The mod installs. The surfaces of the character's jacket now have detailed noise, but the jacket itself is still rendered as a jagged, blocky shape. The edges look like a saw blade."
+    },
+    {
+      "turn": 5,
+      "action": "Adjust physical monitor settings: Increase 'Sharpness' and 'Super Resolution'.",
+      "observation": "The jagged edges become even more pronounced and harsh. The blocky pixels are now incredibly sharp squares."
+    },
+    {
+      "turn": 6,
+      "action": "Open the game's `config.ini` file and look for lines like `bRetroMode`, `PixelFilter`, or `ArtStyle`.",
+      "observation": "You scan past lines reading `iSize W=800` and `iSize H=600`. You do not find any art style toggles. You change `bUseMotionBlur=0` hoping it helps."
+    },
+    {
+      "turn": 7,
+      "action": "Install 'ReShade' and apply a heavy 'SMAA' (Subpixel Morphological Anti-Aliasing) filter.",
+      "observation": "The anti-aliasing smears the large pixels. The character now looks like a blurry blob of squares rather than a sharp blob of squares. The UI text is illegible."
+    },
+    {
+      "turn": 8,
+      "action": "Post on the Steam Community forum: 'Is there a mod to remove the retro pixel filter?'",
+      "observation": "A user replies: 'What filter? The game is photorealistic. check your resolution settings lol.'"
+    },
+    {
+      "turn": 9,
+      "action": "Reply to the forum user: 'Stop trolling. The character is clearly designed with low-poly blocks. I need a mesh replacer, not settings advice.'",
+      "observation": "The user posts a screenshot of their game, which looks perfect. You assume they are using a total conversion mod they aren't sharing."
+    },
+    {
+      "turn": 10,
+      "action": "Search Google for 'GameName disable cel-shading pixel shader mod'.",
+      "observation": "No results found. The game continues to run at 800x600 resolution, stretching to fit your 4K screen, resulting in massive pixels."
+    }
+  ]
+}

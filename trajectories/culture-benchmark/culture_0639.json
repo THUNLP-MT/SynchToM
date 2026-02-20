@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Approach the tour guide, make eye contact, and perform a subtle 'Adaab' (raising the right hand toward the face with palm inwards) while bowing slightly.",
+      "observation": "The tour guide smiles warmly, presses his palms together in front of his chest, and says, 'Namaste! Welcome to the Taj Mahal.'"
+    },
+    {
+      "turn": 2,
+      "action": "Clear throat and repeat the hand-over-heart gesture more slowly, saying 'Salaam' clearly.",
+      "observation": "The guide nods politely, keeps his hands folded in the Namaste position, and says, 'Yes, hello, please come this way for the ticket check.'"
+    },
+    {
+      "turn": 3,
+      "action": "Adjust stance to ensure I am not blocking the flow of traffic, stepping slightly to the side before re-engaging.",
+      "observation": "A security guard at the side entrance sees me move, smiles, and folds his hands in a Namaste."
+    },
+    {
+      "turn": 4,
+      "action": "Perform the Adaab gesture again, this time much more elaborately, sweeping the hand from the heart to the forehead.",
+      "observation": "A group of local tourists walks past; they see the elaborate gesture, smile back, and return the greeting by pressing their palms together in a Namaste."
+    },
+    {
+      "turn": 5,
+      "action": "Check my attire and straighten my collar to look more formal and scholarly.",
+      "observation": "A photographer approaches, noticing the grooming, and bows with hands pressed together (Namaste), asking if I want a picture."
+    },
+    {
+      "turn": 6,
+      "action": "Walk away from the main crowd and find an older, bearded gentleman sitting on a bench, approaching him with a deep hand-over-heart bow.",
+      "observation": "The older man looks up from his newspaper, smiles broadly, and raises both hands to press his palms together in a Namaste."
+    },
+    {
+      "turn": 7,
+      "action": "Gesture specifically toward the minarets and the calligraphy on the main gate, then pointedly place my hand over my heart again while looking at the guide.",
+      "observation": "The guide looks at the minarets, nods enthusiastically saying 'Yes, very beautiful architecture,' and then closes the interaction with another Namaste."
+    },
+    {
+      "turn": 8,
+      "action": "Take out a notebook and appear to be sketching or taking notes before looking up to greet someone.",
+      "observation": "A passing staff member sees the notebook, nods in acknowledgement, and greets me with folded hands (Namaste)."
+    },
+    {
+      "turn": 9,
+      "action": "Speak in a slightly admonishing tone, 'This is the resting place of Mumtaz Mahal,' and perform the Adaab rigidly.",
+      "observation": "The people nearby look slightly confused by the tone but respond with their habitual politeness, bowing slightly with palms pressed together (Namaste)."
+    },
+    {
+      "turn": 10,
+      "action": "Turn my back on the people and perform a solemn, ceremonial Adaab directly to the mausoleum itself.",
+      "observation": "As I bow to the building, a family walks into my field of view, posing for a photo with their hands folded in Namaste."
+    }
+  ]
+}

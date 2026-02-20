@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Call obj.save(force_insert=True) immediately after setting obj.pk = None.",
+      "observation": "IntegrityError: duplicate key value violates unique constraint on the child table's primary key (or one-to-one parent link). The database rejected the INSERT attempt."
+    },
+    {
+      "turn": 2,
+      "action": "Manually set obj._state.adding = True and obj._state.db = None before calling save().",
+      "observation": "IntegrityError: duplicate key value violates unique constraint. The SQL query attempted an INSERT, but failed due to a collision on the parent link column."
+    },
+    {
+      "turn": 3,
+      "action": "Print type(obj.pk) and obj.pk to stdout.",
+      "observation": "Output: <class 'NoneType'> None. The primary key is definitely None."
+    },
+    {
+      "turn": 4,
+      "action": "Use copy.deepcopy(obj) to create a new instance, set pk=None on the copy, and save.",
+      "observation": "IntegrityError: duplicate key value violates unique constraint. The copied object still triggers a database conflict upon saving."
+    },
+    {
+      "turn": 5,
+      "action": "Inspect the project's DATABASE_ROUTERS setting.",
+      "observation": "The settings are standard; no custom routers are configured that would alter save behavior."
+    },
+    {
+      "turn": 6,
+      "action": "Explicitly set obj.id = None in addition to obj.pk = None.",
+      "observation": "IntegrityError: duplicate key value violates unique constraint. The error persists exactly as before."
+    },
+    {
+      "turn": 7,
+      "action": "Wrap the save operation in transaction.atomic().",
+      "observation": "IntegrityError: duplicate key value violates unique constraint. The transaction rolls back immediately."
+    },
+    {
+      "turn": 8,
+      "action": "Override the model's save() method to print self._state.adding immediately before super().save().",
+      "observation": "The print statement confirms `self._state.adding` is True (because of previous manipulations or `force_insert`), yet the subsequent database operation fails with IntegrityError."
+    },
+    {
+      "turn": 9,
+      "action": "Clear the object's _meta.local_fields cache and call save(force_insert=True) again.",
+      "observation": "IntegrityError: duplicate key value violates unique constraint. The database continues to reject the INSERT."
+    },
+    {
+      "turn": 10,
+      "action": "Instantiate a completely new object: NewClass(**obj_dict_values) where I manually exclude 'id' and 'pk' from the dictionary, then save.",
+      "observation": "IntegrityError: duplicate key value violates unique constraint. (The dictionary values included the underlying `parent_ptr_id` field, which was not excluded, so the new object still points to the existing parent row)."
+    }
+  ]
+}

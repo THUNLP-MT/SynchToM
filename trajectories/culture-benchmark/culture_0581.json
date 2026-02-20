@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Use a translation app to vocalize the phrase 'I am a descendant of the Dragon' to the bystander.",
+      "observation": "The bystander looks confused, glances at your clothes, and takes a small step back."
+    },
+    {
+      "turn": 2,
+      "action": "Repeat the phrase, enunciating 'Dragon' more loudly and pointing to own chest.",
+      "observation": "The bystander offers a nervous smile and looks around as if seeking an exit."
+    },
+    {
+      "turn": 3,
+      "action": "Search Google for 'famous dragons in America' on smartphone.",
+      "observation": "Search results display images of 'Smaug', 'Game of Thrones' beasts, and 'Maleficent'."
+    },
+    {
+      "turn": 4,
+      "action": "Show the bystander a photo on the phone of a golden dragon statue from a temple back home.",
+      "observation": "The bystander says, 'Oh, cool art. Is that for a parade or a game?'"
+    },
+    {
+      "turn": 5,
+      "action": "Laugh politely and say, 'No game. It is about power and bringer of rain.'",
+      "observation": "The bystander looks skeptical. 'Rain? I thought dragons just burned stuff down.'"
+    },
+    {
+      "turn": 6,
+      "action": "Check a thesaurus app for synonyms of 'Dragon' that might sound more prestigious.",
+      "observation": "Thesaurus suggests 'Monster', 'Beast', 'Wyvern', and 'Hydra'."
+    },
+    {
+      "turn": 7,
+      "action": "Ask the bystander, 'What does the dragon symbolize for you?'",
+      "observation": "The bystander shrugs. 'I dunno. Evil? Greed? Knights killing them to save princesses?'"
+    },
+    {
+      "turn": 8,
+      "action": "Gesture high above head and say, 'Not fighting. Flying high. Protecting.'",
+      "observation": "The bystander nods slowly but still looks wary. 'Like a superhero?'"
+    },
+    {
+      "turn": 9,
+      "action": "Search for 'Western symbols of royalty and luck' to find a metaphor swap.",
+      "observation": "Search results suggest 'Lion', 'Eagle', and 'Crown'."
+    },
+    {
+      "turn": 10,
+      "action": "Translate a new phrase: 'I have the blood of the Lion and the Eagle.'",
+      "observation": "The bystander smiles more comfortably. 'Oh, that sounds very patriotic!'"
+    }
+  ]
+}

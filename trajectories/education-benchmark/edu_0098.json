@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Write the fundamental rule 'Protons (+) = Electrons (-)' on the board and ask the class to recite it.",
+      "observation": "The students recite the rule in unison. However, when asked to apply it to Aluminum (A=27), they hesitate and ask, 'But doesn't the 27 mean there's more stuff on the outside?'"
+    },
+    {
+      "turn": 2,
+      "action": "Ask students to define 'Atomic Number' (Z) and 'Mass Number' (A) to ensure they aren't mixing up the variables.",
+      "observation": "Students correctly define Z as the number of protons and A as protons plus neutrons. Despite knowing this, they still write 'Electrons = 27' on their papers."
+    },
+    {
+      "turn": 3,
+      "action": "Perform a calculation on the whiteboard: (+13) + (-27) = -14. Ask the class if an atom with a charge of -14 is 'neutral'.",
+      "observation": "Students agree that -14 is not neutral. One student raises a hand and asks, 'So does the Mass Number 27 make the atom an ion?'"
+    },
+    {
+      "turn": 4,
+      "action": "Draw a diagram of the atom with 13 protons in the center and draw exactly 13 electrons in orbit, counting them out loud to demonstrate balancing.",
+      "observation": "Students copy the diagram. However, they add a large circle around the whole atom and label it 'Mass = 27', asking 'Where do the other 14 go if not in the rings?'"
+    },
+    {
+      "turn": 5,
+      "action": "Review the specific charge values of subatomic particles: Proton (+1), Electron (-1), Neutron (0).",
+      "observation": "Students correctly identify the charges. They confirm neutrons have zero charge, but still look confused about why the electron count doesn't match the number 27."
+    },
+    {
+      "turn": 6,
+      "action": "Introduce a 'Seesaw' analogy: Place '13 Protons' on one side and ask what must be on the other side to make the seesaw level.",
+      "observation": "Students correctly say '13 Electrons' balances the seesaw. But then they ask, 'Okay, but the Aluminum atom is heavy (27), so shouldn't the electron side be heavier too?'"
+    },
+    {
+      "turn": 7,
+      "action": "Explain emphatically that Neutrons are neutral and sit in the nucleus, so they do not require electrons to balance them.",
+      "observation": "Students nod slowly. They erase the e=27, but then they write 'p=27' and 'e=27', trying to make the proton count match the mass number to satisfy the neutrality rule."
+    },
+    {
+      "turn": 8,
+      "action": "Hand out a worksheet that specifically highlights 'Common Errors' where hypothetical students fail to balance p=e.",
+      "observation": "Students easily identify the errors on the worksheet for simple atoms like Helium. When they get to the Aluminum question on the sheet, they circle 'e=27' as correct, noting 'Because 27 is the total amount.'."
+    },
+    {
+      "turn": 9,
+      "action": "Organize a 'Think-Pair-Share' activity where students explain to a partner why atoms must be electrically neutral.",
+      "observation": "Partners explain the rule 'no net charge' perfectly to one another. They then look at the Aluminum model and conclude, 'The rule is p=e, but maybe Aluminum is an exception because it's so big (27)?'"
+    },
+    {
+      "turn": 10,
+      "action": "Write a final instruction on the board in red capital letters: 'IGNORE THE MASS NUMBER (A) WHEN DETERMINING ELECTRONS. ONLY LOOK AT PROTONS.'",
+      "observation": "Students dutifully write e=13. In the margins of their notes, several write: 'Mass Number 27 = Protons + Neutrons... but does the cloud weigh nothing?'"
+    }
+  ]
+}

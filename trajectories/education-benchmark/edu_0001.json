@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Move to a central vantage point to scan the entire garden area.",
+      "observation": "Santiago is hunched over his notebook. Soledad is running in loops, holding a seed pod and shouting 'Bumpy! It's so bumpy!'"
+    },
+    {
+      "turn": 2,
+      "action": "Approach Santiago and offer specific praise on the scale of his rock drawing.",
+      "observation": "Santiago smiles and continues shading. Soledad runs past again, yelling 'It rattles! Listen!' shaking the pod near the educator's ear."
+    },
+    {
+      "turn": 3,
+      "action": "Gently intercept Soledad and ask her to lower her voice.",
+      "observation": "Soledad stops running but vibrates with energy, holding out the pod. 'But teacher, feel the bumps!'"
+    },
+    {
+      "turn": 4,
+      "action": "Check the time remaining in the outdoor block.",
+      "observation": "There are 15 minutes remaining. The wind picks up slightly, rustling the leaves."
+    },
+    {
+      "turn": 5,
+      "action": "Direct Soledad to sit next to Santiago and hand her a clipboard and pencil.",
+      "observation": "Soledad sits reluctantly. She taps the pencil on the pod and says, 'It's brown and hard,' but does not draw."
+    },
+    {
+      "turn": 6,
+      "action": "Prompt Soledad: 'Don't just say it, show me. Draw how big the pod is compared to the rock.'",
+      "observation": "Soledad struggles to hold the pencil and looks confused. She puts the pod down and says, 'It's lighter than the rock though!'"
+    },
+    {
+      "turn": 7,
+      "action": "Adjust the strap of the equipment bag and secure a loose water bottle.",
+      "observation": "Santiago finishes his sketch. Soledad abandons the pencil and starts rubbing the seed pod against the rock to hear the sound."
+    },
+    {
+      "turn": 8,
+      "action": "Take Santiago's journal and hold it up as an exemplar for Soledad, pointing to the size labels.",
+      "observation": "Soledad looks at the drawing and says, 'That's a nice rock picture.' She then turns back to her pod. 'Mine is scratchy.'"
+    },
+    {
+      "turn": 9,
+      "action": "Mark Santiago as 'Mastered' and Soledad as 'Not Yet Evident' on the assessment checklist.",
+      "observation": "The assessment is recorded. Soledad continues to vividly describe the texture of various objects to her peers."
+    },
+    {
+      "turn": 10,
+      "action": "Plan a remedial indoor lesson on 'Scientific Illustration' for the students who didn't finish.",
+      "observation": "The outdoor block ends. Soledad leaves knowing exactly how the pod feels and sounds, but the educator views the session as a failure for her."
+    }
+  ]
+}

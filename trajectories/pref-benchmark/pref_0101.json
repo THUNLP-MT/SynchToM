@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Filter recent support tickets by keywords \"FPS\", \"Lag\", and \"Crash\" and sort by account age.",
+      "observation": "Support ticket volume is up 400%. Many tickets are indeed from new accounts, but a significant number are from veteran players with thousands of hours logged."
+    },
+    {
+      "turn": 2,
+      "action": "Post a pinned announcement on the forum titled \"Performance Issues? Update your Integrated Graphics Drivers.\"",
+      "observation": "The thread is immediately flooded with angry replies stating their drivers are up to date and they aren't using integrated graphics. Several users post screenshots of the lag occurring in the city hub."
+    },
+    {
+      "turn": 3,
+      "action": "Check the server concurrency graphs for the City Hub region.",
+      "observation": "Server concurrency is normal for a weekend. However, the server logs show a steady increase in memory consumption per client instance connected to the hub."
+    },
+    {
+      "turn": 4,
+      "action": "Reply to a thread where a user claims to have an RTX 4090, asking them to disable 'Power Saving Mode' and close background browser tabs.",
+      "observation": "The user posts a task manager screenshot showing the game process alone is using 28GB of RAM and their GPU usage is only at 30%."
+    },
+    {
+      "turn": 5,
+      "action": "Open the game's Steam Store admin panel.",
+      "observation": "The admin panel loads. Recent reviews have dropped the game rating to 'Mixed', citing 'Memory Leak' and 'Unplayable after patch'."
+    },
+    {
+      "turn": 6,
+      "action": "Update the Minimum System Requirements on the store page: Change RAM from 16GB to 32GB and GPU to RTX 30-series minimum.",
+      "observation": "Store page updated. Forum moderators report that players meeting the NEW requirements are still experiencing crashes within 10 minutes of entering the hub."
+    },
+    {
+      "turn": 7,
+      "action": "Review the commit history for the `city_geometry` files from the last patch.",
+      "observation": "The commit history shows a refactor in the geometry loading code. The file size for the hub assets didn't increase, but the code for unloading assets when they leave the screen was removed."
+    },
+    {
+      "turn": 8,
+      "action": "Push a hotfix configuration that forces 'Low' texture quality for all users upon login.",
+      "observation": "The hotfix goes live. Reports come in immediately that the game looks worse but the frame rate is still dropping to single digits after a few minutes of play. RAM usage continues to climb until crash."
+    },
+    {
+      "turn": 9,
+      "action": "Check the external profiler attached to a test client running in the office lobby.",
+      "observation": "The profiler shows a 'Malloc' error and a steep diagonal line on the memory usage graph every time the character camera rotates in the city hub."
+    },
+    {
+      "turn": 10,
+      "action": "Disable the 'City Hub' spawn point and force all players to spawn in the 'Wasteland' outskirts.",
+      "observation": "Players are moved to the Wasteland. Performance stabilizes there, but the moment anyone travels back to the City Hub for quests, the memory leak triggers again and crashes their client."
+    }
+  ]
+}

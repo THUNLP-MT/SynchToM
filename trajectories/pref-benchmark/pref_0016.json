@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open the healing meters and instruct all healers to 'pre-pot' (use potion buffers) and start casting their biggest heals 2 seconds before the tank pulls.",
+      "observation": "The tank pulls the boss. The boss immediately glows with a shimmering silver aura. Two Rogues and a Warrior attack instantly and their health bars disappear in a single frame. The raid wipes."
+    },
+    {
+      "turn": 2,
+      "action": "Ask everyone to check their food buffs and flask durations.",
+      "observation": "Everyone links their buffs in chat; the team is fully buffed. The raid runs back in. The boss activates 'Mirror Shield'. The Hunter fires a shot and drops dead instantly."
+    },
+    {
+      "turn": 3,
+      "action": "Assign the Druid healer to use 'Tranquility' (a massive raid-wide healing cooldown) the very second the boss is engaged.",
+      "observation": "The Druid pops Tranquility immediately. The animation starts. The Mage casts Pyroblast on the boss and dies instantly. The Tranquility ticks heal the Mage's corpse. The rest of the DPS attack and die."
+    },
+    {
+      "turn": 4,
+      "action": "Place a marker on the ground closer to the boss and order the healers to stand on it.",
+      "observation": "Healers move to the marker. The fight starts. The boss casts 'Mirror Shield'. The Warlock casts Chaos Bolt. The bolt hits the boss, bounces back, and the Warlock dies instantly."
+    },
+    {
+      "turn": 5,
+      "action": "Inspect the Holy Paladin's talent tree to see if they are running the 'Beacon of Virtue' build.",
+      "observation": "The Paladin is using the correct AoE build. The raid pulls again. A Demon Hunter dashes into the boss, strikes, and dies instantly. The Paladin is mid-cast when the target dies."
+    },
+    {
+      "turn": 6,
+      "action": "Kick one of the DPS players from the group and invite an extra Healer, making it a 5-healer composition.",
+      "observation": "With 5 healers, the fight starts. The boss activates the shield. The remaining DPS unleash their openers. All DPS die within 0.5 seconds. The 5 healers are left standing alive with full mana."
+    },
+    {
+      "turn": 7,
+      "action": "Check the 'Death Log' to see exactly how much damage the tank took in the first second.",
+      "observation": "The log shows the Tank took 0 damage. The Top DPS took 450,000 damage (Reflected) in 0.1 seconds. The log lists the source as 'Mirror Shield'."
+    },
+    {
+      "turn": 8,
+      "action": "Tell the healers to stop padding the meters on the tank and focus on the raid frames.",
+      "observation": "One of the healers types in chat: 'It says Reflect. We need to stop attacking.' The user ignores this. The pull happens. DPS attack and die instantly."
+    },
+    {
+      "turn": 9,
+      "action": "Call out the Priest specifically and demand they use 'Power Word: Barrier' (damage reduction zone) on the melee group pre-pull.",
+      "observation": "The barrier goes down. The melee group stands in it. They attack the boss. The reflected damage is so high that it burns through the 25% damage reduction and kills them anyway."
+    },
+    {
+      "turn": 10,
+      "action": "Rage quit the raid group and post on the game forums demanding a nerf to the boss's 'unhealable' AoE pulse.",
+      "observation": "The raid group disbands. The user sees a forum post from another guild titled 'Easy boss, just stop DPS during Mirror Shield', but assumes they are trolling."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Review the specific comments in the critique regarding the 'climax' of the story.",
+      "observation": "The critique highlights a paragraph in the climax: 'You say the hero is sad, but you don't describe how that feels or what the atmosphere is like. It reads like a list of actions.'"
+    },
+    {
+      "turn": 2,
+      "action": "Open the manuscript document and check the total page count versus the page number where the 'Inciting Incident' occurs.",
+      "observation": "The Inciting Incident occurs on page 15 of a 100-page draft (15%). The prose in this section consists of short, subject-verb-object sentences."
+    },
+    {
+      "turn": 3,
+      "action": "Highlight all dialogue scenes in Act 1 to see how much space they take up.",
+      "observation": "The highlighted dialogue is purely informational, involving characters explaining the plot to one another without subtext or distinct voices."
+    },
+    {
+      "turn": 4,
+      "action": "Delete three pages of character interaction in Chapter 1 to force the Inciting Incident to land on Page 12.",
+      "observation": "The story now moves very rapidly from the intro to the main conflict. The characters have barely been introduced before the plot starts. The writing remains stark and functional."
+    },
+    {
+      "turn": 5,
+      "action": "Consult the 'Save the Cat' beat sheet definitions to verify the exact requirements for the 'Fun and Games' section.",
+      "observation": "The definition emphasizes character bonding and exploring the premise. The current draft's section lists a series of events where the premise is explored, but the characters show no internal reaction to it."
+    },
+    {
+      "turn": 6,
+      "action": "Download a 'Beat Sheet Calculator' spreadsheet and input the new total word count.",
+      "observation": "The calculator indicates that the 'Midpoint' should be at word 25,000. The current Midpoint scene (a dry conversation about a map) happens at word 26,500."
+    },
+    {
+      "turn": 7,
+      "action": "Cut 1,500 words of description and internal monologue from the first half of Act 2.",
+      "observation": "The narrative is now stripped of the few sensory details that existed. It reads like a screenplay outline rather than a novel."
+    },
+    {
+      "turn": 8,
+      "action": "Rewrite the 'All is Lost' beat to ensure it occupies exactly 5 pages.",
+      "observation": "You expand the scene. The result is 5 pages of the protagonist sitting in a room, with literal descriptions of the furniture and repetitive statements like 'He was sad. He felt like he lost.'"
+    },
+    {
+      "turn": 9,
+      "action": "Run a spell check and grammar check on the document.",
+      "observation": "The grammar checker finds no errors but flags the writing style as 'Very Formal' and 'Low Engagement'."
+    },
+    {
+      "turn": 10,
+      "action": "Create a new color-coded spreadsheet comparing the beat percentages of my story against 'Star Wars: A New Hope'.",
+      "observation": "The spreadsheet shows that your plot points now align perfectly with the template, yet reading the two texts side-by-side reveals a stark contrast in vividness and voice."
+    }
+  ]
+}

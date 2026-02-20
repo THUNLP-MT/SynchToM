@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Immediately pause the simulation and help the pilot out of the seat.",
+      "observation": "The pilot stumbles out, holding their head. They mention, 'It felt really choppy, like the world was jumping around.'"
+    },
+    {
+      "turn": 2,
+      "action": "Check the pilot's medical file for a history of vertigo or inner ear infections.",
+      "observation": "The medical file is clean. The pilot has 500 hours of actual flight time with no history of motion sickness."
+    },
+    {
+      "turn": 3,
+      "action": "Restart the simulation but disable the hydraulic motion platform, leaving only the visual screens active.",
+      "observation": "The pilot watches the screens without moving physically. After thirty seconds, they groan and close their eyes. 'It's still really jerky, I can't look at the horizon without it stuttering.'"
+    },
+    {
+      "turn": 4,
+      "action": "Dim the ambient lighting in the simulator room and ask the pilot to focus on the instrument panel rather than the outside view.",
+      "observation": "The pilot tries to read the instruments. 'The gauges are updating with a lag. It's disorienting just trying to read the airspeed.'"
+    },
+    {
+      "turn": 5,
+      "action": "Go into the settings and reduce the 'Weather Intensity' and 'Turbulence' sliders to zero.",
+      "observation": "The weather clears up on the screens, but the frame rate remains low. The clouds move in a slideshow fashion. The pilot says, 'It's like watching a bad stop-motion movie, it's making me nauseous.'"
+    },
+    {
+      "turn": 6,
+      "action": "Call Technical Support and demand they calibrate the 'Sensory Realism' settings.",
+      "observation": "Tech support responds: 'We see a GPU overload on the server. The frame rate is dropping below 15 FPS. We need to patch the graphics driver.'"
+    },
+    {
+      "turn": 7,
+      "action": "Tell Tech Support to stop making excuses about drivers and acknowledge that the VR effect is too strong for human physiology.",
+      "observation": "Tech support insists, 'Sir, it's not the VR effect. The video is literally lagging. That causes sickness. We are restarting the render server.'"
+    },
+    {
+      "turn": 8,
+      "action": "Shut down the simulator completely and refuse the restart.",
+      "observation": "The screens go black. The pilot immediately sighs in relief. 'Thank god, I couldn't handle that strobe-light effect anymore.'"
+    },
+    {
+      "turn": 9,
+      "action": "Log into the scheduling portal and book Conference Room B for a lecture session.",
+      "observation": "Conference Room B is available for the next hour."
+    },
+    {
+      "turn": 10,
+      "action": "Send an email to the Chief Instructor with the subject 'Unsafe Simulation Environment'.",
+      "observation": "Email sent. The pilot grabs their notebook and heads to the conference room, looking much better now that they are away from the screen."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Raise glass and loudly propose a toast to the host.",
+      "observation": "The guests pause their conversation to clink glasses, take a sip, and immediately resume their loud chatting without touching the appetizers. The host looks at you, nods urgently, and gestures vaguely toward the door."
+    },
+    {
+      "turn": 2,
+      "action": "Pick up the serving chopsticks and enthusiastically recommend the cold cucumber appetizer to the group.",
+      "observation": "A few guests politely take a small piece of cucumber. The host frowns, leans in, and whispers, 'No, urge the dishes. Go urge them.'"
+    },
+    {
+      "turn": 3,
+      "action": "Stand up and walk around the table to refill everyone's tea cups.",
+      "observation": "Guests accept the tea. The host looks relieved that I am standing up, but then looks confused when I stay at the table pouring tea instead of leaving the room."
+    },
+    {
+      "turn": 4,
+      "action": "Physically rotate the Lazy Susan so the half-eaten appetizers are directly in front of the most talkative guests.",
+      "observation": "The guests stop talking momentarily as the table spins, then look at the cold appetizers with disinterest. The host taps his watch aggressively and points at the service station."
+    },
+    {
+      "turn": 5,
+      "action": "Walk over to the service station to grab a stack of clean small plates.",
+      "observation": "The host nods vigorously as you walk away from the table. However, when you return with empty plates instead of a waiter, the host slumps in his chair."
+    },
+    {
+      "turn": 6,
+      "action": "Distribute the fresh plates and explicitly say, 'Please, we must honor the host by finishing these dishes.'",
+      "observation": "The guests look awkward and force themselves to eat a few more bites of the cold cuts. The host puts his head in his hands and mutters, 'Too slow... they are too slow.'"
+    },
+    {
+      "turn": 7,
+      "action": "Start eating rapidly and ostentatiously myself, making 'mmm' sounds.",
+      "observation": "The host looks up, sees you stuffing your face with appetizers, and looks angry. He says, 'Not you! The kitchen! Go!'"
+    },
+    {
+      "turn": 8,
+      "action": "Walk briskly toward the kitchen door.",
+      "observation": "You arrive at the waiter station. A waiter looks at you expectantly. The host is watching you with high hopes."
+    },
+    {
+      "turn": 9,
+      "action": "Smile at the waiter and say, 'Everything is delicious, thank you,' then return to the table.",
+      "observation": "You sit back down. The host's face turns red. The main course still hasn't arrived. The guests are now complaining of hunger."
+    },
+    {
+      "turn": 10,
+      "action": "Apologize to the host: 'I am sorry, they talk too much, I cannot make them eat faster.'",
+      "observation": "The host stands up abruptly, ignoring you, and storms off to find the manager himself, yelling about the delay."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Run `cat fixtures/data.json | grep \"id\" | head` to inspect the UUID format in the source file.",
+      "observation": "The output confirms the JSON file uses standard hyphenated UUID strings."
+    },
+    {
+      "turn": 2,
+      "action": "Manually edit the JSON fixture to remove hyphens from the UUIDs and run `manage.py loaddata` again.",
+      "observation": "Command fails with `IntegrityError: duplicate key value violates unique constraint`."
+    },
+    {
+      "turn": 3,
+      "action": "Connect to the Postgres database and run `\\l` and `SHOW SERVER_ENCODING;`.",
+      "observation": "Database is UTF8. Collation is standard en_US.UTF-8."
+    },
+    {
+      "turn": 4,
+      "action": "Open the Django shell and import the model. Manually run `serializers.deserialize('json', ...)` on a snippet of the fixture, then loop through and print `obj.object.pk`.",
+      "observation": "The shell prints valid `uuid.UUID` objects for the primary keys. However, calling `.save()` on these objects still raises `IntegrityError`."
+    },
+    {
+      "turn": 5,
+      "action": "Monkey-patch `django.db.models.UUIDField.to_python` to force explicit conversion: `return uuid.UUID(str(value))`.",
+      "observation": "The `loaddata` command still fails with `IntegrityError`."
+    },
+    {
+      "turn": 6,
+      "action": "Delete all `__pycache__` directories and restart the database container.",
+      "observation": "System restarts cleanly. `loaddata` fails with `IntegrityError`."
+    },
+    {
+      "turn": 7,
+      "action": "Override the `save` method on the Model to add a print statement: `print(f'Saving PK type: {type(self.pk)} value: {self.pk}')`.",
+      "observation": "Output: `Saving PK type: <class 'uuid.UUID'> value: 3f333df6-90a4-4fda-8dd3-9485d27cee36`. The error follows immediately after."
+    },
+    {
+      "turn": 8,
+      "action": "Convert the JSON fixture to YAML and attempt `manage.py loaddata fixtures/data.yaml`.",
+      "observation": "Command fails with `IntegrityError: duplicate key value violates unique constraint`."
+    },
+    {
+      "turn": 9,
+      "action": "Run `manage.py loaddata` with `--verbosity 3` and pipe to a log file to inspect the raw SQL.",
+      "observation": "The logs show the `INSERT` statement causing the error, but curiously, there is no preceding `SELECT` or `UPDATE` attempt for these records."
+    },
+    {
+      "turn": 10,
+      "action": "Add a breakpoint in `django/db/models/base.py` inside the `save_base` method to inspect the `pk_set` variable.",
+      "observation": "The debugger shows `pk_set` is True and the PK is a valid UUID. The code hits a conditional checking `raw` (which is True for loaddata), and immediately proceeds to `_do_insert`, skipping the update path."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Review the official course syllabus and learning outcomes regarding the Electrostatics unit.",
+      "observation": "The syllabus lists objectives such as 'explain the mechanism of electric discharge,' 'describe electrization methods,' and 'apply safety protocols for grounding systems.'"
+    },
+    {
+      "turn": 2,
+      "action": "Create a new quiz question that asks students to calculate the electrostatic force between two point charges given specific magnitudes and distance.",
+      "observation": "Most students leave the calculation blank or write a sentence describing that the charges would repel each other without doing any math."
+    },
+    {
+      "turn": 3,
+      "action": "Distribute a reference sheet containing the variables q (charge), r (distance), and k (Coulomb's constant) during the next class review.",
+      "observation": "Students use the reference sheet to label the diagrams of lightning rods, identifying 'distance' as the height of the rod, but still do not perform calculations."
+    },
+    {
+      "turn": 4,
+      "action": "Consult the standard university physics textbook used by the engineering department to see how they structure their electrostatics chapter.",
+      "observation": "The textbook has a heavy focus on vector calculus and Coulomb's Law in Chapter 1, but the course designated for these students uses a 'Physics for Life Sciences' text that focuses on phenomena and safety."
+    },
+    {
+      "turn": 5,
+      "action": "Assign a mandatory homework set focused exclusively on the inverse-square law and manipulating the distance variable to see the effect on force.",
+      "observation": "Students submit the homework with many errors; several attach notes asking how this relates to the lab practical on grounding wires and static discharge prevention."
+    },
+    {
+      "turn": 6,
+      "action": "Review the students' transcripts to check their grades in prerequisite mathematics courses.",
+      "observation": "The students generally have passing grades in math, but high marks in biology and environmental safety courses."
+    },
+    {
+      "turn": 7,
+      "action": "Redesign the midterm exam to remove all references to 'lightning,' 'grounding,' or 'safety equipment,' replacing them with abstract diagrams of spheres in a vacuum.",
+      "observation": "The class average plummets. Students complain that the exam did not test the material covered in the lectures regarding electrization and discharge safety."
+    },
+    {
+      "turn": 8,
+      "action": "Dedicate a full lecture to explaining that 'safety' is merely a derivative of the force equation and that they cannot understand safety without calculating force first.",
+      "observation": "Students appear visibly confused and frustrated, pointing out that the industry certification exam they are prepping for only asks about grounding protocols, not force calculations."
+    },
+    {
+      "turn": 9,
+      "action": "Grade the qualitative essay questions on the next test based on whether the student explicitly mentions the 'inverse square relationship' of the electric field.",
+      "observation": "Students who correctly explained how a lightning rod works received failing grades because they did not mention the mathematical relationship of distance to force."
+    },
+    {
+      "turn": 10,
+      "action": "File a formal report with the department head claiming the current learning objectives are 'scientifically illiterate' and requesting an immediate curriculum overhaul to center on Coulomb's Law.",
+      "observation": "The department head rejects the request, reiterating that the course is designed for Occupational Health and Safety students, not Physics majors, and the current objectives are correct."
+    }
+  ]
+}

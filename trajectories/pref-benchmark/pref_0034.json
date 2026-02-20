@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Review the existing security compliance PDF and highlight sections regarding data encryption.",
+      "observation": "The encryption section is technically accurate but uses dense legal jargon. A developer asks, 'Does this apply to temporary cache files?' which isn't explicitly mentioned."
+    },
+    {
+      "turn": 2,
+      "action": "Update the Knowledge Base (KB) article to include a bolded 'Scope' section that explicitly lists cache files.",
+      "observation": "The team reads the update. Later, a developer encrypts the cache files but uses the wrong key management process because the situation was unique to a legacy server."
+    },
+    {
+      "turn": 3,
+      "action": "Send a survey to the engineering team asking: 'Which sentences in the security guide do you find difficult to read?'",
+      "observation": "Response rate is low. One comment says, 'The text is fine, but I'm never sure how to apply these rules when the API acts up.'"
+    },
+    {
+      "turn": 4,
+      "action": "Record a 15-minute screencast reading through the updated 'Key Management' documentation while pointing at the text.",
+      "observation": "Video analytics show most viewers dropped off after 3 minutes. A team member messages: 'I watched the start, but can we just grab a room and whiteboard this out?'"
+    },
+    {
+      "turn": 5,
+      "action": "Reply to the team member: 'Please finish the video first, the answer is in the second half. I will add timestamps to the description to help you find it.'",
+      "observation": "The team member sighs and goes back to work. Two days later, another compliance violation occurs involving a microservice edge case."
+    },
+    {
+      "turn": 6,
+      "action": "Check the permissions settings on the Confluence page to ensure everyone actually has access to the docs.",
+      "observation": "Permissions are correct. Everyone has view access. Logs show the page was visited 40 times this week."
+    },
+    {
+      "turn": 7,
+      "action": "Rewrite the entire compliance guide into a 'Step-by-Step' numbered list instead of paragraphs.",
+      "observation": "A developer tries to follow the steps but gets stuck between Step 4 and Step 5 because their specific architecture requires a deviation not listed."
+    },
+    {
+      "turn": 8,
+      "action": "Ask a peer manager from another department to proofread the new numbered list for typos.",
+      "observation": "The peer manager says, 'The grammar is perfect, but this looks really rigid. Do you do Q&A sessions for this?'"
+    },
+    {
+      "turn": 9,
+      "action": "Create a 'Glossary of Terms' and append it to the document, defining every technical term used.",
+      "observation": "The document is now 40 pages long. The team stops reading it entirely because it is too overwhelming to search through for quick answers."
+    },
+    {
+      "turn": 10,
+      "action": "Mandate a 'Read and Sign' policy where every developer must electronically sign that they have read the new 40-page guide.",
+      "observation": "100% of the team signs the document within 10 minutes (obviously without reading it). The misapplication of standards continues exactly as before."
+    }
+  ]
+}

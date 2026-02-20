@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Select 'Precipitation' from the multiple-choice dropdown menu.",
+      "observation": "System feedback: 'Incorrect. Please focus on the interaction between the vapor and the solid surface.'"
+    },
+    {
+      "turn": 2,
+      "action": "Select 'Orographic Lift' from the advanced options.",
+      "observation": "System feedback: 'Incorrect. This concept is related to mountain weather patterns, but not the specific phase change shown here.'"
+    },
+    {
+      "turn": 3,
+      "action": "Type 'Rainfall' into the custom answer field.",
+      "observation": "System feedback: 'Incorrect. Hint: Consider the state of matter change occurring at the surface.'"
+    },
+    {
+      "turn": 4,
+      "action": "Type 'Liquid Deposition'.",
+      "observation": "System feedback: 'Incorrect. You are describing the result, not the process. What happens when gas turns to liquid?'"
+    },
+    {
+      "turn": 5,
+      "action": "Click on the 'Thermal Vent' icon to inspect the source properties.",
+      "observation": "System feedback: Displays metadata: 'Source: Geothermal Vent. Output: Water Vapor (Gas) at 95°C.'"
+    },
+    {
+      "turn": 6,
+      "action": "Type 'Condensational Rains'.",
+      "observation": "System feedback: 'Incorrect. The answer is a single word describing the phase change itself.'"
+    },
+    {
+      "turn": 7,
+      "action": "Type 'Drizzle'.",
+      "observation": "System feedback: 'Incorrect. Think about water appearing on a cold mirror.'"
+    },
+    {
+      "turn": 8,
+      "action": "Zoom in on the rock surface texture.",
+      "observation": "System feedback: View magnifies. Water droplets are forming directly on the rock surface where the vapor touches it."
+    },
+    {
+      "turn": 9,
+      "action": "Type 'Catchment'.",
+      "observation": "System feedback: 'Incorrect. The process is the opposite of evaporation.'"
+    },
+    {
+      "turn": 10,
+      "action": "Type 'Cloudburst'.",
+      "observation": "System feedback: 'Incorrect. The correct answer is Condensation.'"
+    }
+  ]
+}

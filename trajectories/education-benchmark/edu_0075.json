@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Draft the unit syllabus starting with 'The Cell Cycle and Interphase' followed by 'Mitosis,' leaving 'DNA Structure' for the end of the week.",
+      "observation": "During the introduction to Interphase, students seem confused when I mention 'genetic material replication,' asking what exactly is being replicated."
+    },
+    {
+      "turn": 2,
+      "action": "Create a comprehensive vocabulary list (Red Herring) including terms like 'Centromere,' 'Histone,' and 'Nucleosome' to be handed out at the start of the lesson.",
+      "observation": "Students hold the glossary but still refer to the genetic material as 'spaghetti' or 'worms' during the Interphase discussion, clearly not connecting the terms to the physical object."
+    },
+    {
+      "turn": 3,
+      "action": "Proceed to the lesson on Mitosis (Prophase through Telophase), focusing on the movement of chromosomes.",
+      "observation": "Students struggle to distinguish between 'chromatin' and 'chromosomes' during the lecture, asking why the 'spaghetti' suddenly turns into 'X-shapes.'"
+    },
+    {
+      "turn": 4,
+      "action": "Show a high-speed time-lapse video of a real cell dividing, emphasizing the continuous flow of the process.",
+      "observation": "Students watch the video but remain fixated on the condensation moment, asking 'How does it know to tie itself in knots?' rather than watching the separation."
+    },
+    {
+      "turn": 5,
+      "action": "Assign a 'Card Sort' activity (Red Herring) where students arrange images of cells in the correct temporal order.",
+      "observation": "Students successfully order the cards based on visual cues (where the dark blobs are) but cannot explain what is happening to the genetic material in each step."
+    },
+    {
+      "turn": 6,
+      "action": "Deliver the 'Specifics' lesson: DNA Organization (Double Helix, Histones, Supercoiling).",
+      "observation": "Students express frustration, saying, 'Wait, so the X-shape is made of the double helix? Why didn't we learn this before? I thought they were different things.'"
+    },
+    {
+      "turn": 7,
+      "action": "Give a quiz on the Cell Cycle, but specifically simplify the questions to focus on the 'When' rather than the 'What'.",
+      "observation": "Students pass the timeline questions but fail every question requiring them to track the quantity of genetic material, as they still don't understand the unit of inheritance."
+    },
+    {
+      "turn": 8,
+      "action": "Implement a 'Think-Pair-Share' session (Red Herring) asking students to discuss why cells need to divide.",
+      "observation": "Discussions are shallow; students talk about 'growing' but cannot connect it to the conservation of genetic information."
+    },
+    {
+      "turn": 9,
+      "action": "Create a remedial diagram that depicts chromosomes as simple colored bars, removing all internal structural detail entirely.",
+      "observation": "Students memorize the movement of the colored bars perfectly but fail to apply the concept to a real biological scenario involving DNA mutation or replication errors."
+    },
+    {
+      "turn": 10,
+      "action": "Report to the Department Head that the students struggle with 'abstract procedural flow' and request to delay the DNA Organization topic to a completely different unit next term.",
+      "observation": "The students leave the unit knowing the names of the phases but fundamentally misunderstanding the nature of genetic conservation."
+    }
+  ]
+}

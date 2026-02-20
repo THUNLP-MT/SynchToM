@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Run system checks on a reduced ordering chain: `ordering = ['supply__product__parent']` (removing the `isnull` suffix).",
+      "observation": "System check passes. No E015 error reported."
+    },
+    {
+      "turn": 2,
+      "action": "Run system checks with `ordering = ['supply__product__isnull']` (removing the self-referential `parent` but keeping the lookup).",
+      "observation": "SystemCheckError: (models.E015) 'ordering' refers to the nonexistent field, related field, or lookup 'supply__product__isnull'."
+    },
+    {
+      "turn": 3,
+      "action": "Inspect `models.py` to verify `on_delete` and `related_name` arguments on the `Product` and `Supply` ForeignKeys.",
+      "observation": "The model definitions are standard. `parent` uses `models.ForeignKey('self', null=True, ...)` and `product` uses `models.ForeignKey(Product, ...)`."
+    },
+    {
+      "turn": 4,
+      "action": "Modify `django/core/checks/model_checks.py` to insert `print(f'Visiting: {name}, Current Model: {opts.label}')` inside the field resolution loop.",
+      "observation": "Logs output:\nVisiting: supply, Current Model: app.Order\nVisiting: product, Current Model: app.Supply\nVisiting: isnull, Current Model: app.Product\nFieldDoesNotExist raised for 'isnull'."
+    },
+    {
+      "turn": 5,
+      "action": "Modify the debug prints to also output `type(field)` and `field.related_model` right before the error occurs.",
+      "observation": "Output shows `field` is `<django.db.models.fields.related.ForeignKey: product>` and `related_model` is `<class 'app.models.Product'>`."
+    },
+    {
+      "turn": 6,
+      "action": "Test the query at runtime using `python manage.py shell`: `Order.objects.order_by('supply__product__isnull')`.",
+      "observation": "The query executes successfully and generates valid SQL."
+    },
+    {
+      "turn": 7,
+      "action": "Search the Django codebase for where `LOOKUP_SEP` (double underscore) is split in `_check_ordering`, and try to manually reconstruct the chain using `get_field()` in a standalone script.",
+      "observation": "The manual script using `get_field()` raises `FieldDoesNotExist` for 'isnull', just like the system check."
+    },
+    {
+      "turn": 8,
+      "action": "Check if `isnull` is registered as a Transform instead of a Lookup on the Field class.",
+      "observation": "`isnull` is registered as a Lookup, not a Transform."
+    },
+    {
+      "turn": 9,
+      "action": "Attempt to patch `_check_ordering` to catch `FieldDoesNotExist`, and inside the `except` block, check if the *previous* field was a `ForeignKey` and the current part is `'isnull'`.",
+      "observation": "The patch successfully suppresses the E015 error for `isnull` lookups."
+    },
+    {
+      "turn": 10,
+      "action": "Finalize the patch to generically check `field.get_lookups()` when `FieldDoesNotExist` is raised.",
+      "observation": "The generic patch works for `isnull` and other lookups like `exact`. The issue is resolved."
+    }
+  ]
+}

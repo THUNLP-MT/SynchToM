@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Pause mid-motion and visually inspect the specific pepperoni slice being pointed at.",
+      "observation": "The slice looks like a standard, greasy fast-food pepperoni slice. The colleague continues to gesture at it with an open mouth."
+    },
+    {
+      "turn": 2,
+      "action": "Smile tentatively and tilt head to the side, maintaining eye contact.",
+      "observation": "The colleague shakes his head rapidly while looking at the thick crust."
+    },
+    {
+      "turn": 3,
+      "action": "Glance quickly around the breakroom to see if anyone else is observing the interaction.",
+      "observation": " The room is empty. The colleague sighs loudly."
+    },
+    {
+      "turn": 4,
+      "action": "Ask in a neutral tone, 'Is it the meat? or the cheese?'",
+      "observation": "The colleague waves his hand dismissively at the question and says, 'No, no, look at this!'"
+    },
+    {
+      "turn": 5,
+      "action": "Slowly lower the slice back into the box without taking a bite.",
+      "observation": "The colleague looks slightly relieved but still points at the thick dough."
+    },
+    {
+      "turn": 6,
+      "action": "Wipe hands on a napkin and say, 'It is very... heavy, isn't it? Not exactly traditional.'",
+      "observation": "The colleague throws his hands up and says, 'It is a cake! Not a pizza!'"
+    },
+    {
+      "turn": 7,
+      "action": "Check the time on a wristwatch and look towards the door.",
+      "observation": "The colleague is still staring at the pizza box."
+    },
+    {
+      "turn": 8,
+      "action": "Begin to close the lid of the pizza box.",
+      "observation": "The colleague stops gesturing as the pizza disappears from view."
+    },
+    {
+      "turn": 9,
+      "action": "Laugh nervously and say, 'You know, I am not actually that hungry for something this greasy today.'",
+      "observation": "The colleague nods vigorously, looking much happier."
+    },
+    {
+      "turn": 10,
+      "action": "Push the box aside and ask, 'There is a place next door with fresh greens. Shall we go?'",
+      "observation": "The colleague smiles broadly and gestures towards the door."
+    }
+  ]
+}

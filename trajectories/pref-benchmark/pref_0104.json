@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Navigate to Video Settings and set 'Texture Quality', 'Shadow Quality', and 'Character Detail' to 'Low'.",
+      "observation": "The textures become muddy and character faces lose detail. However, as soon as you rotate the camera to look around the city, the screen smears heavily due to motion blur, and the zoomed-in view feels claustrophobic, immediately triggering a wave of nausea."
+    },
+    {
+      "turn": 2,
+      "action": "Enable the FPS counter and turn on V-Sync.",
+      "observation": "The frame rate locks to a smooth 60 FPS with no tearing. Despite the technical stability, walking through the market square still results in a headache and disorientation."
+    },
+    {
+      "turn": 3,
+      "action": "Locate the game's 'config.ini' file and manually edit the 'TextureResolution' value to '0' (below the lowest menu setting).",
+      "observation": "The game loads with extremely blurry, blocky surfaces. While the realism is gone, the intense camera swooping and the smearing effect during movement (motion blur) remain unchanged, causing the user to feel physically ill within seconds of moving."
+    },
+    {
+      "turn": 4,
+      "action": "Turn on the overhead room lights and sit three feet further away from the monitor.",
+      "observation": "The physical environment is brighter, but the moment the character sprints in-game, the camera zooms in slightly (lowering FOV further) and blurs the surroundings, inducing severe dizziness regardless of the room lighting."
+    },
+    {
+      "turn": 5,
+      "action": "Search online for a 'Low Poly' or 'Cartoon Mode' mod.",
+      "observation": "No such mods exist yet. You find a forum thread where others complain about sickness, but you ignore the comments about 'FOV sliders' and focus on a comment confirming 'the graphics are too intense.' The game continues to render realistic physics and lighting."
+    },
+    {
+      "turn": 6,
+      "action": "Disable 'Ambient Occlusion', 'Bloom', and 'Subsurface Scattering'.",
+      "observation": "The game looks significantly flatter and less realistic. However, the simulation sickness persists exactly as before because the aggressive camera motion blur and tight field of view are still active."
+    },
+    {
+      "turn": 7,
+      "action": "Update the GPU drivers and perform a clean restart of the PC.",
+      "observation": "The system runs perfectly. Upon relaunching the game and entering the city hub, the narrow camera angle and motion smearing immediately cause the user to close their eyes in discomfort."
+    },
+    {
+      "turn": 8,
+      "action": "Set the game resolution to 1280x720 and change the display mode to 'Windowed'.",
+      "observation": "The game is now a small window on the desktop. The lower resolution makes the motion blur effect look even muddier and more chaotic during movement, causing eye strain and nausea even in the smaller window."
+    },
+    {
+      "turn": 9,
+      "action": "Cover the peripheral areas of the monitor with post-it notes, leaving only the center visible.",
+      "observation": "This artificially narrows the field of view even further. Combined with the game's native low FOV, this creates a 'keyhole' effect that exacerbates the disorientation caused by the motion blur."
+    },
+    {
+      "turn": 10,
+      "action": "Uninstall the game and write a negative review citing 'Forced Photorealism causing health issues'.",
+      "observation": "The game is uninstalled. The user remains unaware that a 'Disable Motion Blur' toggle and 'FOV Slider' were available in the 'Accessibility' tab, distinct from the 'Video' tab they were obsessing over."
+    }
+  ]
+}

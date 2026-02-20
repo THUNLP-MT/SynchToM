@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Distribute a 'Methodological Validity' worksheet requiring students to write a detailed defense of their chosen separation technique using theoretical property data (density, boiling points) before touching any equipment.",
+      "observation": "Students quickly fill in the worksheet with textbook definitions. Several groups raise their hands asking if they can start the experiment now to see if their ideas actually work."
+    },
+    {
+      "turn": 2,
+      "action": "Instruct the class to pause and organize a 'Peer Review Session' where groups swap plans and critique the logic of the opposing group's proposed sequence.",
+      "observation": "Students exchange papers but offer very superficial feedback like 'looks good' or 'seems okay'. They are unable to identify potential flaws (like the filter clogging with oil) because they haven't observed the physical interaction of the materials."
+    },
+    {
+      "turn": 3,
+      "action": "Move the trays of physical materials (water, oil, stones, salt mix) from the student desks to the back counter, out of immediate reach.",
+      "observation": "The room becomes noisier and students appear disengaged. They start arguing about hypothetical scenarios that are physically impossible, such as 'using a magnet to pull the salt out' because they recall magnets separate things."
+    },
+    {
+      "turn": 4,
+      "action": "Provide a reference sheet with the exact physical properties of all components (density, solubility, magnetism) to correct the factual errors in their arguments.",
+      "observation": "Students correct their plans to align with the sheet (crossing out magnets). However, they now argue for boiling the entire mixture immediately, failing to realize that boiling oil and water together creates a dangerous splattering hazard which would invalidate the procedure in reality."
+    },
+    {
+      "turn": 5,
+      "action": "Re-assign the groups, mixing high-performing 'debaters' with quieter students.",
+      "observation": "The discussions become more dominated by the assertive students. The class converges on a single 'best' method based on whoever spoke most confidently, even though the method involves using a paper filter for the oil/water emulsion (which would fail/clog instantly in reality)."
+    },
+    {
+      "turn": 6,
+      "action": "Implement a 'Town Hall' vote where the entire class must agree on the single most logically valid protocol before anyone is allowed to retrieve the materials.",
+      "observation": "The class votes unanimously for the filtration method because it sounds the cleanest. A student asks, 'If we vote for it and it doesn't work, do we still get a good grade?'"
+    },
+    {
+      "turn": 7,
+      "action": "Respond to the student's question by stating, 'In this class, validity is measured by the quality of your justification, not the physical outcome. If your logic is sound, the result is valid.'",
+      "observation": "Students stop worrying about the physical reality. They produce highly detailed, eloquent plans for the 'Filter-First' method. The lesson time is now 90% gone."
+    },
+    {
+      "turn": 8,
+      "action": "Check the lesson plan and curriculum standard for the definition of 'validity' to find a quote to put on the board.",
+      "observation": "The standard reads: 'Evaluate the validity of results by comparing empirical data to predictions and identifying sources of error.' The teacher focuses on the word 'predictions' and ignores 'empirical data'."
+    },
+    {
+      "turn": 9,
+      "action": "Cancel the wet-lab portion of the lesson entirely, citing that the 'Argumentation Phase' was so rich that it constituted the investigation itself.",
+      "observation": "Students look confused and disappointed. When asked to write a concluding statement about the validity of their method, they write 'It is valid because we all voted for it,' having no data to prove otherwise."
+    },
+    {
+      "turn": 10,
+      "action": "Assign a homework essay: 'Explain why peer consensus is the primary method for establishing the validity of a scientific investigation.'",
+      "observation": "The students submit essays repeating the teacher's lecture points. The actual separation method (which was practically flawed) is never tested, and the students leave the unit believing that if an experiment makes sense on paper, it is scientifically valid."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Walk a full circle around the exterior of the 'Bowl' structure, looking up at the rim and scanning the ground level for discreet entrances.",
+      "observation": "You see a large ramp leading to a main entrance, signage for 'Museum', and families walking in. No side doors are visible."
+    },
+    {
+      "turn": 2,
+      "action": "Stop at a digital information kiosk and scroll through the 'Facilities' and 'Levels' menu pages.",
+      "observation": "The directory lists: Permanent Exhibition, Temporary Exhibition, Shop, Cafe M1, Junior Campus."
+    },
+    {
+      "turn": 3,
+      "action": "Stand near the main entrance for a moment, observing the attire of people exiting the building.",
+      "observation": "Most people are tourists wearing sneakers, jeans, and carrying backpacks. A few businessmen in suits walk past quickly toward the office buildings."
+    },
+    {
+      "turn": 4,
+      "action": "Walk up to the ticket counter and ask the attendant, 'Is the upper viewing deck open right now, or does it open later in the evening?'",
+      "observation": "The attendant replies, 'The museum is open until 6:00 PM. You can access the upper walkways with a standard ticket.'"
+    },
+    {
+      "turn": 5,
+      "action": "Purchase a ticket and proceed to the elevators, specifically looking for buttons labeled 'R', 'L', or 'VIP'.",
+      "observation": "The elevator buttons are numbered 0 through 4. There is no roof button. Other visitors press '1' for the start of the exhibition."
+    },
+    {
+      "turn": 6,
+      "action": "Exit the elevator on the top floor and walk briskly past the motorcycle exhibits, looking for heavy curtains or a host stand.",
+      "observation": "You see a spiral ramp leading downwards lined with cars and motorcycles. There are no curtains, host stands, or separate rooms."
+    },
+    {
+      "turn": 7,
+      "action": "Pause in front of a luxury vintage convertible display, leaning in to inspect the interior upholstery detail.",
+      "observation": "It is a museum piece behind a low glass barrier. A security guard watches you closely."
+    },
+    {
+      "turn": 8,
+      "action": "Approach a staff member wearing a headset and ask, 'Excuse me, where is the hospitality suite located? I was hoping to sit down.'",
+      "observation": "The staff member points downstairs. 'There is a cafe on the ground floor, M1, that serves coffee and light snacks.'"
+    },
+    {
+      "turn": 9,
+      "action": "Go back to the ground floor and walk into the 'M1' area, scanning the counter for a wine list or ice buckets.",
+      "observation": "You see a glass display with sandwiches, cakes, and bottled sodas. There is a coffee machine."
+    },
+    {
+      "turn": 10,
+      "action": "Walk to the concierge at the 'BMW Welt' building across the street and ask, 'I am looking for the place to order a bottle of vintage Champagne to celebrate. Is it in the Bowl or here?'",
+      "observation": "The concierge looks surprised. 'We have a fine dining restaurant, EssZimmer, on the third floor here in the Welt, but the Bowl is strictly a museum.'"
+    }
+  ]
+}

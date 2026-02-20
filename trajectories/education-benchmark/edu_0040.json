@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Distribute a glossary handout defining terms like 'Geocentric', 'Heliocentric', 'Orbit', and 'Axis'.",
+      "observation": "Students memorize the definitions and can recite them, yet they continue to discuss the two models as equally valid 'points of view' without understanding why one replaced the other."
+    },
+    {
+      "turn": 2,
+      "action": "Organize students into pairs to review the textbook diagrams of both systems.",
+      "observation": "Students enjoy the collaboration and correctly identify the colors and relative sizes of planets, but they completely overlook the text box describing the 'retrograde loop' problem."
+    },
+    {
+      "turn": 3,
+      "action": "Draw two large, simplified diagrams on the board side-by-side, using different colors to emphasize the 'Center' of each system.",
+      "observation": "Students correctly label the centers. However, a student asks, 'But if you stand on Earth, it looks like the Sun moves, so aren't both true?' showing they lack the empirical evidence to refute Geocentrism."
+    },
+    {
+      "turn": 4,
+      "action": "Create a 'Structural Features Checklist' where students must tick off the presence of specific components (e.g., 'Sun in center', 'Earth in center', 'Fixed stars') for each model.",
+      "observation": "Students complete the checklist with 100% accuracy regarding the components. They still treat the Geocentric model as a functional alternative, unaware that it fails to predict planetary motion accurately."
+    },
+    {
+      "turn": 5,
+      "action": "Assign a brief biographical reading on Copernicus and Ptolemy.",
+      "observation": "Students find the history interesting but frame the shift as 'Copernicus had a different idea than Ptolemy,' viewing it as a clash of personalities rather than a resolution of observational data anomalies."
+    },
+    {
+      "turn": 6,
+      "action": "Implement the Venn Diagram activity, explicitly instructing students to categorize 'Physical Objects' and 'Orbital Shapes' into the two circles.",
+      "observation": "The Venn diagrams are structurally perfect, listing planets and stars correctly. However, no student writes 'Explains Retrograde Motion' in the Heliocentric circle, and they remain confused about why the Geocentric model was discarded."
+    },
+    {
+      "turn": 7,
+      "action": "Deliver a mini-lecture focusing on the etymology of the words 'Geo-centric' (Earth-centered) and 'Helio-centric' (Sun-centered).",
+      "observation": "Students nod along and take notes on Greek roots. They understand what the names mean, but still lack the scientific justification (solving the retrograde anomaly) for why we switched paradigms."
+    },
+    {
+      "turn": 8,
+      "action": "Ask students to come to the front and present their Venn diagrams to the class.",
+      "observation": "Presentations are confident and describe the positions of the planets accurately. When asked 'Why is the Geocentric model wrong?', students vaguely answer, 'Because the Sun is actually in the middle,' without citing evidence."
+    },
+    {
+      "turn": 9,
+      "action": "Hand out a worksheet asking students to draw the 'Epicycles' on the Geocentric diagram to show they understand its complex structure.",
+      "observation": "Students draw the loops correctly. They think the epicycles look 'cool' and 'complex,' reinforcing their belief that the Geocentric model was a sophisticated and valid scientific choice."
+    },
+    {
+      "turn": 10,
+      "action": "Assign a final essay prompt: 'Describe the positional differences between the two models to explain why they are different.'",
+      "observation": "Essays are descriptive masterpieces of planetary order. They completely fail to mention that the Geocentric model was abandoned because it couldn't simply explain retrograde motion, proving the pedagogical approach failed to address the root misconception."
+    }
+  ]
+}

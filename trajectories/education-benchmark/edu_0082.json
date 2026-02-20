@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Walk around the classroom with a clipboard, silently observing the groups.",
+      "observation": "Students are passionately discussing the economic benefits of the facility versus the potential environmental risks to the local river."
+    },
+    {
+      "turn": 2,
+      "action": "Interrupt the first group to ask: 'Can you write down the specific reaction equation for U-235 that supports your point?'",
+      "observation": "The students look confused, pause their discussion on safety protocols, and admit they haven't looked up the specific equation yet because they were focusing on the location debate."
+    },
+    {
+      "turn": 3,
+      "action": "Write the terms 'Mass Defect' and 'Binding Energy' on the whiteboard.",
+      "observation": "A student points to the board and says, 'Yes, the mass of waste is a huge defect in the plan,' interpreting the terms metaphorically rather than physically."
+    },
+    {
+      "turn": 4,
+      "action": "Announce to the class: 'Remember, your grade today depends entirely on the accuracy of your technical evidence.'",
+      "observation": "The lively debate quiets down significantly; students stop looking at each other and start flipping through their textbooks, looking for formulas to quote."
+    },
+    {
+      "turn": 5,
+      "action": "Approach a student arguing against the facility and ask, 'How does the binding energy per nucleon curve justify your opposition?'",
+      "observation": "The student struggles to connect the abstract curve to their argument about local evacuation routes, resulting in an awkward silence."
+    },
+    {
+      "turn": 6,
+      "action": "Ask the class to pause and peer-review the 'scientific validity' of the previous speaker's claim.",
+      "observation": "Students critique the previous speaker's rhetorical strategy and use of anecdotal evidence, rather than checking their physics calculations."
+    },
+    {
+      "turn": 7,
+      "action": "Stop the debate and distribute a worksheet requiring the calculation of energy released in MeV for one fission event.",
+      "observation": "Students appear demotivated and frustrated; the engagement level drops to zero as the contextual role-play is abandoned for calculation drills."
+    },
+    {
+      "turn": 8,
+      "action": "Tell the students: 'You are focusing too much on politics. The physics is the only thing that matters for this unit.'",
+      "observation": "Several students whisper that they thought the point of the activity was to understand how nuclear power affects society."
+    },
+    {
+      "turn": 9,
+      "action": "Ask: 'Are there any questions about how to convert mass units to energy?'",
+      "observation": "A student raises their hand and asks, 'Does the energy output justify the cost of building the cooling towers?'"
+    },
+    {
+      "turn": 10,
+      "action": "Record low grades for the session and assign the derivation of the liquid drop model as homework.",
+      "observation": "Students leave the class feeling that physics is disconnected from the real-world issues they were excited to discuss."
+    }
+  ]
+}

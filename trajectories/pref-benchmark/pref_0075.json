@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Copy the entire document text and paste it into an AI-powered flowchart generator.",
+      "observation": "The AI tool returns an error: 'Unable to generate flow. Step 4 refers to an output from Step 2 that does not exist in the provided text.'"
+    },
+    {
+      "turn": 2,
+      "action": "Manually copy the text into a word processor and attempt to break the long paragraphs into bullet points.",
+      "observation": "You create a list, but notice that Bullet Point 3 says 'Forward to Manager' while Bullet Point 5 says 'Wait for User Input', yet both seem to be the immediate next step after Bullet Point 2."
+    },
+    {
+      "turn": 3,
+      "action": "Change the font to a dyslexia-friendly typeface and increase line spacing to 2.0.",
+      "observation": "The text is easier to look at, but you read a sentence that says: 'Once the process is complete (Step 6), begin the initiation phase (Step 1),' which implies a circular dependency that prevents start-up."
+    },
+    {
+      "turn": 4,
+      "action": "Print the document out and use highlighters to color-code 'Actors' and 'Actions'.",
+      "observation": "You highlight 'Manager approves' in Green and 'System rejects' in Red. However, the text states that if the System rejects, the Manager must approve, but also that Manager approval is required before System entry."
+    },
+    {
+      "turn": 5,
+      "action": "Open a professional UML diagramming tool and try to model the process using 'Swimlanes' to separate responsibilities.",
+      "observation": "You try to draw an arrow from the 'User' lane to the 'Database' lane, but the text explicitly says the User cannot access the Database directly, while simultaneously instructing the User to 'update the record'."
+    },
+    {
+      "turn": 6,
+      "action": "Search for a 'Summary' or 'Abstract' section at the beginning of the document.",
+      "observation": "The summary states the process takes 3 days. The detailed text describes a sequence of 5 steps, each requiring a 24-hour waiting period, totaling 5 days minimum."
+    },
+    {
+      "turn": 7,
+      "action": "Write each paragraph on a separate sticky note and arrange them on a whiteboard.",
+      "observation": "You arrange the notes. Note A requires Note B to be finished. Note B requires Note C. Note C says it is triggered by the completion of Note A. The circle cannot be broken."
+    },
+    {
+      "turn": 8,
+      "action": "Email a colleague asking: 'Can you read this and tell me if the writing style seems overly academic to you? I'm trying to diagram it but the prose is impenetrable.'",
+      "observation": "The colleague replies: 'The writing is okay, but I think there's a mistake. It says to click 'Save' before the form is populated, which isn't possible.'"
+    },
+    {
+      "turn": 9,
+      "action": "Ignore the colleague's comment about the specific mistake and assume they just didn't understand the context; decide to create a 'Concept Map' instead of a flowchart.",
+      "observation": "You draw a bubble for 'Form Submission' and 'Data Archival'. The text says Archival happens 'simultaneously' with Submission but also says Archival must 'contain the submission ID' which is only generated after Submission."
+    },
+    {
+      "turn": 10,
+      "action": "Draw a dashed line on the diagram labeled 'Implied Workflow' to connect two disconnected boxes.",
+      "observation": "You complete the diagram. It looks visually appealing, but it describes a process that, if implemented, would crash the system immediately due to a null pointer exception."
+    }
+  ]
+}

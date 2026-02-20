@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open the kitchen cupboards and scan the shelves specifically for a bottle of dark, aged vinegar (Shanxi Chencu).",
+      "observation": "The cupboards are stocked with jars of Osmanthus syrup, rock sugar, and a bottle of clear rice wine. There is no dark vinegar."
+    },
+    {
+      "turn": 2,
+      "action": "Rummage through the pantry baskets looking for heads of garlic or a jar of Laba garlic.",
+      "observation": "The baskets contain dried red dates, lotus seeds, and a large bag of glutinous rice flour. No garlic is visible."
+    },
+    {
+      "turn": 3,
+      "action": "Walk over to the stove and check the water boiling in the large pot.",
+      "observation": "The water is rolling boil. The air smells sweet and floral, tinged with the scent of ginger and brown sugar bubbling in the water."
+    },
+    {
+      "turn": 4,
+      "action": "Ask the host, 'Where are you hiding the meat filling? I need to gauge the saltiness for the sauce.'",
+      "observation": "The host looks puzzled and points to a bowl on the counter containing a black, sandy paste made of ground black sesame, lard, and sugar."
+    },
+    {
+      "turn": 5,
+      "action": "Look out the window at the heavy snowfall while rolling up sleeves.",
+      "observation": "The snow is wet and heavy, weighing down broad, green tropical leaves and bamboo in the courtyard. The air is damp and chilly."
+    },
+    {
+      "turn": 6,
+      "action": "Grab a piece of ginger sitting near the stove and reach for a cleaver to mince it finely.",
+      "observation": "The host nods enthusiastically, saying, 'Yes, smash the ginger! It adds great warmth to the soup base,' and hands over a block of brown sugar."
+    },
+    {
+      "turn": 7,
+      "action": "Push the brown sugar aside and aggressively search the condiment rack for soy sauce to mix with the minced ginger.",
+      "observation": "A small bottle of light soy sauce is found dust-covered in the back, seemingly rarely used compared to the large jars of syrup and rice wine."
+    },
+    {
+      "turn": 8,
+      "action": "Mix the minced ginger and soy sauce in a small bowl and set it firmly on the dining table.",
+      "observation": "The host places a large bowl on the table containing perfectly round, white, smooth balls floating in the brown sugar ginger soup."
+    },
+    {
+      "turn": 9,
+      "action": "Check the wall calendar to verify the date.",
+      "observation": "The calendar clearly confirms the date is December 22nd, 'Winter Solstice' (Dongzhi)."
+    },
+    {
+      "turn": 10,
+      "action": "Pick up a round white ball with chopsticks and dunk it deep into the ginger-soy sauce mixture before taking a bite.",
+      "observation": "The sticky glutinous rice skin gives way to a hot, sweet flow of black sesame paste. The flavor clashes violently with the salty soy sauce and spicy ginger."
+    }
+  ]
+}

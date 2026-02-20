@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Approach the front-left door of the sedan and pull the handle to enter.",
+      "observation": " The door opens. The interior lights turn on. The seat in front of the user is empty, facing a dashboard that consists of a smooth panel and a storage compartment latch. There is no steering wheel immediately in front of this seat."
+    },
+    {
+      "turn": 2,
+      "action": "Sit in the front-left seat and press the 'Start/Stop' ignition button located on the center console.",
+      "observation": "The engine starts. The dashboard screens illuminate. On the right side of the cabin, the steering wheel vibrates slightly as the power steering engages. On the left side, the dashboard remains a solid, immovable block of plastic."
+    },
+    {
+      "turn": 3,
+      "action": "Lean forward and feel around the underside of the left-side dashboard, scratching at the plastic trim.",
+      "observation": "The user's hand encounters a fuse box cover and the curved plastic underside of the glove compartment. There is no steering column, hole, or mechanical linkage felt."
+    },
+    {
+      "turn": 4,
+      "action": "Step out of the vehicle and check the license plate against the rental agreement on the phone.",
+      "observation": "The license plate on the vehicle matches the rental agreement perfectly. This is definitely the assigned car."
+    },
+    {
+      "turn": 5,
+      "action": "Get back into the front-left seat and use the phone flashlight to illuminate the footwell.",
+      "observation": "The flashlight reveals a clean, slanted carpeted footrest. There are absolutely no pedals (brake, clutch, or accelerator) in the left-side footwell."
+    },
+    {
+      "turn": 6,
+      "action": "Open the compartment on the dashboard directly in front of the seat (the glovebox).",
+      "observation": "The compartment opens, dropping onto the user's knees. Inside is the vehicle owner's manual, a tire gauge, and insurance paperwork. No steering controls are inside."
+    },
+    {
+      "turn": 7,
+      "action": "Inspect the center console area, specifically looking for a joystick or trackpad.",
+      "observation": "The center console contains a standard gear selector lever, two cup holders, and the parking brake switch. To the right of the console, the actual driver's seat and steering wheel are clearly visible."
+    },
+    {
+      "turn": 8,
+      "action": "Adjust the front-left seat, moving it all the way back and reclining it slightly.",
+      "observation": "The seat motors whir and the user moves backward. The view of the empty dashboard is now wider. The steering wheel on the right side is fully visible in the user's peripheral vision."
+    },
+    {
+      "turn": 9,
+      "action": "Lean over the center console and aggressively inspect the steering wheel located on the right side.",
+      "observation": "The wheel on the right is a standard, fully functional steering wheel with an airbag, horn, and stalk controls for wipers and lights. It is clearly the primary control interface."
+    },
+    {
+      "turn": 10,
+      "action": "Take a photo of the empty left-side dashboard and open the rental agency's support app.",
+      "observation": "The camera captures the open glovebox and empty footwell. The user begins typing a furious message about a 'missing steering wheel' to the UK-based rental support bot."
+    }
+  ]
+}

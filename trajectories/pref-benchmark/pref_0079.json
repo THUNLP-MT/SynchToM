@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Set Slack status to 'Away' and decline the morning stand-up meeting.",
+      "observation": "Team Manager messages: 'Is everything okay? We needed to discuss the dependency issues.' The compiler continues to throw 'Error: Undefined Reference in lib_legacy'."
+    },
+    {
+      "turn": 2,
+      "action": "Put on noise-canceling headphones and move laptop to a quiet corner of the cafeteria.",
+      "observation": "You spend two hours reading code. You trace the error to a function call `init_legacy_core()`, but the function definition does not exist in any file in the repository."
+    },
+    {
+      "turn": 3,
+      "action": "Update the IDE and install a new 'Deep Code Search' plugin.",
+      "observation": "The new plugin scans the repo and returns: '0 results found for init_legacy_core'. A warning banner suggests: 'External linkage detected'."
+    },
+    {
+      "turn": 4,
+      "action": "Decline the '1:1 Sync' with the Senior Architect.",
+      "observation": "Architect replies via email: 'We really need to sync. There are some black-box binaries in this project that aren't documented in the repo.'"
+    },
+    {
+      "turn": 5,
+      "action": "Reply to Architect: 'Heads down on a critical fix, let's push to next week.' Then, begin decompiling the build artifacts manually.",
+      "observation": "The decompiler output is obfuscated and unreadable. You see references to a 'physical keyfile' located on a specific network drive."
+    },
+    {
+      "turn": 6,
+      "action": "Refactor the local unit tests to mock out the entire legacy module.",
+      "observation": "The mock fails. The application crashes on startup because it performs a checksum validation against the actual legacy binary."
+    },
+    {
+      "turn": 7,
+      "action": "Block out the entire calendar for the next two days as 'Oooo - Do Not Disturb'.",
+      "observation": "Colleagues respect the block. You spend 8 hours staring at hex codes. You find a comment in a hex dump: 'Contact Dave (Architect) for access config'."
+    },
+    {
+      "turn": 8,
+      "action": "Search the company internal wiki for 'checksum bypass' and 'legacy hacks'.",
+      "observation": "Wiki search returns one result: A page titled 'Legacy Systems' that is blank except for 'See Architecture Team for setup'."
+    },
+    {
+      "turn": 9,
+      "action": "Stay in the office until 9 PM to work after everyone has left.",
+      "observation": "You write 500 lines of code to bypass the check. It compiles, but the server rejects the connection due to 'Unauthorized Client ID'."
+    },
+    {
+      "turn": 10,
+      "action": "Email the Project Manager to cancel the Thursday demo.",
+      "observation": "PM responds: 'Canceling is risky. Did you get the auth keys from the Architect? That's usually the blocker here.'"
+    }
+  ]
+}

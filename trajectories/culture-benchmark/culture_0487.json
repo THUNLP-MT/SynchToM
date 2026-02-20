@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Scan the room for the glassware cabinet and ask the attendant for a 'Glencairn' or a copita glass.",
+      "observation": "The attendant nods politely but hands you a large, wide-bowled stemmed glass with a thin rim, typical for Bordeaux service."
+    },
+    {
+      "turn": 2,
+      "action": "Inspect the markings on the nearest barrel, looking for 'Sherry Butt' or 'Bourbon Cask' stencils to determine the maturation style.",
+      "observation": "The barrel head is stamped with a burning castle logo and the text 'Grand Cru Classé - 2018 - French Oak'."
+    },
+    {
+      "turn": 3,
+      "action": "Nod knowingly at the 'French Oak' marking and say to the attendant, 'Ah, a virgin oak finish. Very experimental. Is this a single cask bottling?'",
+      "observation": "The attendant looks confused by the question, gestures to the rows of barrels, and uses a glass thief (pipette) to draw a dark red liquid from the bung hole."
+    },
+    {
+      "turn": 4,
+      "action": "Check the ambient temperature and humidity of the tunnel.",
+      "observation": "The air is 13°C (55°F) with 75% humidity. There is a strong smell of damp earth, mold, and fermenting fruit, lacking the sharp 'angel's share' ethanol sting typical of spirit warehouses."
+    },
+    {
+      "turn": 5,
+      "action": "Accept the glass, hold it up to the dim light, and swirl the liquid vigorously to check the 'legs' and viscosity.",
+      "observation": "The liquid is opaque and ruby-red, clinging to the glass with moderate viscosity. It does not have the golden or amber transparency of a spirit."
+    },
+    {
+      "turn": 6,
+      "action": "Take a photo of the barrel rows with the flash on to post on social media.",
+      "observation": "The flash illuminates a plaque on the wall reading 'Cave de Vieillissement - Rouge' (Aging Cellar - Red)."
+    },
+    {
+      "turn": 7,
+      "action": "Bring the glass to the nose and inhale deeply, bracing for the alcohol burn (ABV) of a cask-strength spirit.",
+      "observation": "The aroma is soft, fruity, and tannic—blackcurrant and cedar—with zero alcohol burn. The scent is subtle, not the volatile punch of high-proof ethanol."
+    },
+    {
+      "turn": 8,
+      "action": "Ask the attendant for a pipette of water to 'open up' the dram.",
+      "observation": "The attendant looks visibly horrified and hesitant but eventually provides a small pitcher of water. Adding water dilutes the deep red liquid to a watery pink."
+    },
+    {
+      "turn": 9,
+      "action": "Look around for the Master Distiller or a blending vat.",
+      "observation": "A man in an apron enters carrying a spittoon and a basket of bread."
+    },
+    {
+      "turn": 10,
+      "action": "Take a sip, frown at the lack of burn, and say, 'It's incredibly smooth, almost juice-like. How long was the fermentation time to get the fruity notes so dominant over the malt?'",
+      "observation": "The attendant explains in broken English that the fermentation takes weeks on the skins, and offers a slice of Comté cheese to balance the tannins."
+    }
+  ]
+}

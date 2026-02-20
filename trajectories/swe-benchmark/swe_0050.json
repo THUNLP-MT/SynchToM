@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Inspect the source code for `ModelBackend.authenticate` to locate the `try...except DoesNotExist` block.",
+      "observation": "The code shows: `try: user = User.objects.get(username=username) except User.DoesNotExist: User().set_password(password)`."
+    },
+    {
+      "turn": 2,
+      "action": "Check `settings.PASSWORD_HASHERS` and the iteration count in the configuration.",
+      "observation": "The configuration uses standard PBKDF2 with SHA256 and 100,000 iterations. This is secure but expensive, confirming the need to avoid it in the exception handler for empty inputs."
+    },
+    {
+      "turn": 3,
+      "action": "Modify the code: Insert a check inside the `except User.DoesNotExist:` block to return `None` immediately if `username` is falsy, skipping the `set_password` call.",
+      "observation": "Load tests show a reduction in CPU usage, but the database logs still show thousands of `SELECT ... WHERE username IS NULL` queries. The application is still sluggish under high concurrency."
+    },
+    {
+      "turn": 4,
+      "action": "Add logging statements inside the `except` block to print the value of `username` and the execution time of the block.",
+      "observation": "Logs confirm `username` is `None` inside the exception block. The timestamp shows the DB query completes *before* the log entry appears."
+    },
+    {
+      "turn": 5,
+      "action": "Analyze the database schema to verify if `username` is indexed.",
+      "observation": "The `username` column is properly indexed (B-tree)."
+    },
+    {
+      "turn": 6,
+      "action": "Attempt to wrap the `User().set_password(password)` call in the exception handler with a `run_in_executor` or async offload.",
+      "observation": "The change introduces race conditions and complexity in the auth flow. The original `SELECT ... IS NULL` queries continue to flood the database logs."
+    },
+    {
+      "turn": 7,
+      "action": "Change the exception caught from `User.DoesNotExist` to `(User.DoesNotExist, ValueError)` and add a specific handler for `ValueError`.",
+      "observation": "The application continues to raise `DoesNotExist`. The `ValueError` handler is never triggered. The behavior remains unchanged."
+    },
+    {
+      "turn": 8,
+      "action": "Inspect the `User.objects.get` implementation in the Django source code (via IDE navigation).",
+      "observation": "The source code shows `get()` simply executes the query and raises `DoesNotExist` if 0 rows are returned. There is no internal hashing logic inside the ORM method itself."
+    },
+    {
+      "turn": 9,
+      "action": "Check the WSGI/ASGI server worker timeout settings.",
+      "observation": "Timeouts are set to standard 30s. No workers are timing out, they are just busy."
+    },
+    {
+      "turn": 10,
+      "action": "Refactor the `except` block to use a constant-time comparison against a pre-calculated dummy hash for empty strings, rather than generating a new hash.",
+      "observation": "The CPU usage drops, but the database is still hammered with `SELECT ... WHERE username IS NULL` queries, creating a bottleneck at the DB layer."
+    }
+  ]
+}

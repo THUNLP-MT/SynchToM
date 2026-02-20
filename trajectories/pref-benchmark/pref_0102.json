@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Commission a concept artist to redesign the main character using 4K hand-painted assets instead of the current 32-bit sprites.",
+      "observation": "The new high-res character is imported. Playtesters note the character looks nice but report that 'the game feels unresponsive' and they can't tell when they've successfully hit an enemy."
+    },
+    {
+      "turn": 2,
+      "action": "Research current top-selling indie games on Steam, specifically filtering for 'High Fidelity' and '3D' tags.",
+      "observation": "The search results show a mix of styles. Several pixel art games are top sellers with reviews praising 'tight controls' and 'juicy combat,' while some high-fidelity games have mixed reviews citing 'clunky UI'."
+    },
+    {
+      "turn": 3,
+      "action": "Apply a bilinear smoothing filter to the entire tileset to remove the sharp pixel edges.",
+      "observation": " The game looks blurry. Players complain that the menu buttons are 'mushy' and they are unsure if their clicks are registering because the buttons don't animate when pressed."
+    },
+    {
+      "turn": 4,
+      "action": "Implement a heavy post-processing stack including Bloom, Chromatic Aberration, and Vignette.",
+      "observation": "The visual noise makes the UI elements blend into the background. Users are visibly frustrated, clicking repeatedly on the inventory screen because drag-and-drop operations are finicky and provide no visual cue."
+    },
+    {
+      "turn": 5,
+      "action": "Analyze the color palette of 'Red Dead Redemption 2' to create a more 'mature' and realistic color grading LUT.",
+      "observation": "The game is now brown and grey. Testers struggle to distinguish interactive objects from the background. They complain that movement feels 'heavy' and 'imprecise' when trying to navigate platforming sections."
+    },
+    {
+      "turn": 6,
+      "action": "Replace the static background layers with pre-rendered 3D environments.",
+      "observation": "The framerate drops slightly. Users ignore the backgrounds entirely and complain that the jump button has a delay and the HUD doesn't update health fast enough after taking damage."
+    },
+    {
+      "turn": 7,
+      "action": "Hire a VFX artist to create realistic particle explosions and fluid simulations for attacks.",
+      "observation": "The screen fills with realistic fire effects during combat. Players say they 'have no idea what is happening' and 'can't tell if the button inputs are doing anything' amidst the visual chaos."
+    },
+    {
+      "turn": 8,
+      "action": "Schedule a meeting to review the project's marketing screenshots and trailer strategy.",
+      "observation": "The marketing team notes that the screenshots look high-quality, but gameplay capture looks disjointed because the character animations don't sync up with the actual movement speed."
+    },
+    {
+      "turn": 9,
+      "action": "Force all animations to run at 60fps interpolation instead of stepped frames.",
+      "observation": "Animations are buttery smooth but look 'floaty.' The disconnect between the smooth visuals and the rigid, grid-based movement logic makes the controls feel even more awkward and slippery."
+    },
+    {
+      "turn": 10,
+      "action": "Draft a proposal to switch the entire project to Unreal Engine 5 to utilize Nanite and Lumen.",
+      "observation": "Engineering points out that porting to UE5 will take 12 months and won't address the core input handling scripts, which are engine-agnostic."
+    }
+  ]
+}

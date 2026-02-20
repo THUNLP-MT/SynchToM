@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Draft a rigid Chapter 1-20 outline with specific plot points assigned to specific dates.",
+      "observation": "When attempting to write Chapter 1 according to the outline, the characters feel forced into actions that don't make sense for their personalities. The writing comes to a halt after two paragraphs."
+    },
+    {
+      "turn": 2,
+      "action": "Research and purchase project management software (like Trello or Asana) to organize the book's timeline.",
+      "observation": "The software is set up beautifully with color-coded tags, but when sitting down to write, the creative impulse is completely blocked by the administrative interface."
+    },
+    {
+      "turn": 3,
+      "action": "Set a strict milestone: 'Write 1,000 words by 5 PM' regardless of quality or content.",
+      "observation": "You produce 1,000 words, but they are repetitive, rambling, and lack any emotional depth. The story wanders aimlessly just to fill the word count."
+    },
+    {
+      "turn": 4,
+      "action": "Analyze a favorite novel to reverse-engineer its beat sheet and force my story into that exact same structure.",
+      "observation": "Trying to jam your characters into someone else's plot beats results in a narrative that feels disjointed and derivative. The organic chemistry between characters is lost entirely."
+    },
+    {
+      "turn": 5,
+      "action": "Switch font and page layout to standard manuscript format to make it look more 'official'.",
+      "observation": "The document looks professional, but the text remains stiff. A sudden, interesting idea pops up that would deviate from the outline, but it feels 'wrong' to type it in this formal format."
+    },
+    {
+      "turn": 6,
+      "action": "Delete the 'interesting idea' from the previous turn because it didn't fit the pre-defined Phase 1 milestones.",
+      "observation": "The story becomes logically consistent but utterly boring and mechanical. It reads like an instruction manual rather than a novel."
+    },
+    {
+      "turn": 7,
+      "action": "Break down Chapter 2 into a 'Micro-Syllabus', defining the purpose of every single paragraph before writing it.",
+      "observation": "Total paralysis. You spend three hours planning the paragraphs and zero minutes writing. The pressure to adhere to the micro-plan kills all enthusiasm."
+    },
+    {
+      "turn": 8,
+      "action": "Go to the library to work, leaving all distractions like phones or internet behind.",
+      "observation": "In the silence of the library, you stare at the blank page. The only thing that comes to mind is a weird, unplanned dialogue exchange, but you suppress it because you haven't planned a slot for it."
+    },
+    {
+      "turn": 9,
+      "action": "Look for an 'accountability partner' online who will check off my milestones daily.",
+      "observation": "The partner asks to read the work. They comment that the writing feels rigid and suggests you 'just let loose'. This feedback is irritating and unhelpful."
+    },
+    {
+      "turn": 10,
+      "action": "Create a 'Master Gantt Chart' for the entire novel, allocating specific emotional beats to specific dates over the next 6 months.",
+      "observation": "You have a beautiful, complex chart. The manuscript is still empty. The creative spark has been completely suffocated by the administrative overhead."
+    }
+  ]
+}

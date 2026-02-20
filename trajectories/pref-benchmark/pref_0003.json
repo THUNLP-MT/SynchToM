@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Search for open-source medical simulation software engines.",
+      "observation": "Search results return complex coding frameworks. Most educational resources found are static flashcard decks (Anki) and PDFs of the 'WHO Classification of Tumours' textbook."
+    },
+    {
+      "turn": 2,
+      "action": "Post on a medical student forum asking for 'study partners interested in role-playing complex cases'.",
+      "observation": "Replies suggest that role-playing is inefficient for the written boards. Users recommend 'Pathoma' videos and memorizing the taxonomy tables in the standard textbook."
+    },
+    {
+      "turn": 3,
+      "action": "Download a dataset of 500 real anonymized patient histories regarding lymph node pathology.",
+      "observation": "The dataset is messy and focuses on symptoms. A practice question pops up asking for the specific CD marker expression for Follicular Lymphoma, which is not mentioned in the patient history summaries."
+    },
+    {
+      "turn": 4,
+      "action": "Spend the weekend writing a branching narrative script for a 'Virtual Patient' presenting with fatigue and night sweats.",
+      "observation": "The narrative is compelling. However, the subsequent practice quiz asks to distinguish between two subtypes based solely on a genetic translocation (t14;18), a detail that felt irrelevant to the clinical story."
+    },
+    {
+      "turn": 5,
+      "action": "Purchase a high-end subscription to a clinical decision support tool (UpToDate).",
+      "observation": "The tool provides excellent treatment algorithms but assumes the user already knows the pathological diagnosis. It does not explain the nomenclature rules required for the exam."
+    },
+    {
+      "turn": 6,
+      "action": "Code a 'Lab Results' interface for the simulation that generates realistic, messy blood work values.",
+      "observation": "Practice exam score remains failing (40%). The questions ask for the definition of 'neoplasia' vs 'dysplasia' according to the 1998 consensus, which has nothing to do with blood work values."
+    },
+    {
+      "turn": 7,
+      "action": "Re-organize all study notes, grouping diseases by 'Clinical Urgency' (e.g., 'Treat Now' vs 'Wait and Watch').",
+      "observation": "The exam syllabus organizes diseases strictly by organ system and histological type. The 'Clinical Urgency' grouping splits related histological families apart, making the taxonomy harder to see."
+    },
+    {
+      "turn": 8,
+      "action": "Email the exam prep tutor complaining that the practice bank questions lack 'clinical vignettes' and asking for a different question bank.",
+      "observation": "The tutor replies: 'The written boards are a test of taxonomy and nomenclature. You are expected to know the definitions by heart. Please read Chapter 3 of the textbook again.' "
+    },
+    {
+      "turn": 9,
+      "action": "Add a 'Pathology Report' feature to the simulation that forces the user to type out the diagnosis after seeing the patient.",
+      "observation": "Development takes 12 hours. The user successfully types a diagnosis in the sim, but fails a flashcard quiz asking for the specific Latin nomenclature of the disease subtypes."
+    },
+    {
+      "turn": 10,
+      "action": "Record voice actors reading the patient scripts to make the simulation 'immersive'.",
+      "observation": "The simulation is very immersive. The user takes a mock exam and scores 42%. The exam asks for the molecular weight of a specific cytokeratin stain, a fact that cannot be derived from a patient's voice."
+    }
+  ]
+}

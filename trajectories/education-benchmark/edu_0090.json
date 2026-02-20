@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Instruct the class to create a T-chart labeled 'Polar' and 'Non-Polar' and sort the five substances based on whether they dissolve in water.",
+      "observation": "Students begin drawing the chart but hesitate. One student raises a hand and asks, 'Do we need to explain *why* the water molecules surround the ions for the salt solution?'"
+    },
+    {
+      "turn": 2,
+      "action": "Pause the class to remind everyone to keep their safety goggles over their eyes at all times while near the beakers.",
+      "observation": "Students adjust their goggles. A few act distracted, whispering to each other about 'partial positive charges' and pointing at the water beaker."
+    },
+    {
+      "turn": 3,
+      "action": "Respond to the question about ions by saying, 'Don't overcomplicate it. If it dissolves in water, just label it Polar. Remember the rule: Like Dissolves Like.'",
+      "observation": "The student looks confused and asks, 'But the rubric says we need to describe the interactions. Isn't salt ionic, not polar? How do I classify that in a T-chart?'"
+    },
+    {
+      "turn": 4,
+      "action": "Walk to the board and draw a drop of water labeled 'Polar' and a drop of oil labeled 'Non-Polar', emphasizing that everything must fit into one of these two boxes.",
+      "observation": "Students copy the drawing. Some are struggling to fit 'Ethanol' into just one category because they are discussing how it has both a non-polar chain and a polar group."
+    },
+    {
+      "turn": 5,
+      "action": "Ask the students to ensure they have their names and the date clearly written at the top of their papers.",
+      "observation": "Students write their names. One student asks, 'For the written explanation, can I draw hydrogen bonds to show why they mix?'"
+    },
+    {
+      "turn": 6,
+      "action": "Announce to the class: 'You do not need to draw molecules or bonds. Just write a sentence using the rule: It dissolves because it is [Polar/Non-Polar].'",
+      "observation": "Students erase their molecular diagrams. The classroom atmosphere becomes passive; they stop discussing forces and begin writing short, identical sentences."
+    },
+    {
+      "turn": 7,
+      "action": "Check the time and remind students they have 15 minutes left to finish the explanation.",
+      "observation": "Students rush to fill in the blanks. They are simply guessing 'Polar' or 'Non-Polar' based on visual solubility without looking at the chemical structures or forces."
+    },
+    {
+      "turn": 8,
+      "action": "Notice a student writing about 'London Dispersion Forces' for hexane and correct them: 'Just say it's non-polar because it likes other non-polar things. That's the key concept.'",
+      "observation": "The student sighs, crosses out the detailed explanation of induced dipoles, and replaces it with the circular reasoning provided by the teacher."
+    },
+    {
+      "turn": 9,
+      "action": "Ask a student to read their answer for the salt water beaker aloud to the class as a model for the others.",
+      "observation": "The student reads, 'Salt dissolves in water because salt is polar.' The rest of the class copies this down verbatim, ignoring the actual ionic nature of salt."
+    },
+    {
+      "turn": 10,
+      "action": "Collect the papers and tell the class, 'Great job today. You now know how to tell if something will dissolve just by knowing if it's polar or not.'",
+      "observation": "The submitted papers contain zero causal reasoning or mechanistic explanations (the True State requirement), consisting entirely of circular labels that fail to explain the physical phenomena."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Direct the students to gather around the beaker containing the egg in distilled water and ignore the potato setup for now.",
+      "observation": "The egg is noticeably swollen and firm to the touch. The potato strips in the saline solution have become limp and flexible."
+    },
+    {
+      "turn": 2,
+      "action": "Instruct a student to measure the temperature of the distilled water in the egg beaker.",
+      "observation": "The thermometer reads 21°C (room temperature)."
+    },
+    {
+      "turn": 3,
+      "action": "Ask the students to observe the surface of the egg closely for any signs of membrane rupturing or 'weeping' of fluids.",
+      "observation": "The egg's membrane is taut and smooth. There are no signs of rupture or leaking fluids."
+    },
+    {
+      "turn": 4,
+      "action": "When a student points out the potato cells are shrinking under the microscope, explain that 'That is just dehydration or crenation, not plasmolysis.'",
+      "observation": "The student looks at the lab manual, which shows a diagram of a shrinking plant cell labeled 'Plasmolysis', and looks back at the instructor with confusion."
+    },
+    {
+      "turn": 5,
+      "action": "Check the concentration label on the saline solution bottle used for the potato group.",
+      "observation": "The bottle is clearly labeled '10% NaCl Solution'."
+    },
+    {
+      "turn": 6,
+      "action": "Add more distilled water to the egg beaker to ensure the egg is fully submerged.",
+      "observation": "The egg remains submerged and turgid. It does not burst."
+    },
+    {
+      "turn": 7,
+      "action": "Draw a comparison on the whiteboard: 'Think of Hydrolysis (water breaking) or Electrolysis (electron breaking). Plasmolysis is Plasma-Breaking. The egg membrane must break.'",
+      "observation": "The students nod at the logic of the word roots, but point out that the egg is still just getting bigger, not breaking."
+    },
+    {
+      "turn": 8,
+      "action": "Inspect the egg carefully to see if the outer shell was fully removed during prep.",
+      "observation": "The shell was completely dissolved in vinegar previously; only the semi-permeable membrane remains."
+    },
+    {
+      "turn": 9,
+      "action": "Look through the microscope at the potato cells myself, acknowledging the cell wall separation but stating, 'This is a retraction, not a lysis. The term is being applied metaphorically here.'",
+      "observation": "The view clearly shows the protoplast contracted away from the cell wall, leaving a gap filled with the saline solution."
+    },
+    {
+      "turn": 10,
+      "action": "Conclude the lab by telling students: 'The egg's membrane is unusually tough today, preventing the final phase of plasmolysis (bursting). We will let it sit overnight to see if the lysis completes.'",
+      "observation": "The bell rings. The potato strips remain flaccid (correctly demonstrating plasmolysis), while the egg remains swollen (demonstrating turgidity/cytolysis)."
+    }
+  ]
+}

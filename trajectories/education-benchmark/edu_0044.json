@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Assign the reading passage and ask students to highlight the most important sentences regarding James Watt.",
+      "observation": "Students highlight sentences about the year the patent was filed, the partnership with Boulton, and the general statement that the engine was 'more efficient than Newcomen's.'"
+    },
+    {
+      "turn": 2,
+      "action": "Instruct students to create a vocabulary list of the technical components mentioned in the text (e.g., condenser, cylinder).",
+      "observation": "Students struggle to find specific component names; they list broad terms found in the text like 'steam,' 'coal,' 'power,' and 'industry.'"
+    },
+    {
+      "turn": 3,
+      "action": "Ask students to form small groups and discuss how Watt's engine functioned compared to the previous version.",
+      "observation": "Groups discuss the timeline of invention and debate whether Watt 'stole' the idea from Newcomen, focusing on the evolutionary nature of the discovery rather than the mechanics."
+    },
+    {
+      "turn": 4,
+      "action": "Direct the students to ignore the first three paragraphs about Newcomen and the industrial context, and read only the paragraph mentioning Watt's separate condenser.",
+      "observation": "Students complain that the remaining paragraph explains *why* the condenser was needed (to save heat) but doesn't explain *where* it goes or what it looks like."
+    },
+    {
+      "turn": 5,
+      "action": "Draw a blank box on the board and tell students to 'translate' the text into a schematic drawing inside the box.",
+      "observation": "Students draw timelines or conceptual bubbles showing 'Newcomen + Condenser = Watt' rather than a mechanical schematic."
+    },
+    {
+      "turn": 6,
+      "action": "Provide a worksheet with a generic steam engine outline and ask students to label the parts using *only* evidence from the text.",
+      "observation": "Students leave many labels blank or fill them with non-mechanical quotes from the text like 'fuel efficiency' and 'economic necessity.'"
+    },
+    {
+      "turn": 7,
+      "action": "Lecture the class on the importance of close reading for technical details, insisting that they are missing the 'blueprint' hidden in the prose.",
+      "observation": "Students argue that the text focuses more on the relationships between the inventors and the societal needs of the time."
+    },
+    {
+      "turn": 8,
+      "action": "Read the text aloud to the class, pausing after every mention of a machine to sketch a mechanical interpretation on the whiteboard.",
+      "observation": "The sketches require significant external knowledge to make sense; students point out that the text doesn't actually say the valve opens the way I drew it."
+    },
+    {
+      "turn": 9,
+      "action": "Assign a homework task to memorize the specific mechanical differences between Newcomen and Watt based *strictly* on the provided text.",
+      "observation": "Students return with memorized facts about the 'evolution of scientific thought' and the 'collaborative nature of invention,' quoting the text's thesis statement."
+    },
+    {
+      "turn": 10,
+      "action": "Give a pop quiz requiring a fully labeled diagram of Watt's engine, grading based on mechanical accuracy.",
+      "observation": "The majority of the class fails to draw the mechanics, instead writing essays on the back of the quiz about the industrial revolution and the progression of technology."
+    }
+  ]
+}

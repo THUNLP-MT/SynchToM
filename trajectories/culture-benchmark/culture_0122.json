@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "I smile politely at the waiter and order the 'Shuizhu' Beef, emphasizing 'Wei La' (micro-spicy) while making a 'tiny amount' gesture with my thumb and index finger.",
+      "observation": "The waiter shouts the order to the kitchen. A few minutes later, a large bowl arrives, submerged in a vibrant layer of bubbling red oil and scattered with dried chilies."
+    },
+    {
+      "turn": 2,
+      "action": "I pick up a piece of beef from the center of the bowl, ensuring I let some oil drip off, and eat it confidently.",
+      "observation": "An intense, searing heat immediately coats your tongue, accompanied by a vibrating numbing sensation (ma-la) that makes you cough involuntarily."
+    },
+    {
+      "turn": 3,
+      "action": "I grab my chopsticks and painstakingly pick out every visible whole dried chili and Sichuan peppercorn from my immediate serving area before taking another bite.",
+      "observation": "You clear a patch of broth, but the liquid itself is saturated with chili oil. The next bite of beef, even without solids, is just as fiercely spicy as the first."
+    },
+    {
+      "turn": 4,
+      "action": "I wave the waiter over and point to the bowl, laughing nervously. 'I think there was a mix-up. I ordered the *Wei La* version.'",
+      "observation": "The waiter looks at the order slip, then at the bowl, and says firmly, 'Yes, this is Wei La. Standard Wei La.'"
+    },
+    {
+      "turn": 5,
+      "action": "I shake my head and clarify, 'No, I mean *Wei* La. Like, for children. Can you bring me a bowl of hot water?'",
+      "observation": "The waiter brings a bowl of hot water and sets it down, looking slightly amused. This is a common request for tourists who cannot handle the local baseline."
+    },
+    {
+      "turn": 6,
+      "action": "I order a bottle of cold, sweet soy milk and drink half of it immediately before returning to the beef.",
+      "observation": "The soy milk provides temporary relief, but as soon as you eat the beef again, the heavy spice cuts right through the sweetness."
+    },
+    {
+      "turn": 7,
+      "action": "I take a piece of beef and soak it in the water bowl, swishing it vigorously for twenty seconds until the water turns red, then eat the meat.",
+      "observation": "The meat was poached in the spicy broth; the flavor has penetrated deep into the fibers. While less oily, it remains significantly spicy and numbing."
+    },
+    {
+      "turn": 8,
+      "action": "I pick up the menu and scrutinize the description of the dish and the price list again.",
+      "observation": "The menu lists 'Shuizhu Beef' with a chili icon. There is no separate price tier for spice levels; it is a single menu item."
+    },
+    {
+      "turn": 9,
+      "action": "I ask the waiter to take the dish back to the kitchen and 'add more broth or sugar' to fix it.",
+      "observation": "The waiter refuses, stating that the kitchen cannot dilute the finished dish without ruining the flavor profile, and that 'Wei La' cannot be made sweeter."
+    },
+    {
+      "turn": 10,
+      "action": "I push the bowl away, pay the bill, and tell the cashier, 'You really should train your chefs on what Micro-Spicy means if you want to serve tourists.'",
+      "observation": "The cashier nods politely but mechanically, saying 'Man zou' (walk slowly/take care), as the kitchen continues to ladle the same red oil onto every order."
+    }
+  ]
+}

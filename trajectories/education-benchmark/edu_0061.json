@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Draft a lecture introduction defining 'Heat' as 'thermal energy' and 'Light' as 'electromagnetic energy', using the solar energy poster as a visual aid.",
+      "observation": "During the explanation of thermal energy, students appear restless and keep reaching for the bin of items. One student holds up a piece of aluminum foil and asks, 'Teacher, what is this shiny paper called?' while ignoring the poster."
+    },
+    {
+      "turn": 2,
+      "action": "Move the bin of scrap items to the back of the room and instruct students to clear their desks.",
+      "observation": "The students stop playing with items but look confused. When asked 'What does heat do?', they remain silent. One student points to the now-empty desk and asks, 'Are we going to build stuff?'"
+    },
+    {
+      "turn": 3,
+      "action": "Create a diagram on the whiteboard showing arrows labeled 'Force', 'Heat', and 'Water' pointing to a generic box labeled 'Object'.",
+      "observation": "Students copy the arrows but label the box 'Box'. When asked to give an example of an 'Object', they struggle to name anything specific from the earlier bin, using vague terms like 'thingy' or 'stuff'."
+    },
+    {
+      "turn": 4,
+      "action": "Introduce the Water Cycle poster to explain 'Evaporation' as a specific type of change caused by Heat.",
+      "observation": "Students stare at the poster. When asked what happens to the water, a student says 'It goes up.' When asked what material is changing, they hesitate, seemingly unsure if 'water' counts as a material like the wood or plastic they saw earlier."
+    },
+    {
+      "turn": 5,
+      "action": "Check the classroom inventory for a brighter lamp and a hair dryer to use as demonstration tools.",
+      "observation": "The students enjoy the noise of the hair dryer. However, when the teacher melts a crayon with it and asks what happened, the students shout 'It got squishy!' but cannot identify that the wax (material) reacted to the heat. They lack the word 'wax'."
+    },
+    {
+      "turn": 6,
+      "action": "Develop a worksheet where students must trace the words 'Thermal Energy', 'Force', and 'Light Energy'.",
+      "observation": "Students trace the words perfectly. When the teacher holds up a piece of wood and asks 'Which energy changes this?', the students look blankly at the wood, whispering to each other, 'Is that a stick?'"
+    },
+    {
+      "turn": 7,
+      "action": "Deliver a simplified lecture on 'Molecules' and how heat makes them move faster.",
+      "observation": "The Grade 1 students look completely lost. A student raises their hand and asks, 'Is the shiny stuff (foil) made of molecules?' showing they still haven't categorized the basic materials in the bin."
+    },
+    {
+      "turn": 8,
+      "action": "Review the state science standards for Grade 1 to see if 'Energy' is defined differently.",
+      "observation": "The standards list 'Identify and describe materials (wood, plastic, metal)' as the first objective, followed by 'Observe changes'. The teacher glosses over the material identification, focusing only on the word 'Observe'."
+    },
+    {
+      "turn": 9,
+      "action": "Bring the bin back, but strictly as a 'Target Practice' activity where students must stick labels saying 'Heat' or 'Force' onto the items without touching them.",
+      "observation": "Students randomly stick 'Heat' on the wood and 'Force' on the water. They argue over whether the 'clear hard thing' (plastic) can be heated, clearly lacking the knowledge of material properties (flammability, melting point)."
+    },
+    {
+      "turn": 10,
+      "action": "Conclude that the students are not cognitively ready for this unit and plan a week of rote memorization of the definitions of 'Solid', 'Liquid', and 'Gas' states.",
+      "observation": "The students chant 'Solid, Liquid, Gas' but when shown the bin again, they still cannot sort the foil from the plastic, leaving them unable to predict or describe how any specific item will change."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Deliver a comprehensive lecture on Gregor Mendel's life and his initial experiments with distinct pea plant traits like flower color and seed shape.",
+      "observation": "Students listen passively but when asked a follow-up question, they immediately ask about a specific problem in their textbook regarding a family tree where a child has type O blood while parents have type A and B."
+    },
+    {
+      "turn": 2,
+      "action": "Draw a large Punnett square on the whiteboard demonstrating a monohybrid cross between a homozygous dominant tall pea plant and a homozygous recessive short pea plant.",
+      "observation": "A student raises their hand and points out that the Punnett square makes sense for the plants, but asks why their grandfather has a trait that only the male grandchildren seem to inherit, which doesn't fit the '3:1' ratio I just drew."
+    },
+    {
+      "turn": 3,
+      "action": "Distribute a vocabulary quiz focused on defining terms like 'allele', 'genotype', 'phenotype', and 'heterozygous'.",
+      "observation": "Students score high marks on the definitions, yet when presented with a practice problem involving a pedigree chart for color blindness, they fail to identify the carriers correctly."
+    },
+    {
+      "turn": 4,
+      "action": "Assign a worksheet featuring twenty problems focused exclusively on pea plant seed color and texture (Dihybrid crosses).",
+      "observation": "Students struggle to stay engaged. Several groups start discussing the 'Royal Disease' (Hemophilia) case study from the sidebar of the textbook, seemingly more interested in how the disease moves through the family lineage than the pea seeds."
+    },
+    {
+      "turn": 5,
+      "action": "Rearrange the classroom seating into pairs to encourage peer-to-peer discussion on the current topic.",
+      "observation": "The noise level rises, but as I walk around, I hear students debating ABO blood group inheritance and trying to map their own families, ignoring the pea plant diagrams on their desks."
+    },
+    {
+      "turn": 6,
+      "action": "Interrupt the class discussions to project a diagram of pea plant reproductive anatomy, explaining self-pollination vs. cross-pollination.",
+      "observation": "Students look frustrated. One asks, 'But how do we know who is a carrier if we can't control who marries who like we control the plants?' pointing to a pedigree chart worksheet."
+    },
+    {
+      "turn": 7,
+      "action": "Assign a weekend project where students must grow virtual pea plants in an online simulation to generate F1 and F2 generations.",
+      "observation": "Students complete the simulation but submit reflection papers complaining that the simulation was 'too perfect' and didn't help them answer the exam review questions about sex-linked inheritance in humans."
+    },
+    {
+      "turn": 8,
+      "action": "Review the state curriculum standards and the textbook edition to ensure I haven't missed a prerequisite unit.",
+      "observation": "The curriculum explicitly links 'Mendelian Genetics' with 'Real-world Pedigree Analysis' and 'Blood Typing' as concurrent learning objectives."
+    },
+    {
+      "turn": 9,
+      "action": "Create a simplified 'remedial' lecture that goes back to the very beginning: Mendel's choice of the garden pea (Pisum sativum) and its seven contrasting traits.",
+      "observation": "The class is visibly checked out. When presented with a final review question about a father with type AB blood and a mother with type O, the majority of the class guesses incorrectly based on pea plant dominance rules."
+    },
+    {
+      "turn": 10,
+      "action": "Ban all questions regarding human diseases or blood types for the remainder of the week, insisting we focus only on the 'Pure' genetics of the pea plant model.",
+      "observation": "Students perform perfectly on pea-related questions but fail the unit test section requiring the analysis of an autosomal dominant pedigree chart, marking the traits as 'skipping generations' incorrectly."
+    }
+  ]
+}

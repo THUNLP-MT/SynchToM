@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Thoroughly inspect the table of contents and flip through every page of the textbook looking for the 'Exercises' section.",
+      "observation": "The book contains only chapter headers, brief topic summaries, and large QR codes on every page labeled 'Scan to Start Lesson'."
+    },
+    {
+      "turn": 2,
+      "action": "Go to an office supply store to buy a new set of highlighters and color-coded sticky notes.",
+      "observation": "You have organized the sparse text beautifully, but you still have no sentences to practice and no feedback on your comprehension."
+    },
+    {
+      "turn": 3,
+      "action": "Search the publisher's website for a 'Student Workbook' or 'Companion PDF' that I assume was omitted from my shipment.",
+      "observation": "The website product page displays the book you have. The description reads: 'Digital-First Curriculum: Download the App to access 5,000+ interactive exercises.' A popup offers a link to the App Store."
+    },
+    {
+      "turn": 4,
+      "action": "Change my study time from evening to early morning.",
+      "observation": "You are now awake earlier, staring at the same list of vocabulary topics with no definitions or context."
+    },
+    {
+      "turn": 5,
+      "action": "Manually transcribe the chapter headers into a notebook and try to guess the grammar rules by searching for similar terms on Google.",
+      "observation": "While searching Google, you see an ad for your specific course that shows a video of a student using a smartphone to speak into a microphone for pronunciation checks."
+    },
+    {
+      "turn": 6,
+      "action": "Email the professor complaining that the required text is 'defective' and asking for a recommendation for a 'real' grammar book.",
+      "observation": "The professor replies: 'Please follow the instructions on the inside cover. The physical book is just a tracker; your homework and drills are auto-graded in the app.'"
+    },
+    {
+      "turn": 7,
+      "action": "Clean my glasses and adjust the desk lamp brightness.",
+      "observation": "The lighting is perfect. The book remains a list of bullet points. Your phone buzzes with a notification: 'You haven't logged any practice minutes today!'"
+    },
+    {
+      "turn": 8,
+      "action": "Ignore the phone notification and go to the university library to check out a French textbook from 1995.",
+      "observation": "The 1995 book has plenty of exercises, but the vocabulary and scope do not match your current course syllabus at all."
+    },
+    {
+      "turn": 9,
+      "action": "Spend three hours creating a complex Excel spreadsheet to manually log my own 'suspected' progress based on the chapter titles.",
+      "observation": "You have a nice spreadsheet, but you still haven't spoken or written a single sentence of the target language. A classmate walks by and asks, 'Hey, are you stuck on the Level 3 boss in the app yet?'"
+    },
+    {
+      "turn": 10,
+      "action": "Write a scathing 1-star review on the university bookstore website titled 'WARNING: SCAM BOOK - CONTAINS NO CONTENT'.",
+      "observation": "The review is posted. Below it, a 'Verified Buyer' comments: 'Did you scan the QR code? The book is just the key to unlock the software.'"
+    }
+  ]
+}

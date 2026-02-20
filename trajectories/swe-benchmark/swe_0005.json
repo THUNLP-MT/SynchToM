@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Execute the script with `Table.write(sys.stdout, format='csv', formats={'col1': '%.2f'})` and then with `format='html'` with the same arguments.",
+      "observation": "The CSV output shows 'col1' formatted as '1.23'. The HTML output shows 'col1' as raw numbers '1.2333333'."
+    },
+    {
+      "turn": 2,
+      "action": "Print `table.colnames` and compare them manually against the keys in my `formats` dictionary.",
+      "observation": "The column names and dictionary keys match perfectly."
+    },
+    {
+      "turn": 3,
+      "action": "Check `astropy.__version__` and the installed dependencies.",
+      "observation": "The version is the latest stable release."
+    },
+    {
+      "turn": 4,
+      "action": "Monkeypatch `astropy.io.registry.write` to add a print statement that dumps `kwargs` before it calls the specific writer.",
+      "observation": "The print output shows `kwargs` contains `{'formats': {'col1': '%.2f'}}`. The HTML output remains unformatted."
+    },
+    {
+      "turn": 5,
+      "action": "Use `astropy.io.registry.get_writer('html', Table)` to identify the specific function being registered.",
+      "observation": "The registry returns `astropy.io.ascii.html.HTML` class (specifically its write method)."
+    },
+    {
+      "turn": 6,
+      "action": "Inspect the signature of `astropy.io.ascii.html.HTML.write` using `inspect.getfullargspec`.",
+      "observation": "The signature is `(self, table, **kwargs)`."
+    },
+    {
+      "turn": 7,
+      "action": "Instantiate `astropy.io.ascii.html.HTML` directly and call `.write(table, formats={...})`, bypassing the `Table.write` high-level API.",
+      "observation": "The output is still unformatted raw numbers."
+    },
+    {
+      "turn": 8,
+      "action": "Try passing `formats` with a different syntax, using a list of functions instead of a dictionary of strings.",
+      "observation": "The output is still unformatted."
+    },
+    {
+      "turn": 9,
+      "action": "Wrap the `formats` dictionary in a custom class that prints when its `__getitem__` is called, and pass that to `write`.",
+      "observation": "The print statement inside `__getitem__` never triggers. (Because the writer class fails to use the argument)."
+    },
+    {
+      "turn": 10,
+      "action": "Manually assign the format to the column metadata: `table['col1'].format = '%.2f'`, then call `table.write(format='html')` without the `formats` argument.",
+      "observation": "The HTML output is now correctly formatted."
+    }
+  ]
+}

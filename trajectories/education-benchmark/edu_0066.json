@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Select the seasonal CO2 fluctuation data interpretation task for the assessment.",
+      "observation": "Students begin the assessment but seem confused. Most answers describe the up-and-down zigzag pattern of the graph but fail to mention the burning of fossil fuels or long-term accumulation."
+    },
+    {
+      "turn": 2,
+      "action": "Add a clarification to the prompt: 'Analyze the graph axes carefully before answering.'",
+      "observation": "Students now provide very specific numbers regarding the months when CO2 peaks and drops (May vs. October), but they still do not identify the primary cause of global warming."
+    },
+    {
+      "turn": 3,
+      "action": "Modify the task to require a calculation of the difference between the seasonal peak and the seasonal trough.",
+      "observation": "Students successfully calculate the 6ppm seasonal variance. However, their essays conclude that global warming is caused by 'changes in seasons' rather than the greenhouse effect described in the reading material."
+    },
+    {
+      "turn": 4,
+      "action": "Provide the data in a digital spreadsheet format rather than a static image.",
+      "observation": "Students spend the session formatting the spreadsheet cells. They produce neat tables of seasonal data but remain unable to explain the causal mechanism of global warming."
+    },
+    {
+      "turn": 5,
+      "action": "Remove the reading passage option entirely from the study guide.",
+      "observation": "Without the text summary, students have no source of information regarding industrial emissions. They analyze the seasonal graph endlessly and start guessing that volcanoes or solar flares are the cause."
+    },
+    {
+      "turn": 6,
+      "action": "Group students into pairs to discuss the seasonal graph trends.",
+      "observation": "The pairs reinforce each other's misconceptions. They agree that the 'zigzag' is the most important feature and ignore the slight upward trend of the line entirely because the seasonal noise is more visually prominent."
+    },
+    {
+      "turn": 7,
+      "action": "Add a scaffolded question asking students to compare the slope of the seasonal increase to the slope of the seasonal decrease.",
+      "observation": "Students calculate the slopes correctly. They report that CO2 rises faster in spring than it falls in autumn, but they are frustrated and ask, 'How does this explain why the planet is getting hotter?'"
+    },
+    {
+      "turn": 8,
+      "action": "Color-code the graph to make the seasonal peaks red and the troughs blue.",
+      "observation": "Students appreciate the colors but continue to write about winter-summer cycles. The assessment data shows high engagement with the graph but near-zero achievement of the learning objective regarding causes."
+    },
+    {
+      "turn": 9,
+      "action": "Create a rubric that awards zero points for any answer not derived directly from the graph coordinates.",
+      "observation": "Students panic. They abandon any mention of the greenhouse effect (which isn't on the graph) and write purely descriptive statistics about the months of the year. They fail the conceptual part of the exam."
+    },
+    {
+      "turn": 10,
+      "action": "Finalize the assessment with the seasonal data task and lower the passing grade threshold.",
+      "observation": "The assessment is administered. It confirms the students can read a graph's Y-axis, but the department chair notes that the students still do not know what causes global warming."
+    }
+  ]
+}

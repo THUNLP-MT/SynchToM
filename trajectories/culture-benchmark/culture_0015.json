@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Say 'I am so sorry, I looked away for a second,' and immediately reach for the pan handle to pull it off the heat.",
+      "observation": "The colleague shakes their head vigorously, smiling wide, and waves their hands to stop you from moving the pan. 'No, no! Look at that color!'"
+    },
+    {
+      "turn": 2,
+      "action": "Check the temperature dial on the stove.",
+      "observation": "The stove is set to a standard medium-high. The colleague leans in over the pan, inhaling deeply with their eyes closed. 'The smell... it's hitting the back of my throat perfectly.'"
+    },
+    {
+      "turn": 3,
+      "action": "Grab a large metal ladle and tilt the pan slightly.",
+      "observation": "The colleague looks alarmed and gently blocks your arm. 'Wait! What are you doing? You can't take that away!'"
+    },
+    {
+      "turn": 4,
+      "action": "Pick up the jar of ground Sichuan peppercorns to inspect the expiration date and texture.",
+      "observation": "The label shows 'Premium Red Sichuan Peppercorn'. The colleague points excitedly at the dark powder specs on the tofu. 'Did you toast and grind these yourself? It looks so generous!'"
+    },
+    {
+      "turn": 5,
+      "action": "Take a whisk and attempt to vigorously stir the sauce to re-emulsify the oil and hide the dark specks.",
+      "observation": "The oil separates again almost instantly—as chili oil is supposed to do. The colleague winces slightly at the vigorous mixing. 'Careful! Don't break the tofu cubes. It looks ready to go as is.'"
+    },
+    {
+      "turn": 6,
+      "action": "Swap the serving ladle for a slotted spoon.",
+      "observation": "The colleague looks confused and disappointed. 'But... the rice? You need the red sauce for the rice! Why use the drainer?'"
+    },
+    {
+      "turn": 7,
+      "action": "Grab a handful of paper towels and fold them into a thick pad.",
+      "observation": "The colleague actually gasps in horror this time. 'Stop! You're going to soak up the soul of the dish! Why are you trying to dry it out?'"
+    },
+    {
+      "turn": 8,
+      "action": "Taste a specific clump of the dark powder with the tip of a spoon, frowning.",
+      "observation": "The taste is intensely floral and provides a strong, vibrating numbing sensation (malo), not bitterness. The colleague watches eagerly. 'Well? Is it numbing enough? It looks like it has a serious kick.'"
+    },
+    {
+      "turn": 9,
+      "action": "Turn on the bright overhead exhaust hood light to maximum brightness.",
+      "observation": "Under the bright light, the chili oil glistens a vibrant, deep ruby red. The colleague pulls out their phone. 'Wow, look at that sheen. I have to take a picture.'"
+    },
+    {
+      "turn": 10,
+      "action": "Move the pan to the sink and reach for the colander.",
+      "observation": "The colleague physically places themselves between you and the sink, looking genuinely tragic. 'Are you crazy? This is the most authentic Mapo Tofu I've seen since I was in Chengdu! Please, put it on the table!'"
+    }
+  ]
+}

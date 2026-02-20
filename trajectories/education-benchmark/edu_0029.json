@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask the class to label each image with the correct animal name.",
+      "observation": "Students correctly label the whale, bat, and human. Several students start tracing the colored bones that are similar across the three images."
+    },
+    {
+      "turn": 2,
+      "action": "Ask the students to verify if the lines on the photocopy are dark enough to see the outline of the limbs.",
+      "observation": "Students confirm the copies are clear. One student points out that the bones inside are shaded the same colors in all three pictures."
+    },
+    {
+      "turn": 3,
+      "action": "Ask the class: 'What is the most obvious difference between the bat's limb and the human's limb?'",
+      "observation": "A student answers, 'The bat's fingers are way longer, but they are in the same order as the human's.'"
+    },
+    {
+      "turn": 4,
+      "action": "Instruct the class to focus on the overall shape and function, not the specific arrangement of the insides.",
+      "observation": "Students look confused. They point to the caption 'Homologous Structures' on the worksheet and ask what that means if they are supposed to ignore the insides."
+    },
+    {
+      "turn": 5,
+      "action": "Ask students to raise their hands if they have ever seen a bat in real life.",
+      "observation": "A few hands go up. One student mentions bats are mammals, just like whales and humans."
+    },
+    {
+      "turn": 6,
+      "action": "Draw a table on the board with columns for 'Swims', 'Flies', and 'Grasps' and ask students to place the organisms in the correct column.",
+      "observation": "Students fill out the table easily, but they keep discussing how the 'swimming' arm looks just like the 'grasping' arm underneath the skin."
+    },
+    {
+      "turn": 7,
+      "action": "Direct students to turn to a partner and spend two minutes discussing the images.",
+      "observation": "Overhearing the groups, the teacher hears students saying things like, 'Look, they all have a humerus,' and 'It's weird that they are built the same way.'"
+    },
+    {
+      "turn": 8,
+      "action": "Interrupt the class and explicitly list the unique external features: 'The Whale has a fin, the Bat has a wing.' Ask them to write these labels next to the images.",
+      "observation": "Students write 'Fin' and 'Wing', but they also circle the matching wrist bones in all three diagrams."
+    },
+    {
+      "turn": 9,
+      "action": "Ask a targeted question: 'Why couldn't a human fly with their arms? What feature is missing?'",
+      "observation": "A student replies, 'Because our finger bones aren't elongated enough to support a membrane, even though we have the same bones.'"
+    },
+    {
+      "turn": 10,
+      "action": "Assign a homework paragraph: 'Describe how the physical differences in these limbs show that these animals are completely different types of creatures.'",
+      "observation": "Students leave class confused, asking each other why the teacher ignored the fact that the skeletons were identical."
+    }
+  ]
+}

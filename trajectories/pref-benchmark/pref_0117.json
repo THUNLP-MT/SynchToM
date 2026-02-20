@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open the in-game 'Settings' menu and toggle 'Share Usage Data' and 'Online Leaderboards' to OFF.",
+      "observation": "The settings menu takes several seconds to load, and the mouse cursor lags while scrolling down. After toggling the settings off, the gameplay resumes but the periodic freeze happens exactly as before."
+    },
+    {
+      "turn": 2,
+      "action": "Alt-Tab out of the game and close the Google Chrome browser running in the background.",
+      "observation": "Closing Chrome frees up 500MB of RAM. The game runs smoothly for about 45 seconds, but as the game assets load into the newly freed space, the RAM fills up again and the stuttering returns."
+    },
+    {
+      "turn": 3,
+      "action": "Open Windows Firewall and create a new Outbound Rule to block the game's executable (Game.exe) from accessing the internet.",
+      "observation": "The computer is sluggish while opening the Firewall interface. The hard drive LED is blinking rapidly. Once the rule is applied, the game is launched again, but the stuttering persists at the exact same intervals."
+    },
+    {
+      "turn": 4,
+      "action": "Open the game launcher (e.g., Steam/Epic) settings and disable the 'In-Game Overlay' feature.",
+      "observation": "The overlay is disabled. The game freezes for a solid 2 seconds upon loading a new area, accompanied by the sound of the hard drive spinning up loudly."
+    },
+    {
+      "turn": 5,
+      "action": "Open Task Manager and set the Game.exe process priority to 'High'.",
+      "observation": "Task Manager shows Memory at 98% and Disk at 100%. The user ignores the Memory stat. Setting priority to High makes the mouse lag worse, and the game stuttering becomes more violent."
+    },
+    {
+      "turn": 6,
+      "action": "Physically unplug the Ethernet cable from the back of the PC.",
+      "observation": "Windows shows the 'No Internet' icon. The game continues to stutter. During the freezes, the hard drive activity light stays solid red."
+    },
+    {
+      "turn": 7,
+      "action": "Go into Device Manager and completely disable the Network Adapter driver.",
+      "observation": "Device Manager takes a long time to populate the list of devices. Disabling the driver causes a momentary system hang. The game is virtually unplayable now, freezing for 3-4 seconds at a time."
+    },
+    {
+      "turn": 8,
+      "action": "Open Task Manager again to look for hidden 'Telemetry' or 'Updater' background processes associated with the game publisher.",
+      "observation": "Task Manager opens slowly. The user scans the list. They see 'System' using high Disk I/O (due to pagefile swapping) but interpret this as a system process trying to log network errors."
+    },
+    {
+      "turn": 9,
+      "action": "Edit the Windows 'hosts' file to map the game publisher's telemetry URLs to 127.0.0.1.",
+      "observation": "Opening Notepad as Administrator is very slow. Saving the file triggers a massive bout of hard drive grinding. The game is now minimized and struggling to maximize back onto the screen."
+    },
+    {
+      "turn": 10,
+      "action": "Search online (via phone) for a 'No-Internet Crack' or a mod that removes the game's DRM code.",
+      "observation": "The PC is now barely responsive. The game has stopped responding entirely because the OS has run out of both RAM and Pagefile space to handle the active processes."
+    }
+  ]
+}

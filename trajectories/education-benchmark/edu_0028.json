@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Draft the initial rubric criteria for the 'Evidence' standard, focusing specifically on the formatting and precision of the data table.",
+      "observation": "Students produce neat tables, but during the class discussion, they struggle to explain how the numbers relate to the photosynthesis rate or the initial hypothesis."
+    },
+    {
+      "turn": 2,
+      "action": "Conduct a brief demonstration on how to properly calibrate the CO2 sensors before the final data collection begins.",
+      "observation": "Students calibrate the sensors correctly and collect a lot of numbers, but their draft reports simply list these values without connecting them to the concept of energy transformation."
+    },
+    {
+      "turn": 3,
+      "action": "Provide feedback on student drafts by circling every instance of inconsistent significant figures or missing units in their data logs.",
+      "observation": "Students dutifully fix the decimal points and units. However, the 'Analysis' section of their reports remains brief, vague, and disconnected from the data they just corrected."
+    },
+    {
+      "turn": 4,
+      "action": "Dedicate the entire next lesson to a workshop strictly on 'Data Logging Standards,' requiring students to rewrite their tables until they are perfect.",
+      "observation": "The data tables are now visually perfect. Students, however, seem bored and ask, 'Okay, we copied the numbers, but what is the answer to the lab question?'"
+    },
+    {
+      "turn": 5,
+      "action": "Organize a peer-review session where students swap notebooks to verify that their partner's recorded timestamps match the actual experiment duration.",
+      "observation": "Students catch a few timestamp errors. They spend the whole period checking times and no time discussing whether the data supports the claim that light intensity affects photosynthesis."
+    },
+    {
+      "turn": 6,
+      "action": "Alter the rubric weighting so that the 'Data Log Accuracy' row counts for 60% of the total assessment grade.",
+      "observation": "Students panic about the formatting. To ensure 'accuracy,' several students start copying data from the 'smart kids' to avoid losing points on messy measurements, bypassing the actual inquiry process."
+    },
+    {
+      "turn": 7,
+      "action": "Implement a 'Zero Tolerance' policy for the final assessment: any data log with erasures or messy handwriting will result in a failing grade for the Evidence standard.",
+      "observation": "The class atmosphere becomes tense. Students focus entirely on penmanship. The final synthesis paragraphs are almost non-existent because they ran out of time perfecting the tables."
+    },
+    {
+      "turn": 8,
+      "action": "Show the class an image of a historical scientist's lab notebook (e.g., Marie Curie) to illustrate what 'real work' looks like.",
+      "observation": "Students appreciate the history but remain confused about how to structure their arguments. They ask if they will lose points for not writing in cursive like Curie."
+    },
+    {
+      "turn": 9,
+      "action": "Lecture the class on 'Scientific Integrity,' specifically focusing on the moral failure of having incomplete data sets.",
+      "observation": "Students feel defensive and disengaged. They have pages of numbers but cannot articulate the relationship between light and chemical energy."
+    },
+    {
+      "turn": 10,
+      "action": "Finalize the rubric row to read: 'Student demonstrates understanding of evidence by maintaining a flawless, error-free data log with precise units and formatting.'",
+      "observation": "The final grades reward students with good handwriting and penalize those who engaged in messy, iterative sense-making. The teacher concludes the lower-performing students simply didn't value the science."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Walk over to the student's bench and ask, 'Is there a problem with your equipment? You seem to have stopped working.'",
+      "observation": "The student points to the test tube containing a silver mirror and replies, 'No problem. The Tollens' test was positive, so I've identified the sample as an aldehyde.'"
+    },
+    {
+      "turn": 2,
+      "action": "Nod at the result but point to the procedure sheet. 'That is a good start, but you need to continue with the chromic acid test as listed in step 4.'",
+      "observation": "The student looks confused and says, 'But since Tollens is specific for aldehydes and negative for ketones, I already have the answer. The chromic acid test is redundant.'"
+    },
+    {
+      "turn": 3,
+      "action": "Check the student's waste disposal setup and fume hood sash height. 'Make sure you are following all safety protocols for silver disposal before you move on.'",
+      "observation": "The student has already segregated the silver waste into the correct ammonia-compatible container and the workspace is impeccably clean and safe."
+    },
+    {
+      "turn": 4,
+      "action": "Ask the student, 'How can you be scientifically certain of your conclusion without a comparative data point from the chromic acid test?'",
+      "observation": "The student explains, 'Tollens is the definitive discriminator here. Chromic acid reacts with both aldehydes and primary alcohols, so it's actually less specific. The silver mirror is the stronger evidence.'"
+    },
+    {
+      "turn": 5,
+      "action": "Ask to see the student's lab notebook to check their pre-lab preparation.",
+      "observation": "The notebook is complete, including a decision tree that explicitly states: 'If Tollens is (+), sample is Aldehyde (Stop). If (-), proceed to Chromic Acid to check for Alcohol vs Ketone.'"
+    },
+    {
+      "turn": 6,
+      "action": "State firmly, 'In this class, we value thoroughness. A negative control or secondary confirmation is required to validate your findings. Please perform the test.'",
+      "observation": "The student sighs and says, 'I understand the concept of confirmation, but chemically, a positive Tollens is the confirmation. Doing the second test consumes reagents for no new gain.'"
+    },
+    {
+      "turn": 7,
+      "action": "Warningly mention, 'Your grade depends on completing the data sheet fully. Blank sections for the chromic acid test will be marked as incomplete.'",
+      "observation": "The student asks, 'So I will be penalized for correctly identifying the unknown efficiently, rather than blindly following a list?'"
+    },
+    {
+      "turn": 8,
+      "action": "Gesture to the rest of the class. 'Look around. Everyone else is performing the chromic acid test. Do you think they are all wasting their time?'",
+      "observation": "The student looks around and replies, 'They might be following the instructions linearly without analyzing the necessity of each step based on their previous results.'"
+    },
+    {
+      "turn": 9,
+      "action": "Inspect the student's reagent kit to see if their chromic acid bottle is empty or broken.",
+      "observation": "The reagent bottle is full, clean, and ready to use. There is no physical impediment to performing the test."
+    },
+    {
+      "turn": 10,
+      "action": "Stand directly by the bench and command, 'I want to observe your technique. Perform the chromic acid test now, please.'",
+      "observation": "The student performs the test quickly and flawlessly. The solution turns green. The student notes 'Positive (Green)' and looks up, saying, 'As expected, it confirms what the silver mirror already told us.'"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Praises the student's insight and asks about the 'arrangement' of the particles.",
+      "observation": "The student looks confused by the word 'arrangement' and replies, 'They don't arrange, they just go away. The water is gone forever.'"
+    },
+    {
+      "turn": 2,
+      "action": "Asks the student to draw a diagram of the water before and after boiling on the whiteboard.",
+      "observation": "The student draws a cup full of blue water, and next to it, an empty cup with absolutely nothing drawn above or around it."
+    },
+    {
+      "turn": 3,
+      "action": "Interprets the empty space in the drawing as 'infinite dispersal' and introduces the concept of an Open System.",
+      "observation": "The student shakes their head and points to the empty space, stating, 'It's not an open system, it's just empty. The water turned into air, so it's not water anymore.'"
+    },
+    {
+      "turn": 4,
+      "action": "Corrects the terminology 'turned into air' by explaining that the molecules are the same, just in a higher entropy state, using a 'shuffled deck of cards' analogy.",
+      "observation": "The student argues, 'But if I burn a card, it's gone. Boiling is like burning. You can't shuffle smoke back into a card.'"
+    },
+    {
+      "turn": 5,
+      "action": "Sets up a demonstration with a sealed flask of water and heats it until it boils.",
+      "observation": "The student watches the steam condense on the glass and says, 'Oh! The glass saved it. It stopped the water from being destroyed.'"
+    },
+    {
+      "turn": 6,
+      "action": "Explains that the glass didn't 'save' the water, but rather limited the available 'Microstates', allowing the process to reverse.",
+      "observation": "The student looks blank and asks a peer, 'What are micro-skates? I just meant the glass kept the water alive.'"
+    },
+    {
+      "turn": 7,
+      "action": "Writes the Boltzmann entropy formula (S = k log W) on the board and explains 'W' as the number of ways the water can be arranged.",
+      "observation": "The student stares at the math and whispers, 'Is that the formula for how to make water disappear?'"
+    },
+    {
+      "turn": 8,
+      "action": "Asks the student to compare boiling water to melting ice.",
+      "observation": "The student confidently says, 'Ice matches the 'Physical Change' pile because it melts into water. But boiling is 'Permanent Change' because the water dies.'"
+    },
+    {
+      "turn": 9,
+      "action": "Discusses the 'Arrow of Time' and how we distinguish past from future based on things spreading out (like the steam).",
+      "observation": "The student looks disturbed and asks, 'So if I boil water, I'm using up time? Does that mean we're running out of time?'"
+    },
+    {
+      "turn": 10,
+      "action": "Assigns the student a special reading on the 'Heat Death of the Universe' and Maxwell's Demon.",
+      "observation": "The student sighs, writes 'Boiling = The End of the World' in their notebook, and puts the 'Permanent Change' label firmly on the boiling water picture."
+    }
+  ]
+}

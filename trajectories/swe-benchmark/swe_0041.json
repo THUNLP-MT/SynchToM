@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Inspect `django.db.connection.queries` after running the failing code.",
+      "observation": "The captured SQL shows a standard query: `SELECT ... FROM \"target_table\" WHERE \"target_table\".\"id\" IN ('550e8400-e29b-41d4-a716-446655440000', ...)`."
+    },
+    {
+      "turn": 2,
+      "action": "Modify the query to explicitly pass `uuid.UUID` objects to the filter using a custom `Prefetch` object: `Prefetch('content_object', queryset=Target.objects.filter(id__in=[uuid.UUID(i) for i in ids]))`.",
+      "observation": "The generated SQL remains virtually identical (Django quotes UUIDs as strings for the query param). The `content_object` attribute is still `None` on the result instances."
+    },
+    {
+      "turn": 3,
+      "action": "Check the database collation and encoding settings by running `SHOW LC_COLLATE;` and `SHOW SERVER_ENCODING;` in the database shell.",
+      "observation": "The database returns `en_US.UTF-8` and `UTF8`. Standard settings."
+    },
+    {
+      "turn": 4,
+      "action": "Use `.extra()` to inject a raw SQL clause forcing a text cast: `Target.objects.extra(where=[\"id::text IN %s\"], params=[tuple(ids)])`.",
+      "observation": "The SQL now includes `WHERE (id::text IN ('550e8400-e29b-41d4-a716-446655440000', ...))`. The code executes without error, but the `prefetch_related` field is *still* `None`."
+    },
+    {
+      "turn": 5,
+      "action": "Copy the SQL generated in Turn 4 and execute it directly in a `psql` console session connected to the same database.",
+      "observation": "The query executes in the console and returns the expected rows (e.g., 5 rows matching the IDs)."
+    },
+    {
+      "turn": 6,
+      "action": "Delete all `__pycache__` directories and restart the development server/shell.",
+      "observation": "After a clean restart, the issue persists exactly as before."
+    },
+    {
+      "turn": 7,
+      "action": "Inspect the `psycopg2` (or DB driver) adapter registration for UUIDs in the Django shell.",
+      "observation": "The adapters seem standard. `psycopg2.extensions.adapters` shows the expected UUID adapter registration."
+    },
+    {
+      "turn": 8,
+      "action": "Attempt to bypass the generic prefetch logic by manually fetching the related objects using `Target.objects.raw('SELECT * FROM ...')` and inspecting the returned objects' IDs.",
+      "observation": "The raw query returns objects. `obj.id` is a `uuid.UUID` object. The `object_id` on the source model is a `str`. (This hints at the Python-side mismatch, but the user is looking for SQL/Driver issues)."
+    },
+    {
+      "turn": 9,
+      "action": "Check `sys.modules` for any monkey-patches or third-party libraries that might be wrapping the database cursor.",
+      "observation": "No suspicious libraries found wrapping the cursor."
+    },
+    {
+      "turn": 10,
+      "action": "Modify the prefetch queryset to cast the *returned* ID column to text using `annotate(id_str=Cast('id', TextField()))` and try to trick the prefetch to use this field.",
+      "observation": "The SQL now selects the ID as text. The prefetch mechanism, now seeing a String ID from the DB and a String ID on the source object, successfully matches them in Python. The prefetch works."
+    }
+  ]
+}

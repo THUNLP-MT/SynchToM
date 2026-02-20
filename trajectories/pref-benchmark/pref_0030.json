@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Cancel the weekly Friday virtual 'Coffee & Chill' social hour effective immediately.",
+      "observation": "Team morale dips noticeably. In the anonymous survey box, a comment appears: 'The coffee chat was the only time I felt like part of a team this week. Now I just feel like a ticket-processing machine.'"
+    },
+    {
+      "turn": 2,
+      "action": "Institute a 'Camera-Off' policy for all remaining technical syncs to reduce 'Zoom fatigue'.",
+      "observation": "Meetings become dead silent. Misunderstandings increase because non-verbal cues are missing. Two developers get into a heated argument in PR comments over a misunderstanding that could have been solved with a face-to-face chat."
+    },
+    {
+      "turn": 3,
+      "action": "Conduct a comprehensive audit of Jira ticket descriptions and acceptance criteria.",
+      "observation": "The audit reveals that tickets are well-written, yet the 'Comments' sections are filled with developers asking 'Can we jump on a call to discuss this?' and 'I'm stuck, need a rubber duck session.'"
+    },
+    {
+      "turn": 4,
+      "action": "Announce and implement the strict 'No-Meeting Sprint': absolutley no synchronous meetings for two weeks.",
+      "observation": "Velocity crashes. A junior developer spends 3 days stuck on a simple environment issue because they were afraid to break the policy and ask for a 5-minute screen share. The team feels abandoned."
+    },
+    {
+      "turn": 5,
+      "action": "Archive the #random and #watercooler Slack channels.",
+      "observation": "Private DM usage skyrockets. The public channels are ghost towns, but the team is secretly back-channeling complaints. Trust in leadership hits an all-time low; members feel they are being policed."
+    },
+    {
+      "turn": 6,
+      "action": "Update the team's technical wiki with a new 'Self-Service Troubleshooting' guide.",
+      "observation": "The wiki analytics show zero views. A senior engineer posts in the general channel: 'We don't need docs, we need to align on the architecture vision together. We are building in silos.'"
+    },
+    {
+      "turn": 7,
+      "action": "Replace the daily asynchronous standup text-bot with a strictly automated status pull from GitHub commits.",
+      "observation": "The team is now completely invisible to one another. Duplicate work occurs: two developers build the same utility function because they never spoke. The 'disconnected' feedback returns, now described as 'working in a void'."
+    },
+    {
+      "turn": 8,
+      "action": "Send a memo discouraging pair programming, labeling it as 'inefficient resource doubling'.",
+      "observation": "A key tech lead submits their resignation, citing 'extreme isolation' and 'toxic productivity culture'. The remaining team members stop responding to Slack messages entirely, doing the bare minimum."
+    },
+    {
+      "turn": 9,
+      "action": "Review the CI/CD pipeline logs for build time optimizations.",
+      "observation": "Build times are optimal. However, the logs show very few commits are being pushed. The team is paralyzed by a lack of direction and morale, not technical blockers."
+    },
+    {
+      "turn": 10,
+      "action": "Propose reallocating the Q3 'Team Retreat' budget to purchase noise-canceling headphones and individual learning subscriptions.",
+      "observation": "HR intervenes immediately. The entire remaining engineering team has signed a collective grievance letter stating that the lack of human connection is making the job unbearable."
+    }
+  ]
+}

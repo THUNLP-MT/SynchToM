@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Send an urgent calendar update changing all mentorship sessions from 'Zoom' to 'Conference Room B' for this Friday.",
+      "observation": "Several mentees reply asking if they can still dial in because they usually work from home on Fridays or have tight deadlines to finish before the weekend."
+    },
+    {
+      "turn": 2,
+      "action": "Reply to all declined invitations stating that in-person attendance is highly encouraged to 'boost engagement' and refuse to provide a Zoom link.",
+      "observation": "Attendance is lower than usual. Those who arrive look at the clock frequently and seem lethargic, slumping in their chairs."
+    },
+    {
+      "turn": 3,
+      "action": "Check the room's ventilation and lighting settings.",
+      "observation": "The room is cool and well-lit, but participants are yawning and mentioning how long the week has felt."
+    },
+    {
+      "turn": 4,
+      "action": "Print out physical discussion guides and distribute them, asking everyone to close their laptops.",
+      "observation": "Participants carelessly hold the papers; conversation remains slow with long pauses as people struggle to think of topics."
+    },
+    {
+      "turn": 5,
+      "action": "Bring in high-sugar snacks and coffee for the group.",
+      "observation": "People eat the snacks gratefully but remain quiet, with one person mentioning they just want to crash on their couch."
+    },
+    {
+      "turn": 6,
+      "action": "Send a quick poll asking: 'On a scale of 1-10, how much harder is it to connect via video vs. in-person?'",
+      "observation": "Most responses are neutral, but the comment section is filled with notes like 'I'm just tired by Friday afternoon' and 'Traffic was bad getting here'."
+    },
+    {
+      "turn": 7,
+      "action": "Rearrange the chairs into a circle and remove the tables.",
+      "observation": "Participants look uncomfortable and exposed; they check their watches more frequently, eager for the session to end."
+    },
+    {
+      "turn": 8,
+      "action": "Initiate an 'icebreaker' game requiring physical movement (standing up and switching seats).",
+      "observation": "Participants move slowly and reluctantly, complaining about being exhausted and just wanting to get through the agenda."
+    },
+    {
+      "turn": 9,
+      "action": "Book a different, more colorful 'creative lab' room for the next session.",
+      "observation": "The room booking system shows the creative lab is available, but participants complain that moving to a different building late on a Friday is a hassle."
+    },
+    {
+      "turn": 10,
+      "action": "Draft a policy proposal to ban all digital devices from future mentorship sessions.",
+      "observation": "The mentorship program coordinator responds that the main feedback is actually a request to move the sessions to Tuesday mornings when people are fresher."
+    }
+  ]
+}

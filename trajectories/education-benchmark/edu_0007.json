@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Instruct students to lean in and whisper what they see on the surface of the water.",
+      "observation": "Students immediately loudly shout predictions like 'It's gonna sink!' and 'It will float like a boat!' instead of describing the water surface."
+    },
+    {
+      "turn": 2,
+      "action": "Adjust the position of the basin slightly to catch the window light better.",
+      "observation": "Students interpret the move as preparation for the 'test' and jostle for a better view to see the outcome of the drop."
+    },
+    {
+      "turn": 3,
+      "action": "Say, 'Hold on, we aren't there yet. Describe the texture of this petal while it is dry.'",
+      "observation": "Students describe the texture but immediately link it to a hypothesis: 'It's smooth so it will slide in,' or 'It's light so it won't go down.'"
+    },
+    {
+      "turn": 4,
+      "action": "Interrupt a student and say, 'Don't tell me what it will do. Just tell me what your eyes see right this second.'",
+      "observation": "A student looks confused and says, 'But I see that it's shaped like a cup, so I know it will catch the water.' They cannot separate the property from the prediction."
+    },
+    {
+      "turn": 5,
+      "action": "Hand out a few magnifying glasses to students in the front row.",
+      "observation": "The students use the magnifying glasses to look for 'holes' or 'cracks' that might affect whether the petal sinks or floats."
+    },
+    {
+      "turn": 6,
+      "action": "Slowly lower the petal toward the water but stop an inch above the surface. Ask, 'What changes do you see in the shadow?'",
+      "observation": "Students ignore the shadow entirely and urge the teacher to 'Drop it!' or 'Let it go!' to test their theories."
+    },
+    {
+      "turn": 7,
+      "action": "Pull the petal back and say, 'We are not ready. We are missing the details. Everyone take a deep breath and lock eyes on the water's edge.'",
+      "observation": "Students groan and some lose interest, while others whisper, 'I bet the red one sinks faster.'"
+    },
+    {
+      "turn": 8,
+      "action": "Select a different student to hold the basin steady with both hands.",
+      "observation": "The student holding the basin asks, 'Can I be the one to drop it to see if I'm right?'"
+    },
+    {
+      "turn": 9,
+      "action": "Dip the petal silently into the water and immediately say, 'Look at the ripples! Look at the light bending!'",
+      "observation": "Students talk over the teacher, cheering 'I told you!' or 'Aw man, it floated!' completely ignoring the ripples and light."
+    },
+    {
+      "turn": 10,
+      "action": "Remove the petal and conclude the activity, saying, 'We will try this again tomorrow when we are ready to look with our eyes and not our mouths.'",
+      "observation": "Students leave confused, discussing who 'won' the prediction game, unaware that the teacher wanted them to admire the visual effects."
+    }
+  ]
+}

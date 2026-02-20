@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Approach the elder, smile warmly, and gesture firmly towards the camel while miming a chewing motion.",
+      "observation": "The elder smiles back, shakes his head 'no' while waving a hand at the camel, and then points enthusiastically toward the horse tethered nearby."
+    },
+    {
+      "turn": 2,
+      "action": "Walk over to the camel and perform a quick physical inspection, checking its eyes, teeth, and general alertness.",
+      "observation": "The camel is in excellent health, though a bit dusty. The elder ignores the inspection completely and begins sharpening a long, curved knife while looking admiringly at the horse."
+    },
+    {
+      "turn": 3,
+      "action": "Retrieve the saddle and bridle from the pile of gear and attempt to place the saddle on the horse.",
+      "observation": "The elder gently intercepts, taking the saddle away with a chuckle. He then slaps the horse's flank, pinching the layer of fat there and grunting with culinary appreciation."
+    },
+    {
+      "turn": 4,
+      "action": "Locate a rope, fashion a halter for the camel, and attempt to lead it toward the designated fire pit area.",
+      "observation": "The host rushes over, looking annoyed, takes the rope, and leads the camel back to the edge of the camp, tying it securely alongside the milking goats."
+    },
+    {
+      "turn": 5,
+      "action": "Inspect the stockpile of firewood and dried dung fuel near the cooking area.",
+      "observation": "The fuel pile is massive, containing ample reserves of saksaul wood and dried dung, easily enough to roast a herd."
+    },
+    {
+      "turn": 6,
+      "action": "Take off my expensive wristwatch and offer it to the elder, while pointing at the horse and making a protective 'stop' gesture.",
+      "observation": "The elder looks confused and slightly offended. He pushes the watch back, then hands me a heavy basin, gesturing for me to stand near the horse's head to catch the blood."
+    },
+    {
+      "turn": 7,
+      "action": "Drop the basin and aggressively point at the camel's hump, then rub my stomach and give a 'thumbs up' sign.",
+      "observation": "The gathered guests murmur and laugh. The elder mimics a milking motion and points to the camel, then points to the horse, mimics chewing, and rolls his eyes back in ecstasy."
+    },
+    {
+      "turn": 8,
+      "action": "Check the sharpness of the knife the elder is holding.",
+      "observation": "The knife is a traditional blade, honed to a razor's edge, capable of cutting through any hide with ease."
+    },
+    {
+      "turn": 9,
+      "action": "Physically stand between the butcher and the horse, holding up my phone to show a photo of a famous Olympic show jumping horse.",
+      "observation": "The butcher looks at the phone, nods approvingly at the horse's musculature in the photo, then gently moves me aside and pats the real horse's neck to calm it for the slaughter."
+    },
+    {
+      "turn": 10,
+      "action": "Attempt to untie the horse's tether to lead it away 'to safety' behind the tent.",
+      "observation": "Two young men step in and firmly restrain me, laughing good-naturedly as if I am playing a strange game, while the elder steps forward and swiftly performs the ceremonial blessing over the horse."
+    }
+  ]
+}

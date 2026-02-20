@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Pick up the heavy sphere and attempt a jump-throw towards the hoop.",
+      "observation": "The sphere is incredibly heavy. Your character heaves it, but it falls well short of the hoop, landing with a loud thud on the pavement."
+    },
+    {
+      "turn": 2,
+      "action": "Walk around the hoop structure and inspect the backboard.",
+      "observation": "The hoop is suspended by a chain. There is no backboard. The sun casts a sharp, dark shadow of the hoop directly onto the stone floor."
+    },
+    {
+      "turn": 3,
+      "action": "Stand on the small decorative ledge nearby to gain height, then throw the sphere again.",
+      "observation": "You gain a few feet of height. The sphere hits the bottom rim of the hoop with a metallic clang and falls back down."
+    },
+    {
+      "turn": 4,
+      "action": "Check inventory for 'Gloves of Strength' or a 'Potion of Might'.",
+      "observation": "Inventory contains: Rusty Key, Map, Flashlight. No stat-boosting items found."
+    },
+    {
+      "turn": 5,
+      "action": "Sprint from the back of the courtyard and release the sphere at the peak of a running jump.",
+      "observation": "The sphere flies higher, hits the wall above the hoop, drops straight down onto a square tile in the hoop's shadow, triggers a loud 'CLICK' sound, and then rolls off the tile."
+    },
+    {
+      "turn": 6,
+      "action": "Repeat the running jump throw, aiming slightly lower to hit the 'sweet spot' on the wall again.",
+      "observation": "The sphere misses the wall, flies under the hoop, and rolls into the corner. The door remains shut."
+    },
+    {
+      "turn": 7,
+      "action": "Go into Game Options -> Controls and increase 'Mouse Sensitivity' and 'Y-Axis Sensitivity' to maximum.",
+      "observation": "Camera movement becomes extremely twitchy. The environment remains unchanged."
+    },
+    {
+      "turn": 8,
+      "action": "Attempt to stack three wooden crates found in the corner to create a makeshift staircase under the hoop.",
+      "observation": "You stack two crates, but the third slides off. The structure is unstable. You are still not high enough to reach the hoop."
+    },
+    {
+      "turn": 9,
+      "action": "Search the 'Accessibility' menu for 'Skip Action Sequences' or 'Auto-Complete QTEs'.",
+      "observation": "Menu shows options for 'Subtitle Size' and 'Colorblind Mode'. No options found for skipping gameplay mechanics."
+    },
+    {
+      "turn": 10,
+      "action": "Open the Bug Report tool and type: 'Hoop hitbox is broken/Physics too heavy.'",
+      "observation": "Report sent. You remain in the courtyard with the sphere and the hoop's shadow clearly visible on the ground."
+    }
+  ]
+}

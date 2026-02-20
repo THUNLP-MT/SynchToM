@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Request the team to submit their retrospective topics via a standardized digital form 24 hours prior to the meeting.",
+      "observation": "Only two team members submit the form. One submission is blank, and the other contains a vague, passive-aggressive comment about 'waste of time'."
+    },
+    {
+      "turn": 2,
+      "action": "Create a meeting agenda with a strict '5-minute per topic' timer displayed on the shared screen.",
+      "observation": "During the first topic, two developers start arguing about a code review from three weeks ago. They ignore the timer completely, talking over it even after it beeps."
+    },
+    {
+      "turn": 3,
+      "action": "Research and download a 'Retrospective Template' based on Agile best practices.",
+      "observation": "When presented with the template, the team remains silent. One member keeps their camera off and audibly sighs when asked to fill in the 'What went well' column."
+    },
+    {
+      "turn": 4,
+      "action": "implement a 'digital talking stick' rule where microphones are hard-muted unless it is that specific person's scheduled turn to speak.",
+      "observation": "When it is their turn to speak, team members say 'I pass' or 'Nothing to add.' The chat box, however, is active with sarcastic comments about being in 'kindergarten'."
+    },
+    {
+      "turn": 5,
+      "action": "Announce that the meeting will be recorded and transcribed for 'process optimization analysis'.",
+      "observation": "The team becomes visibly tense. A senior developer mentions that they don't feel comfortable discussing sensitive team dynamics while being recorded for analysis."
+    },
+    {
+      "turn": 6,
+      "action": "Break the single retrospective meeting into three separate, smaller meetings based on job function (Design, Dev, QA).",
+      "observation": "In the 'Dev' breakout, the developers refuse to talk about the project issues, citing that the problems stem from the Design team (who are not present)."
+    },
+    {
+      "turn": 7,
+      "action": "Draft a 'Communication Protocol' flowchart that dictates exactly how to phrase feedback (e.g., 'When you do X, I feel Y').",
+      "observation": "A team member snaps, saying 'I can't talk to my coworker like a robot,' and leaves the meeting early."
+    },
+    {
+      "turn": 8,
+      "action": "Switch the meeting tool to a text-only platform where responses must be typed and approved by a moderator before appearing.",
+      "observation": "The main channel is empty. Team members are seen active on a private Slack channel, ignoring the retrospective tool entirely."
+    },
+    {
+      "turn": 9,
+      "action": "Assign a 'Process Owner' role to a team member, tasked solely with interrupting anyone who deviates from the agenda item.",
+      "observation": "The assigned team member awkwardly refuses to interrupt their angry colleague. The colleague accuses management of trying to silence valid complaints."
+    },
+    {
+      "turn": 10,
+      "action": "Write a comprehensive 5-page 'Retrospective Efficiency Manifesto' outlining the mathematical necessity of the new rules.",
+      "observation": "The document is unread. HR contacts the user to discuss reports of a 'hostile and controlling work environment' filed by multiple team members."
+    }
+  ]
+}

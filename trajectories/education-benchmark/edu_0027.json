@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Distribute detailed, 5-page step-by-step laboratory manuals to every student immediately upon entry.",
+      "observation": "Students glance at the thick packets, set them aside, and immediately begin picking up the blocks and tilting the planes at various angles to see what happens, discussing amongst themselves what variables might change the sliding speed."
+    },
+    {
+      "turn": 2,
+      "action": "Walk to the supply cabinet and double-check that every inclined plane has a functional, calibrated protractor attached.",
+      "observation": "While the educator checks the protractors, several student groups have removed the blocks entirely and are testing how their phone cases slide on the ramps, effectively brainstorming variable surface friction."
+    },
+    {
+      "turn": 3,
+      "action": "Interrupt the class, clapping hands for attention, and instruct everyone to stop 'playing' and read Step 1 of the manual aloud together.",
+      "observation": "Students look confused and ask, 'Why do we have to measure the angle? Can't we just measure how much force it takes to pull it up the ramp?' showing an attempt to design their own experimental logic."
+    },
+    {
+      "turn": 4,
+      "action": "Dismiss the students' question about force, stating that today's lab is specifically about the 'Angle of Repose' method, and direct them to the diagram in the manual.",
+      "observation": "The students stop discussing the logic of friction forces and passively begin setting up the equipment exactly as the diagram shows, looking bored and disengaged."
+    },
+    {
+      "turn": 5,
+      "action": "Write 'Significant Figures: 3' on the whiteboard.",
+      "observation": "Students dutifully copy 'Sig Figs: 3' onto their papers but continue to struggle with *why* they are measuring the angle, merely recording numbers without understanding the relationship."
+    },
+    {
+      "turn": 6,
+      "action": "Notice a group using a stopwatch to time the slide and intervene to take the stopwatch away.",
+      "observation": "The group explains they were trying to see if the coefficient changes with speed (a valid inquiry), but upon having the tool removed, they revert to silently staring at the block waiting for it to move."
+    },
+    {
+      "turn": 7,
+      "action": "Draw the exact columns for the data table on the board (Trial #, Angle, Tan(Angle)) and insist all groups copy it.",
+      "observation": "Students copy the table. One student asks, 'Why is it Tan(theta)?', but the educator is too busy ensuring the table lines are straight to hear the query about the physical logic."
+    },
+    {
+      "turn": 8,
+      "action": "Announce that there are only 15 minutes left in the period.",
+      "observation": "Panic ensues. Students stop looking at the physical apparatus entirely and start asking neighbors for their numbers to fill in the table, completely abandoning any experimental integrity."
+    },
+    {
+      "turn": 9,
+      "action": "Tell the class that the coefficient for wood-on-wood is usually around 0.4 to 0.5, and they should check if their data matches.",
+      "observation": "Students immediately erase their actual data points that were outside this range and fabricate new numbers that calculate to 0.45, effectively learning that data manipulation is preferred over honest inquiry."
+    },
+    {
+      "turn": 10,
+      "action": "Collect the lab reports and quickly scan to see if the calculated coefficients are close to 0.5.",
+      "observation": "The educator smiles at the 'accurate' results, unaware that the students learned nothing about experimental design and merely followed instructions to please the teacher."
+    }
+  ]
+}

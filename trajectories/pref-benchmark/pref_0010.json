@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Analyze the user drop-off logs specifically focusing on pages containing animated badges.",
+      "observation": "Data shows users are abandoning the course primarily in the middle of long text modules, often 10-15 minutes into a reading section. Badge pages actually have the highest click-through rates."
+    },
+    {
+      "turn": 2,
+      "action": "Disable the 'High Five' sound effect and popup animation that occurs upon module completion.",
+      "observation": "User feedback tickets increase. Comments include 'The course feels like a slog' and 'It's hard to stay motivated.' Completion rates remain flat."
+    },
+    {
+      "turn": 3,
+      "action": "Submit a ticket to IT to check for server latency caused by the gamification plugins.",
+      "observation": "IT reports that server health is optimal. Page load times are under 0.8 seconds. The text-heavy pages actually load slightly slower than the interactive ones due to unoptimized PDF embedding."
+    },
+    {
+      "turn": 4,
+      "action": "Remove the 'Daily Streak' counter from the dashboard.",
+      "observation": "Several users email support asking where their progress went. One user writes, 'I lost track of where I was. Reading this dense manual is impossible without milestones.'"
+    },
+    {
+      "turn": 5,
+      "action": "Review the color contrast settings on the interactive buttons.",
+      "observation": "The colors meet all WCAG AA standards. However, heatmaps show users are barely scrolling past the first 20% of the text blocks."
+    },
+    {
+      "turn": 6,
+      "action": "Send out a survey asking: 'Do you find the graphical elements on the platform distracting?'",
+      "observation": "Survey results: 10% say 'Yes', 80% say 'No, but the reading material is too dry/boring', 10% say 'I didn't notice graphics'."
+    },
+    {
+      "turn": 7,
+      "action": "Replace the interactive 'Scenario Checkpoint' quizzes with static text summaries.",
+      "observation": "Average session duration drops by another 15%. Users are now opening the modules and immediately closing them."
+    },
+    {
+      "turn": 8,
+      "action": "Disable the 'Leaderboard' feature entirely.",
+      "observation": "A team lead complains: 'My team has stopped logging in entirely. The little competition we had was the only thing keeping them awake through those 50-page policy docs.'"
+    },
+    {
+      "turn": 9,
+      "action": "Investigate if the 'Gamification' plugin has a background process that conflicts with the PDF reader.",
+      "observation": "No technical conflicts found. The text is perfectly legible, just formatted as large blocks of small font with no paragraph breaks."
+    },
+    {
+      "turn": 10,
+      "action": "Revert the platform to 'Classic Mode' (Text-only, no icons, no progress bars, plain HTML).",
+      "observation": "Completion rate hits 0% for the week. HR receives formal grievances about the training being 'cruel,' 'unengaging,' and 'impossible to finish.'"
+    }
+  ]
+}

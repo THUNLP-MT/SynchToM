@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open inventory and manually drop all 'Heavy Iron Ore' and 'Oak Logs'.",
+      "observation": "You drop the items. The character animation plays, but the frame rate continues to stutter heavily. The game remains unresponsive to inputs for split seconds."
+    },
+    {
+      "turn": 2,
+      "action": "Lower the 'Shadow Quality' and 'Texture Resolution' in the graphics settings.",
+      "observation": "The screen flickers as settings apply. The game looks worse, but the performance does not improve. RAM usage silently creeps up to 90%."
+    },
+    {
+      "turn": 3,
+      "action": "Search the keybinding menu for a 'Drop All' or 'Purge Inventory' hotkey.",
+      "observation": "There is no such hotkey. The menu cursor lags and trails behind the mouse movement due to the low frame rate."
+    },
+    {
+      "turn": 4,
+      "action": "Install a third-party mod called 'LootDestroyer' that automatically deletes grey and white quality items.",
+      "observation": "The mod installs and runs. You see notifications that 50 items were deleted. However, after 10 minutes of play, the game slows down to a crawl again."
+    },
+    {
+      "turn": 5,
+      "action": "Alt-Tab and check Windows Task Manager.",
+      "observation": "CPU usage is normal, but Memory (RAM) usage is critical, sitting at 98%. The game process is consuming 14GB of RAM."
+    },
+    {
+      "turn": 6,
+      "action": "Edit the 'LootDestroyer' mod config to delete ALL items, including Quest Items and Legendaries.",
+      "observation": "Your inventory is completely empty. The game stutters violently, freezes for 5 seconds, then resumes at 15 FPS. The memory leak has not been addressed."
+    },
+    {
+      "turn": 7,
+      "action": "Update the GPU drivers to the latest beta version.",
+      "observation": "Drivers updated. Upon relaunching and playing for an hour, the game begins to slide show again."
+    },
+    {
+      "turn": 8,
+      "action": "Locate the local save file `player_data.json` and set `max_carry_weight` to `999999`.",
+      "observation": "The game loads with the modified stat. You run smoothly for 45 minutes (because the app was restarted), but then the stuttering returns exactly as before as memory fills up."
+    },
+    {
+      "turn": 9,
+      "action": "Disconnect the ethernet cable to force the game into Offline Mode.",
+      "observation": "The game switches to offline mode. The stuttering persists and eventually leads to a crash to desktop with an 'Out of Memory' error."
+    },
+    {
+      "turn": 10,
+      "action": "Post a negative review on the store page titled 'Broken Encumbrance Mechanics'.",
+      "observation": "The review is posted. The game remains installed, but unplayable after long sessions due to the unresolved memory leak."
+    }
+  ]
+}

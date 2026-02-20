@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Generate a grading rubric for the Hooke's Law activity described in the lesson plan.",
+      "observation": "The system generates a rubric divided into four categories: 'Scientific Argumentation' (40%), 'Data Synthesis' (30%), 'Visual Presentation' (20%), and 'Collaboration' (10%). The criteria focus heavily on how well students use their data to persuade the audience of their findings."
+    },
+    {
+      "turn": 2,
+      "action": "Please add fields at the top for 'Team ID', 'Date', and 'Lab Station Number'.",
+      "observation": "The system updates the rubric with the requested header fields. The categories and weighting remain focused on argumentation and presentation."
+    },
+    {
+      "turn": 3,
+      "action": "Reviewing the categories, there is too much fluff about 'Argumentation' and 'Visuals'. Please replace the 'Scientific Argumentation' category with 'Experimental Procedure & Instrumentation'.",
+      "observation": "The system replaces the category but warns that the lesson plan explicitly culminates in a 'poster presentation to the class to argue for specific Hooke's Law ranges,' suggesting that argumentation is a key learning outcome."
+    },
+    {
+      "turn": 4,
+      "action": "Change the criteria for the new 'Experimental Procedure' section to specifically assess the 'Justification of Instrument Choice' and 'Setup Calibration'.",
+      "observation": "The system updates the criteria. The rubric now assesses instrument justification, but the remaining categories (Data Synthesis, Visual Presentation) still imply a focus on communication skills."
+    },
+    {
+      "turn": 5,
+      "action": "Ensure that the 'Data Synthesis' section requires students to report values with the correct number of significant figures based on their instrument precision.",
+      "observation": "The system adds a criterion for significant figures under 'Data Synthesis', noting that accurate data is necessary to support the final conclusion/argument."
+    },
+    {
+      "turn": 6,
+      "action": "Reduce the 'Visual Presentation' weight to 5% and increase 'Experimental Procedure' to 60%. The poster is just a wrapper; the grade must reflect the engineering design.",
+      "observation": "The system adjusts the weights. It prompts a reminder that with only 5% on presentation, students may not be incentivized to synthesize their findings into the persuasive format required by the lesson description."
+    },
+    {
+      "turn": 7,
+      "action": "Can you format the rubric to fit on a single landscape page?",
+      "observation": "The system reformats the document to fit on a single landscape page."
+    },
+    {
+      "turn": 8,
+      "action": "I see you still have 'Persuasiveness of Conclusion' in the bottom section. Remove that. Change it to 'Validity of Range Determination based on Equipment Sensitivity'.",
+      "observation": "The system makes the change. The rubric now looks almost entirely like a technical lab checklist, though the activity context remains a 'poster presentation'."
+    },
+    {
+      "turn": 9,
+      "action": "Under the 'Visual Presentation' section (the 5%), change the criteria to 'Accuracy of Schematic Diagrams' rather than 'Aesthetics'.",
+      "observation": "The system updates the visual section. The rubric now assesses technical diagrams rather than the communicative quality of the poster."
+    },
+    {
+      "turn": 10,
+      "action": "Finalize the rubric. Add a title at the very top: 'Assessment of Experimental Design and Instrumentation Competency'.",
+      "observation": "The system generates the final rubric with the requested title. The result is a highly technical engineering assessment tool that largely ignores the 'persuasive communication' aspect of the original lesson plan."
+    }
+  ]
+}

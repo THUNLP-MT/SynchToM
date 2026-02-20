@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Review the specific slide deck to identify exactly where the freeze happened.",
+      "observation": "You froze on the introductory slide, which only contained your name, title, and the presentation topic—information you know perfectly well."
+    },
+    {
+      "turn": 2,
+      "action": "Write out a full word-for-word script of the presentation.",
+      "observation": "You write the script easily without needing to look up any information. However, the thought of reading it out loud to the team makes your heart rate increase."
+    },
+    {
+      "turn": 3,
+      "action": "Drink a large coffee and stay up late to study the new script.",
+      "observation": "The caffeine makes you jittery. You can recite the script perfectly in your head, but when you try to say it aloud to your reflection, your voice shakes and you stumble."
+    },
+    {
+      "turn": 4,
+      "action": "Download a spaced-repetition flashcard app and input every sentence of the script.",
+      "observation": "You score 100% on the flashcards while sitting alone at your desk. You feel confident that the data is now in your memory."
+    },
+    {
+      "turn": 5,
+      "action": "Ask a colleague to sit in the room, but instruct them to remain absolutely silent and not look at me while I recite the script.",
+      "observation": "As soon as the colleague enters the room, your mind goes blank on the first sentence, even though you just got it right on the app 5 minutes ago."
+    },
+    {
+      "turn": 6,
+      "action": "Purchase noise-canceling headphones and a white noise machine.",
+      "observation": "With the headphones on and eyes closed, you recite the speech perfectly alone. You feel this confirms that external distractions are the enemy of your memory."
+    },
+    {
+      "turn": 7,
+      "action": "Record the speech and play it on a loop while sleeping.",
+      "observation": "You wake up groggy. When you walk into the empty conference room to test yourself, the sheer size of the room makes you feel small and you forget the transition to slide 2."
+    },
+    {
+      "turn": 8,
+      "action": "Search online for 'dietary supplements for cognitive decline and memory loss'.",
+      "observation": "The search results overwhelmingly suggest 'performance anxiety' and 'public speaking fear' as causes for blanking out, rather than dietary deficiencies."
+    },
+    {
+      "turn": 9,
+      "action": "Ignore the anxiety articles and search for 'Mnemonics for complex technical data'.",
+      "observation": "You find a complex 'Mind Palace' technique used by memory champions to memorize decks of cards."
+    },
+    {
+      "turn": 10,
+      "action": "Rewrite the entire presentation into a rhyme scheme to place into a 'Mind Palace'.",
+      "observation": "You spend hours rhyming 'quarterly projections' with 'orderly directions.' You have it memorized perfectly, yet the mere idea of performing this poem for your boss makes your stomach turn."
+    }
+  ]
+}

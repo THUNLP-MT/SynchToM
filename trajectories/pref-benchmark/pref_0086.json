@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Enable 'Low Power Mode' in system settings.",
+      "observation": "The game's frame rate drops slightly due to system throttling, but the device remains extremely hot and the battery percentage continues to tick down visibly every minute."
+    },
+    {
+      "turn": 2,
+      "action": "Check the 'Data Usage' statistics in the phone's settings menu.",
+      "observation": "The game is listed with moderate data usage, comparable to other apps, showing only a few megabytes transferred in the last hour."
+    },
+    {
+      "turn": 3,
+      "action": "Turn on Airplane Mode and launch the game again.",
+      "observation": "The game loads without internet (offline mode supported). The phone heats up rapidly, reaching the same high temperature as before within minutes of gameplay."
+    },
+    {
+      "turn": 4,
+      "action": "Lower screen brightness to the absolute minimum.",
+      "observation": "The screen is dim, making the game hard to see, but the back of the phone near the camera (where the GPU is located) remains burning hot."
+    },
+    {
+      "turn": 5,
+      "action": "Install 'NoRoot Firewall' and configure it to block all connections specifically for this game.",
+      "observation": "The firewall is active. The game runs, and the phone continues to overheat. The firewall log shows blocked attempts to reach ad servers (standard SDK behavior)."
+    },
+    {
+      "turn": 6,
+      "action": "Force stop the app and clear the cache.",
+      "observation": "Upon relaunching, the game stutters as it rebuilds shaders (causing a spike in GPU usage), and the device temperature rises immediately."
+    },
+    {
+      "turn": 7,
+      "action": "Revoke 'Storage' and 'Location' permissions for the app.",
+      "observation": "The game displays a prompt asking for permissions, which are denied. The game continues to run, and the device remains hot."
+    },
+    {
+      "turn": 8,
+      "action": "Close all other background apps and restart the phone.",
+      "observation": "The phone is cool after the restart. The moment the game is launched, the GPU engages at max clock speed, and the phone heats up within seconds."
+    },
+    {
+      "turn": 9,
+      "action": "Search Google for '[Game Name] hidden crypto miner spyware'.",
+      "observation": "Search results show forums discussing 'poor optimization', 'memory leaks', and 'high GPU usage', but no verified reports of spyware or mining."
+    },
+    {
+      "turn": 10,
+      "action": "Uninstall the game and leave a 1-star review warning about 'hidden mining scripts'.",
+      "observation": "The application is removed. The phone's temperature returns to normal levels."
+    }
+  ]
+}

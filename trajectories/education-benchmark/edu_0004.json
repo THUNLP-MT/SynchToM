@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "I clap my hands twice to cut off the student sharing a story about their teddy bear and immediately point to the globe.",
+      "observation": "The student stops talking mid-sentence, looking confused. The rest of the class looks at the globe, but then back at the student who was speaking."
+    },
+    {
+      "turn": 2,
+      "action": "I use a standard '1-2-3, eyes on me' call-and-response technique to ensure everyone is looking at the front of the room.",
+      "observation": "The students respond '1-2, eyes on you,' and quiet down, waiting for the lesson to continue."
+    },
+    {
+      "turn": 3,
+      "action": "I shine a flashlight on the globe and spin it, asking, 'What is the Earth doing physically right now?'",
+      "observation": "A student raises their hand and asks, 'Is the Earth turning around to go to sleep?'"
+    },
+    {
+      "turn": 4,
+      "action": "I shake my head and say, 'No, the Earth is a rock, it doesn't sleep. It rotates on an axis.' I then write the word 'AXIS' on the board.",
+      "observation": "The students look blank. One student whispers to another, 'But the poster says Living Things...'"
+    },
+    {
+      "turn": 5,
+      "action": "I move a student who is fidgeting with their shoelaces to a seat closer to the whiteboard.",
+      "observation": "The student sits in the new spot but stares at the floor."
+    },
+    {
+      "turn": 6,
+      "action": "I ask the class again, 'So, looking at the globe, why does the sun set?' expecting them to reference the spin.",
+      "observation": "Several students shout out, 'Because it's night time!' and 'Because we have to go to bed!'"
+    },
+    {
+      "turn": 7,
+      "action": "I sigh and say, 'Forget about bed. Look at the spin.' I spin the globe faster. 'It sets because of Rotation. Say Rotation.'",
+      "observation": "The class chants 'Rotation' in a singsong voice, but they are looking at the pictures of nocturnal animals on the side wall."
+    },
+    {
+      "turn": 8,
+      "action": "I ask for a thumbs-up/thumbs-down check: 'Show me a thumbs up if you know what the Earth is doing.'",
+      "observation": "Most students give a thumbs up, but when called upon, a student says, 'The Earth is spinning so the owls can wake up.'"
+    },
+    {
+      "turn": 9,
+      "action": "I walk over to the 'Nocturnal Animals' poster on the side wall and stand in front of it, blocking their view, while pointing back to the globe.",
+      "observation": "The students look disappointed. The connection they were making between the cycle and the animals is severed, leaving them confused about the relevance of the spinning globe."
+    },
+    {
+      "turn": 10,
+      "action": "I hand out a worksheet that only has diagrams of spheres and arrows, with no pictures of animals or people, and tell them to draw the axis.",
+      "observation": "The students start the worksheet. Many of them draw smiley faces on the sun and sleeping caps on the Earth, continuing to try to bridge the gap I am refusing to acknowledge."
+    }
+  ]
+}

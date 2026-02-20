@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Distribute assessment worksheets specifically printed on high-precision graph paper and instruct students to take out their rulers and protractors immediately.",
+      "observation": "Students spend time aligning their rulers. Most produce neat lines but leave the 'Explanation' section blank or write vague phrases like 'the light is blocked'."
+    },
+    {
+      "turn": 2,
+      "action": "Project a sample answer key on the board that highlights the exact angles of the light rays, pointing out that the lines must be perfectly straight.",
+      "observation": "Students dutifully copy the straight lines from the board. When asked a follow-up question about why the shadow is fuzzy, a student answers, 'Because the lines cross over each other.'"
+    },
+    {
+      "turn": 3,
+      "action": "Walk around the room and check that every student is using a sharp pencil, offering a sharpener to those with dull points.",
+      "observation": "Students sharpen their pencils. They continue to struggle to articulate the relationship between the light source size and the shadow quality."
+    },
+    {
+      "turn": 4,
+      "action": "Interrupt the class to demonstrate 'parallex error' when reading a ruler and how to avoid it when drawing the ray from the source to the obstacle.",
+      "observation": "Students re-draw their lines with extreme care. One student asks, 'I drew it right, but I don't know how to describe the difference in words.'"
+    },
+    {
+      "turn": 5,
+      "action": "Instruct students to swap papers with a partner and check if the ray lines are perfectly straight and if the arrowheads are in the middle of the rays.",
+      "observation": "Partners point out crooked lines. They ignore the written justification section entirely, assuming the drawing is the only part that matters."
+    },
+    {
+      "turn": 6,
+      "action": "Draw two diagrams on the whiteboard: one with a point source and one with an extended source, using different colored markers for the rays (red) and the shadow (blue).",
+      "observation": "Students copy the colors. When asked to summarize the principle of rectilinear propagation, they write, 'The red lines make the blue shadow.'"
+    },
+    {
+      "turn": 7,
+      "action": "Dim the classroom lights to increase the contrast of the projector screen.",
+      "observation": "Students squint at the board. They can see the diagram clearly but still cannot formulate a verbal argument for the phenomenon."
+    },
+    {
+      "turn": 8,
+      "action": "Hand out a 'Checklist for Optical Schematics' that includes items like 'Rays originate from source edges', 'Rays are tangent to object', and 'Shadow region hatched'.",
+      "observation": "Students check every box. Their drawings are mechanically perfect. Their written explanations remain circular: 'The shadow is fuzzy because it is a penumbra.'"
+    },
+    {
+      "turn": 9,
+      "action": "Give students a 5-minute warning to finish their work, reminding them to double-check their geometry.",
+      "observation": "Students frantically erase and re-draw lines to make them darker. They do not spend any time refining their written hypothesis."
+    },
+    {
+      "turn": 10,
+      "action": "Announce that for the final grade, the accuracy of the ray diagram will count for 90% of the score, and the written explanation will be extra credit.",
+      "observation": "Students stop trying to write explanations altogether. The assessment results result in high scores for drawing, but zero evidence that students can verbally justify the phenomenon using scientific theory."
+    }
+  ]
+}

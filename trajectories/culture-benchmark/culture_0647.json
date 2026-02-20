@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Survey the layout of the fermentation yard, specifically noting the distance between the office and the vats.",
+      "observation": "The yard is expansive. Workers move briskly between vats. There are no digital displays visible in the yard."
+    },
+    {
+      "turn": 2,
+      "action": "Ask the floor manager about the typical protocol for exchanging business gifts during the New Year season.",
+      "observation": "The manager explains that gifts are usually exchanged with two hands and opened later, focusing on red envelopes and food items."
+    },
+    {
+      "turn": 3,
+      "action": "Inquire about the strictness of the fermentation timelines and how deviations affect product quality.",
+      "observation": "The master brewer emphasizes that timing is everything; a difference of an hour can alter the flavor profile significantly."
+    },
+    {
+      "turn": 4,
+      "action": "Compliment the aesthetic design of the office lobby and ask about the significance of the calligraphy on the wall.",
+      "observation": "They explain the calligraphy represents 'Harmony' and 'Patience'. The atmosphere is formal."
+    },
+    {
+      "turn": 5,
+      "action": "Comment on the challenge of modernizing traditional industries while maintaining heritage.",
+      "observation": "The recipient nods enthusiastically, agreeing that efficiency is necessary to survive in the global market."
+    },
+    {
+      "turn": 6,
+      "action": "Ask if the production team holds daily stand-up meetings or shift briefings.",
+      "observation": "Yes, they have a morning assembly in the main yard at 8:00 AM sharp."
+    },
+    {
+      "turn": 7,
+      "action": "Draft a preliminary sentence for the note: 'May this gift serve as a reminder of our shared commitment to precision.'",
+      "observation": "The translator pauses and suggests using the word 'Endurance' or 'Longevity' instead of 'Precision' to sound more auspicious."
+    },
+    {
+      "turn": 8,
+      "action": "Examine the wall space near the main production schedule board.",
+      "observation": "The wall is crowded with clipboards and safety notices. A worker looks confused by the scrutiny of the notice board."
+    },
+    {
+      "turn": 9,
+      "action": "Suggest that the gift would be most useful if placed in a high-traffic area where the brewing team can see it easily.",
+      "observation": "There is a brief, awkward silence. The recipient laughs nervously and says it might be safer in the private office."
+    },
+    {
+      "turn": 10,
+      "action": "Finalize the note with the phrase: 'Wishing you a synchronized and productive year ahead.'",
+      "observation": "The recipient accepts the note with a polite bow, though they do not read it immediately."
+    }
+  ]
+}

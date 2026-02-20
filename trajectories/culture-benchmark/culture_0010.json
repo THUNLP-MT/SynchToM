@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Scan the surrounding tables to assess the general noise level and atmosphere of the establishment.",
+      "observation": "The restaurant is relatively quiet and traditional, except for the one table where the diner is gesturing at the pizza."
+    },
+    {
+      "turn": 2,
+      "action": "Smile politely at the gesturing diner and raise a water glass in a brief, neutral toast.",
+      "observation": "The diner pauses, looks confused by the toast, shakes his head vigorously, and points back at the pizza."
+    },
+    {
+      "turn": 3,
+      "action": "Pick up the menu and compare the photo of the 'Pizza Hawaiana' with the actual pizza on the diner's table.",
+      "observation": "The pizza on the table matches the menu description perfectly, loaded with pineapple and ham."
+    },
+    {
+      "turn": 4,
+      "action": "Signal the waiter and ask, 'Is this the most popular item on the menu for tourists?'",
+      "observation": "The waiter looks uncomfortable, glances at the loud diner, and says, 'It is... ordered often by visitors, yes.'"
+    },
+    {
+      "turn": 5,
+      "action": "Lean forward and inspect the crust of the pizza on the nearby table without touching it.",
+      "observation": "The crust appears perfectly cooked. The diner waves his hands over the toppings specifically, shouting something that sounds like 'Sacrilegio!'"
+    },
+    {
+      "turn": 6,
+      "action": "Offer the diner the chili oil and parmesan cheese shakers from my own table.",
+      "observation": "The diner looks affronted, pushes the condiments away, and covers his eyes with one hand while pointing at the pineapple."
+    },
+    {
+      "turn": 7,
+      "action": "Laugh audibly and say to the waiter, 'He really has a lot of passion for his food, doesn't he?'",
+      "observation": "The waiter sighs deeply and replies, 'It is a very... emotional topic here.'"
+    },
+    {
+      "turn": 8,
+      "action": "Mimic the diner's hand gesture loosely while looking at the menu, then point to the pineapple topping listed.",
+      "observation": "The diner sees the mimicry, throws his hands up in the air as if giving up, and turns away muttering."
+    },
+    {
+      "turn": 9,
+      "action": "Ask the waiter, 'Can we get this one out quickly? We are quite hungry.'",
+      "observation": "The waiter nods and pulls out his notepad, ready to take the order."
+    },
+    {
+      "turn": 10,
+      "action": "Point to the loud diner's table and say to the waiter, 'I'll have another one of those, please. Exactly like that.'",
+      "observation": "The waiter freezes, looks at the Italian diner (who is now holding his head in his hands), and reluctantly writes down the order."
+    }
+  ]
+}

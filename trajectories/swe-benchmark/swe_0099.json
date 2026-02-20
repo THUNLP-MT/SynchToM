@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Modify `DJ_RegLogin/models.py`: Change `category = models.ForeignKey(Category, ...)` to `category = models.ForeignKey('DJ_RegLogin.Category', ...)` and run `makemigrations`.",
+      "observation": "ValueError: Field 'DJ_RegLogin.Content.category' refers to lazy reference 'dj_reglogin.category', but app 'dj_reglogin' isn't installed. Available apps: ['DJ_RegLogin', ...]."
+    },
+    {
+      "turn": 2,
+      "action": "Open `settings.py` and inspect `INSTALLED_APPS`.",
+      "observation": "The `INSTALLED_APPS` list contains exactly `'DJ_RegLogin'` (MixedCase). There are no duplicates or lowercase variants."
+    },
+    {
+      "turn": 3,
+      "action": "Modify `DJ_RegLogin/models.py`: Change the ForeignKey to `category = models.ForeignKey('Category', ...)` (relative import) and run `makemigrations`.",
+      "observation": "ValueError: Field 'DJ_RegLogin.Content.category' refers to lazy reference 'dj_reglogin.category', but app 'dj_reglogin' isn't installed."
+    },
+    {
+      "turn": 4,
+      "action": "Open `DJ_RegLogin/apps.py` and ensure the `AppConfig` class has `name = 'DJ_RegLogin'`.",
+      "observation": "`apps.py` already contains `name = 'DJ_RegLogin'`. The configuration appears correct."
+    },
+    {
+      "turn": 5,
+      "action": "Run `find . -name '*.pyc' -delete` and `rm -rf DJ_RegLogin/__pycache__`, then run `makemigrations`.",
+      "observation": "ValueError: Field 'DJ_RegLogin.Content.category' refers to lazy reference 'dj_reglogin.category', but app 'dj_reglogin' isn't installed."
+    },
+    {
+      "turn": 6,
+      "action": "Modify `DJ_RegLogin/models.py`: Change the ForeignKey to `category = models.ForeignKey('DJ_RegLogin.Category', related_name='contents', ...)` and run `makemigrations`.",
+      "observation": "ValueError: Field 'DJ_RegLogin.Content.category' refers to lazy reference 'dj_reglogin.category', but app 'dj_reglogin' isn't installed."
+    },
+    {
+      "turn": 7,
+      "action": "Delete all files in `DJ_RegLogin/migrations/` (except `__init__.py`) and run `makemigrations`.",
+      "observation": "ValueError: Field 'DJ_RegLogin.Content.category' refers to lazy reference 'dj_reglogin.category', but app 'dj_reglogin' isn't installed."
+    },
+    {
+      "turn": 8,
+      "action": "Modify `DJ_RegLogin/models.py`: Change the ForeignKey to `category = models.ForeignKey('DJ_REGLOGIN.Category', ...)` (All Caps) and run `makemigrations`.",
+      "observation": "ValueError: Field 'DJ_RegLogin.Content.category' refers to lazy reference 'dj_reglogin.category', but app 'dj_reglogin' isn't installed."
+    },
+    {
+      "turn": 9,
+      "action": "Modify `DJ_RegLogin/models.py`: Import `apps` and change the ForeignKey to use `category = models.ForeignKey(apps.get_model('DJ_RegLogin', 'Category'), ...)`.",
+      "observation": "ValueError: Field 'DJ_RegLogin.Content.category' refers to lazy reference 'dj_reglogin.category', but app 'dj_reglogin' isn't installed. (The deconstruct method turns the resolved model back into a string and lowercases it again)."
+    },
+    {
+      "turn": 10,
+      "action": "Modify `DJ_RegLogin/models.py`: Comment out the `category` field entirely, run `makemigrations`, then uncomment it and run `makemigrations` again.",
+      "observation": "The first `makemigrations` succeeds (removing the field). The second `makemigrations` (adding the field back) fails with: ValueError: Field 'DJ_RegLogin.Content.category' refers to lazy reference 'dj_reglogin.category', but app 'dj_reglogin' isn't installed."
+    }
+  ]
+}

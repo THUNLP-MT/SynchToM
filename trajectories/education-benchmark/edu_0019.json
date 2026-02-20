@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Explain that in clinical practice, bacterial density alone is not an indication for a prescription, referencing the principles of Antibiotic Stewardship.",
+      "observation": "The student looks at the diagram of the healthy gut flora and asks, 'But isn't it dangerous to leave that much infection untreated? Shouldn't we take something before they spread?'"
+    },
+    {
+      "turn": 2,
+      "action": "Detail the mechanism of 'colonization resistance' and explain that prescribing antibiotics here would actually disrupt the protective barrier.",
+      "observation": "The student frowns and points to a cluster of bacteria near the epithelium. 'So we just wait until they start eating the wall to kill them?'"
+    },
+    {
+      "turn": 3,
+      "action": "Ask the student to identify the specific bacterial morphologies visible in the highlighted section of the diagram.",
+      "observation": "The student points to the standard rod-shaped bacteria. 'I see the germs. There are millions of them right on the skin of the gut.'"
+    },
+    {
+      "turn": 4,
+      "action": "Explain the pharmacodynamics of beta-lactams versus bacteriostatic agents, emphasizing that drugs target specific cellular machinery (like cell walls) which requires active replication.",
+      "observation": "The student looks confused. 'But why are there so many allowed to stay there if they are potential killers? Why doesn't the body reject them?'"
+    },
+    {
+      "turn": 5,
+      "action": "Discuss the concept of 'Immune Tolerance' and how the mucosal immune system distinguishes between commensals and pathogens.",
+      "observation": "The student shakes their head. 'I just mean... is there a pill to wipe them all out so the gut is clean?'"
+    },
+    {
+      "turn": 6,
+      "action": "Ask the student to define 'sterilization' versus 'sanitization' in a clinical context.",
+      "observation": "The student replies, 'Sterilization means getting rid of all the bacteria. Like, making it healthy again.'"
+    },
+    {
+      "turn": 7,
+      "action": "Lectures sternly on the dangers of 'sterilizing' the gut, referencing Clostridioides difficile (C. diff) superinfections as a consequence of broad-spectrum therapy.",
+      "observation": "The student looks horrified. 'You mean the medicine puts *more* bacteria in? I thought it killed them.'"
+    },
+    {
+      "turn": 8,
+      "action": "Use a 'Garden Analogy': explain that antibiotics are like weed killers, and you don't want to destroy the flowers just to prevent a few weeds.",
+      "observation": "The student looks at the diagram of the gut lining again. 'But in this picture... aren't they all weeds? They're all bacteria.'"
+    },
+    {
+      "turn": 9,
+      "action": "Interpret 'all weeds' as a reference to Small Intestinal Bacterial Overgrowth (SIBO) and explain the specific indication for Rifaximin.",
+      "observation": "The student sighs deeply. 'I just don't understand why a healthy person has germs inside them at all. It seems gross.'"
+    },
+    {
+      "turn": 10,
+      "action": "Explain the concept of 'Asymptomatic Carrier' states (like Typhoid Mary) and the difference between pathogenicity and virulence.",
+      "observation": "The student gives up and writes down 'Antibiotics don't work on stomach bugs' in their notebook, completely misunderstanding the lesson."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Maintain a polite smile but keep hands clasped behind back, scanning the giver's facial expression for any signs of irony.",
+      "observation": "The giver smiles warmly and holds the box out further, seemingly unaware of any tension."
+    },
+    {
+      "turn": 2,
+      "action": "Look around the room to observe what gifts other guests are exchanging.",
+      "observation": "Other guests are holding envelopes and fruit baskets; no one else seems to be holding a box of this shape."
+    },
+    {
+      "turn": 3,
+      "action": "Inquire politely, 'Is this a vintage piece? The packaging looks quite distinct.'",
+      "observation": "The giver explains it is a brand new, high-precision desk clock intended for the modern office."
+    },
+    {
+      "turn": 4,
+      "action": "Ask about the local customs regarding gift-giving etiquette in this specific professional circle.",
+      "observation": "The giver mentions that practical gifts are highly valued in this company's culture."
+    },
+    {
+      "turn": 5,
+      "action": "Take a small step back and compliment the wrapping paper's color, noting its festive nature.",
+      "observation": "The giver looks slightly confused by the step back but nods at the compliment regarding the wrapping."
+    },
+    {
+      "turn": 6,
+      "action": "Ask, 'Did you select this personally, or was it chosen by a corporate committee?'",
+      "observation": "The giver proudly states they chose it personally because they know punctuality is important."
+    },
+    {
+      "turn": 7,
+      "action": "Comment that the room is quite warm and suggest moving slightly toward the open terrace.",
+      "observation": "The giver agrees to move but brings the gift with them, continuing the offer."
+    },
+    {
+      "turn": 8,
+      "action": "Mention with a light laugh, 'I have heard that in some traditions, counting the hours during a celebration can be seen as rushing the joy away.'",
+      "observation": "The giver chuckles and says time flies when you're having fun, missing the deeper implication."
+    },
+    {
+      "turn": 9,
+      "action": "Reach into pocket and touch a coin, then ask, 'Is there perhaps a symbolic price for such a valuable item?'",
+      "observation": "The giver looks puzzled and insists it is a free gift, not a transaction."
+    },
+    {
+      "turn": 10,
+      "action": "Bow slightly with hands still clasped and state, 'I am deeply honored, but I have a strict personal superstition about accepting timepieces during the New Year. I must respectfully decline.'",
+      "observation": "The giver looks surprised but slowly lowers the box, accepting the refusal."
+    }
+  ]
+}

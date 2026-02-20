@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Smile briefly at the colleague and return focus to the boiling water.",
+      "observation": "The colleague stands frozen, staring wide-eyed at the pot of water."
+    },
+    {
+      "turn": 2,
+      "action": "Adjust the heat on the stove to maintain a steady rolling boil.",
+      "observation": "The colleague remains silent, their gaze shifting between the pot and the remaining dry noodles."
+    },
+    {
+      "turn": 3,
+      "action": "Gesture casually towards the sauce pan on the back burner.",
+      "observation": "The colleague ignores the sauce and takes a small step closer to the pasta station."
+    },
+    {
+      "turn": 4,
+      "action": "Laugh lightly and say, 'It is a bit of a tight squeeze in this kitchen.'",
+      "observation": "The colleague whispers something inaudible and brings a hand to their chest."
+    },
+    {
+      "turn": 5,
+      "action": "Stir the noodles already in the pot with a wooden spoon.",
+      "observation": "The colleague winces slightly as the broken noodles swirl around."
+    },
+    {
+      "turn": 6,
+      "action": "Look at the colleague inquisitively and ask, 'Do you prefer al dente?'",
+      "observation": "The colleague shakes their head slowly, looking looking slightly pale."
+    },
+    {
+      "turn": 7,
+      "action": "Pick up the remaining bundle of long spaghetti and hold it horizontally over the pot.",
+      "observation": "The colleague's eyes widen further and they let out a sharp breath."
+    },
+    {
+      "turn": 8,
+      "action": "Shrug playfully and say, 'Sometimes you have to get creative with the tools you have.'",
+      "observation": "The colleague closes their eyes for a moment, looking resigned."
+    },
+    {
+      "turn": 9,
+      "action": "Nod confidently at the pot and say, 'It cooks much more evenly when it's all submerged immediately.'",
+      "observation": "The colleague opens their eyes and looks at the user with an expression of disbelief."
+    },
+    {
+      "turn": 10,
+      "action": "Smile broadly, say 'Glad you appreciate the trick!', and snap the remaining bundle in half over the pot.",
+      "observation": "The colleague turns away abruptly and walks out of the kitchen."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Request a complex, multi-stage case study involving all the current vocabulary terms.",
+      "observation": "The system provides a case study. When attempting the first step, you are unable to proceed because you cannot recall the definition of the primary terms required to understand the prompt."
+    },
+    {
+      "turn": 2,
+      "action": "Search for YouTube videos titled 'Practical applications of [Subject] in Fortune 500 companies'.",
+      "observation": "The videos feature experts discussing the topic fluently. You enjoy the visuals, but you struggle to follow the narration because they use the specific terminology you haven't memorized without pausing to define it."
+    },
+    {
+      "turn": 3,
+      "action": "Attempt to solve the case study again, but this time keeping the textbook open to look up every single word as I go.",
+      "observation": "The process is excruciatingly slow. You spend 95% of the time looking up basic definitions. By the time you find a definition, you have forgotten the context of the problem you were trying to solve."
+    },
+    {
+      "turn": 4,
+      "action": "Switch from the provided textbook to a 'For Dummies' style alternative blog post.",
+      "observation": "The blog post uses the same standard vocabulary because they are industry-standard terms. It assumes the reader knows the basics. You still cannot recall the specific differences between similar terms."
+    },
+    {
+      "turn": 5,
+      "action": "Create a complex mind-map connecting the terms to a hypothetical startup business idea I have.",
+      "observation": "You spend 3 hours drawing the map. However, you mislabel several key connections because you don't actually know the precise definitions of the terms, leading to a logically flawed diagram."
+    },
+    {
+      "turn": 6,
+      "action": "Ignore the 'Vocabulary Drill' module and jump straight to the 'Advanced Simulation' module.",
+      "observation": "The simulation loads and immediately asks you to 'Configure the X parameter based on the Y constraint.' You do not know what X or Y are. You fail the simulation in 30 seconds."
+    },
+    {
+      "turn": 7,
+      "action": "Download a new, expensive software tool that professionals use, thinking the interface will be more intuitive.",
+      "observation": "The professional tool has no tooltips and relies entirely on the user knowing the standard nomenclature. You are overwhelmed by the menu options and cannot navigate past the setup screen."
+    },
+    {
+      "turn": 8,
+      "action": "Search for 'Why is [Subject] terminology so unintuitive?' on forums.",
+      "observation": "Search results are mostly from students asking how to memorize the terms. The top answers consistently recommend 'Spaced Repetition Systems (Anki)' and 'Flashcards', which you skim past."
+    },
+    {
+      "turn": 9,
+      "action": "Attempt to rewrite the case study prompts into 'plain English' effectively renaming the terms to things that make sense to me.",
+      "observation": "You successfully rewrite the problem and solve it using your own made-up words. However, when you return to the progress check, you fail immediately because the test asks for the standard terminology, not your personal nicknames."
+    },
+    {
+      "turn": 10,
+      "action": "Look for a 'Project-Based Learning' tutor who promises 'No Theory, Just Code/Action'.",
+      "observation": "You find a tutor. In the first session, the tutor asks you to perform a basic action using the standard terminology. You stare blankly. The tutor pauses and suggests, 'Maybe we should review the flashcards first?'"
+    }
+  ]
+}

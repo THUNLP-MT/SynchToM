@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Arrange the physical layout of the room so the 'Cell Cycle Diagram' is at the front entrance, while the 'Vocabulary Puzzle' and 'Case Studies' are placed in the back corners.",
+      "observation": "Students enter and crowd around the Diagram station. They pick up the worksheets but immediately start whispering to each other, asking what terms like 'interphase' and 'cytokinesis' mean. No one is writing."
+    },
+    {
+      "turn": 2,
+      "action": "Check the photocopies of the Cell Cycle Diagram for clarity and resolution.",
+      "observation": "The copies are high-contrast and perfectly legible. Students are still stalled, and a few have wandered over to the Vocabulary Puzzle station in the back, where they immediately start matching terms successfully."
+    },
+    {
+      "turn": 3,
+      "action": "Verbally announce to the class that everyone must complete the Diagram worksheet before touching any other materials.",
+      "observation": "Students at the Puzzle station reluctantly return to the Diagram. The room is quiet, but hands start going up. A student asks, 'How can I label the G0 phase if I don't know what differentiation is?'"
+    },
+    {
+      "turn": 4,
+      "action": "Draw a simplified version of the Cell Cycle on the whiteboard, highlighting the arrows connecting the phases.",
+      "observation": "Students copy the drawing but still cannot answer the worksheet questions which require conceptual understanding of the phases. They continue to guess randomly at the labels."
+    },
+    {
+      "turn": 5,
+      "action": "Distribute sets of colored pencils to the Diagram station.",
+      "observation": "Students enjoy coloring the circles but still leave the explanatory sections blank. The noise level rises as they discuss unrelated topics, effectively treating this as an art break rather than a biology lesson."
+    },
+    {
+      "turn": 6,
+      "action": "Confiscate the Vocabulary Puzzles temporarily and place them on the teacher's desk.",
+      "observation": "Frustration mounts. Students stop working entirely. One student puts their head down. The group attempting the Case Studies (who skipped the diagram) is also stuck, unable to link p53 mutations to the cell cycle without the definitions."
+    },
+    {
+      "turn": 7,
+      "action": "Walk around the room and inspect the ventilation and temperature.",
+      "observation": "The room temperature is normal. The students are not lethargic; they are confused and disengaged because the task feels impossible without the prerequisite knowledge."
+    },
+    {
+      "turn": 8,
+      "action": "Project a detailed animation of mitosis alongside the static diagram.",
+      "observation": "Students watch the animation passively. When asked to describe what is happening using the lesson vocabulary, they use lay terms like 'splitting' and 'growing' instead of the required scientific terminology."
+    },
+    {
+      "turn": 9,
+      "action": "Re-write the Diagram worksheet instructions to include the phrase: 'Observe the structure to deduce the function.'",
+      "observation": "Students read the new instruction and look baffled. They cannot deduce the function of a 'checkpoint' just by looking at a line on a diagram without knowing what a checkpoint is conceptually."
+    },
+    {
+      "turn": 10,
+      "action": "Assign the Diagram worksheet as homework and lecture on the importance of Linnaean taxonomy structures.",
+      "observation": "The bell rings. Students leave frustrated. The few who attempted the homework later fail because they still lack the vocabulary scaffold, leading to a breakdown in the entire unit's progression."
+    }
+  ]
+}

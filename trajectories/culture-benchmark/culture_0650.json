@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "I stare at the broken twig, frown, and ask bluntly, \"Is this your way of telling me the deal is off? Why are you breaking the agreement now?\"",
+      "observation": "The associate looks momentarily confused by your aggressive tone, then smiles gently and says, \"No, no contract change. We are just... very sad to see you go. It is hard to say goodbye.\""
+    },
+    {
+      "turn": 2,
+      "action": "I pull out my phone and frantically refresh my corporate email, checking for any formal termination notices or legal briefs from their side.",
+      "observation": "There are no new emails. The associate waits patiently, pouring a cup of tea and placing it near the twig."
+    },
+    {
+      "turn": 3,
+      "action": "I put the phone away and lean in. \"If it's not a legal issue, is it the pricing? I can see you're unhappy about the 'parting', but breaking the deal isn't the solution. Let's discuss the numbers.\"",
+      "observation": "The associate shakes his head. \"Price is good. Value is good. It is just... the sentiment. In China, we value the time together.\""
+    },
+    {
+      "turn": 4,
+      "action": "I nod slowly, interpreting 'sentiment' as 'company culture clash'. \"I understand. Sometimes cultures don't mesh. If we are dissolving the partnership, we need to discuss the severance terms and exit clauses immediately.\"",
+      "observation": "The associate looks shocked. \"Dissolve? No, please. This...\" He gestures emphatically to the snapped willow twig. \"This is because we want you to stay. Or return soon.\""
+    },
+    {
+      "turn": 5,
+      "action": "I glance around the conference room, looking for other executives, lawyers, or perhaps a hidden camera crew.",
+      "observation": "The room is empty except for the two of you. Outside the window, the modern skyline stands tall and quiet."
+    },
+    {
+      "turn": 6,
+      "action": "I push the twig back across the table. \"You say you want me to 'stay', but you hand me a broken stick. That sends a conflicting message. If you want to retain our business, you need to stop speaking in riddles and sign the renewal.\"",
+      "observation": "The associate sighs, picking up the twig tenderly. \"It is 'Liu'. Willow. Sounds like 'stay'. Ancient custom. For friends traveling far.\""
+    },
+    {
+      "turn": 7,
+      "action": "I scoff incredulously. \"'Liu'? You're naming the stick? Look, I don't have time for folklore. If this 'Liu' represents a third party or a competitor you're breaking us for, just tell me their name.\"",
+      "observation": "The associate looks pained and tries to hand the twig to you again. \"No competitor. Just... please, keep this. So you remember to come back.\""
+    },
+    {
+      "turn": 8,
+      "action": "I take the twig and examine it closely, looking for rot, insect damage, or if it's a specific type of cheap wood.",
+      "observation": "It is a fresh, flexible, green willow branch, snapped cleanly from a living tree. It smells faintly of spring."
+    },
+    {
+      "turn": 9,
+      "action": "I drop the twig on the table with a thud. \"I won't accept this. I'm not taking a broken piece of wood back to headquarters as a souvenir of a failed negotiation. We are leaving now.\"",
+      "observation": "The associate stands up, looking defeated. \"The road is long. Take care of yourself on the journey.\""
+    },
+    {
+      "turn": 10,
+      "action": "I stand up, straighten my suit, and say coldly, \"I'll inform my legal team that you've terminated the relationship. Don't expect us to return.\" I walk out.",
+      "observation": "The associate stands alone in the room, holding the green willow twig, watching you leave with a look of deep regret."
+    }
+  ]
+}

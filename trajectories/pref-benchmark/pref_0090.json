@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open the character status screen and meticulously check the Strength and Attack Power stats.",
+      "observation": "Status screen shows: Level 45, Strength 88 (Very High). A tutorial tooltip flashes in the corner: 'Don't forget to visit the Altar to remove weak cards from your deck!'"
+    },
+    {
+      "turn": 2,
+      "action": "Restart the game client completely.",
+      "observation": "Game reloads. The user enters combat and draws a hand full of 'Rusty Strike' (3 DMG) and 'Stumble' (0 DMG) cards."
+    },
+    {
+      "turn": 3,
+      "action": "Unequip the 'Dragon Slayer Greatsword' and re-equip it, then attack the enemy again.",
+      "observation": "User plays a 'Rusty Strike' card. The animation shows the Greatsword swinging, but the damage number pops up as '5' (3 Base + 2 Passive). The enemy has 2000 HP."
+    },
+    {
+      "turn": 4,
+      "action": "Enable 'Show Verbose Combat Logs' in the settings and analyze the damage formula output.",
+      "observation": "Log reads: [Action: Rusty Strike] -> [Base: 3] + [Passive Bonus: 2] = [Total: 5]. The log does not mention the Greatsword stats because 'Rusty Strike' does not scale with weapon damage."
+    },
+    {
+      "turn": 5,
+      "action": "Check internet connection and switch to a wired ethernet connection.",
+      "observation": "Connection is stable. Latency is 15ms. The user draws another hand containing 4 'Rusty Strikes' and 1 'Defend'."
+    },
+    {
+      "turn": 6,
+      "action": "Attack a Level 1 rat in the starting zone.",
+      "observation": "User plays 'Rusty Strike'. Damage is 5. The rat dies because it only had 4 HP. User interprets this as 'still broken' because a level 45 character should be doing thousands of damage, not 5."
+    },
+    {
+      "turn": 7,
+      "action": "Update graphics drivers and verify game file integrity via the launcher.",
+      "observation": "All files validated successfully. Drivers updated. Upon logging back in, the 'Deck Manager' button glows, indicating 30/30 cards (25 of which are starter trash)."
+    },
+    {
+      "turn": 8,
+      "action": "Open the in-game bug reporting tool and submit a ticket about 'Damage Cap Glitch'.",
+      "observation": "Automated response: 'Tip: Damage is determined by the cards in your hand. Try finding rarer cards to utilize your stats!'"
+    },
+    {
+      "turn": 9,
+      "action": "Search the settings menu for a 'Legacy Combat' or 'Auto-Battle' mode.",
+      "observation": "No such settings exist. The user ignores the 'Edit Deck' screen which shows high-damage cards sitting in the reserve pile, never being drawn because the deck is diluted."
+    },
+    {
+      "turn": 10,
+      "action": "Post a negative review claiming the game is 'Unplayable/Broken' and close the application.",
+      "observation": "The game closes. The user's save file remains with a 30-card deck containing only 2 actual attack cards and 28 starter cards."
+    }
+  ]
+}

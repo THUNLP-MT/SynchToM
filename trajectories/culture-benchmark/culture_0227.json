@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Attempt to insert the physical key into the right-front door handle.",
+      "observation": "The handle is smooth chrome. There is no visible keyhole on the right-hand door handle."
+    },
+    {
+      "turn": 2,
+      "action": "Run fingers along the underside of the right door handle.",
+      "observation": "The surface is completely smooth; there is no hidden slot or mechanism felt."
+    },
+    {
+      "turn": 3,
+      "action": "Wipe the sunglasses with a shirt hem and put them back on.",
+      "observation": "Vision is clearer. The imperial palace walls look vibrant red. The car handle remains visibly keyhole-less."
+    },
+    {
+      "turn": 4,
+      "action": "Pry at the small plastic cap on the end of the right door handle with a fingernail.",
+      "observation": "The plastic piece is solid and molded into the handle assembly. It does not budge or detach. A fingernail bends painfully."
+    },
+    {
+      "turn": 5,
+      "action": "Check the license plate of the car.",
+      "observation": "The license plate matches the rental agreement. It is a blue plate with white characters (standard Chinese license plate)."
+    },
+    {
+      "turn": 6,
+      "action": "Peer through the right-side window, cupping hands to block the light.",
+      "observation": "The steering wheel is clearly visible on the LEFT side of the cabin. The dashboard on the right side is empty."
+    },
+    {
+      "turn": 7,
+      "action": "Forcefully jiggle the right handle again, pulling it upwards and outwards.",
+      "observation": "The door remains firmly locked. The car chassis rocks slightly, but the door does not open."
+    },
+    {
+      "turn": 8,
+      "action": "Look around at the passing traffic on the nearby road.",
+      "observation": "Traffic is flowing on the right side of the road. Drivers are visible sitting on the left side of their vehicles."
+    },
+    {
+      "turn": 9,
+      "action": "Check the time on a wristwatch.",
+      "observation": "It is 2:15 PM."
+    },
+    {
+      "turn": 10,
+      "action": "Walk away from the car to find a rental attendant.",
+      "observation": "The user walks away, leaving the car (which has a visible keyhole on the left driver's door handle) untouched."
+    }
+  ]
+}

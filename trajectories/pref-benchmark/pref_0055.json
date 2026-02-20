@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Run a funnel analysis report to identify the exact step where the drop-off occurs.",
+      "observation": "The report shows 60% of users drop off at Step 3: 'Advanced API Configuration'. The average time spent on this step is 45 seconds before quitting."
+    },
+    {
+      "turn": 2,
+      "action": "Rewrite the instruction text for Step 3. Expand the 2-sentence explanation into a 3-paragraph detailed breakdown of API architecture.",
+      "observation": "Deployment complete. Analytics show time-on-page for Step 3 has increased to 2 minutes, but the drop-off rate has increased to 75%."
+    },
+    {
+      "turn": 3,
+      "action": "Remove the animated 'helper' gif next to the input field and replace it with a text-based 'Important Note' sidebar.",
+      "observation": "User session recordings show users scrolling up and down the text repeatedly. They seem to hover their mouse over the text sidebar, click it (nothing happens), and then close the tab."
+    },
+    {
+      "turn": 4,
+      "action": "Check server logs for API latency or timeouts during the onboarding process.",
+      "observation": "Server logs show all requests are returning in under 200ms. No technical errors found."
+    },
+    {
+      "turn": 5,
+      "action": "Change the tutorial font from the standard sans-serif to a more formal serif font and increase the word count of the 'Welcome' step to set a serious tone.",
+      "observation": "Drop-off at the 'Welcome' step (Step 1) increases by 15%. Heatmaps show users are not scrolling to the bottom of the Welcome text to find the 'Start' button."
+    },
+    {
+      "turn": 6,
+      "action": "Review the device breakdown of the users dropping off (Mobile vs. Desktop).",
+      "observation": "90% of users are on Desktop with large monitors. The issue is consistent across all screen sizes."
+    },
+    {
+      "turn": 7,
+      "action": "Add a 'Prerequisites' text module before Step 3 that defines every technical term used in the subsequent instructions.",
+      "observation": "Users are spending less time on the page now. They scroll past the definitions rapidly, click randomly on the page background, cannot find the input field, and quit."
+    },
+    {
+      "turn": 8,
+      "action": "Analyze user support tickets tagged with 'Onboarding'.",
+      "observation": "Found 5 tickets. Common phrases: 'I don't see where to paste the key', 'Where is the button?', 'I'm lost in the wall of text'."
+    },
+    {
+      "turn": 9,
+      "action": "Update the instructions to include precise textual descriptions of UI locations (e.g., 'The button is located in the lower-right quadrant, 20 pixels from the margin').",
+      "observation": "Users are observed reading the text, looking at the screen, looking back at the text, and then leaving. The button remains unclicked."
+    },
+    {
+      "turn": 10,
+      "action": "Implement a forced 'Read Time' lock that prevents the 'Next' button from becoming active until the user has spent at least 60 seconds on the step.",
+      "observation": "Drop-off rate hits 98%. Users are refreshing the page repeatedly to try to bypass the timer, then abandoning the software entirely."
+    }
+  ]
+}

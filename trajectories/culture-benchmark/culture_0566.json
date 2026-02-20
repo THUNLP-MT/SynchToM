@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Smile warmly, pat stomach with both hands, and say, \"Thank you, thank you, I have eaten full!\"",
+      "observation": "The elderly man smiles, nods his head once, and says, \"Good, good,\" while keeping his feet on the pedals, ready to move."
+    },
+    {
+      "turn": 2,
+      "action": "Stop walking completely, turn to face him directly, and say, \"Your hospitality is too kind, but I really could not impose on your family today.\"",
+      "observation": "The man looks slightly confused that the user has stopped walking. He pauses his motion, rests one foot on the ground, and looks at the user expectantly, wondering why the conversation is continuing."
+    },
+    {
+      "turn": 3,
+      "action": "Conspicuously check wrist watch, frown slightly, and tap the watch face.",
+      "observation": "The man glances at the watch, then looks back at the user with a blank expression, simply waiting for the user to finish their business so he can navigate his tricycle past."
+    },
+    {
+      "turn": 4,
+      "action": "Step slightly closer and say with emphasis, \"Please, I promise, next time I will visit. Today is impossible.\"",
+      "observation": "The man laughs awkwardly, waves a hand loosely, and says, \"Man zou, man zou\" (Walk slowly/Take care), a standard farewell phrase."
+    },
+    {
+      "turn": 5,
+      "action": "Look intently past the man at the open doorways and windows of the nearby buildings.",
+      "observation": "The alley is busy with various people; there is no specific house with a door open for a guest, nor any smell of a large meal being prepared for a visitor."
+    },
+    {
+      "turn": 6,
+      "action": "Reach into backpack, pull out a small sealed packet of Italian cookies, and hold it out to him.",
+      "observation": "The man recoils slightly, waving his hand rapidly in front of his face to refuse the item, saying, \"No, no, no need!\""
+    },
+    {
+      "turn": 7,
+      "action": "Press the cookies firmly into the basket of his tricycle and bow slightly. \"For your grandchildren. Please.\"",
+      "observation": "The man looks baffled and slightly annoyed. He stops waving, sighs, and lets the cookies stay in the basket, shaking his head."
+    },
+    {
+      "turn": 8,
+      "action": "Place hand over heart and say, \"My stomach... very sensitive. Doctor says specific diet. I cannot eat your delicious food.\"",
+      "observation": "The man is no longer looking at the user; he pushes off the wall to start his tricycle moving, muttering something indistinct as he begins to roll away."
+    },
+    {
+      "turn": 9,
+      "action": "Quickly adjust shirt collar and smooth down the front of the trousers.",
+      "observation": "The man is now several meters away, pedaling slowly down the narrow alley."
+    },
+    {
+      "turn": 10,
+      "action": "Call out loudly, \"A thousand apologies! Next time!\" and perform a deep, apologetic bow towards his retreating back.",
+      "observation": "The man does not turn around. He raises one hand casually in the air without looking back and turns the corner, disappearing from sight."
+    }
+  ]
+}

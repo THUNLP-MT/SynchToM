@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Survey the dining environment, specifically observing the sequence in which items are being placed on neighboring tables.",
+      "observation": "Waiters are bringing large shared platters to various tables. Some diners are drinking tea, others have empty settings."
+    },
+    {
+      "turn": 2,
+      "action": "Pick up the ceramic spoon and inspect its depth and weight relative to the chopsticks.",
+      "observation": "The spoon is short-handled and deep. The chopsticks are standard length."
+    },
+    {
+      "turn": 3,
+      "action": "Offer to pour tea for the person seated to the left.",
+      "observation": "The neighbor accepts the tea with a nod. The host encourages everyone to start eating the cold appetizers."
+    },
+    {
+      "turn": 4,
+      "action": "Adjust the position of the chopsticks so they rest neatly on the chopstick holder, parallel to the table edge.",
+      "observation": "The setting looks orderly. The host picks up their chopsticks."
+    },
+    {
+      "turn": 5,
+      "action": "Lift the small top bowl slightly, looking for a saucer or a separate under-dish specifically for it.",
+      "observation": "The bowl is separate. It sits directly on the large flat plate. There is no intermediate saucer."
+    },
+    {
+      "turn": 6,
+      "action": "Glance around the table to see if there is a communal tureen or soup container arriving.",
+      "observation": "There is no soup tureen. Only solid dishes (chicken, vegetables) are on the lazy susan."
+    },
+    {
+      "turn": 7,
+      "action": "Look for a service tray or an empty space near the center of the table where unused items might be discarded.",
+      "observation": "The table is full; there is no obvious discard pile."
+    },
+    {
+      "turn": 8,
+      "action": "Pick up the small bowl and place it to the upper-left of the setting, leaving the large flat plate clear in the center.",
+      "observation": "The large flat plate is now the central focus of your setting. The host pauses briefly, watching your hand movement."
+    },
+    {
+      "turn": 9,
+      "action": "Wipe the center of the large flat plate with a napkin.",
+      "observation": "The plate is clean. The host gestures to the rice bucket nearby."
+    },
+    {
+      "turn": 10,
+      "action": "Reach for the shared chicken dish and place a serving directly onto the center of the large flat plate.",
+      "observation": "You place the chicken on the large flat plate. It slides around slightly on the large, flat surface."
+    }
+  ]
+}

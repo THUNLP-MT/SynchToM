@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Smile warmly at the 'Blood Factory' label, then gently tap the drawing and say, 'I love the factory idea, it's such a great way to think about circulation! But let's be careful—our hearts aren't like our arm muscles. They don't get bigger just because we run.'",
+      "observation": "The student looks confused and points back to the label. 'But if it's working hard to make all that new blood for my legs, doesn't it have to get strong to build it all?'"
+    },
+    {
+      "turn": 2,
+      "action": "Address the class generally: 'Class, raise your hand if you like to run fast at recess! Does running make you feel different inside?'",
+      "observation": "Most students raise their hands. The presenting student jumps in, 'Yeah! When I run, I feel the factory shaking because it's producing so much blood!'"
+    },
+    {
+      "turn": 3,
+      "action": "Turn back to the student and use a car analogy: 'Think of your heart like a car engine. When a car drives fast, the engine works hard, but it doesn't get bigger, right? It stays the same size inside the hood.'",
+      "observation": "The student shakes his head. 'But a car engine doesn't make the gas. My heart is a factory—it makes the blood. So it needs to get bigger to hold all the ingredients.'"
+    },
+    {
+      "turn": 4,
+      "action": "Lean in and examine the rest of the poster, specifically checking if he has labeled the lungs or stomach.",
+      "observation": "The poster shows lungs labeled 'Air Balloons' and a stomach labeled 'Food Bag'. The student waits patiently."
+    },
+    {
+      "turn": 5,
+      "action": "Validate the 'making' part to keep his confidence up, but double down on the size issue: 'It is a busy factory! But even busy factories stay the same size building. Your heart is an organ, not a bodybuilder muscle. It stays the perfect size to fit in your chest.'",
+      "observation": "The student looks frustrated. 'My dad runs marathons and he says his heart is huge and strong. If it didn't get bigger, how would it make enough blood for a marathon?'"
+    },
+    {
+      "turn": 6,
+      "action": "Ask the student, 'What color did you use for the blood inside the heart? It looks very bright.'",
+      "observation": "The student beams. 'Red! Because it's brand new. The heart just finished making it.'"
+    },
+    {
+      "turn": 7,
+      "action": "Draw a small diagram on a sticky note showing a box labeled 'Heart' and tubes going in and out. 'See this box? It pumps. It doesn't stretch or grow muscles. If it got bigger, it would squash your lungs!'",
+      "observation": "The student traces the box. 'Okay... but if the factory stays small, where does it store the blood while it's making it? It has to grow to fit the new blood.'"
+    },
+    {
+      "turn": 8,
+      "action": "Laugh gently and say, 'Oh, it doesn't store it! It moves it. But the important thing to remember for the test is: Arms get bigger, hearts stay the same. Can you repeat that for me?'",
+      "observation": "The student recites reluctantly, 'Arms get bigger, hearts stay the same.' Then whispers, 'But it still makes blood.'"
+    },
+    {
+      "turn": 9,
+      "action": "Ask the student to write 'Pumps blood' next to 'Blood Factory' on the poster.",
+      "observation": "The student writes it. 'Okay, so it pumps the blood it makes. But a strong pump needs big muscles, right?'"
+    },
+    {
+      "turn": 10,
+      "action": "Sigh internally and conclude, 'We will talk more about muscles later. For now, just remember that your heart is perfect the size it is and doesn't need to exercise like you do.'",
+      "observation": "The student nods, 'Okay.' He turns to his friend and whispers, 'It definitely gets bigger. It has to make so much stuff.'"
+    }
+  ]
+}

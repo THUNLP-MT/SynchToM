@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Check Google Analytics for bounce rates and session duration on the landing page.",
+      "observation": "Analytics show bounce rates are actually standard for the industry (45%), but total sessions and new user acquisition numbers have plummeted by 60% compared to last quarter."
+    },
+    {
+      "turn": 2,
+      "action": "Review top competitor websites to compare their feature sets against ours.",
+      "observation": "Competitor sites are similar in layout to yours, but their homepages feature prominent banners and photos from the recent 'Global Industry Expo' showcasing new partnerships."
+    },
+    {
+      "turn": 3,
+      "action": "Request a quote from a high-end UI/UX agency for a 'Complete Digital Transformation' package.",
+      "observation": "The agency reviews your brief and asks, 'Your current site usability scores are decent. Do you have a marketing strategy to increase top-of-funnel awareness? We notice your brand mentions are down.'"
+    },
+    {
+      "turn": 4,
+      "action": "Email the Sales Lead asking for a log of specific customer complaints regarding the website checkout flow.",
+      "observation": "Sales Lead replies: 'I don't have any UI complaints. Most lost prospects told us they went with Competitor X because they met their team in person at the Expo and got a demo there.'"
+    },
+    {
+      "turn": 5,
+      "action": "Run a comprehensive page speed and technical SEO audit.",
+      "observation": "The audit returns a score of 95/100. The site is fast, responsive, and technically sound. Organic keywords are ranking, but search volume for the brand name has vanished."
+    },
+    {
+      "turn": 6,
+      "action": "Install Hotjar to record user sessions and generate heatmaps.",
+      "observation": "After three days, Hotjar has captured almost no recordings because there is virtually no traffic coming to the site to be recorded."
+    },
+    {
+      "turn": 7,
+      "action": "Propose reallocating the Q3 Event Marketing budget to the Web Development department during the executive meeting.",
+      "observation": " The CEO looks frustrated and says, 'We just missed the biggest networking event of the year, which is why we are in this hole. We need more visibility, not a new font.'"
+    },
+    {
+      "turn": 8,
+      "action": "Manually redesign the 'Contact Us' form to reduce the number of fields from 5 to 3.",
+      "observation": "Conversion rate remains exactly the same. The few leads that come in mention they found the company via old referrals, not the website flow."
+    },
+    {
+      "turn": 9,
+      "action": "Send a memo to the content team demanding they rewrite all landing page copy to be 'more aggressive and persuasive'.",
+      "observation": "The content lead pushes back: 'The copy worked fine last quarter. We just aren't getting fresh eyes on it because we aren't in the industry trade news anymore.'"
+    },
+    {
+      "turn": 10,
+      "action": "Unilaterally purchase a subscription for a new AI-driven pop-up tool to force engagement on site entry.",
+      "observation": "The aggressive pop-ups increase the bounce rate on the few remaining visitors. Competitors announce record-breaking post-Expo sales figures."
+    }
+  ]
+}

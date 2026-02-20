@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Acknowledge the student's observation about the hornbill but immediately pivot to the Rhizobium diagram.",
+      "observation": "The student looks at the Rhizobium diagram but insists, 'But the question asks for proto-cooperation, not symbiosis. The hornbill fits because they don't *need* each other.'"
+    },
+    {
+      "turn": 2,
+      "action": "Ask the student to define exactly what they mean by 'benefit' in a biological context.",
+      "observation": "The student correctly defines benefit as 'positive outcome for both organisms' and reiterates that survival necessity isn't required for the definition of proto-cooperation."
+    },
+    {
+      "turn": 3,
+      "action": "Draw a comparison table on the board, listing 'Hornbill' and 'Rhizobium', and ask the student to check a box labeled 'Essential for Life' for both.",
+      "observation": "The student correctly marks 'No' for Hornbill and 'Yes' for Rhizobium, then points to the 'No' column and says, 'Exactly! That's why Hornbill is Option A (Proto-cooperation).'"
+    },
+    {
+      "turn": 4,
+      "action": "Gently correct the student, stating that in this unit, we are looking for the strongest form of interaction to define cooperation.",
+      "observation": "The student opens the textbook index, finds the definition of 'Protocooperation', and reads aloud that it is specifically a non-obligate mutualism."
+    },
+    {
+      "turn": 5,
+      "action": "Ask the student to check the publication date and edition of the textbook they are reading from.",
+      "observation": "The student confirms they are using the current year's assigned digital textbook, which matches the teacher's edition."
+    },
+    {
+      "turn": 6,
+      "action": "Explain that while the textbook definition exists, for the purpose of the 'Cooperation' unit, we treat non-obligate interactions as distractors.",
+      "observation": "The student looks confused and asks, 'So are you saying Option A is wrong even though it fits the definition of the word in the question?'"
+    },
+    {
+      "turn": 7,
+      "action": "Ask a different student in the class to explain why the Rhizobium relationship is 'more important' than the Hornbill relationship.",
+      "observation": "The other student agrees that Rhizobium is more important for survival, but adds, 'But I also picked the Hornbill for Question 3 because it asked for proto-cooperation.'"
+    },
+    {
+      "turn": 8,
+      "action": "Dismiss the peer's comment as a common misconception and draw a hierarchy pyramid where 'Symbiosis/Rhizobium' is at the top labeled 'True Cooperation'.",
+      "observation": "The student asks, 'But isn't the question asking us to identify the *type* of interaction, not just which one is strongest?'"
+    },
+    {
+      "turn": 9,
+      "action": "Tell the student that on the exam, 'Cooperation' implies an obligate bond, so they must select the Nitrogen cycle example to get full marks.",
+      "observation": "The student sighs frustratingly and erases their correct answer, circling the Rhizobium option instead."
+    },
+    {
+      "turn": 10,
+      "action": "Praise the student for making the correction and advise them to always look for the 'vital connection' in future questions.",
+      "observation": "The student nods passively but writes a note in the margin: 'Teacher says Proto-cooperation = Symbiosis for this class only.'"
+    }
+  ]
+}

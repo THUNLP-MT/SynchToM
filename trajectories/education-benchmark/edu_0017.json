@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask the class: 'When the white blood cell arrives at the wound, what is the very first thing it does with the bacteria?'",
+      "observation": "Several students raise their hands and answer, 'It identifies the bacteria and sprays antibodies on it to kill it.'"
+    },
+    {
+      "turn": 2,
+      "action": "Draw a diagram of a Macrophage and label it 'The Messenger'. Ask: 'Before any antibodies can be made, this cell needs to show the immune system what the enemy looks like. What is this process called?'",
+      "observation": "Students look confused. One student asks, 'Does it send a chemical signal to the nucleus to make the antibodies right there?'"
+    },
+    {
+      "turn": 3,
+      "action": "Review the definitions of 'Antigen' (the tag) and 'Antibody' (the weapon) on the board.",
+      "observation": "Students copy the definitions correctly. When asked to apply it, a student says, 'So the white blood cell sees the antigen tag and releases the antibody weapon immediately.'"
+    },
+    {
+      "turn": 4,
+      "action": "Show a detailed animation of a Macrophage engulfing a pathogen, processing it, and displaying the MHC-II complex. Pause the video at the display step.",
+      "observation": "Students watch the eating part intently. One asks, 'Wait, it ate the bacteria? I thought you said it uses antibodies to kill them?'"
+    },
+    {
+      "turn": 5,
+      "action": "Respond enthusiastically: 'Yes! It engulfs it to process it. Now, look at what is on the surface. How does this surface protein trigger the specific immune response?'",
+      "observation": "Students are silent. A student asks, 'So does the cell die after it eats it? Or does it keep making antibodies?'"
+    },
+    {
+      "turn": 6,
+      "action": "Assign a 'Think-Pair-Share' activity where students must map the communication chain from the Macrophage to the Helper T-Cell.",
+      "observation": "Walking around, the educator sees students drawing arrows from the wound directly to T-cells, labeling the interaction 'WBC tells T-cell to shoot antibodies'."
+    },
+    {
+      "turn": 7,
+      "action": "Lecture specifically on the time delay of the Adaptive Immune System, emphasizing that antibody production takes 5-7 days.",
+      "observation": "A student raises their hand, looking worried: 'If it takes a week to get antibodies, why doesn't the infection in the cut kill the person immediately?'"
+    },
+    {
+      "turn": 8,
+      "action": "Explain the concept of 'Clonal Expansion' to justify the time delay and the potency of the eventual response.",
+      "observation": "Students nod but write in their notes: 'Body is defenseless for 7 days until antibodies arrive.'"
+    },
+    {
+      "turn": 9,
+      "action": "Introduce the 'Police vs. SWAT' analogy: The Macrophage is the beat cop who must bring evidence to the station to authorize the SWAT team (Antibodies).",
+      "observation": "Students seem to like the analogy. One asks, 'So the beat cop doesn't actually stop the crime? He just runs to the station?'"
+    },
+    {
+      "turn": 10,
+      "action": "Clarify the analogy: 'The beat cop arrests the suspect to process the evidence. The key point is the reporting! Focus on how the evidence is presented to the chief.'",
+      "observation": "Students conclude that the wound site is largely undefended and that the primary goal of white blood cells is paperwork/signaling, completely missing the concept of non-specific phagocytosis as a defense."
+    }
+  ]
+}

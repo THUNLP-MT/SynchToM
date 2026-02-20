@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Add verbose logging of `process.memoryUsage().heapUsed` inside the main processing loop.",
+      "observation": "The script outputs memory stats for records 1-1000. The heap usage fluctuates slightly but remains stable. At record 1001, the script terminates abruptly with an unhandled exception error code from the API client."
+    },
+    {
+      "turn": 2,
+      "action": "Manually invoke the Garbage Collector (`global.gc()`) at the end of every iteration.",
+      "observation": "Processing is significantly slower. The script processes exactly 1000 records. On the 1001st attempt, the application crashes. The console displays a '429 Too Many Requests' error message from the upstream provider."
+    },
+    {
+      "turn": 3,
+      "action": "Disable all console logging and remove the memory print statements added in Turn 1.",
+      "observation": "The script runs faster but terminates at exactly the same point (after 1000 records). The process exit code indicates an API error."
+    },
+    {
+      "turn": 4,
+      "action": "Switch from processing the data as a list to using a stream/generator pattern.",
+      "observation": "The script processes the first 1000 records successfully. Upon trying to fetch the 1001st, the stream emits an 'error' event containing the text: 'Plan limit reached'. The process exits."
+    },
+    {
+      "turn": 5,
+      "action": "Increase the Node.js process memory limit to 8GB (`--max-old-space-size=8192`).",
+      "observation": "The script consumes more system memory but stops exactly at record 1000. The API response body returns an HTTP 403 Forbidden."
+    },
+    {
+      "turn": 6,
+      "action": "Reduce the HTTP request timeout from 30 seconds to 5 seconds.",
+      "observation": "The script runs, but now some records fail intermittently due to timeouts. However, the script still hard-stops processing entirely after the 1000th successful record."
+    },
+    {
+      "turn": 7,
+      "action": "Implement a `sleep(200)` delay between every loop iteration.",
+      "observation": "The script takes much longer to run. It processes 1000 records. On the 1001st record, the API returns a standard 'Quota Exceeded' header, and the script throws an exception handling that response."
+    },
+    {
+      "turn": 8,
+      "action": "Refactor the variable declarations to use `let` instead of `const` inside the loop scope.",
+      "observation": "No change in behavior. The script stops at record 1000. The error log shows an HTTP 429 status."
+    },
+    {
+      "turn": 9,
+      "action": "Split the input data file into two separate files of 600 records each.",
+      "observation": "Run 1 (Records 1-600) completes successfully. Run 2 (Records 601-1200) crashes at record 400 (Total 1000 for the day). The API returns 'Daily limit reached'."
+    },
+    {
+      "turn": 10,
+      "action": "Create a shell wrapper to run the script in an infinite `while` loop, restarting it immediately whenever it crashes.",
+      "observation": "The script enters a rapid crash loop. It starts, tries to process the first record, receives a 429/Limit error immediately, crashes, and restarts, repeating indefinitely."
+    }
+  ]
+}

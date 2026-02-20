@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Navigate to User Preferences and toggle 'Reduce Motion' and 'Disable Animations'.",
+      "observation": "The interface animations stop, and menus now snap instantly into place. However, after staring at the static dashboard for two minutes, the pressure behind the eyes and slight nausea persists unchanged."
+    },
+    {
+      "turn": 2,
+      "action": "Search for a 'High Contrast' or 'Classic Theme' mode in the accessibility settings.",
+      "observation": "The theme changes to high contrast. The drop shadows disappear, making the UI look completely flat. Despite the visual flatness, the headache intensifies, and a subtle strobe-like feeling is noticeable in peripheral vision."
+    },
+    {
+      "turn": 3,
+      "action": "Clear browser cache and cookies, then restart the browser.",
+      "observation": "The browser restarts and the page reloads. The nausea returns almost immediately upon looking at the white background of the login screen."
+    },
+    {
+      "turn": 4,
+      "action": "Install a browser extension called 'Stylebot' to manually inject CSS: `* { box-shadow: none !important; transform: none !important; }`.",
+      "observation": "The dashboard looks broken and ugly; buttons are flat squares. The user leans in closer to inspect the code, which increases the perceived intensity of the nausea and dizziness."
+    },
+    {
+      "turn": 5,
+      "action": "Stand up and walk away from the computer for 5 minutes.",
+      "observation": "The nausea subsides significantly while looking at a physical wall or out the window (where there is no PWM flicker)."
+    },
+    {
+      "turn": 6,
+      "action": "Return to desk and physically cover the peripheral areas of the monitor with post-it notes, leaving only the center active.",
+      "observation": "The user focuses intensely on the small, uncovered center of the screen. The headache returns instantly, accompanied by eye strain that feels like the eyes are vibrating."
+    },
+    {
+      "turn": 7,
+      "action": "Resize the browser window to be a small box, 800x600 pixels.",
+      "observation": "The nausea persists even with the small window. The white background of the document editor in the small window seems to shimmer uncomfortably."
+    },
+    {
+      "turn": 8,
+      "action": "Lower the screen brightness to 10%.",
+      "observation": "lowering the brightness significantly increases the PWM duty cycle (flicker becomes much slower and more pronounced). The user feels an immediate, sharp spike in nausea and disorientation."
+    },
+    {
+      "turn": 9,
+      "action": "Put on blue-light blocking sunglasses.",
+      "observation": "The screen looks yellow/orange. The flickering is still physically hitting the retina through the glasses. The headache is now a throbbing migraine."
+    },
+    {
+      "turn": 10,
+      "action": "Submit an angry support ticket: 'Urgent: New Design causes severe medical vertigo. Revert to Legacy UI immediately.'",
+      "observation": "The support ticket is submitted. The user closes the laptop, convinced the software design is a health hazard, remaining completely unaware that their monitor's backlight is the culprit."
+    }
+  ]
+}

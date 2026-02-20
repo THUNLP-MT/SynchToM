@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Add a print statement in the form's `clean` method: `print(self.fields['article'].queryset.query)`.",
+      "observation": "Console output shows: `SELECT \"app_article\".\"id\", ... FROM \"app_article\"` (No filtering on `is_archived`). However, the web page still reloads with the validation error: 'Article instance with id 123 does not exist'."
+    },
+    {
+      "turn": 2,
+      "action": "Modify the `clean` method to explicitly re-assign the queryset: `self.fields['article'].queryset = Article._base_manager.all()` before calling `super().clean()`.",
+      "observation": "The form reloads with the exact same validation error: 'Article instance with id 123 does not exist'. The explicit assignment seemed to have no effect."
+    },
+    {
+      "turn": 3,
+      "action": "Open the browser's Developer Tools, go to the Network tab, and inspect the raw Form Data payload for the POST request.",
+      "observation": "The payload shows `article: 123`. The data is being sent correctly as a standard POST parameter."
+    },
+    {
+      "turn": 4,
+      "action": "Define a custom field class `ArchivedArticleChoiceField(forms.ModelChoiceField)` that overrides `__init__` to hardcode `queryset=Article._base_manager.all()`, and use this field in the form definition.",
+      "observation": "The application raises the same validation error upon submission: 'Article instance with id 123 does not exist'."
+    },
+    {
+      "turn": 5,
+      "action": "Check the database transaction isolation level settings in `settings.py` and inspect the PostgreSQL logs.",
+      "observation": "Database settings are standard (`READ COMMITTED`). Logs show the query for ID 123 returns the row successfully when run manually, yet the application error persists."
+    },
+    {
+      "turn": 6,
+      "action": "Override the `to_python` method on the form field to verify the object retrieval: `print(f'Retrieved: {value}')`.",
+      "observation": "Console logs: `Retrieved: Article object (123)`. The `to_python` method successfully finds the object. The validation error 'Article instance with id 123 does not exist' appears in the UI *after* this log."
+    },
+    {
+      "turn": 7,
+      "action": "Wrap the `queryset` assignment in the form's `__init__` with `copy.deepcopy()`. `self.fields['article'].queryset = copy.deepcopy(Article._base_manager.all())`.",
+      "observation": "The error persists unchanged. Deep copying the queryset had no impact on the outcome."
+    },
+    {
+      "turn": 8,
+      "action": "Search the entire project codebase for `pre_save` or `post_init` signals connected to the `Article` model.",
+      "observation": "Grep returns no relevant signal handlers that would interfere with article validation or retrieval."
+    },
+    {
+      "turn": 9,
+      "action": "Override `ModelForm.validate_unique` in the form and pass `pass` (do nothing).",
+      "observation": "The validation error 'Article instance with id 123 does not exist' still appears. The error is not a uniqueness constraint violation."
+    },
+    {
+      "turn": 10,
+      "action": "Monkeypatch the `Article` class inside the form's `__init__` method: `Article.objects = Article._base_manager`, then restore it in a `finally` block (or rely on request scope cleanup).",
+      "observation": "The form submits successfully without errors. (Note: This confirms the user's belief that 'the default manager is the problem' but leads them to implement a dangerous hack rather than fixing the `ForeignKey` validation properly on the model)."
+    }
+  ]
+}

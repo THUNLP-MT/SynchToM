@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Walk directly up to the glass-enclosed display case on the façade.",
+      "observation": "The case contains a printed schedule listing titles like 'La Haine' and 'The Rocky Horror Picture Show', followed by times: 14:00, 16:30, 19:00."
+    },
+    {
+      "turn": 2,
+      "action": "Wipe a smudge of dust off the glass with a sleeve and lean in closer.",
+      "observation": "The text is clearer now. Below the main titles, there is smaller text reading 'Drame, 1h38' and 'Comédie Musicale, 1h40'."
+    },
+    {
+      "turn": 3,
+      "action": "Read the title 'The Rocky Horror Picture Show' and try to guess the ingredients.",
+      "observation": "Next to the text is a small poster image showing a pair of red lips and faces of actors in makeup."
+    },
+    {
+      "turn": 4,
+      "action": "Scan the text specifically looking for the letters 'V' or green icons.",
+      "observation": "The list shows 'VO' and 'VF' in parentheses next to the different time slots."
+    },
+    {
+      "turn": 5,
+      "action": "Step back and scan the entrance door for credit card logo stickers.",
+      "observation": "There are Visa and Mastercard stickers on the glass door, along with a sticker of a silhouette of a person sitting in a theater chair."
+    },
+    {
+      "turn": 6,
+      "action": "Point at the 'VO' text next to the 14:00 time slot and nod confidently.",
+      "observation": "A group of people walks past, and one says, 'On va voir le film?' (Shall we see the movie?)."
+    },
+    {
+      "turn": 7,
+      "action": "Look at the price list at the bottom reading 'Tarif Plein: 10€'.",
+      "observation": "The price list also includes 'Etudiants' (Students) and 'Carte 5 places' (5-place card)."
+    },
+    {
+      "turn": 8,
+      "action": "Take a photo of the building's rustic stone exterior with a smartphone.",
+      "observation": "The photo captures the hanging wrought-iron sign which features a stylized, artistic film projector."
+    },
+    {
+      "turn": 9,
+      "action": "Walk inside to the small booth and say, 'One for the Vegetarian Option at 14:00, please.'",
+      "observation": "The person in the booth looks slightly confused, pauses, then says, 'One ticket for the VO screening of La Haine? That will be 10 euros.'"
+    },
+    {
+      "turn": 10,
+      "action": "Hand over the credit card and ask, 'Can I get a table near the window?'",
+      "observation": "The seller takes the card, hands back a paper stub, and points to a set of double doors covered in heavy velvet curtains, saying, 'There are no windows inside, it is a dark room. Please enter quietly.'"
+    }
+  ]
+}

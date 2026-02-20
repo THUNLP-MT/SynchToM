@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Read 1-star reviews of the refunded audiobook.",
+      "observation": "Most 1-star reviews complain that the book requires a background in calculus or that the concepts are too abstract to follow without diagrams."
+    },
+    {
+      "turn": 2,
+      "action": "Search Amazon for 'Astrophysics books for normal people no jargon'.",
+      "observation": "The search results return books for children (ages 8-12) or the exact same bestseller list containing the book the user just refunded."
+    },
+    {
+      "turn": 3,
+      "action": "Purchase a 'Science of Interstellar' companion book.",
+      "observation": "The book contains heavy chapters on gravitational lensing and time dilation equations to explain why the movie's visuals were accurate."
+    },
+    {
+      "turn": 4,
+      "action": "Slow down the playback speed of the sample to 0.75x.",
+      "observation": "The narrator sounds drunk, but the words 'event horizon,' 'ergosphere,' and 'singularity' are still the primary descriptors used."
+    },
+    {
+      "turn": 5,
+      "action": "Post on a book recommendation forum: 'Looking for space books where the author speaks English, not Academic.'",
+      "observation": "Replies suggest 'A Brief History of Time' (which is dense) or politely explain that specific terminology is required to describe quantum mechanics accurately."
+    },
+    {
+      "turn": 6,
+      "action": "Search for a biography of Neil Armstrong.",
+      "observation": "The book focuses heavily on the engineering challenges of the lunar module and the orbital mechanics required for docking."
+    },
+    {
+      "turn": 7,
+      "action": "Look up 'Why do scientists use big words' on Google.",
+      "observation": "Search results return articles about 'scientific literacy' and the necessity of precise language to avoid ambiguity in data interpretation."
+    },
+    {
+      "turn": 8,
+      "action": "Watch a YouTube video titled 'Quantum Physics for 7 Year Olds'.",
+      "observation": "The video uses simple analogies like balls and waves, but explicitly states at the end, 'This is a simplification; the math is actually much weirder and doesn't follow these rules exactly.'"
+    },
+    {
+      "turn": 9,
+      "action": "Download a 'Summary & Key Takeaways' version of the original audiobook.",
+      "observation": "The summary is extremely short and abstract, consisting mostly of bullet points defining the very scientific terms the user hates, as those are the key takeaways."
+    },
+    {
+      "turn": 10,
+      "action": "Purchase a historical fiction novel about the Space Race.",
+      "observation": "The novel focuses on character drama and dialogue. The user enjoys it, confirming their belief that the previous authors were just bad communicators."
+    }
+  ]
+}

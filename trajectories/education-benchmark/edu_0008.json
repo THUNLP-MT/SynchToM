@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "I ask the class, 'When the motion stops, look closely at how the liquids separate. What determines which liquid goes where?'",
+      "observation": "Students observe the settling process. One student raises their hand and says, 'The heaviest stuff is sinking to the bottom.'"
+    },
+    {
+      "turn": 2,
+      "action": "I nod but redirect, asking, 'Think about the boundaries between the liquids. Why is there such a sharp line between the oil and the water?'",
+      "observation": "A student replies, 'Because the oil is floating on top of the water.'"
+    },
+    {
+      "turn": 3,
+      "action": "I instruct the students to draw a diagram of the bottle in their notebooks and label the three distinct phases.",
+      "observation": "Students draw the bottle. Several students label the bottom layer 'Heaviest', the middle 'Medium', and the top 'Lightest'."
+    },
+    {
+      "turn": 4,
+      "action": "I walk to the board and draw a water molecule with positive and negative dipoles. I ask, 'Does the liquid on top look like it wants to be near these charges?'",
+      "observation": "Students look confused. One asks, 'Does the bottom liquid have more charges because it's thicker?'"
+    },
+    {
+      "turn": 5,
+      "action": "I pass the bottle around the room so every student can hold it and inspect the contents up close.",
+      "observation": "As the bottle circulates, students comment on how heavy the bottle feels when the syrup settles at the bottom."
+    },
+    {
+      "turn": 6,
+      "action": "I take the bottle back, add a few drops of water-based food coloring, and shake it again. I ask, 'Watch where the color goes. Why does it ignore the top layer?'",
+      "observation": "The dye droplets sink rapidly through the oil layer without spreading, then mix into the water layer below. A student shouts, 'The drops are heavier than the oil!'"
+    },
+    {
+      "turn": 7,
+      "action": "I ask the students to turn to their partners and discuss for two minutes: 'What chemical property does the dye share with the water?'",
+      "observation": "Overhearing the groups, most are saying things like, 'The dye sinks because it's dense like the water.'"
+    },
+    {
+      "turn": 8,
+      "action": "I write 'HYDROPHOBIC' and 'HYDROPHILIC' in large letters on the board. I ask, 'Which word describes the oil's relationship with the water?'",
+      "observation": "A student guesses 'Hydrophobic' but adds, 'Is that why it floats? Because it's afraid of the water's weight?'"
+    },
+    {
+      "turn": 9,
+      "action": "I bring up a real-world analogy: 'Think about salad dressing. Why do we have to shake oil and vinegar before pouring?'",
+      "observation": "A student responds, 'Because if you don't, all the heavy vinegar stays at the bottom and you only get the light oil on your salad.'"
+    },
+    {
+      "turn": 10,
+      "action": "I assign homework: 'Research the molecular structure of vegetable oil and water. Explain why their structures make them separate.'",
+      "observation": "Students pack up, chatting about how cool it was that the different weights stacked up perfectly."
+    }
+  ]
+}

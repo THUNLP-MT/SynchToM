@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask the student to explicitly define what they mean by the word 'flow' in this context.",
+      "observation": "The student responds, 'Flow is the stuff moving through the wire. The first bulb uses up a lot of the flow to make light, so there is less flow left for the second bulb.'"
+    },
+    {
+      "turn": 2,
+      "action": "Draw a schematic diagram of the circuit on the board, labeling the battery, wire segments, and bulbs.",
+      "observation": "The student points to the wire segment between the two bulbs on the diagram and says, 'Right there. The current is weaker in that part of the wire.'"
+    },
+    {
+      "turn": 3,
+      "action": "Explain the scientific definitions: 'Current' is the rate of charge flow (which is conserved), and 'Voltage' is the energy carried (which is used up).",
+      "observation": "The student looks confused and asks, 'But if the energy is used up, doesn't the flow have to slow down? Like, if you stop pushing, things stop moving?'"
+    },
+    {
+      "turn": 4,
+      "action": "Introduce the 'Water Circuit' analogy: The pump (battery) pushes water (current) through narrow pipes (bulbs).",
+      "observation": "The student nods and says, 'I get it. The water slows down after the first narrow pipe because it lost its pressure. So the current is slower in the second bulb.'"
+    },
+    {
+      "turn": 5,
+      "action": "Ask the student to predict what would happen to the brightness of the bulbs if their positions were swapped.",
+      "observation": "The student predicts, 'It doesn't matter which physical bulb is where. Whichever one is first in the line will be bright, and the second one will be dim because it gets less current.'"
+    },
+    {
+      "turn": 6,
+      "action": "Directly instruct the student to replace the word 'Current' with 'Energy' in their previous sentence.",
+      "observation": "The student hesitates and says, 'Okay... the second one gets less energy. But that's because there is less current arriving there, right?'"
+    },
+    {
+      "turn": 7,
+      "action": "Write Ohm's Law (V = IR) on the board and analyze the variables for the second bulb.",
+      "observation": "The student looks at the math and argues, 'But look, if V is smaller for the second bulb, and R is the same, then I has to be smaller too. The math proves the current is less!'"
+    },
+    {
+      "turn": 8,
+      "action": "Shift the focus entirely to 'Potential Difference' and ignore the concept of 'Current' for a moment.",
+      "observation": "The student agrees, 'Yes, the potential difference is definitely lower at the second bulb. That's why the current is used up.'"
+    },
+    {
+      "turn": 9,
+      "action": "Ask the student to discuss their reasoning with a peer to see if they can refine their language.",
+      "observation": "The student talks to a neighbor. They return and report, 'We both agree. The first bulb grabs the electricity, so the flow is much weaker by the time it hits the second bulb.'"
+    },
+    {
+      "turn": 10,
+      "action": "Conclude the interaction by assigning a worksheet on 'Electrical Vocabulary and Definitions'.",
+      "observation": "The student takes the worksheet but whispers to their peer, 'I still don't get why he says the current is the same. It's obviously dimmer.'"
+    }
+  ]
+}

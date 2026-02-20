@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "cat my_app/models.py",
+      "observation": "class Thing(models.Model):\n    name = models.CharField(max_length=50)\n    order = PositionField(collection='parent')\n    parent = models.ForeignKey('Parent', on_delete=models.CASCADE)"
+    },
+    {
+      "turn": 2,
+      "action": "pip show django-positions",
+      "observation": "Name: django-positions\nVersion: 0.5.0\nLocation: /env/lib/python3.7/site-packages\nRequires: django"
+    },
+    {
+      "turn": 3,
+      "action": "cat /env/lib/python3.7/site-packages/positions/fields.py",
+      "observation": "def __get__(self, instance, owner):\n    if instance is None:\n        raise AttributeError('PositionField can only be accessed from an instance.')\n    return instance.position_value"
+    },
+    {
+      "turn": 4,
+      "action": "python -c \"from my_app.models import Thing; print(Thing.order)\"",
+      "observation": "Traceback (most recent call last):\n  File \"<string>\", line 1, in <module>\n  File \"/env/lib/python3.7/site-packages/positions/fields.py\", line 45, in __get__\n    raise AttributeError('PositionField can only be accessed from an instance.')\nAttributeError: PositionField can only be accessed from an instance."
+    },
+    {
+      "turn": 5,
+      "action": "python manage.py check --traceback",
+      "observation": "SystemCheckError: System check identified some issues:\n\nERRORS:\n<class 'my_app.admin.ThingAdmin'>:\n(admin.E108) The value of 'list_display[1]' refers to 'order', which is not a callable, an attribute of 'ThingAdmin', or an attribute or method on 'my_app.Thing'.\n\n(No traceback provided for SystemCheckError)"
+    },
+    {
+      "turn": 6,
+      "action": "grep -r \"ordering\" my_app/models.py",
+      "observation": "    class Meta:\n        ordering = ['order']"
+    },
+    {
+      "turn": 7,
+      "action": "sed -i \"s/raise AttributeError/print('DEBUG: Descriptor accessed on class'); raise AttributeError/\" /env/lib/python3.7/site-packages/positions/fields.py && python manage.py check",
+      "observation": "DEBUG: Descriptor accessed on class\nSystemCheckError: System check identified some issues:\n\nERRORS:\n<class 'my_app.admin.ThingAdmin'>:\n(admin.E108) The value of 'list_display[1]' refers to 'order'..."
+    },
+    {
+      "turn": 8,
+      "action": "cat /env/lib/python3.7/site-packages/django/contrib/admin/checks.py | grep -C 5 \"hasattr(model, item)\"",
+      "observation": "        if isinstance(item, str):\n            if hasattr(admin_obj, item):\n                return True\n            if hasattr(model, item):\n                return True\n            try:\n                field = model._meta.get_field(item)"
+    },
+    {
+      "turn": 9,
+      "action": "ls -l my_app/migrations/",
+      "observation": "-rw-r--r-- 1 dev dev 1204 May 01 10:00 0001_initial.py\n-rw-r--r-- 1 dev dev  840 May 05 14:22 0002_add_order_field.py"
+    },
+    {
+      "turn": 10,
+      "action": "vi /env/lib/python3.7/site-packages/positions/fields.py",
+      "observation": "(Developer edits the file to change:\n    if instance is None:\n        return self\n...and saves. Running `python manage.py check` now passes with no errors.)"
+    }
+  ]
+}

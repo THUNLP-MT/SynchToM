@@ -1,0 +1,53 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Lean in to inspect the digital display closely, then glance at the pile of remaining pastries, offering a polite but hesitant smile.",
+      "observation": "The vendor smiles back and holds the bag open, waiting for payment."
+    },
+    {
+      "turn": 2,
+      "action": "Point to the price tag listed per 'jin' and ask, \"Does this price include tax and service, or is it calculated differently for this specific variety?\"",
+      "observation": "The vendor confirms the price is exactly as listed on the tag, no extra fees."
+    },
+    {
+      "turn": 3,
+      "action": "Gesture to the bag on the scale and ask, \"Is the scale tared to account for the weight of the packaging material?\"",
+      "observation": "The vendor shakes their head, indicating the bag weight is negligible and the scale shows net weight."
+    },
+    {
+      "turn": 4,
+      "action": "Look around at the other customers nearby to see the size of the bags they are carrying.",
+      "observation": "Other customers seem satisfied with similar-sized bags."
+    },
+    {
+      "turn": 5,
+      "action": "Ask the vendor, \"Do you sell these by pre-set portion sizes, or is the amount strictly determined by the weighing?\"",
+      "observation": "The vendor points to the scale again, emphasizing it is sold by weight."
+    },
+    {
+      "turn": 6,
+      "action": "Take out a phone, open the calculator app, type in a few numbers while looking between the price tag and the scale readout, and frown slightly.",
+      "observation": "The vendor waits patiently, looking slightly confused by the calculation check."
+    },
+    {
+      "turn": 7,
+      "action": "Gesture towards the pastries remaining in the display case and ask, \"Is it possible to add a few more pieces to this bag?\"",
+      "observation": "The vendor looks surprised but grabs the tongs, ready to add more if paid for."
+    },
+    {
+      "turn": 8,
+      "action": "Pause the vendor for a second and ask, \"Just to clarify, is this scale calibrated to the standard market system or a specific metric system used in this district?\"",
+      "observation": "The vendor says it is a standard government-approved electronic scale."
+    },
+    {
+      "turn": 9,
+      "action": "Comment casually, \"It just looks a little bit lighter than the 'two jin' portions I usually purchase at home.\"",
+      "observation": "The vendor shrugs and says 1 kilogram is exactly two jin here."
+    },
+    {
+      "turn": 10,
+      "action": "Nod understandingly, then request, \"Please add roughly another 200 grams or so to the bag; I need slightly more volume today.\""
+    }
+  ]
+}

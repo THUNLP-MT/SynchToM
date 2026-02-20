@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Pause the class and direct students to copy the definition of 'Specific Heat Capacity' from the board before touching any equipment.",
+      "observation": "Students dutifully copy the definition but immediately return to randomly mixing hot and cold water, exclaiming 'Look, the glass is getting hot!' without recording temperatures."
+    },
+    {
+      "turn": 2,
+      "action": "Inspect the calibration of the digital thermometers and ensure all calorimeters are sealed properly.",
+      "observation": "The equipment is functioning perfectly. Students are still confused, asking questions like 'Does the coldness move into the hot water?'"
+    },
+    {
+      "turn": 3,
+      "action": "Distribute a worksheet requiring the algebraic rearrangement of Q=mcΔT to solve for 'c' and mandate its completion before resuming the lab.",
+      "observation": "Students struggle with the algebra. They ask 'What is Q?' and 'How do we know the energy if we haven't measured it?', showing they can't connect the variables to the physical phenomena."
+    },
+    {
+      "turn": 4,
+      "action": "Interrupt the lab again to give a 15-minute lecture on the derivation of the heat equation, focusing on how 'c' is an intrinsic property of matter derived from atomic structure.",
+      "observation": "Students appear bored and disengaged. When the lecture ends, they look at the water and thermometers with even more hesitation, unsure how atomic theory relates to the beaker in front of them."
+    },
+    {
+      "turn": 5,
+      "action": "Reorganize the class into pairs, specifically pairing students who are good at math with those who are struggling.",
+      "observation": "The 'strong' students dominate the equipment usage to try to get 'right answers,' while the others disengage. The fundamental confusion about heat flow versus temperature remains unaddressed."
+    },
+    {
+      "turn": 6,
+      "action": "Confiscate the water beakers temporarily. Instruct students to calculate the 'Theoretical Final Temperature' for three hypothetical mixing scenarios using a provided 'c' value.",
+      "observation": "Students are unable to complete the predictions because they don't intuitively grasp that heat flows from hot to cold, resulting in calculations where the final temperature is hotter than the starting hot water."
+    },
+    {
+      "turn": 7,
+      "action": "Write a step-by-step calculation guide on the whiteboard titled 'The Logic of Heat' which starts with identifying 'c' for water.",
+      "observation": "Students follow the guide mechanically, plugging in numbers without understanding. When asked what would happen if they used oil instead of water, they stare blankly, unable to qualitatively predict the change."
+    },
+    {
+      "turn": 8,
+      "action": "Circulate the room and ask groups, 'Is your data consistent with the standard table values in the textbook?'",
+      "observation": "Students become anxious about 'wrong' answers. They stop exploring the phenomena and start asking 'What answer are we supposed to get?' so they can reverse-engineer the lab."
+    },
+    {
+      "turn": 9,
+      "action": "Provide the accepted value of Specific Heat Capacity for water (4.18 J/g°C) and instruct them to use this number to calculate the percent error of their measurements immediately.",
+      "observation": "Students calculate the error but attribute it to 'bad thermometers' rather than understanding the energy loss to the surroundings. They still lack a conceptual model of energy transfer."
+    },
+    {
+      "turn": 10,
+      "action": "Cancel the remainder of the practical component. Assign a problem set focused on calculating final temperatures given various specific heat capacities.",
+      "observation": "Students leave the class frustrated, feeling they are 'bad at physics' because they couldn't do the math, while never having successfully grasped the basic concept of how heat moves."
+    }
+  ]
+}

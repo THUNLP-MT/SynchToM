@@ -1,0 +1,64 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Request a detailed log from the school nurse regarding the specific symptoms reported by the students.",
+      "observation": "The nurse provides a report listing headaches, eye strain, and mild nausea. She notes that 90% of the complaints came from students sitting in rows 4 and 5 (directly under the center light fixture).",
+      "red_herring": true
+    },
+    {
+      "turn": 2,
+      "action": "Inspect the AR tablets to check their refresh rate settings and brightness levels.",
+      "observation": "The tablets are currently powered down and stored in the cart. The room is quiet, but there is a persistent, high-pitched buzzing sound coming from the ceiling.",
+      "red_herring": false
+    },
+    {
+      "turn": 3,
+      "action": "Check the classroom thermostat and open a window.",
+      "observation": "The room temperature is a standard 70°F (21°C). When the window is opened, the natural light momentarily makes the room feel better, but the overhead fluorescent lights continue to strobe subtly.",
+      "red_herring": true
+    },
+    {
+      "turn": 4,
+      "action": "Interview a student who reported feeling dizzy, asking specifically about their experience looking at the 3D models.",
+      "observation": "The student replies, 'My head actually started hurting before we used the tablets, while we were looking at the whiteboard. It felt like the room was vibrating.'",
+      "red_herring": false
+    },
+    {
+      "turn": 5,
+      "action": "Review the district's 'Technology Safety Standards' handbook.",
+      "observation": "The handbook section on 'Classroom Environment' states: 'Lighting must be stable and flicker-free to prevent photosensitive reactions.'",
+      "red_herring": true
+    },
+    {
+      "turn": 6,
+      "action": "Physically remove the tablet cart from the classroom and place it in the hallway, then resume teaching the class.",
+      "observation": "The tablets are gone. The class resumes under the overhead lights. Within 15 minutes, three students put their heads on their desks complaining of migraines. The light above row 4 flickers visibly.",
+      "red_herring": false
+    },
+    {
+      "turn": 7,
+      "action": "Dim the classroom lights and use a projector for the lesson instead.",
+      "observation": "With the overhead fluorescent lights turned off, the students report immediate relief. The buzzing sound stops.",
+      "red_herring": false
+    },
+    {
+      "turn": 8,
+      "action": "Search online for 'delayed onset symptoms of AR exposure in children'.",
+      "observation": "Search results show forums discussing motion sickness during use. Top results for 'classroom headaches' discuss poor ventilation and bad lighting ballasts.",
+      "red_herring": false
+    },
+    {
+      "turn": 9,
+      "action": "Re-enter the classroom, turn the overhead lights back on to 'full power' to inspect the empty desks for any residual chemical leaks from the tablet batteries.",
+      "observation": "There is no residue on the desks. Standing in the room for 5 minutes under the lights triggers a sharp pain behind your own eyes and a feeling of disorientation.",
+      "red_herring": false
+    },
+    {
+      "turn": 10,
+      "action": "Draft the final letter to the Superintendent demanding immediate permanent removal of the AR equipment.",
+      "observation": "As you type the letter, a maintenance worker walks in with a ladder and a box of ballasts, saying, 'Heard you have a disco light situation in here making kids sick.'",
+      "red_herring": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Select the calculation worksheet (Option C) as the primary instructional material for the lesson.",
+      "observation": "Students stare blankly at the worksheet. Several raise their hands asking why they are doing algebra in science class when they haven't learned cross-multiplication in math yet."
+    },
+    {
+      "turn": 2,
+      "action": "Review the definitions of 'Pressure' and 'Volume' and write the variables on the board.",
+      "observation": "Students copy the definitions but remain confused about the altitude problem. One student asks, 'But what actually happens to the air when it goes up?'"
+    },
+    {
+      "turn": 3,
+      "action": "Briefly display the bubble diagram (Option D) but dismiss it as 'just an illustration' and return to the formula.",
+      "observation": "A few students nod at the picture and say 'Oh, it gets bigger because there's less pushing on it,' but the teacher redirects them to the math problem."
+    },
+    {
+      "turn": 4,
+      "action": "Conduct a mini-lesson specifically on algebraic isolation of variables.",
+      "observation": "Students blindly follow the steps to move numbers around. They calculate the volume at high altitude as '0.005 Liters' (incorrect calculation) and accept it without realizing that the gas should have expanded, not shrunk."
+    },
+    {
+      "turn": 5,
+      "action": "Organize students into small peer-tutoring groups to check their answers.",
+      "observation": "Students are observed copying numbers from one another. One group is arguing about whether the balloon pops, but they aren't doing the math, so the teacher intervenes to refocus them on the worksheet."
+    },
+    {
+      "turn": 6,
+      "action": "Assign five more practice problems requiring the calculation of gas volume at various depths and altitudes.",
+      "observation": "Students are becoming frustrated. They are plugging numbers into the calculator incorrectly. They treat the assignment as a math drill and show no recognition of the physical pattern (inverse relationship)."
+    },
+    {
+      "turn": 7,
+      "action": "Draw a data table on the board and ask students to fill in the calculated values for P and V.",
+      "observation": "The table is filled with mix of correct and incorrect numbers due to calculation errors. Students cannot describe the trend because the data noise from their bad math hides the pattern."
+    },
+    {
+      "turn": 8,
+      "action": "Mark down students who describe the relationship qualitatively (e.g., 'it gets bigger') without showing the full calculation.",
+      "observation": "Students who intuitively understood the concept feel discouraged and stop participating. Students who are good at math but don't understand the physics get full marks."
+    },
+    {
+      "turn": 9,
+      "action": "Introduce a graphing calculator activity where students must input their calculated coordinates.",
+      "observation": "Students struggle with syntax errors on the calculator. They produce a jagged line because their initial calculations were wrong. They assume Boyle's Law is random because their graph looks random."
+    },
+    {
+      "turn": 10,
+      "action": "Finalize the altitude calculation worksheet as the summative assessment for the unit.",
+      "observation": "The majority of the class fails the assessment. The teacher notes that this cohort is 'weak in quantitative reasoning' and plans to assign more math homework next time, missing that they understood the concept but failed the calculation."
+    }
+  ]
+}

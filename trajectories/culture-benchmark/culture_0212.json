@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Pick up the smooth black oval object and inspect the underside.",
+      "observation": "The object is heavy and feels like cold, glazed stoneware. The bottom is a ring of unglazed, rough ceramic. There are no lights, switches, or glass sensor windows visible."
+    },
+    {
+      "turn": 2,
+      "action": "Open the refrigerator's settings menu and select 'Add Bluetooth Accessory'.",
+      "observation": "The fridge display opens a scanning window with a spinning loading icon. It displays text: 'Searching for devices...'"
+    },
+    {
+      "turn": 3,
+      "action": "Squeeze the sides of the black object firmly while holding it near the fridge panel.",
+      "observation": "The object is rigid and does not yield to pressure. The fridge continues scanning without result. The green ceramic vessel next to the sink holds the wooden spoons steadily."
+    },
+    {
+      "turn": 4,
+      "action": "Slide the black object across the countertop in a figure-eight pattern.",
+      "observation": "The unglazed bottom of the object makes a harsh scraping sound against the counter. There is no cursor movement on the fridge screen."
+    },
+    {
+      "turn": 5,
+      "action": "Move the green ceramic vessel with the spoons to the far side of the counter.",
+      "observation": "You move the green vessel. It is shaped like a mouse standing on its hind legs. The wooden spoons inside rattle as you set it down further away."
+    },
+    {
+      "turn": 6,
+      "action": "Turn the black object upside down and tap the bottom repeatedly.",
+      "observation": "The tapping produces a dull thud typical of thick pottery. Nothing lights up. The fridge screen times out and returns to the home screen."
+    },
+    {
+      "turn": 7,
+      "action": "Inspect the hollow interior of the black object using a smartphone flashlight.",
+      "observation": "The light reveals a dark, glazed interior. It is empty except for a bit of dust. It looks exactly like the inside of a flower vase."
+    },
+    {
+      "turn": 8,
+      "action": "Place the black object directly against the NFC logo on the fridge door.",
+      "observation": "You hold the heavy object against the door. The fridge beeps because the door has been jarred, but no pairing notification appears."
+    },
+    {
+      "turn": 9,
+      "action": "Check the smartphone Wi-Fi settings for a network named 'Kitchen_Mouse_Setup'.",
+      "observation": "No such network is found. You see 'Home_Wi-Fi' and a neighbor's network."
+    },
+    {
+      "turn": 10,
+      "action": "Set the black object down firmly and search online for 'reset waterproof kitchen mouse black oval'.",
+      "observation": "The search results show ergonomic computer mice and waterproof keyboards, but nothing resembling the black vase on the counter. The green mouse-shaped utensil holder sits silently in the corner."
+    }
+  ]
+}

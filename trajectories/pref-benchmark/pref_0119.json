@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Increase combat animation speed by 200%.",
+      "observation": "Combat visuals look frantic and comical. However, the mid-level boss fight still takes roughly 12 minutes to complete because the boss can absorb hundreds of hits. Quit rates remain unchanged."
+    },
+    {
+      "turn": 2,
+      "action": "Check the analytics for the exact timestamp of user drop-off.",
+      "observation": "Analytics show users drop off continuously throughout the 10-15 minute duration of the fight, regardless of whose turn it is. The drop-off curve is steady, suggesting fatigue."
+    },
+    {
+      "turn": 3,
+      "action": "Implement an 'Auto-Battle' button that selects basic attacks automatically.",
+      "observation": "Players activate Auto-Battle. The AI exchanges blows with the enemy for 10 minutes straight. Players watch the screen passively as the enemy health bar decreases by pixels at a time, then close the app."
+    },
+    {
+      "turn": 4,
+      "action": "Remove the 'Defense' and 'Item' commands from the main battle menu.",
+      "observation": "Players can now only Attack. They spam the button. The enemy, having massive HP, takes the hits and slowly whittles the player down. Players die of attrition after a long, repetitive slog."
+    },
+    {
+      "turn": 5,
+      "action": "Send a push notification survey to churned users asking: 'Was the combat pace too slow?'",
+      "observation": "Majority of responses say 'Yes, it takes forever to kill anything' and 'I hit him 50 times and he didn't die.'"
+    },
+    {
+      "turn": 6,
+      "action": "Reduce the 'Turn Timer' cooldown so player turns come up instantly after attacking.",
+      "observation": "The combat is now a rapid-fire clicking exercise. Players click furiously. The enemy health bar is so large that even with rapid attacks, the fight lasts 8+ minutes. Players complain of repetitive strain."
+    },
+    {
+      "turn": 7,
+      "action": "Review the server latency logs to ensure menu inputs aren't lagging.",
+      "observation": "Server latency is under 20ms. The game is technically responsive, but the interactions required to deplete the enemy's health pool are numerous."
+    },
+    {
+      "turn": 8,
+      "action": "Add 'Quick Time Events' (QTEs) during attack animations to boost damage.",
+      "observation": "Players successfully hit the QTEs, dealing 10% more damage. The fight duration reduces from 12 minutes to 10.5 minutes. Players express frustration at having to pay intense attention for such a long, repetitive fight."
+    },
+    {
+      "turn": 9,
+      "action": "Update the App Store screenshots to emphasize 'Fast-Paced Action' instead of 'Strategic Combat'.",
+      "observation": "New users download the game expecting action. They encounter a damage-sponge enemy that requires hundreds of turns to defeat. Retention drops even lower as expectations are mismatched."
+    },
+    {
+      "turn": 10,
+      "action": "Prototype a complete removal of the combat screen, replacing it with a 'Skip Fight' result summary.",
+      "observation": "Players skip the fight instantly. They progress to the next level, hit a wall because they are under-leveled (having skipped the XP/mechanics of the fight), and quit the game because there is no gameplay loop left."
+    }
+  ]
+}

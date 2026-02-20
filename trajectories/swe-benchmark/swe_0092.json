@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Run `SELECT @@GLOBAL.transaction_isolation, @@transaction_isolation;` in the database shell.",
+      "observation": "Output: `REPEATABLE-READ`, `REPEATABLE-READ`."
+    },
+    {
+      "turn": 2,
+      "action": "Modify `settings.py` to set the database option `init_command`: \"SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED\".",
+      "observation": "The CI pipeline fails again with `OperationalError: (1205, 'Lock wait timeout exceeded; try restarting transaction')`. Benchmarks still show ~30x slowdown."
+    },
+    {
+      "turn": 3,
+      "action": "Check the MySQL configuration variable `innodb_lock_wait_timeout`.",
+      "observation": "Value is `50` (seconds), which is standard."
+    },
+    {
+      "turn": 4,
+      "action": "Wrap the delete operation in `transaction.atomic()` and manually execute `SET FOREIGN_KEY_CHECKS=0` before the delete call.",
+      "observation": "The operation still times out. The database CPU usage spikes to 100% during the attempt."
+    },
+    {
+      "turn": 5,
+      "action": "Run `SHOW ENGINE INNODB STATUS` immediately after triggering the freeze.",
+      "observation": "The status shows a massive number of row locks and a transaction active for 50+ seconds. The query listed is `DELETE FROM my_table WHERE id IN (SELECT id FROM my_table ...)`."
+    },
+    {
+      "turn": 6,
+      "action": "Refactor the deletion code to iterate and delete objects in batches of 1,000 using `filter(pk__in=[...]).delete()`.",
+      "observation": "The timeouts stop, but the total execution time is still abysmal (28x slower than previous Django version). CPU usage remains pegged high."
+    },
+    {
+      "turn": 7,
+      "action": "Inspect the `connection.queries` log to see how Django is wrapping the transaction.",
+      "observation": "The log shows the isolation level is correctly READ COMMITTED. It also shows the generated SQL: `DELETE FROM table WHERE id IN (SELECT id FROM table)`."
+    },
+    {
+      "turn": 8,
+      "action": "Add a database index on the field being used to filter the deletion.",
+      "observation": "The field is the Primary Key (`id`), so it is already indexed. Adding explicit indices on other columns changes nothing."
+    },
+    {
+      "turn": 9,
+      "action": "Run `OPTIMIZE TABLE` and `ANALYZE TABLE` on the affected models.",
+      "observation": "Table status is updated to OK. The `delete()` operation performance is unchanged."
+    },
+    {
+      "turn": 10,
+      "action": "Execute a raw SQL `DELETE FROM my_table` (without a WHERE clause) in the shell to compare.",
+      "observation": "The raw delete is instantaneous. (Note: The user ignores that the raw delete didn't use the self-referencing subquery structure that the ORM generated)."
+    }
+  ]
+}

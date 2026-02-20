@@ -1,0 +1,55 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Visually compare my Python script line-by-line with the code snippets provided in the free tutorial article.",
+      "observation": "The code in the script appears identical to the visible snippets in the tutorial. The tutorial mentions 'standard preprocessing' in passing between snippets."
+    },
+    {
+      "turn": 2,
+      "action": "Run 'pip freeze' and check library versions against the tutorial's requirements.txt.",
+      "observation": "All library versions match the tutorial requirements exactly."
+    },
+    {
+      "turn": 3,
+      "action": "Print the `head()` of the dataframe after the feature engineering step to inspect the 'Customer_Lifetime_Value' column.",
+      "observation": "The column contains valid floats, but they look 'noisier' and less normalized than the clean charts shown in the tutorial images."
+    },
+    {
+      "turn": 4,
+      "action": "Rewrite the data cleaning function to aggressively drop rows with any null values before feature generation.",
+      "observation": "The dataset size shrinks by 40%. Model accuracy drops to 62%."
+    },
+    {
+      "turn": 5,
+      "action": "Check the train/test split random seed and ratio.",
+      "observation": "The split logic is standard and correct (80/20, fixed seed)."
+    },
+    {
+      "turn": 6,
+      "action": "Manually implement a complex outlier detection algorithm (IQR method) on the raw input features.",
+      "observation": "The distribution looks cleaner, but accuracy only improves to 66%. A banner on the site reads: 'Unlock the Enterprise Dataset for pre-cleaned, high-signal features.'",
+      "observation_hidden_context": "The banner is the direct clue to S*."
+    },
+    {
+      "turn": 7,
+      "action": "Ignore the banner and refactor the 'Time_Since_Last_Purchase' feature to use hours instead of days.",
+      "observation": "Model training time increases, but accuracy remains stagnant at 66%."
+    },
+    {
+      "turn": 8,
+      "action": "Switch the model from a Random Forest to a Gradient Boosting Machine (XGBoost).",
+      "observation": "XGBoost overfits slightly but validation accuracy remains low (67%)."
+    },
+    {
+      "turn": 9,
+      "action": "Export the processed dataframe to CSV and open it in Excel to manually verify the formulas for the first 50 rows.",
+      "observation": "The math perfectly matches the logic written in the code. The raw data itself is just too inconsistent compared to the paid version."
+    },
+    {
+      "turn": 10,
+      "action": "Post a comment on the tutorial asking for the exact regex pattern used to parse the 'Address' field.",
+      "observation": "Moderator reply: 'Hi! The raw data has unstructured addresses. Our tutorial results use the Premium dataset where addresses are already geocoded. You can't get that accuracy with regex on the raw text.'"
+    }
+  ]
+}

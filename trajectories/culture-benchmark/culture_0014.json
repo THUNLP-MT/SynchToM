@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Maintain a warm, expectant smile and gesture open-handedly toward the bowl.",
+      "observation": "The colleague stares at the bowl, his mouth slightly open, making no move to pick up his chopsticks."
+    },
+    {
+      "turn": 2,
+      "action": "Glance around the table and ask, 'Do you have everything you need? Napkins? Water?'",
+      "observation": "He blinks rapidly and nods, 'Yes, I have water,' but his eyes return immediately to the strawberries floating in the chili oil."
+    },
+    {
+      "turn": 3,
+      "action": "Lean in slightly and mention, 'Be careful, the tofu retains heat for a long time. It is fresh off the stove.'",
+      "observation": "He leans back slightly, distancing himself from the steam. 'Right. Hot. Yes.'"
+    },
+    {
+      "turn": 4,
+      "action": "Ask casually, 'How is your tolerance for spice these days? I know preferences can change.'",
+      "observation": "He murmurs, 'Spice is fine. I grew up with spice. It is just... the combination.'"
+    },
+    {
+      "turn": 5,
+      "action": "Nod enthusiastically and say, 'Exactly. The contrast is really quite striking, isn't it? The red against the yellow.'",
+      "observation": "He looks at the yellow corn kernels mixed with the minced meat. 'Striking. That is a word for it.'"
+    },
+    {
+      "turn": 6,
+      "action": "Say, 'Please, do not feel you need to wait for everyone else. I wanted you to be the first to try it.'",
+      "observation": "He looks at me with concern. 'You want me to be the first?'"
+    },
+    {
+      "turn": 7,
+      "action": "Chuckles lightly. 'I know it is quite different from the standard lunch fare. I thought it was time to break the routine with something bold.'",
+      "observation": "He whispers, 'It is certainly bold to put fruit in Mapo Tofu.'"
+    },
+    {
+      "turn": 8,
+      "action": "Respond with a confident nod. 'It brings a whole new dimension to the profile, doesn't it? A fusion of worlds.'",
+      "observation": "He remains motionless, looking as if he is trying to solve a difficult math problem."
+    },
+    {
+      "turn": 9,
+      "action": "Look at the dish admiringly. 'It really is a presentation that demands attention. A bit of culinary art.'",
+      "observation": "He slowly reaches into his pocket and pulls out his phone, perhaps to distract himself."
+    },
+    {
+      "turn": 10,
+      "action": "Gestures to his phone. 'Actually, since you have that out—would you mind capturing this moment? I'd love a photo of the presentation before we disrupt it.'",
+      "observation": "He looks confused but unlocks his camera. 'You want a photo... with this?'"
+    }
+  ]
+}

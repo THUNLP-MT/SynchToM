@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "I scan the surrounding high-rise buildings and ask my companion, 'Is this district primarily known for its financial institutions or its culinary history?'",
+      "observation": "The companion replies that it is the main banking district, though there are many restaurants to service the workers."
+    },
+    {
+      "turn": 2,
+      "action": "I look up at the overcast sky and button my coat, then remark, 'It is quite gray today. Do you find seafood to be a lighter, healthier option when the weather is heavy like this?'",
+      "observation": "The companion shrugs and says the weather doesn't really change their appetite."
+    },
+    {
+      "turn": 3,
+      "action": "I pull out my phone and quickly search for 'fresh catch market report' for this city to see if a specific shipment arrived at the docks this morning.",
+      "observation": "Search results show standard daily deliveries; nothing exceptional about today's catch."
+    },
+    {
+      "turn": 4,
+      "action": "I gesture toward a casual sushi bar and then a formal steakhouse, asking, 'For our discussion regarding the contract, what level of formality do you feel is appropriate?'",
+      "observation": "The companion suggests that a formal setting would be better given the stakes of the business at hand."
+    },
+    {
+      "turn": 5,
+      "action": "I nod and say, 'Agreed. Since we are looking to secure a long-term partnership, we should find a venue that can accommodate a proper, unhurried sit-down meal rather than quick individual plates.'",
+      "observation": "The companion nods in agreement and continues walking down the block."
+    },
+    {
+      "turn": 6,
+      "action": "I check the date on my watch and ask, 'Forgive my ignorance of local customs, but does today mark any specific festival or calendar event in this region?'",
+      "observation": "The companion laughs and says no, it's just a regular Tuesday."
+    },
+    {
+      "turn": 7,
+      "action": "I stop in front of a restaurant displaying a menu. I scan it specifically to see if they offer 'market price' items served family-style, rather than pre-portioned fillets.",
+      "observation": "The menu shows mostly individual grilled fillets, but one item at the bottom is a 'Chef's Special Whole Sea Bass'."
+    },
+    {
+      "turn": 8,
+      "action": "I turn to the companion and say, 'I believe the aesthetics of the meal are important for setting the right tone. I am looking for a place that presents food with a sense of abundance and completeness.'",
+      "observation": "The companion points to a venue across the street with gold lettering and a large aquarium in the window."
+    },
+    {
+      "turn": 9,
+      "action": "I walk toward the venue with the aquarium, peering closely at the tank to ensure the fish are lively and active, then check if the decor uses auspicious colors like red or gold.",
+      "observation": "The tank is well-maintained with active fish, and the interior is decorated with warm, rich tones."
+    },
+    {
+      "turn": 10,
+      "action": "I open the door for the companion and state, 'This location seems perfect. A whole, lively dish here would be a very positive start to our joint venture.'",
+      "observation": "The host greets you both and leads you to a quiet table near the back."
+    }
+  ]
+}

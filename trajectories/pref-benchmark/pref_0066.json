@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Highlight the first section of text on the screen and attempt to copy-paste it into a Word document.",
+      "observation": "You successfully paste the text. It appears as a massive, single block of 5,000 words with complex technical jargon and no paragraph breaks or bolding to emphasize key points."
+    },
+    {
+      "turn": 2,
+      "action": "Open the module settings and toggle 'Reduce Motion' and 'High Contrast Mode'.",
+      "observation": "The flying stars and progress animations stop. The screen is now high-contrast black and white. You read the first three paragraphs but immediately forget the first one as soon as you start the third."
+    },
+    {
+      "turn": 3,
+      "action": "Mute the computer speakers completely.",
+      "observation": "The computer is silent. You continue reading. The content introduces three new complex acronyms in one sentence without defining them or offering a review quiz."
+    },
+    {
+      "turn": 4,
+      "action": "Use the browser's 'Inspect Element' tool to delete the HTML node containing the 'Level Up' progress bar at the top of the screen.",
+      "observation": "The bar disappears. You are left with the raw content area. You read for 10 minutes, but the sheer volume of facts without a pause makes your eyes glaze over."
+    },
+    {
+      "turn": 5,
+      "action": "Attempt to 'Print to PDF' via the browser menu.",
+      "observation": "The print preview generates a 45-page document. The text is small and dense. You spot a typo in the preview and feel annoyed, but still can't recall the main topic of page 2."
+    },
+    {
+      "turn": 6,
+      "action": "Download a third-party 'Reader View' extension for the browser and activate it.",
+      "observation": "The extension activates, presenting the text in a clean serif font on a beige background. The text is still an unbroken wall of technical data. You feel exhausted looking at it."
+    },
+    {
+      "turn": 7,
+      "action": "Manually copy the text again, but this time paste it into Windows Notepad (plain text editor).",
+      "observation": "You now have a .txt file. It is a dense block of text. You read a sentence about 'compliance protocol 7B' and realize you have no context for what protocol 7A was."
+    },
+    {
+      "turn": 8,
+      "action": "Resize the Notepad window to be very narrow, forcing short line breaks.",
+      "observation": "The text is now a long, thin column. It is physically harder to read. You miss the connection between the first and second concepts because there are no headers or review summaries."
+    },
+    {
+      "turn": 9,
+      "action": "Read the text out loud to myself from the Notepad file.",
+      "observation": "You speak the words. The sentences are run-on and filled with data points. You stumble over the density of the information and feel frustrated that it doesn't 'flow'."
+    },
+    {
+      "turn": 10,
+      "action": "Email the IT department asking for the 'original source document' before the designers 'ruined it'.",
+      "observation": "IT replies that there is no other document; the text in the module is the exact legal compliance text required by law, pasted verbatim into the tool."
+    }
+  ]
+}

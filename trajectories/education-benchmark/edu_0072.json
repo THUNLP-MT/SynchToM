@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask the students to re-calculate their theoretical yield, specifically double-checking the specific heat capacity values they used.",
+      "observation": "Students reply that they have triple-checked the calculations and constants; the theoretical prediction is mathematically correct based on the inputs."
+    },
+    {
+      "turn": 2,
+      "action": "Return the reflection with a comment: 'You have identified that heat was lost, but you need to explain what steps you will take to prevent this error in the future.'",
+      "observation": "Students respond with confusion, stating that without better insulation, preventing heat loss to the glass and air is physically impossible."
+    },
+    {
+      "turn": 3,
+      "action": "Inspect the laboratory thermometers and beakers to ensure there are no cracks or calibration defects.",
+      "observation": "The equipment is standard, functional laboratory glassware and digital thermometers in good working order."
+    },
+    {
+      "turn": 4,
+      "action": "Address the class and demonstrate the mixing technique again, emphasizing extreme speed to 'beat' the heat loss.",
+      "observation": "Students repeat the experiment with faster mixing. They report that the temperature is still lower than the theoretical value, though the gap is slightly smaller."
+    },
+    {
+      "turn": 5,
+      "action": "Instruct student groups to swap data sets to see if other groups managed to achieve the correct results.",
+      "observation": "The data swap reveals that every single group recorded a temperature lower than the theoretical prediction."
+    },
+    {
+      "turn": 6,
+      "action": "Deduct points from the lab reports for 'Accuracy,' citing that the experimental results deviated significantly from the theoretical predictions.",
+      "observation": "Students argue that the grade is unfair because the theoretical model assumes an isolated system, which a glass beaker is not."
+    },
+    {
+      "turn": 7,
+      "action": "Provide the class with Styrofoam cups to place inside the beakers and order a re-do of the lab.",
+      "observation": "Students redo the lab. The results are closer to the theoretical value but still slightly lower. They write that the cups improved the model's validity but did not create a perfect isolated system."
+    },
+    {
+      "turn": 8,
+      "action": "Announce to the class that the improved results with cups prove that the original discrepancy was due to 'poor environmental control' by the students.",
+      "observation": "Students appear frustrated and disengaged, muttering that they cannot control the laws of thermodynamics with a glass beaker."
+    },
+    {
+      "turn": 9,
+      "action": "Check the room thermostat and air vents to see if the lab is unusually cold or drafty.",
+      "observation": "The room temperature is a standard 22°C with no significant drafts."
+    },
+    {
+      "turn": 10,
+      "action": "Update the rubric for the final assessment to explicitly require 'Experimental error under 2%' for full marks.",
+      "observation": "Students begin falsifying their data in the final report to match the theoretical calculations exactly, abandoning the analysis of heat loss entirely."
+    }
+  ]
+}

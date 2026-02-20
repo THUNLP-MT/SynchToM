@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Design a role-play activity where students act out the signing of the Declaration of Independence instead of reading Chapter 4.",
+      "observation": "The students have fun acting, but when asked the specific date of the signing the next day, most guess randomly or look blank. They remember who played which character, but not the historical timeline."
+    },
+    {
+      "turn": 2,
+      "action": "Review the textbook content for Chapter 4 to check for clarity and engagement level.",
+      "observation": "The textbook contains a clear, bolded timeline, a summary of dates at the end of the chapter, and review questions explicitly designed for drill practice."
+    },
+    {
+      "turn": 3,
+      "action": "Bring in period-accurate costumes and play 18th-century music during class.",
+      "observation": "Students are distracted by the costumes and the music makes it hard for them to hear instructions. They spend the class giggling at the wigs. Quiz scores on the chronology of events drop slightly compared to the previous unit."
+    },
+    {
+      "turn": 4,
+      "action": "Replace the upcoming multiple-choice date quiz with an oral 'Town Crier' performance assessment.",
+      "observation": "Students perform the announcements enthusiastically, but they confidently shout the wrong dates, mixing up the Stamp Act (1765) with the Boston Tea Party (1773) in their speeches."
+    },
+    {
+      "turn": 5,
+      "action": "Reorganize the classroom desks from rows into a large 'Parliamentary' circle.",
+      "observation": "Students talk more to each other, but the conversation drifts away from history to personal gossip. They still do not look at their notes or attempt to memorize the material."
+    },
+    {
+      "turn": 6,
+      "action": "Scrap the timeline worksheet entirely and implement a 'Living Timeline' where students must physically stand in chronological order holding event cards.",
+      "observation": "Students stand in the correct order while looking at the cards provided to them. However, once they sit down and the cards are taken away, they cannot reproduce the sequence. They admit they were just looking at the person next to them, not learning the dates."
+    },
+    {
+      "turn": 7,
+      "action": "Introduce 'high stakes' mechanics to the simulation, adding betrayal and secret objectives to the role-play.",
+      "observation": "The class becomes chaotic and loud. Students argue about game rules and 'betrayals.' A post-activity check shows they remember the arguments they had with friends, but still cannot recall the dates of the actual historical events."
+    },
+    {
+      "turn": 8,
+      "action": "Request a meeting with the school administration to discuss the validity of the current curriculum's assessment methods.",
+      "observation": "The administration reviews the test scores and notes that the students are failing basic competency requirements. They suggest implementing daily 10-minute flashcard drills to improve retention."
+    },
+    {
+      "turn": 9,
+      "action": "Check the classroom thermostat and ventilation system.",
+      "observation": "The room temperature is standard and ventilation is functioning normally. Students appear energetic during breaks, just confused and unprepared when asked factual history questions."
+    },
+    {
+      "turn": 10,
+      "action": "Assign a creative writing project where students write a diary as a historical figure, strictly forbidding the use of the textbook or notes.",
+      "observation": "The submitted diaries are creative but historically incoherent. Events that happened decades apart are written as occurring on the same day. Students complain that they felt lost without their books and didn't know what to write."
+    }
+  ]
+}

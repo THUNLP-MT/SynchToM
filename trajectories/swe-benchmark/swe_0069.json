@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Inspect Model.Meta options for static lookup configuration",
+      "observation": "The `_meta` object contains standard options like `verbose_name` and `db_table`, but no flags related to choice optimization or static lookups are visible."
+    },
+    {
+      "turn": 2,
+      "action": "Change the `choices` tuple to a callable function",
+      "observation": "The model compiles without errors. However, calling `instance.get_category_display()` still returns the standard label defined in the choices, ignoring the custom method logic."
+    },
+    {
+      "turn": 3,
+      "action": "Restart the WSGI server and clear pyc files",
+      "observation": "After a full restart and cache clearing, the behavior remains identical: the standard label is returned."
+    },
+    {
+      "turn": 4,
+      "action": "Rename the custom method to `_get_category_display_debug` and call it manually",
+      "observation": "Calling `instance._get_category_display_debug()` works perfectly and returns the custom calculated value. The logic is sound; the framework is definitely hijacking the standard name."
+    },
+    {
+      "turn": 5,
+      "action": "Inspect the `__dict__` of the Model class",
+      "observation": "The class dictionary shows `get_category_display` is a `functools.partial` object (a curried function), not the custom method defined in the source code."
+    },
+    {
+      "turn": 6,
+      "action": "Wrap the custom method in `@property`",
+      "observation": "The attribute `get_category_display` remains a `functools.partial` object. Accessing it as a property fails because the class attribute was overwritten during model construction."
+    },
+    {
+      "turn": 7,
+      "action": "Check database query logs for raw value fetching",
+      "observation": "The SQL logs show a standard `SELECT category ...` returning the integer key (e.g., 1). The transformation to the string label is definitely happening in Python application space."
+    },
+    {
+      "turn": 8,
+      "action": "Override `__getattribute__` on the Model",
+      "observation": "Infinite recursion errors occur when trying to access standard fields, and when fixed, `get_category_display` still resolves to the partial object because `__getattribute__` returns the attribute found on the class, which has already been overwritten."
+    },
+    {
+      "turn": 9,
+      "action": "Define the custom method inside `__init__` by patching `self`",
+      "observation": "Manually assigning `self.get_category_display = self._my_custom_logic` inside `__init__` works. The custom logic is executed."
+    },
+    {
+      "turn": 10,
+      "action": "Search Django source for `contribute_to_class` implementation",
+      "observation": "Found `contribute_to_class` in `django.db.models.fields`. It calls `setattr(cls, 'get_%s_display' % self.name, partial(...))`."
+    }
+  ]
+}

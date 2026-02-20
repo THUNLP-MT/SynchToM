@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Inspect the client-side connection pool configuration.",
+      "observation": "The configuration shows `max_pool_size` is set to 200. During the load test, the application throws connection errors exactly when concurrent users hit 100."
+    },
+    {
+      "turn": 2,
+      "action": "Check the CPU and Memory usage on the machine running the client application.",
+      "observation": "CPU usage is at 15% and Memory is at 20%. The client machine has plenty of resources available."
+    },
+    {
+      "turn": 3,
+      "action": "Increase the `max_pool_size` in the client configuration to 1000 and set `connection_timeout` to 30 seconds.",
+      "observation": "The load test runs again. Connections are still consistently dropped once the active count reaches exactly 100. The application logs show 'Connection refused'."
+    },
+    {
+      "turn": 4,
+      "action": "Run network diagnostics (ping and traceroute) between the client and the database server.",
+      "observation": "Network latency is <1ms with 0% packet loss. The connection is stable."
+    },
+    {
+      "turn": 5,
+      "action": "Check the operating system's file descriptor limit (`ulimit -n`) on the client machine.",
+      "observation": "The file descriptor limit is set to 65,535. This is well above the number of connections being attempted."
+    },
+    {
+      "turn": 6,
+      "action": "Disable `keep_alive` and set `max_lifetime` to 0 (infinite) in the client library settings.",
+      "observation": "The error rate remains unchanged. The database rejects any connection attempt beyond the 100th active session."
+    },
+    {
+      "turn": 7,
+      "action": "Examine the database server logs for error messages corresponding to the timestamps of the drops.",
+      "observation": "The database logs show: 'FATAL: connection limit exceeded for non-administrative user. Current connections: 100. Max limit: 100. Upgrade to Enterprise Edition for unlimited connections.'"
+    },
+    {
+      "turn": 8,
+      "action": "Implement a custom 'zombie connection reaper' script in the client application code.",
+      "observation": "The reaper script runs but finds no orphaned connections on the client side. The database still reports 100 active connections and rejects new ones."
+    },
+    {
+      "turn": 9,
+      "action": "Downgrade the client library to a version from two years ago.",
+      "observation": "After downgrading and recompiling, the application still fails to establish more than 100 concurrent connections."
+    },
+    {
+      "turn": 10,
+      "action": "Fork the client library repository and begin rewriting the `SocketFactory` class.",
+      "observation": "The rewrite takes days. Upon testing the new custom library, the database continues to reject connections past the 100th one."
+    }
+  ]
+}

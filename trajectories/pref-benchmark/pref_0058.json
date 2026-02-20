@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Search for 'high-level architecture diagram' of the technology stack.",
+      "observation": "You find a comprehensive diagram. You understand how the data flows from the frontend to the backend perfectly, but when you look away and try to name the specific middleware layer shown in the box, your mind goes blank."
+    },
+    {
+      "turn": 2,
+      "action": "Watch a 45-minute keynote speech by the technology's creator explaining the 'philosophy' behind the tool.",
+      "observation": "The creator uses the technical terms fluently. You nod along, understanding the concepts perfectly. Five minutes after the video ends, you can describe what the tool does, but you cannot recall the specific acronym the creator used for the configuration engine."
+    },
+    {
+      "turn": 3,
+      "action": "Draw a manual flowchart on a whiteboard, connecting concepts with arrows based on their logical relationships.",
+      "observation": "You successfully draw the logic. You point to a box and say, 'This handles the traffic distribution.' You know exactly what it does, but the specific term 'Ingress Controller' does not come to mind until you look it up."
+    },
+    {
+      "turn": 4,
+      "action": "Ask a senior colleague: 'How did you internalize the system architecture so well?'",
+      "observation": "The colleague replies, 'Honestly, the names are super arbitrary. I just made flashcards and drilled them for a week until they stuck.'"
+    },
+    {
+      "turn": 5,
+      "action": "Download and read the original technical whitepaper to understand the foundational theory.",
+      "observation": "The whitepaper is dense. You understand the mathematical proofs and the logic. However, during a practice run immediately after, you call the 'idempotency key' the 'repeat-prevention thingy'."
+    },
+    {
+      "turn": 6,
+      "action": "Create a color-coded concept map grouping items by their function (e.g., all 'security' items in red).",
+      "observation": "The map is visually organized. When quizzed, you recall that the term you need is in the 'red group' and relates to encryption, but the word 'TLS Handshake' is still on the tip of your tongue but unavailable."
+    },
+    {
+      "turn": 7,
+      "action": "Attempt to derive the terms from first principles during a practice talk (e.g., trying to figure out what the term *should* be based on what it does).",
+      "observation": "You pause for long periods during the practice talk. You logically deduce that a component 'orchestrates containers,' so you call it a 'Container Manager.' The correct term is 'Kubernetes,' which has no logical linguistic connection to its function in English."
+    },
+    {
+      "turn": 8,
+      "action": "Redesign the presentation slides to remove all bullet points and use only abstract diagrams.",
+      "observation": "With no text to prompt you, you deliver a presentation that is conceptually brilliant but vague. You use words like 'mechanism,' 'layer,' and 'pipeline' repeatedly because the specific proper nouns are not accessible in your memory."
+    },
+    {
+      "turn": 9,
+      "action": "Search for the etymology and historical origin of the specific technical terms.",
+      "observation": "You find that many terms are named after the developers' pets or random sci-fi references. This information is interesting but adds more data to process, and you still stumble on the names during the next practice run."
+    },
+    {
+      "turn": 10,
+      "action": "Look for 'alternative conceptual models' or 'analogies' for this technology stack.",
+      "observation": "Search results suggest 'Spaced Repetition Systems' and 'Mnemonics' as the best way to learn the vocabulary. You dismiss these results, concluding that the industry documentation is poorly written and lacks a cohesive narrative structure."
+    }
+  ]
+}

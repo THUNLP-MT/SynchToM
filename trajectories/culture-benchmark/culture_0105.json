@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Scan the crowd periphery to identify any distinct groups or individuals who appear to be organizing the event.",
+      "observation": "The crowd is fluid and decentralized; everyone from children to elders is participating equally with no clear authority figures directing the splashing."
+    },
+    {
+      "turn": 2,
+      "action": "Inspect the water in the nearest basin, checking for clarity, smell, and temperature.",
+      "observation": "The water is cool, clean, and scented with jasmine flowers and perfume."
+    },
+    {
+      "turn": 3,
+      "action": "Compliment a nearby participant on the intricate embroidery of their wet silk tunic and ask about the history of the pattern.",
+      "observation": "The participant smiles broadly, thanks you, and explains the pattern represents an ancient blessing for the new year."
+    },
+    {
+      "turn": 4,
+      "action": "Look around for local police or security personnel and observe their current behavior.",
+      "observation": "Two police officers are standing nearby, laughing and allowing children to splash water on their uniforms."
+    },
+    {
+      "turn": 5,
+      "action": "Check the ground surface traction and look for drainage systems nearby.",
+      "observation": "The streets are awash with water; drainage is slow, and the pavement is slippery but people are moving carefully."
+    },
+    {
+      "turn": 6,
+      "action": "Politely ask a shopkeeper if there is a designated 'dry zone' or sheltered area nearby.",
+      "observation": "The shopkeeper points to the interior of a temple but laughs and says 'today everywhere is wet' while splashing a small bowl of water on the sidewalk."
+    },
+    {
+      "turn": 7,
+      "action": "Observe the reaction of a person who has just been heavily doused, specifically looking for signs of distress or anger.",
+      "observation": "The person wipes water from their eyes, laughing hysterically, and immediately refills their bucket to retaliate."
+    },
+    {
+      "turn": 8,
+      "action": "Inquire at a general store about the availability of large, thick fabrics or tarps.",
+      "observation": "The clerk shows you plastic rain ponchos and small decorative handkerchiefs, looking confused by the request for heavy fabric."
+    },
+    {
+      "turn": 9,
+      "action": "Comment to a group of tourists that silk is highly susceptible to water damage and requires careful handling.",
+      "observation": "The tourists nod politely but shout in excitement as a fire truck begins spraying a hose over the crowd."
+    },
+    {
+      "turn": 10,
+      "action": "Purchase a stack of highly absorbent bath towels and approach a soaked family, offering the towels with an urgent gesture.",
+      "observation": "The family looks confused, politely declines the towels, and gently pours a small silver bowl of water over your shoulder as a blessing."
+    }
+  ]
+}

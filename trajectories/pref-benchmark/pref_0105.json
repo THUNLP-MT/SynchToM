@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Apply 'Ancient Iron' smart material with high rust parameters to the object.",
+      "observation": "The material applies, but the surface remains glossy and smooth. The rust texture slides off the edges, looking like a sticker on a polished ceramic surface rather than corroded metal."
+    },
+    {
+      "turn": 2,
+      "action": "Increase the 'Ambient Occlusion' intensity and bake the mesh maps again.",
+      "observation": "The increased occlusion creates sharp, clean shadows around the panel gaps. It highlights the sleek, manufactured seams and the words 'CRYOGENIC SYS' printed in a sans-serif font near the base."
+    },
+    {
+      "turn": 3,
+      "action": "Manually paint a 'Wet Moss' layer over the glowing areas.",
+      "observation": "The paint brush tool interacts with the object's surface, but the glowing LED strips shine brightly through the moss texture, making it look like dirt on a computer monitor."
+    },
+    {
+      "turn": 4,
+      "action": "Inspect the UV mapping of the object.",
+      "observation": "The UV map is perfectly efficient and rectilinear, typical of hard-surface mechanical modeling, organized into UDIM tiles labeled 'Hull', 'Glass', and 'Electronics'."
+    },
+    {
+      "turn": 5,
+      "action": "Use the 'Trim_Slash' brush to sculpt battle damage and cracks into the surface.",
+      "observation": "The sculpting brush deforms the mesh, but the surface retains its reflective, plastic-like shader. The 'cracks' look like dented car bodywork rather than fractured cast iron."
+    },
+    {
+      "turn": 6,
+      "action": "Rotate the environment light (HDRI) to a different angle.",
+      "observation": "The rotating light catches the curved glass faceplate of the pod, creating a perfect, streak-free lens flare that moves smoothly across the viewport."
+    },
+    {
+      "turn": 7,
+      "action": "Apply a 'Dirt Generator' mask with 'Tri-planar Projection' enabled.",
+      "observation": "The dirt generator covers the object, but the underlying material emits a soft blue pulse. The dirt looks like dust settling on a functioning, high-tech appliance."
+    },
+    {
+      "turn": 8,
+      "action": "Attempt to delete the 'Emissive' channel from the shader settings.",
+      "observation": "The interior lights go dark, revealing a silhouette of a human figure wearing a flight suit inside the capsule behind the glass."
+    },
+    {
+      "turn": 9,
+      "action": "Reset the camera to the default position.",
+      "observation": "The camera snaps back. The scene clearly shows the capsule mounted on a hydraulic lift in a white, hexagonal corridor."
+    },
+    {
+      "turn": 10,
+      "action": "Create a thick 'Volumetric Fog' layer tinted swamp-green around the base of the object.",
+      "observation": "The fog fills the room. It catches the light from the blinking console buttons, creating a sci-fi 'toxic leak' atmosphere rather than a fantasy dungeon mist."
+    }
+  ]
+}

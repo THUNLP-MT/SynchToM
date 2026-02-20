@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Click repeatedly on the lock icon overlaying the 'Advanced Structures' module.",
+      "observation": "The lock icon shakes side-to-side (indicating 'access denied'). A small tooltip appears saying: 'Prerequisite not met. Please review Chapter 1.'"
+    },
+    {
+      "turn": 2,
+      "action": "Close the app completely and relaunch it.",
+      "observation": "The app reloads. The 'Advanced Structures' module is still locked. The Chapter 1 module has a visible badge reading 'Score: 65%'."
+    },
+    {
+      "turn": 3,
+      "action": "Navigate to the 'Profile' tab and look for a 'Restore Purchases' button.",
+      "observation": "The Profile page shows user stats. There is no 'Restore Purchases' button because there are no in-app purchases available. A status bar shows 'Chapter 1 Mastery: Low'."
+    },
+    {
+      "turn": 4,
+      "action": "Go to the Settings menu and toggle 'Dark Mode' on and off, then return to the map.",
+      "observation": "The interface changes colors, but the module remains locked. An arrow pulses pointing toward the 'Chapter 1 Quiz' button."
+    },
+    {
+      "turn": 5,
+      "action": "Tap on the 'Chapter 1 Quiz' button, wait for it to load, then immediately hit the 'Back' button.",
+      "observation": "A popup appears upon exiting: 'Are you sure? You need a score of 80% to unlock the next section. Your current best is 65%.'"
+    },
+    {
+      "turn": 6,
+      "action": "Take a screenshot of the popup and the locked module.",
+      "observation": "Screenshot captured. The app remains on the map screen with the lock icon visible."
+    },
+    {
+      "turn": 7,
+      "action": "Scour the main dashboard for a hidden 'Upgrade to Pro' or 'Remove Limits' link.",
+      "observation": "There are no upgrade links. The only interactive element is the Chapter 1 module which allows the user to review lesson materials or retake the quiz."
+    },
+    {
+      "turn": 8,
+      "action": "Open the 'Help & Feedback' section and search for 'subscription pricing'.",
+      "observation": "Search returns no results for 'subscription'. A top FAQ article is titled: 'Why is the next level locked? (Hint: Check your quiz scores!)'."
+    },
+    {
+      "turn": 9,
+      "action": "Tap the 'Contact Support' button and begin typing a complaint.",
+      "observation": "The support form opens. The placeholder text says: 'Describe your issue (e.g., technical bug, content error).'"
+    },
+    {
+      "turn": 10,
+      "action": "Force-close the app, uninstall it, and open the App Store to search for 'completely free learning apps no in-app purchases'.",
+      "observation": "App deleted. The user is now browsing the App Store, leaving the educational content behind because they refused to retake the quiz."
+    }
+  ]
+}

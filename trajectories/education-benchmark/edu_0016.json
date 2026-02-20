@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Divide the class into groups of four and distribute the 'Pump Assembly Kit', instructing them to immediately begin constructing the replica without opening the patent folders.",
+      "observation": "Students eagerly open the boxes but quickly become confused about the purpose of the activity. Several students ask, 'Why are we building a pump? Is this physics?' while ignoring the historical context provided in the patent folders."
+    },
+    {
+      "turn": 2,
+      "action": "Project a timer on the board and announce that the first group to successfully circulate water through their pump will win a prize.",
+      "observation": "The room becomes chaotic. Students rush the assembly, skipping instructions. They treat the activity as a race rather than an inquiry, completely missing the concept of how the technology evolved over time."
+    },
+    {
+      "turn": 3,
+      "action": "Walk around the room and create a checklist of missing components for each group to ensure their kits are complete.",
+      "observation": "While the kits are replenished, students point out the biographical sketches of Wilson Greatbatch and Earl Bakken included in the kit, asking if they need to read them. The educator ignores this, focused on the hardware."
+    },
+    {
+      "turn": 4,
+      "action": "Instruct students to put away the biographical sketches and patent copies, stating, 'Those are just background noise; focus on the tubing and valves to understand the science.'",
+      "observation": "Students seem frustrated. One student mentions, 'But the rubric says we need to explain how the invention changed.' The class is now purely focused on plumbing, with zero discussion of scientific epistemology."
+    },
+    {
+      "turn": 5,
+      "action": "Implement a 'Roles and Responsibilities' chart for each group (e.g., Materials Manager, Builder, Tester).",
+      "observation": "Groups are more organized, but they are efficiently doing the wrong thing. They are becoming expert plumbers, but remain ignorant of the module's core concept: the historical evolution of the pacemaker."
+    },
+    {
+      "turn": 6,
+      "action": "Stop the class to give a 10-minute demonstration on how to properly seal the plastic valves to prevent leaking.",
+      "observation": "The pumps work better, but the students are bored. They ask, 'Is this it? Just making water move?' The gap between the lesson activity and the 'Nature of Science' learning goal widens."
+    },
+    {
+      "turn": 7,
+      "action": "Assign a worksheet that asks students to calculate the flow rate of their pumps and graph the results.",
+      "observation": "Students complete the math easily but fail to make any connection to the 'evolution of scientific knowledge.' They view the lesson as a fluid dynamics lab, not a history of science module."
+    },
+    {
+      "turn": 8,
+      "action": "Upload a supplementary video tutorial to the class portal showing a professional engineer assembling a similar pump.",
+      "observation": "Students watch the video but remain confused about the upcoming assessment, which asks about the 'collaborative nature of scientific discovery' in the context of history, not engineering."
+    },
+    {
+      "turn": 9,
+      "action": "Redesign the final assessment to focus 80% on the 'quality of pump construction' and 'group cooperation during assembly', minimizing the written reflection on history.",
+      "observation": "Students with strong manual dexterity get As, while those who understood the actual learning objective (epistemology) fail. The assessment data now falsely confirms the educator's bias."
+    },
+    {
+      "turn": 10,
+      "action": "Write a feedback email to the curriculum coordinator complaining that the 'Science as a Dynamic Endeavor' module contains too much unnecessary reading and not enough mechanical parts.",
+      "observation": "The coordinator replies, clarifying that the module is a Nature of Science unit intended to teach historical literacy, not a physics lab, highlighting the educator's total misalignment."
+    }
+  ]
+}

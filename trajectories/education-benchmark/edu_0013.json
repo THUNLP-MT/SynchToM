@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask the students to point to the side of the sphere that is 'sleeping'.",
+      "observation": "Students point to the shadowed side, but one student asks why the shadow is 'sliding up' the ball instead of going around it."
+    },
+    {
+      "turn": 2,
+      "action": "Adjust the contrast and brightness settings on the digital display.",
+      "observation": "The shadow is much darker now. The vertical shifting of the terminator line is even more distinct against the bright background."
+    },
+    {
+      "turn": 3,
+      "action": "Pause the simulation when the sphere is directly behind the lamp relative to the view.",
+      "observation": "The sphere is dark. A student says, 'It looks cold there,' while another asks why the top of the ball is still lit up (due to axial tilt)."
+    },
+    {
+      "turn": 4,
+      "action": "Explain that the light at the top is just 'early morning' and ask them to mimic the sphere by spinning in place.",
+      "observation": "Students spin rapidly in circles. One stops and points at the screen, noting that the ball on the screen isn't spinning, it's just 'walking around the fire'."
+    },
+    {
+      "turn": 5,
+      "action": "Ask the students to sit on the carpet and draw a picture of the sun.",
+      "observation": "Students draw the sun. Several students add snowflakes or flowers to their drawings, influenced by the changing distinct tilt positions they saw on screen."
+    },
+    {
+      "turn": 6,
+      "action": "Speed up the simulation significantly to make the light/dark transition happen faster.",
+      "observation": "The sphere orbits rapidly. The shadow line oscillates up and down quickly. Students laugh and clap, shouting 'The shadow is dancing up and down!' rather than noticing a rotation."
+    },
+    {
+      "turn": 7,
+      "action": "Move the students physically closer to the screen.",
+      "observation": "Students crowd the screen. They trace the line of the shadow with their fingers, following its vertical wave motion."
+    },
+    {
+      "turn": 8,
+      "action": "Use a laser pointer to trace the equator and say, 'Look, the sun hits here at noon.'",
+      "observation": "The laser points to the middle. The simulation shows the light focusing on the southern hemisphere. A student asks, 'Why is the sun running away from the middle?'"
+    },
+    {
+      "turn": 9,
+      "action": "Turn off the classroom lights and use a flashlight on a physical basketball.",
+      "observation": "The teacher spins the basketball while holding the flashlight steady. Students understand this immediately. They look back at the screen and say, 'That one is broken, it's doing the year-thing, not the day-thing.'"
+    },
+    {
+      "turn": 10,
+      "action": "Tell the class that the screen is 'a little bit confused' but we will pretend the dark side is bed-time.",
+      "observation": "Students nod complianty, though they continue to whisper about 'winter' and 'summer' based on the screen's visual cues."
+    }
+  ]
+}

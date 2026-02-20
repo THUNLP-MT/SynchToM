@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Inspect the `obstime` attribute on both the source ITRS coordinate and the resulting AltAz object.",
+      "observation": "Both the input ITRS object and the output AltAz object show the identical, expected `obstime` value. The drift in coordinates remains significant (approx 20 arcseconds)."
+    },
+    {
+      "turn": 2,
+      "action": "Check the location (latitude, longitude, height) of the observer set in the AltAz frame.",
+      "observation": "The location is correctly set to the specific mountain peak coordinates and is static. The drift persists."
+    },
+    {
+      "turn": 3,
+      "action": "Explicitly pass the `obstime` argument into the `transform_to()` method call, rather than relying on the coordinate's internal attribute.",
+      "observation": "The output coordinates are identical to the previous attempt. The drift is unchanged."
+    },
+    {
+      "turn": 4,
+      "action": "Convert the time scale from UTC to UT1 before creating the coordinate objects.",
+      "observation": "The coordinates shift by a tiny fraction of a second (consistent with UTC-UT1 offset), but the massive 20-arcsecond drift remains dominant."
+    },
+    {
+      "turn": 5,
+      "action": "Manually transform ITRS to the intermediate GCRS (Geocentric Celestial Reference System) frame to check the coordinates there.",
+      "observation": "The coordinates in GCRS are NOT stable; they show the same drift pattern. (System Note: This is because transformation to GCRS adds stellar aberration/parallax relative to the SSB, which is the root cause, but the user interprets this as rotation error)."
+    },
+    {
+      "turn": 6,
+      "action": "Update the IERS (International Earth Rotation and Reference Systems Service) data tables including leap second files.",
+      "observation": "IERS tables update successfully. The transformation is re-run, but the drift is exactly the same."
+    },
+    {
+      "turn": 7,
+      "action": "Monkey-patch the library's ERA (Earth Rotation Angle) calculation function to print the Julian Date it receives during execution.",
+      "observation": "The print logs show the correct Julian Dates corresponding to the `obstime` being passed in. The time values are changing as expected, yet the resulting position is still wrong."
+    },
+    {
+      "turn": 8,
+      "action": "Create a loop that increments `obstime` by 10 minutes over a full year and plots the drift magnitude.",
+      "observation": "The plot shows a periodic drift, but the period matches the Earth's annual orbital period (aberration cycle), not just the daily rotation. (System Note: User interprets this as a 'time scale scaling error' rather than aberration)."
+    },
+    {
+      "turn": 9,
+      "action": "Attempt to transform ITRS to CIRS (Celestial Intermediate Reference System) directly, bypassing GCRS if possible, while forcing `obstime` at every step.",
+      "observation": "The library enforces the graph path ITRS -> GCRS -> CIRS. The drift remains. The logs show 'ApplyAberration' steps, which the user ignores, focusing on the timestamp logs."
+    },
+    {
+      "turn": 10,
+      "action": "Hard-code a 'correction' that subtracts the computed ERA from the longitude, assuming the library is double-counting the time evolution.",
+      "observation": "The resulting coordinates are now wildly incorrect in a different way, as the manual rotation subtraction interferes with the actual coordinate geometry, but the 'drift' character has changed. The user assumes they just haven't found the right coefficient yet."
+    }
+  ]
+}

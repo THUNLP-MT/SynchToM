@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Run `pytest tests/test_queries.py --tb=long`",
+      "observation": "The traceback indicates the error `NotSupportedError: ProductMetaDataType is disallowed in the filter clause` is raised from `django/db/models/sql/query.py` in the function `check_filterable`."
+    },
+    {
+      "turn": 2,
+      "action": "Read file `django/db/models/sql/query.py` around line 1350 to inspect `check_filterable`.",
+      "observation": "The code for `check_filterable` is: `def check_filterable(expression): if not getattr(expression, 'filterable', True): raise NotSupportedError(...)`."
+    },
+    {
+      "turn": 3,
+      "action": "Run `pip show django`",
+      "observation": "The installed version is Django 3.0.4."
+    },
+    {
+      "turn": 4,
+      "action": "Edit `products/models.py` to add `filterable = True` as a class attribute to the `ProductMetaDataType` class.",
+      "observation": "The test is run again. The error `NotSupportedError: ProductMetaDataType is disallowed in the filter clause` persists exactly as before."
+    },
+    {
+      "turn": 5,
+      "action": "Run `grep -r 'class ProductMetaDataType' .`",
+      "observation": "Only one definition of the class is found in `products/models.py`."
+    },
+    {
+      "turn": 6,
+      "action": "Edit `tests/test_queries.py` to change the filter to `.filter(metadata_type=instance.id)` instead of `.filter(metadata_type=instance)`.",
+      "observation": "The test passes successfully when using the ID."
+    },
+    {
+      "turn": 7,
+      "action": "Google search for 'Django 3.0 register model filterable mixin' and 'NotSupportedError disallowed in filter clause'.",
+      "observation": "No direct documentation found regarding a 'filterable mixin' or registration requirement. Search results mostly discuss custom lookups or unrelated `NotSupportedError` cases."
+    },
+    {
+      "turn": 8,
+      "action": "Edit `tests/test_queries.py` to add `print(f'DEBUG: Type={type(instance)}, Filterable={getattr(instance, \"filterable\", \"MISSING\")}')` immediately before the failing filter call.",
+      "observation": "Console output: `DEBUG: Type=<class 'ProductMetaDataType'>, Filterable=False`."
+    },
+    {
+      "turn": 9,
+      "action": "Run `python manage.py check`",
+      "observation": "System check identified no issues (0 silenced)."
+    },
+    {
+      "turn": 10,
+      "action": "Edit `products/models.py` to define a new mixin `class ForceFilterable: filterable = True` and inherit it in `ProductMetaDataType` before `models.Model`.",
+      "observation": "The error persists. The Django field descriptor for the boolean field named `filterable` (which holds the value `False` from the database) continues to shadow the class-level attribute, causing `getattr` to return `False`."
+    }
+  ]
+}

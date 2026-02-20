@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Sprint towards the NPC and mash the 'Heavy Attack' button.",
+      "observation": "The player character swings their weapon, but the sword passes harmlessly through the NPC. The NPC says, 'Halt, traveler. None may pass without the spoken word.'"
+    },
+    {
+      "turn": 2,
+      "action": "Walk backwards out of the area, then sprint back in and jump-attack.",
+      "observation": "The NPC turns their head to follow the player's movement but does not draw a weapon. NPC says, 'Stop running about. State your business.'"
+    },
+    {
+      "turn": 3,
+      "action": "Open the 'Key Bindings' menu, unbind and rebind the Attack key, then try attacking again.",
+      "observation": "The player character swings the weapon again. The blade clips through the NPC again. NPC says, 'I am waiting for the password.'"
+    },
+    {
+      "turn": 4,
+      "action": "Interact (Talk) with the NPC, then immediately try to cancel the dialogue with a Dodge-Roll + Attack combo.",
+      "observation": "A dialogue box appears with a text input field. The player rolls away, closing the box. The NPC returns to idle animation."
+    },
+    {
+      "turn": 5,
+      "action": "Open Inventory, unequip the current weapon, and equip a lower-level 'Starter Sword'.",
+      "observation": "Player holds the rusty sword. NPC says, 'The weapon matters not. Only the knowledge of the ancients.'"
+    },
+    {
+      "turn": 6,
+      "action": "Throw a 'Fire Bomb' consumable item directly at the NPC's feet.",
+      "observation": "The bomb explodes. The NPC takes 0 damage and is engulfed in flames but does not react. NPC says, 'Do you intend to burn the gate down? Speak the phrase or leave.'"
+    },
+    {
+      "turn": 7,
+      "action": "Spam the 'Taunt' and 'Laugh' emotes repeatedly in the NPC's face.",
+      "observation": "The NPC stares blankly. A prompt above their head flashes: [Requires: Password]. User ignores the text, assuming it's a debug error for the boss name."
+    },
+    {
+      "turn": 8,
+      "action": "Open the 'Graphics' settings and lower the frame rate cap to 30 FPS.",
+      "observation": "The game stutters slightly as settings apply. The NPC remains friendly. NPC says, 'I haven't all day. What does the scroll say?'"
+    },
+    {
+      "turn": 9,
+      "action": "Run into the corner between the gate and the wall, jumping repeatedly to try and clip through the geometry.",
+      "observation": "The player slides down the invisible wall. The gate remains shut. The NPC watches passively."
+    },
+    {
+      "turn": 10,
+      "action": "Open the in-game 'Report Bug' tool and type a furious message.",
+      "observation": "Ticket submitted. The NPC continues to wait for the password that is clearly written in the 'Quest Items' tab the user has never opened."
+    }
+  ]
+}

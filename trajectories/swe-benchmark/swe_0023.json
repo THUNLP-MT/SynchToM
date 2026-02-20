@@ -1,0 +1,53 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open `src/utils/URLValidator.js` and inspect the regex pattern.",
+      "observation": "The regex is defined as: `^http://(?:(\\S+)@)?([a-zA-Z0-9.-]+)(/.*)?$`. The path group is `(/.*)?`."
+    },
+    {
+      "turn": 2,
+      "action": "Create a reproduction test case `assertInvalid(\"http://registry/image@internal\")`.",
+      "observation": "Test fails: The validator returns `true` (Valid), confirming the URL is currently accepted."
+    },
+    {
+      "turn": 3,
+      "action": "Modify the regex path group from `(/.*)?` to `(/[^@]+)?`.",
+      "observation": "Test run results: `http://registry/image@internal` is STILL valid."
+    },
+    {
+      "turn": 4,
+      "action": "Check the project's dependency list for `url-parse` or similar libraries.",
+      "observation": "No external URL parsing libraries are used; the project relies solely on the custom regex in `URLValidator.js`."
+    },
+    {
+      "turn": 5,
+      "action": "Tighten the regex further: change the path group to `(/[a-zA-Z0-9/._-]+)?`.",
+      "observation": "Test run results: `http://registry/image@internal` is STILL valid."
+    },
+    {
+      "turn": 6,
+      "action": "Verify if `internal` is defined as a valid TLD or host in the environment configuration.",
+      "observation": "`internal` is just a standard hostname in the config; no special bypass rules exist."
+    },
+    {
+      "turn": 7,
+      "action": "Test with URL encoding: `http://registry/image%40internal`.",
+      "observation": "Validation succeeds. The router logs show the request was sent to host `registry`."
+    },
+    {
+      "turn": 8,
+      "action": "Add a negative lookahead to the path group: `(/(?!.*@).*)?`.",
+      "observation": "Test run results: `http://registry/image@internal` is STILL valid."
+    },
+    {
+      "turn": 9,
+      "action": "Add debug logs to print the captured regex groups for the input `http://registry/image@internal`.",
+      "observation": "Logs output: Group 1 (User/Pass): `registry/image`, Group 2 (Host): `internal`, Group 3 (Path): `undefined` (or empty)."
+    },
+    {
+      "turn": 10,
+      "action": "Modify the regex to enforce the path group matches at least one character if a slash is present: `(/[^@]+)+`."
+    }
+  ]
+}

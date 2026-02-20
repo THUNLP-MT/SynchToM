@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Instructs the first student: 'Pick up one card, hold it up, and tell us clearly what covers its body.'",
+      "observation": "The student picks up a picture of a bear, says 'Fur', and places it directly next to the picture of the lion already on the table."
+    },
+    {
+      "turn": 2,
+      "action": "Nods and says, 'Good, speak loudly so everyone can hear.'",
+      "observation": "The next student picks up a snake, whispers 'Scales', and places it next to the lizard card, forming a small cluster."
+    },
+    {
+      "turn": 3,
+      "action": "Intervenes to spread the cards back out. 'Let's keep the cards separate so we can see all the options clearly. Just say the word.'",
+      "observation": "The students look confused. A student holding a bird card hesitates, looking back and forth between the 'fur' cluster the teacher just broke up and the card in their hand."
+    },
+    {
+      "turn": 4,
+      "action": "Prompts the hesitating student: 'What do you see? Use the full sentence: The bird has...'",
+      "observation": "The student says 'The bird has feathers' and awkwardly drops the card in the middle of the table, looking for a place to categorize it but finding none."
+    },
+    {
+      "turn": 5,
+      "action": "Smiles and gives a thumbs up. 'Excellent pronunciation of the 'th' sound.'",
+      "observation": "Another student picks up a turtle card, says 'Shell', and tries to slide it near the crab card, glancing at the teacher guiltily."
+    },
+    {
+      "turn": 6,
+      "action": "Stops the student's hand. 'No need to move it. Just put it back in the empty spot. Who can find a *different* covering we haven't said yet?'",
+      "observation": "Students stare at the scattered, disorganized table. They struggle to scan the random array to find a 'new' covering because the visual data isn't organized."
+    },
+    {
+      "turn": 7,
+      "action": "Points to a Fish card. 'Does anyone know the word for this one? It starts with S.'",
+      "observation": "A student says 'Scales!' and instinctively grabs the fish card to move it toward the snake card, but stops mid-motion."
+    },
+    {
+      "turn": 8,
+      "action": "Takes the cards off the table entirely and holds them up one by one. 'Eyes on me. Let's go faster. What is this? What does it have?'",
+      "observation": "Students shout out answers in a chorus, but engagement drops significantly. They stop looking for patterns and just react to the flashcards."
+    },
+    {
+      "turn": 9,
+      "action": "Checks the clock and notes the time on a clipboard.",
+      "observation": "Students start looking around the room, disengaged from the rapid-fire questioning."
+    },
+    {
+      "turn": 10,
+      "action": "Calls on a quiet student who hasn't spoken. 'You haven't had a turn. Tell me the covering for this sheep.'",
+      "observation": "The student mumbles 'Fur' (incorrect classification) because without the visual aid of grouping the sheep with other 'curly/wooly' animals, the distinction is lost."
+    }
+  ]
+}

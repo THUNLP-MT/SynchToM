@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Correct the student's terminology immediately.",
+      "observation": "I tell the student, 'Not exactly. The beaker contains a solution. Soil is a solid mixture. Let's focus on what happened to the water inside the plant.' The student looks confused and says, 'But the water still went out, just like in the red blood cell.'"
+    },
+    {
+      "turn": 2,
+      "action": "Draw a diagram of a plant cell on the whiteboard focusing on the central vacuole shrinking.",
+      "observation": "The students copy the drawing. One asks, 'So the vacuole got smaller because the outside was saltier? Or drier? Isn't that the same thing?'"
+    },
+    {
+      "turn": 3,
+      "action": "Write the chemical definition of 'Solution' on the board: Solute + Solvent = Solution.",
+      "observation": "The class reads the definition. A student raises their hand and asks, 'But isn't there a tiny bit of water in the soil with minerals in it? Wouldn't that be the solution?'"
+    },
+    {
+      "turn": 4,
+      "action": "Introduce a sponge analogy.",
+      "observation": "I squeeze a dry sponge to show it's hard/wilted. Students nod, but a student points to the textbook page on 'Root Hair Osmosis' which shows water moving across membranes."
+    },
+    {
+      "turn": 5,
+      "action": "Differentiate between 'Evaporation' and 'Osmosis' explicitly.",
+      "observation": "I explain that the air dries the soil. The student replies, 'Okay, but the root cells are underground. They touch the dirt, not the air. So the water moves from the root to the dirt. That's a membrane crossing.'"
+    },
+    {
+      "turn": 6,
+      "action": "Show a microscopic image of Elodea cells undergoing plasmolysis.",
+      "observation": "The image clearly shows the cell membrane pulling away from the cell wall. A student says, 'Hey, that looks exactly like the diagram in the book for hypertonic solution effects!'"
+    },
+    {
+      "turn": 7,
+      "action": "Bring a pot of physical dry soil to the front of the room and crumble it.",
+      "observation": "Dust falls from the roots. The student persists: 'Okay, it's dry. That means the concentration of water is lower outside the root than inside. Isn't that the definition of the gradient that causes osmosis?'"
+    },
+    {
+      "turn": 8,
+      "action": "Pivot to discussing 'Water Potential' (Psi) vaguely without using the math.",
+      "observation": "I explain that water moves from high potential to low potential. The student nods enthusiastically: 'Right! And since the soil has high solutes and low water, it's hypertonic! That's why the potential is low!'"
+    },
+    {
+      "turn": 9,
+      "action": "Explicitly ban the use of the word 'Hypertonic' for the soil lab report.",
+      "observation": "The class groans. A student asks, 'So if we put the plant in salt water and it wilts, it's osmosis. If we put it in dry dirt and it wilts, it's... not osmosis? But the cells look the same?'"
+    },
+    {
+      "turn": 10,
+      "action": "Assign a worksheet that focuses purely on the structural integrity of the cell wall.",
+      "observation": "Students start the worksheet. One student whispers to another, 'It's totally the same thing, the teacher just hates the word hypertonic for dirt.'"
+    }
+  ]
+}

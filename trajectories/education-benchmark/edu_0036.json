@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "I ask the group, 'Is your timeline legible from the back of the room? Those text descriptions look very dense.'",
+      "observation": "The students agree the text is small. They start discussing how to summarize the steps of the bacteriophage radioactive labeling process into bullet points to make it more readable."
+    },
+    {
+      "turn": 2,
+      "action": "I hand the group a set of colored markers and say, 'Why don't you color-code the genetic material versus the protein coat? Red for DNA, Blue for Protein.'",
+      "observation": "The students use the markers to color the text headings 'S-35' in blue and 'P-32' in red on their chart. They also draw simple circles to represent the phage heads, coloring them blue."
+    },
+    {
+      "turn": 3,
+      "action": "I point to the Avery, MacLeod, and McCarty section and say, 'You have the word 'Transformation' here. Instead of defining it, draw what the molecule looks like that is doing the transforming.'",
+      "observation": "A student looks at the rubric and says, 'But the rubric asks for the experimental logic. Avery didn't know what the molecule looked like, only that enzymes broke it down. If we draw a helix, isn't that anachronistic?'"
+    },
+    {
+      "turn": 4,
+      "action": "I respond, 'Don't worry about the history so much. Think about the AP exam. How can you explain transformation if you don't show the base-pairing mechanism? Draw the ladder.'",
+      "observation": "The group looks confused. One student sketches a ladder but labels it 'Hypothetical' and puts a question mark over it, while the others continue writing about protease and DNase enzymes."
+    },
+    {
+      "turn": 5,
+      "action": "I ask the student holding the blue marker, 'Are you sure you have enough space there? You're going to need room to show the replication fork opening up for the Hershey-Chase explanation.'",
+      "observation": "The student replies, 'Wait, Hershey and Chase just showed that DNA entered the bacteria. They didn't propose a replication model. That came later with Meselson-Stahl, right?'"
+    },
+    {
+      "turn": 6,
+      "action": "I tap the paper firmly and say, 'The point of the Hershey-Chase experiment was to prove DNA is the genetic material. How can it be genetic material if it doesn't replicate? You need to show the structure to prove the function.'",
+      "observation": "The students flip through their textbook. They point to a diagram of a blender and a centrifuge. 'Sir, the book emphasizes the separation of the supernatant. That's the evidence. The structure isn't in this chapter.'"
+    },
+    {
+      "turn": 7,
+      "action": "I suggest, 'Maybe you should look at the glossary definition of DNA. It might clarify what you need to put on the poster.'",
+      "observation": "The students look up DNA. They nod, but then go back to their timeline and write: 'DNA: The molecule containing phosphorus but no sulfur, found in the pellet.' They do not draw the shape."
+    },
+    {
+      "turn": 8,
+      "action": "I take a sticky note and sketch a quick double helix myself, sticking it over their text about radioactive phosphorus. 'This is what I'm looking for. This makes it clear that it's a complex information carrier, not just a chemical.'",
+      "observation": "The students look frustrated. One whispers to another, 'But if we replace the phosphorus data with a drawing of the helix, we lose the evidence for why they knew it was DNA and not protein.'"
+    },
+    {
+      "turn": 9,
+      "action": "I shake my head and say, 'You are focusing too much on the *how* they found it and not *what* they found. The prompt says 'Illustrate the discovery.' The discovery is the Double Helix. Please fix it.'",
+      "observation": "The group reluctantly erases their detailed breakdown of the centrifuge results. They start copying the double helix drawing from the sticky note, looking dejected."
+    },
+    {
+      "turn": 10,
+      "action": "I smile and say, 'Much better. Now, make sure you label the 5-prime and 3-prime ends so we are ready for the replication lesson tomorrow.'",
+      "observation": "The students label the ends as requested. However, the timeline now shows Griffith (1928) and Avery (1944) leading to a detailed 1953 structural model, completely skipping the logic of how the scientific community was convinced to abandon the protein hypothesis."
+    }
+  ]
+}

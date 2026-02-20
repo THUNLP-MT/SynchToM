@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Review the course analytics dashboard to pinpoint exactly where students are leaving.",
+      "observation": "Analytics show a 90% drop-off rate within the first 3 seconds of the video loading, specifically on mobile devices. Desktop users have normal retention."
+    },
+    {
+      "turn": 2,
+      "action": "Send a mass email survey to the students who dropped out asking: 'Was the lecture content too dry or too long?'",
+      "observation": "Several students reply with messages like 'I couldn't watch it,' 'The screen went black,' and 'It kept crashing on my phone.'"
+    },
+    {
+      "turn": 3,
+      "action": "Draft a plan to break the 45-minute lectures into 5-minute 'micro-learning' segments.",
+      "observation": "The content team acknowledges the request but notes that the video hosting platform has released a critical alert regarding the latest Chrome mobile update."
+    },
+    {
+      "turn": 4,
+      "action": "Add interactive pop-up quizzes at the start of the module to force engagement before the video begins.",
+      "observation": "Engagement data shows students complete the quiz successfully, but the moment the video player attempts to load afterward, the session ends abruptly."
+    },
+    {
+      "turn": 5,
+      "action": "Compare the completion rates between students who logged in via WiFi versus cellular data.",
+      "observation": "Data shows high drop-off on both WiFi and cellular for mobile users. A system error log 'Code 404: Media Decode Error' appears in the background tab."
+    },
+    {
+      "turn": 6,
+      "action": "Replace the first video module with a text-only transcript and a static image.",
+      "observation": "Retention for this specific module spikes to 100% because the text loads instantly without crashing. Students can finally see the content."
+    },
+    {
+      "turn": 7,
+      "action": "Interpret the success of the text module as definitive proof and schedule the deletion of all remaining video files.",
+      "observation": "Support tickets start coming in asking 'Why are the videos gone? I prefer watching to reading, I just wanted the player fixed.'"
+    },
+    {
+      "turn": 8,
+      "action": "Research gamification plugins to replace the deleted video content.",
+      "observation": "The plugin marketplace website loads slowly on the user's phone, displaying a banner: 'Warning: Recent browser updates may affect media playback.'"
+    },
+    {
+      "turn": 9,
+      "action": "Review the 'Time on Page' metrics for the course homepage versus the module pages.",
+      "observation": "Time on page is high for the homepage. On module pages with videos, time is 0:03 seconds. On the text module, time is 5:00 minutes."
+    },
+    {
+      "turn": 10,
+      "action": "Finalize the 'Interactive Restructure Plan' which permanently bans video lectures and mandates text/quiz formats only.",
+      "observation": "The plan is saved. Meanwhile, the IT department pushes a patch for the video player codec, but it is irrelevant now as the user has removed all video content."
+    }
+  ]
+}

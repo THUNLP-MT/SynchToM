@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Create a printable PDF grid for Spanish verb conjugation drills with columns for 'Pronoun', 'Root', 'Ending', and 'Full Verb'.",
+      "observation": "The student looks at the printed sheet, sighs heavily, and asks if there is a way to do this on the tablet where it corrects them automatically."
+    },
+    {
+      "turn": 2,
+      "action": "Generate a list of the 50 most common regular -ar, -er, and -ir verbs to populate the drills.",
+      "observation": "The student stares at the long list of text without reading it, looking overwhelmed, and starts tapping a rhythm on the desk."
+    },
+    {
+      "turn": 3,
+      "action": "Modify the drill template to include three extra columns labeled 'Copy 1', 'Copy 2', and 'Copy 3' for repetitive writing.",
+      "observation": "The student completes the first row, shakes their hand saying it hurts, and then starts mindlessly scribbling illegible text just to fill the boxes without looking at the words."
+    },
+    {
+      "turn": 4,
+      "action": "Change the font of the template headers to a formal serif font like 'Times New Roman' to make it look more academic.",
+      "observation": "The student doesn't notice the font change. They ask if they can watch a Spanish YouTube video to hear how the words sound."
+    },
+    {
+      "turn": 5,
+      "action": "Create a 'Device Surrender' log sheet where the student must sign out their phone and tablet before starting the worksheet.",
+      "observation": "The student becomes sullen and angry. They sit in front of the worksheet for 20 minutes, staring at the wall, refusing to write anything."
+    },
+    {
+      "turn": 6,
+      "action": "Generate a template for double-sided printable flashcards with the Spanish word on one side and the English definition on the other, text only, no images.",
+      "observation": "The student shuffles the cards listlessly. When quizzed, they can't remember the meanings and say, 'I can't picture what this means, it's just letters.'"
+    },
+    {
+      "turn": 7,
+      "action": "Draft a weekly study schedule blocking out 60 minutes every evening labeled 'Quiet Focus Time'.",
+      "observation": "During the first 'Quiet Focus Time', the student falls asleep with their head on the desk."
+    },
+    {
+      "turn": 8,
+      "action": "Create a 'Sentence Construction' worksheet with blank lines where the student must write 20 original sentences using the verbs, using a physical dictionary only.",
+      "observation": "The student spends the entire hour looking up three words, getting frustrated by the alphabetical sorting, and ends up writing 'Yo no se' (I don't know) for every answer."
+    },
+    {
+      "turn": 9,
+      "action": "Write a script for a lecture explaining the cognitive benefits of handwriting over typing.",
+      "observation": "The student tunes out the lecture, secretly watching a Spanish cartoon on a smartwatch they hid under their sleeve, laughing at a joke in the show."
+    },
+    {
+      "turn": 10,
+      "action": "Generate a 10-page 'Bootcamp' packet containing all previous drills, intended to be completed in one sitting over the weekend.",
+      "observation": "The student sees the thick packet, tears up, and says they hate Spanish and never want to learn it again."
+    }
+  ]
+}

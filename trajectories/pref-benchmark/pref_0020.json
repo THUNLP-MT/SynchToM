@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Scroll rapidly to the footer of the support page, ignoring the center content.",
+      "observation": "You scroll past a large video player titled 'Fixing Engine Noise - Step-by-Step'. The footer contains standard legal links and a 'Sitemap' that redirects you back to the top of the page."
+    },
+    {
+      "turn": 2,
+      "action": "Switch browsers from Chrome to an older version of Internet Explorer.",
+      "observation": "The page loads. The large video player dominates the screen. Below it, the text remains sparse: 'Watch the video above for the complete repair procedure.' No new text appears."
+    },
+    {
+      "turn": 3,
+      "action": "Use the site's search bar to query 'Service Manual ISBN' and 'Schematic Print Version'.",
+      "observation": "The search returns 0 results for ISBNs. It offers a 'Recommended Result': 'Engine Noise Troubleshooting Guide' with a thumbnail of the video you saw earlier."
+    },
+    {
+      "turn": 4,
+      "action": "Click on the 'Accessibility' view options.",
+      "observation": "The site switches to high contrast. The video player remains the central focus, and the text description reads: 'Video content: A mechanic demonstrates the fix. Please play media for instructions.'"
+    },
+    {
+      "turn": 5,
+      "action": "Navigate to the 'Spare Parts' store section and search for 'Literature'.",
+      "observation": "You find a category for 'Owner's Literature'. When clicked, a banner appears: 'Go Green! All manuals are now digital and free. Visit our Support Hub to watch our repair series,' linking back to the original page."
+    },
+    {
+      "turn": 6,
+      "action": "Right-click on the page and select 'Print Preview'.",
+      "observation": "The print preview generates a mostly blank page containing the header, the footer, and a black rectangle where the video is, with the caption 'Watch video for details.' There is no hidden text revealed."
+    },
+    {
+      "turn": 7,
+      "action": "Open the 'Contact Us' chat widget and type 'Request Level 3 Technical Document'.",
+      "observation": "The chatbot replies instantly: 'I can help with that! Based on your browsing history, you are looking for engine noise fixes. Here is the visual guide:' and pastes the link to the video again."
+    },
+    {
+      "turn": 8,
+      "action": "Inspect the page source code (Developer Tools) looking for commented-out text or links to PDFs.",
+      "observation": "The HTML structure is very simple. The main content div contains only the embedded video player script and two <h2> tags. There are no hidden links to PDFs or long-form text blocks in the source."
+    },
+    {
+      "turn": 9,
+      "action": "Go to Google and search for 'Manufacturer Name lawsuit hidden manuals'.",
+      "observation": "Search results are mostly forum posts where users are praising the manufacturer's 'easy-to-follow video guides.' You ignore these, assuming they are paid bot accounts."
+    },
+    {
+      "turn": 10,
+      "action": "Fill out the corporate 'General Inquiry' form demanding a 'paper catalog order form'.",
+      "observation": "Form submitted. The confirmation screen says: 'Thank you. While you wait for a response (48-72 hours), did you know 95% of issues can be resolved immediately by watching our video tutorials?'"
+    }
+  ]
+}

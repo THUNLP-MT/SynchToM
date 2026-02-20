@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Acknowledge the student's point about the immune system's power, but immediately pivot to asking, 'But does every single B-cell produce every possible shape?'",
+      "observation": "The student looks puzzled and replies, 'I don't know about B-cells, but this protein is an antibody, and antibodies are designed to attack foreign invaders, so it should attack this antigen.'"
+    },
+    {
+      "turn": 2,
+      "action": "Ask the student to draw a diagram of the antibody interacting with the antigen on the whiteboard.",
+      "observation": "The student draws a generic Y-shape touching a round circle (antigen) and labels it 'binding'. They do not draw any specific binding site shapes."
+    },
+    {
+      "turn": 3,
+      "action": "Point to the tips of the 'Y' in the drawing and explain V(D)J recombination, emphasizing how genes are 'shuffled' to create a unique shape.",
+      "observation": "The student listens but interrupts to say, 'Okay, so the genes make it. But once it's made, it's an antibody. And since the antigen is foreign, the antibody will recognize it.'"
+    },
+    {
+      "turn": 4,
+      "action": "Use an analogy: 'Think of the immune system like a library containing every book ever written. Does one single book contain every story, or just one story?'",
+      "observation": "The student responds, 'But this antibody is like a policeman, right? A policeman arrests any criminal, not just one specific criminal. So the antibody binds any antigen.'"
+    },
+    {
+      "turn": 5,
+      "action": "Ask the student to define the term 'epitope'.",
+      "observation": "The student reads the definition: 'The part of an antigen molecule to which an antibody attaches itself.' They add, 'See? It attaches.'"
+    },
+    {
+      "turn": 6,
+      "action": "Draw a diagram showing a population of 10 different B-cells, each with a different color receptor, and circle only the one that matches the antigen (Clonal Selection).",
+      "observation": "The student looks at the diagram and asks, 'But in the real body, wouldn't the other ones try to help out too? Since it's an emergency?'"
+    },
+    {
+      "turn": 7,
+      "action": "Explain the concept of 'somatic hypermutation' and affinity maturation to show how hard the body works to get a specific fit.",
+      "observation": "The student sighs and says, 'I guess the body works hard. But in this assay, we just put the antibody and antigen in a tube. There's no body to stop them from binding, so they will stick.'"
+    },
+    {
+      "turn": 8,
+      "action": "Ask the student if they are perhaps thinking of 'polyclonal' mixtures rather than 'monoclonal' antibodies.",
+      "observation": "The student shakes their head. 'I don't know those words. I just know the Lock and Key model is for enzymes, but antibodies are for immune defense, so they have to be versatile.'"
+    },
+    {
+      "turn": 9,
+      "action": "Direct the student to look up the structure of the Variable Region (Fv) in their textbook.",
+      "observation": "The student glances at the page and says, 'It looks sticky. Like Velcro. Velcro sticks to everything.'"
+    },
+    {
+      "turn": 10,
+      "action": "Assign a remedial reading on 'The Combinatorial Diversity of the Immunoglobulin Repertoire' to be completed before the next class.",
+      "observation": "The student takes the reading but mutters, 'I still think if it's a foreign germ, the antibody will grab it. That's its job.'"
+    }
+  ]
+}

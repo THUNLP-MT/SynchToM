@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Select the 'Connector' tool and drag a line starting from the 'Wolf' node to the 'Deer' node.",
+      "observation": "The software automatically snaps the arrow anchor points, but reverses the direction. The arrowhead now points from the Deer to the Wolf."
+    },
+    {
+      "turn": 2,
+      "action": "Immediately press 'Undo' (Ctrl+Z) and try drawing the line again, this time moving the mouse much slower.",
+      "observation": "The software once again snaps the connection, creating an arrow pointing from the Deer to the Wolf."
+    },
+    {
+      "turn": 3,
+      "action": "Select the arrow object on the canvas and look for a 'Flip Direction' or 'Reverse' button in the toolbar.",
+      "observation": "The 'Reverse' button is grayed out. Hover text reads: 'Direction fixed by bioenergetic logic constraints.'"
+    },
+    {
+      "turn": 4,
+      "action": "Open the 'Project Settings' and navigate to the 'Visual Style' tab to look for arrowhead configuration options.",
+      "observation": "Settings found for line thickness and color. A help tip reads: 'Standard notation follows energy transfer laws.'"
+    },
+    {
+      "turn": 5,
+      "action": "Delete the Wolf-Deer connection. Draw a connection from the 'Grass' node to the 'Deer' node.",
+      "observation": "The user attempts to draw Deer -> Grass. The system snaps the arrow Grass -> Deer."
+    },
+    {
+      "turn": 6,
+      "action": "Right-click the 'Wolf' node and select 'Properties', then attempt to change its 'Role' from 'Consumer' to 'Dominant Agent'.",
+      "observation": "The 'Role' dropdown only offers 'Producer', 'Primary Consumer', 'Secondary Consumer', and 'Decomposer'. No custom roles are allowed."
+    },
+    {
+      "turn": 7,
+      "action": "Zoom in to 200% magnification and inspect the anchor points on the 'Deer' node.",
+      "observation": "The node has a single continuous border for connections. No distinct input/output ports are visible."
+    },
+    {
+      "turn": 8,
+      "action": "Open the 'Wolf' properties again and increase its 'Biomass' value to be significantly higher than the 'Deer'.",
+      "observation": "The node size for the Wolf increases visually. The arrow connecting Deer -> Wolf remains unchanged, pointing to the Wolf."
+    },
+    {
+      "turn": 9,
+      "action": "Select the 'Text Line' tool (a purely cosmetic drawing tool) instead of the 'Smart Connector' tool and draw a line from Wolf to Deer.",
+      "observation": "A simple black line is drawn from Wolf to Deer. The system displays a warning icon: 'Unlinked components. Energy flow calculation impossible.'"
+    },
+    {
+      "turn": 10,
+      "action": "Manually add a text box label over the cosmetic line reading 'Predation Pressure' and ignore the system warning.",
+      "observation": "The diagram is saved with the cosmetic line. The 'Bioenergetics Score' in the corner remains at 0%."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Sprint towards the edge and press the jump button at the very last possible frame.",
+      "observation": "The character leaps, flails in the air, and falls short of the other side. You respawn next to a pile of wooden planks and rope."
+    },
+    {
+      "turn": 2,
+      "action": "Rotate the camera 90 degrees and look straight down into the chasm while standing on the edge.",
+      "observation": "The chasm is bottomless. There are no ledges below. You see a glowing icon over the wooden planks that says 'Press E to Interact'."
+    },
+    {
+      "turn": 3,
+      "action": "Walk slowly off the ledge without jumping.",
+      "observation": "You fall immediately. A tool-tip appears on screen: 'Collect resources to build structures.'"
+    },
+    {
+      "turn": 4,
+      "action": "Sprint at the edge again, but this time double-tap the jump button rapidly.",
+      "observation": "The character performs a single jump and falls into the pit again. The character explicitly says, 'I can't jump that far. I need to make a way across.'"
+    },
+    {
+      "turn": 5,
+      "action": "Open inventory and unequip the heavy armor and shield.",
+      "observation": "You are now unarmored. You jump towards the other side. The distance covered is identical to the previous attempts. You fall."
+    },
+    {
+      "turn": 6,
+      "action": "Run parallel to the ledge, turn 90 degrees sharply, and jump.",
+      "observation": "You fall into the pit. The camera lingers on the pile of wood and rope nearby, highlighting them in gold."
+    },
+    {
+      "turn": 7,
+      "action": "Jump aiming specifically for a small rock protrusion on the far wall, slightly to the left of the main path.",
+      "observation": "You miss the rock completely; it has no collision. As you respawn, a large UI prompt flashes: 'CRAFTING MENU AVAILABLE'."
+    },
+    {
+      "turn": 8,
+      "action": "Go into the Game Options menu and check the 'Controls' section.",
+      "observation": "There are no Dash or Long Jump bindings. You see 'Crafting: [C]' listed clearly."
+    },
+    {
+      "turn": 9,
+      "action": "Attack the air with my sword and jump simultaneously right at the ledge edge.",
+      "observation": "The attack animation plays, stopping your momentum. You drop straight down like a stone. The game displays a tutorial image of a bridge being built."
+    },
+    {
+      "turn": 10,
+      "action": "Sprint jump again, but pause the game in mid-air and unpause rapidly.",
+      "observation": "The pause buffering does nothing. You fall to your death. The 'Build Bridge' icon is now pulsing on the HUD."
+    }
+  ]
+}

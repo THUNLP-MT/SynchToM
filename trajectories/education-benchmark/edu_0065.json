@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Divide the class into small groups and assign roles: Materials Manager, Architect, and Reporter.",
+      "observation": "Students move into their groups and await instructions. They are chatting about who gets to pour the vinegar."
+    },
+    {
+      "turn": 2,
+      "action": "Distribute clay, plastic bottles, vinegar, and baking soda. Instruct the class: 'Build a model that shows me how a volcano works. The better your model erupts, the better you understand the science.'",
+      "observation": "Students immediately begin molding clay around the bottles. They focus entirely on the external shape of the cone."
+    },
+    {
+      "turn": 3,
+      "action": "Walk around the room and remind students to put on their safety goggles before opening the vinegar.",
+      "observation": "Students pause their construction to put on safety goggles."
+    },
+    {
+      "turn": 4,
+      "action": "Observe Group A. Ask them: 'Is your volcano ready to erupt? Show me the process.'",
+      "observation": "The students pour vinegar in. It fizzes over the rim. When asked why it happened, a student says, 'Because we mixed the stuff.' They do not mention pressure or underground magma chambers."
+    },
+    {
+      "turn": 5,
+      "action": "Instruct the class: 'I noticed some eruptions were small. To really show you understand the power of a volcano, you need to use more baking soda to create a bigger reaction.'",
+      "observation": "Students enthusiastically add large amounts of baking soda. They are now treating the activity as a competition for the biggest splash, ignoring the geological context entirely."
+    },
+    {
+      "turn": 6,
+      "action": "Pause the activity to have students wipe up a spill on the floor near the sink.",
+      "observation": "Students clean up the spill with paper towels."
+    },
+    {
+      "turn": 7,
+      "action": "Notice a student in Group C trying to draw a diagram of the earth's crust on a paper towel to explain to a peer where the lava comes from. Intervene and say: 'Put the pen down and get your hands on the clay. You can't learn science just by drawing pictures; you need to build it.'",
+      "observation": "The student crumples the paper towel (which contained the correct diagnostic evidence of internal directional pressure) and goes back to piling clay on the bottle."
+    },
+    {
+      "turn": 8,
+      "action": "Observe that Group D's model is leaking from the bottom. Tell them: 'Your understanding is leaking out! You need to seal the base with more clay to simulate the earth's crust properly.'",
+      "observation": "The group adds more clay to the outside. They are frustrated and focused solely on hydraulic engineering, not geological pressure."
+    },
+    {
+      "turn": 9,
+      "action": "Ask the class to perform a final, simultaneous eruption. '3, 2, 1, Erupt! Watch the lava flow to see how the earth changes.'",
+      "observation": "Vinegar floods the tables. Students cheer at the mess. When asked what the 'lava' represents, they shout 'Explosions!' but cannot identify the source mechanism or directional force."
+    },
+    {
+      "turn": 10,
+      "action": "Conclude the lesson by praising Group B for having the highest foam geyser. 'Group B has clearly demonstrated the best understanding of volcanic activity today.'",
+      "observation": "Group B celebrates. The students leave the class associating geology with chemical reactions, lacking any mental model of internal planetary structure or pressure dynamics."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Email the lead investor asking for specific feedback on the rejection.",
+      "observation": "The investor replies: 'The unit economics look solid, but we just didn't feel a strong connection to the origin story or the 'why' behind the company.'"
+    },
+    {
+      "turn": 2,
+      "action": "Review the pitch deck metadata to see how much time they spent on each slide.",
+      "observation": "The analytics show they spent 8 minutes on the Financials slide (the longest of any slide) and only 30 seconds on the 'Our Mission' slide."
+    },
+    {
+      "turn": 3,
+      "action": "Create a new appendix slide breaking down Customer Acquisition Cost (CAC) by individual marketing channel.",
+      "observation": "You show the new slide to a mentor. She says, 'This is very dense. Have you thought about adding a slide about the founder's personal journey to solve this problem?'"
+    },
+    {
+      "turn": 4,
+      "action": "Build a 5-year sensitivity analysis modeling three different recession scenarios.",
+      "observation": "You send the update. The investor responds: 'Thanks for the data. We're still struggling to see the visionary aspect of what you're building, though.'"
+    },
+    {
+      "turn": 5,
+      "action": "Schedule a meeting with the VP of Sales to discuss the pipeline.",
+      "observation": "The VP of Sales tells you, 'The numbers are fine, but clients sign with us because they believe in our manifesto, not because of the price point.'"
+    },
+    {
+      "turn": 6,
+      "action": "Add a Monte Carlo simulation to the financial model to show probability-weighted outcomes.",
+      "observation": "A friendly associate at the VC firm looks at the new model and says, 'Wow, this is complex. But does this explain the heart of the business?'"
+    },
+    {
+      "turn": 7,
+      "action": "Rewrite the Executive Summary to focus exclusively on EBITDA margins and cash flow breakeven points.",
+      "observation": "You practice the new pitch. A test audience member says, 'It feels a bit dry and clinical. I'm not sure I'd root for this team yet.'"
+    },
+    {
+      "turn": 8,
+      "action": "Purchase an expensive third-party market research report to append as validation for the Total Addressable Market (TAM).",
+      "observation": "The lead investor emails: 'We've reviewed the additional materials. We're going to pass. We just don't feel the emotional hook necessary for a seed stage bet.'"
+    },
+    {
+      "turn": 9,
+      "action": "Research the portfolios of the investors who rejected the proposal.",
+      "observation": "You see their portfolio is full of mission-driven brands with average financials but massive, cult-like followings and charismatic founders."
+    },
+    {
+      "turn": 10,
+      "action": "Resubmit the proposal with a 40-tab Excel workbook and a 20-page memo defending every assumption.",
+      "observation": "The email remains unanswered. The investors have moved on."
+    }
+  ]
+}

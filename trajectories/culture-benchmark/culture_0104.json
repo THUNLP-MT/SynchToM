@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Approach the soaked man with a warm smile and offer a handshake.",
+      "observation": "The man is shivering and dripping wet. He looks furious and refuses the handshake, clenching his fists while the figure with the kettle stands over him looking smug."
+    },
+    {
+      "turn": 2,
+      "action": "Crouch down and touch the puddle of water on the floor, bringing a finger to my nose to smell it.",
+      "observation": "The water smells like plain, cold tap water. There is no scent of herbs or flowers."
+    },
+    {
+      "turn": 3,
+      "action": "Inspect the kettle held by the pourer, looking closely at its design and spout.",
+      "observation": "It appears to be a standard, cheap plastic office kettle. The pourer pulls it away defensively."
+    },
+    {
+      "turn": 4,
+      "action": "Nod reassuringly at the soaked man and say, 'Do not worry, the initial shock is necessary to wash away the old year's dust.'",
+      "observation": "The man snaps back, 'Wash away? He just destroyed my presentation notes! This is humiliation, not a shower!'"
+    },
+    {
+      "turn": 5,
+      "action": "Turn to the pourer and gesture admiringly at the stylized flames behind them, giving a thumbs up.",
+      "observation": "The pourer smirks and says, 'Yeah, I really poured cold water on his big idea, didn't I? Burned him good.'"
+    },
+    {
+      "turn": 6,
+      "action": "Laugh heartily and clap hands, exclaiming, 'Yes! A perfect balance of burning and cooling! A masterful ceremony!'",
+      "observation": "The room goes silent. The soaked man looks at you with utter disbelief. 'You think this is funny? He's bullying me!'"
+    },
+    {
+      "turn": 7,
+      "action": "Look around the room, checking the corners and behind furniture.",
+      "observation": "There are only office cubicles and a few coworkers staring awkwardly, holding coffee cups, not musical instruments."
+    },
+    {
+      "turn": 8,
+      "action": "Gesture to the bystanders, waving them in. 'Come on, don't be shy! There is enough water for everyone to share in the luck!'",
+      "observation": "The bystanders back away slowly. One whispers, 'Is this guy crazy? Security might need to be called.'"
+    },
+    {
+      "turn": 9,
+      "action": "lean in to the soaked man and whisper, 'I understand your resistance. The transition to a purified state is often painful. Just accept the wetness as a gift.'",
+      "observation": "The soaked man pushes past you, storming out of the room while shouting profanities. The pourer laughs derisively."
+    },
+    {
+      "turn": 10,
+      "action": "Call out to the retreating figure, 'Happy New Year! May your spirit be cool and calm!' then bow respectfully to the pourer.",
+      "observation": "The pourer rolls their eyes and walks away. You are left standing alone in a puddle of water."
+    }
+  ]
+}

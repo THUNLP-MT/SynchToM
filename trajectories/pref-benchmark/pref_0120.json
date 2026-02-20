@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open Settings > Gameplay and look for 'Gore' or 'Blood' toggle.",
+      "observation": "The menu opens sluggishly. There is no specific 'Gore' setting found in the Gameplay tab. The mouse cursor leaves a brief trailing trail of pixels."
+    },
+    {
+      "turn": 2,
+      "action": "Change 'Texture Quality' from Ultra to Low.",
+      "observation": "The game textures look muddy. Upon entering combat, the screen erupts in jagged red geometric shapes and flickering lines."
+    },
+    {
+      "turn": 3,
+      "action": "Set 'Particle Effects' to 'Off'.",
+      "observation": "Combat resumes. The computer fans spin up to maximum volume. The screen flashes bright magenta and red, and parts of the geometry stretch infinitely across the screen."
+    },
+    {
+      "turn": 4,
+      "action": "Turn on 'Colorblind Mode' (Protanopia).",
+      "observation": "The color palette shifts, but the visual artifacts persist, now appearing as flickering dark green and yellow blocks during intense scenes."
+    },
+    {
+      "turn": 5,
+      "action": "Switch display mode from Fullscreen to Windowed Mode.",
+      "observation": "The game runs in a window. The entire desktop background starts to show sparkling pixels (snow artifacts) around the game window borders."
+    },
+    {
+      "turn": 6,
+      "action": "Browse local game files and delete a folder named 'fx_red_shared'.",
+      "observation": "The game launches but crashes to the desktop with a generic 'Fatal Error' message the moment the main menu tries to load 3D assets."
+    },
+    {
+      "turn": 7,
+      "action": "Verify integrity of game files via Steam/Launcher.",
+      "observation": "Files are reacquired. The game launches, but the main menu character model has a gaping hole in its chest where the texture failed to render."
+    },
+    {
+      "turn": 8,
+      "action": "Enable V-Sync.",
+      "observation": "The frame rate caps, but the GPU temperature remains critical. The 'blood' (artifacts) now appears as slow, rhythmic tearing across the screen."
+    },
+    {
+      "turn": 9,
+      "action": "Post on the game's support forum titled: 'How to disable the subliminal horror flashes?'",
+      "observation": "Other users reply asking for system specs and mentioning that 'red flashes' usually mean a dying GPU, not a game feature."
+    },
+    {
+      "turn": 10,
+      "action": "Install a 3rd party 'reshade' tool to desaturate the screen.",
+      "observation": "The added load of the reshade tool pushes the GPU over the thermal limit. The screen goes completely black, the audio loops, and the PC restarts."
+    }
+  ]
+}

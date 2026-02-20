@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Enable 'Reader Mode' in the web browser.",
+      "observation": "The browser successfully strips the page down to plain text. However, the interactive diagrams disappear completely. The text now reads: 'As you can see in the simulation above, adjusting the slider changes the velocity...' but there is no simulation or slider visible."
+    },
+    {
+      "turn": 2,
+      "action": "Manually copy-paste the paragraph text into a plain Notepad file.",
+      "observation": "The text in Notepad is legible but confusing. It references variables and outcomes that are not defined in the text itself, usually relying on the user hovering over graph points to see the values."
+    },
+    {
+      "turn": 3,
+      "action": "Install a browser extension to block JavaScript elements and hide images.",
+      "observation": "The page loads very quickly. Large blank white spaces appear where the diagrams used to be. The remaining text is dense, abstract theory that is extremely difficult to parse without the visual context."
+    },
+    {
+      "turn": 4,
+      "action": "Right-click 'Inspect Element' and delete the <div> containers holding the canvas elements.",
+      "observation": "The text paragraphs bunch together. Reading them consecutively, the content seems disjointed, jumping from one concept to another with bridge sentences like 'observe the transition' referring to the deleted elements."
+    },
+    {
+      "turn": 5,
+      "action": "Copy the text into an LLM/AI tool and ask it to 'Remove the fluff and summarize the core logic'.",
+      "observation": "The AI responds: 'I cannot provide a meaningful summary. The text describes a visual process dependent on user input (the interactive graph), which is missing from the data you provided.'"
+    },
+    {
+      "turn": 6,
+      "action": "Search the page source code for 'alt' text or hidden transcripts.",
+      "observation": "The source code contains extensive JavaScript libraries for physics rendering. The 'alt' tags on the canvas elements just say 'Interactive Simulation Module 1'. There is no hidden transcript."
+    },
+    {
+      "turn": 7,
+      "action": "Zoom the browser to 150% and narrow the window width.",
+      "observation": "The responsive design stacks the interactive diagrams *between* every paragraph. Now the user has to scroll past huge interactive windows just to read the next sentence, making the connection between paragraphs even harder to follow."
+    },
+    {
+      "turn": 8,
+      "action": "Write a Python script to scrape only text inside <p> tags, explicitly ignoring all classes related to 'media', 'widget', or 'visual'.",
+      "observation": "The script outputs a clean text file. It reads like a list of instructions for a tool that doesn't exist: 'Click Node A... Drag to Node B... Note the color change.' The logic remains impenetrable."
+    },
+    {
+      "turn": 9,
+      "action": "Search Google for '[Course Name] PDF text only' or '[Course Name] transcript'.",
+      "observation": "Search results lead to a student forum where users are saying: 'The interactive graphs are the only way I passed this class; the theory is impossible to get without seeing it in action.'"
+    },
+    {
+      "turn": 10,
+      "action": "Submit a feedback form to the site administrator complaining about 'Visual Clutter'.",
+      "observation": "A pop-up thanks the user for feedback. It suggests: 'For the best experience, please ensure you interact with the diagrams to visualize the complex relationships discussed in the text.'"
+    }
+  ]
+}

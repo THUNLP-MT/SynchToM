@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Tap the 'Upgrade to Premium' button on the home screen immediately.",
+      "observation": "The button press registers after a 3-second delay. The screen fades to white to load the payment interface but hangs there, displaying a spinning loading circle that stutters heavily."
+    },
+    {
+      "turn": 2,
+      "action": "Force-close the application and relaunch it.",
+      "observation": "The application launches very slowly. The splash screen animation plays at 5 frames per second. The device gets noticeably warm."
+    },
+    {
+      "turn": 3,
+      "action": "Navigate to the tablet's Settings > Apps > Storage and clear the application cache.",
+      "observation": "The system settings menu opens sluggishly. Clearing the cache takes longer than expected. Upon returning to the app, the performance is identical to before."
+    },
+    {
+      "turn": 4,
+      "action": "Toggle the tablet's Wi-Fi off and then back on.",
+      "observation": "The tablet struggles to re-authenticate with the Wi-Fi. A system toast notification appears: 'System UI isn't responding. Close or Wait?'"
+    },
+    {
+      "turn": 5,
+      "action": "Ignore the system error and furiously tap the 'Remove Ads' banner at the bottom of the screen.",
+      "observation": "The application crashes completely to the tablet's home screen. The wallpaper icons take several seconds to redraw."
+    },
+    {
+      "turn": 6,
+      "action": "Open the web browser on the tablet to buy the license key directly from the developer's website instead of the app.",
+      "observation": "The web browser loads the developer's site slowly. Scrolling down the page is jerky and unresponsive due to the complex web animations."
+    },
+    {
+      "turn": 7,
+      "action": "Complete the purchase on the website and copy the license key.",
+      "observation": "Purchase successful. The browser warns that the page is using significant memory."
+    },
+    {
+      "turn": 8,
+      "action": "Reopen the app and paste the license key into the activation field.",
+      "observation": "The keyboard takes 4 seconds to pop up. After pasting and hitting 'Activate', a 'Premium Enabled' popup appears. The confetti animation for the popup freezes mid-air."
+    },
+    {
+      "turn": 9,
+      "action": "Restart the tablet entirely.",
+      "observation": "The tablet takes 3 minutes to boot up. Once the app is opened, the 'Premium' badge is visible, but the lesson animation still stutters and audio is out of sync."
+    },
+    {
+      "turn": 10,
+      "action": "Submit a support ticket titled 'Premium version still running hidden mining scripts'.",
+      "observation": "The keyboard lags while typing the complaint. The tablet displays a 'Low Memory' warning in the notification bar."
+    }
+  ]
+}

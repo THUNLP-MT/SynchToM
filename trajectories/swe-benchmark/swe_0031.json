@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "cat app/admin.py",
+      "observation": "class MyModelAdmin(admin.ModelAdmin):\n    inlines = [MyRelatedInline]\n    def get_form(self, request, obj=None, **kwargs):\n        if not request.user.is_superuser:\n            kwargs.setdefault('exclude', []).append('related_items')\n        return super().get_form(request, obj, **kwargs)"
+    },
+    {
+      "turn": 2,
+      "action": "grep -r \"related_name\" app/models.py",
+      "observation": "class RelatedItem(models.Model):\n    parent = models.ForeignKey(Parent, on_delete=models.CASCADE, related_name='related_items')"
+    },
+    {
+      "turn": 3,
+      "action": "curl -s http://localhost:8000/admin/app/parent/1/change/ -H \"Cookie: sessionid=...\" | grep -C 5 \"inline-group\"",
+      "observation": "<div class=\"inline-group\" id=\"related_items-group\">\n  <div class=\"tabular inline-related last-related\">\n    <fieldset class=\"module \">\n      <h2>Related items</h2>\n      <!-- Inline formset content visible -->"
+    },
+    {
+      "turn": 4,
+      "action": "pip list | grep Django",
+      "observation": "Django==4.2.4"
+    },
+    {
+      "turn": 5,
+      "action": "vim app/admin.py",
+      "observation": "(Added `print(form.base_fields.keys())` to code)"
+    },
+    {
+      "turn": 6,
+      "action": "tail -f server.log",
+      "observation": "dict_keys(['name', 'description', 'created_at']) \n# 'related_items' is ABSENT from the keys, yet the inline panel persists on the page."
+    },
+    {
+      "turn": 7,
+      "action": "ls -R app/static/admin/js/",
+      "observation": "admin/js/actions.js\nadmin/js/admin/RelatedObjectLookups.js\nadmin/js/inlines.js\n..."
+    },
+    {
+      "turn": 8,
+      "action": "vim app/admin.py",
+      "observation": "Traceback (most recent call last):\n  File \"app/admin.py\", line 15, in get_form\n    form.fields['related_items'].widget = forms.HiddenInput()\nKeyError: 'related_items'\n(The field does not exist in the form to have its widget modified, because inlines are not form fields)."
+    },
+    {
+      "turn": 9,
+      "action": "grep -r \"RelatedFieldWidgetWrapper\" env/lib/python3.10/site-packages/django/contrib/admin",
+      "observation": "django/contrib/admin/widgets.py:class RelatedFieldWidgetWrapper(forms.Widget):\n    def __init__(self, widget, rel, admin_site, can_add_related=None, ...)\n(Code shows this wrapper is for ForeignKey dropdowns, not full Inline panels)."
+    },
+    {
+      "turn": 10,
+      "action": "vim app/admin.py",
+      "observation": "# Modifying get_fieldsets to exclude 'related_items'.\n# Result: The main form fields render as expected, but the Inline Panel remains at the bottom of the page, completely unaffected by fieldset configuration."
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Walks past the group's table, conspicuously checks wristwatch, and taps the side of the plastic water tank with a finger.",
+      "observation": "The students do not look at the tank. They continue pointing at a diagram on their paper, debating whether 'displaced volume' or 'object mass' should be the independent variable."
+    },
+    {
+      "turn": 2,
+      "action": "Asks the group, 'Is there a reason the water is still perfectly still? The physics happens in the tank, not on the paper.'",
+      "observation": "One student looks up and replies, 'We're just trying to isolate the variables first so we don't get false correlations. We're almost ready.'"
+    },
+    {
+      "turn": 3,
+      "action": "Picks up the group's worksheet to inspect the 'Data Collection' table.",
+      "observation": "The data table is empty. However, the 'Hypothesis' and 'Experimental Design' sections are filled with dense text, erased corrections, and logic trees connecting density to buoyancy."
+    },
+    {
+      "turn": 4,
+      "action": "Picks up a brass density block and physically drops it into the water, causing a splash. 'See? It sinks. Now you have a starting point. Do the rest.'",
+      "observation": "The students look frustrated. One student says, 'Sir, please, we hadn't measured the dry mass of that one yet. Now we have to dry it off before we can start the procedure we just agreed on.'"
+    },
+    {
+      "turn": 5,
+      "action": "Retrieves the block, dries it on his shirt, and sets it back down. 'You can't learn buoyancy by talking. You need to feel the difference in the weights.'",
+      "observation": "The students ignore the block and return to their sketch, drawing force vectors to predict which objects *should* float based on their calculated densities."
+    },
+    {
+      "turn": 6,
+      "action": "Visibly inspects the triple-beam balance and the overflow spout on the tank, adjusting the zero-knob on the scale.",
+      "observation": "The equipment is functional. The students are currently debating if they need to account for surface tension in their hypothesis."
+    },
+    {
+      "turn": 7,
+      "action": "Interrupts the discussion firmly. 'Stop talking about surface tension. Put the wood block in the water. Tell me what happens. That is the assignment.'",
+      "observation": "A student sighs, 'But if we just drop it in, we're just observing, not testing. We're trying to formulate the relationship first.' They do not pick up the block."
+    },
+    {
+      "turn": 8,
+      "action": "Points to a neighboring group (Group 3) who are rapidly dropping objects in water and laughing. 'Look at Group 3. They have a full page of data. You are falling behind.'",
+      "observation": "The user looks at Group 3, who are recording random numbers without a clear plan. The user's group shakes their heads and mutters, 'They aren't controlling for volume... their data is going to be useless noise.'"
+    },
+    {
+      "turn": 9,
+      "action": "Announces loudly, 'Ten minutes remaining. If I don't see wet equipment, I cannot grade your inquiry skills. Paperwork is secondary to the lab work.'",
+      "observation": "The group frantically starts transcribing their complex mental model into a bulleted list titled 'Procedure', still trying to perfect the logic before touching the water."
+    },
+    {
+      "turn": 10,
+      "action": "Physically takes the paper away from the students and places the box of blocks in the center of their desk. 'No more writing. Test the objects. Now.'",
+      "observation": "Defeated, the students stop their high-level analysis. They sullenly pick up the blocks and drop them into the water one by one, abandoning their rigorous hypothesis testing for simple, uncritical observation."
+    }
+  ]
+}

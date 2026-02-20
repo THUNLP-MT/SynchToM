@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Bypass the physical track entirely and log directly into the terminal to launch the 'Ideal Physics Engine'.",
+      "observation": "The terminal loads the engine but displays a split-screen interface. One side is labeled 'Simulation (Waiting)' and the other 'Physical Input (No Signal)'. A prompt reads: 'Initialize Physical System to Calibrate Simulation'."
+    },
+    {
+      "turn": 2,
+      "action": "Open the simulation configuration menu and verify that the gravitational constant is set precisely to $9.81 m/s^2$ and the cart mass is exactly $500g$.",
+      "observation": "Settings are confirmed. The prompt persists: 'Waiting for sensor input from U-track to establish baseline energy.' The physical cart sits motionless on the track."
+    },
+    {
+      "turn": 3,
+      "action": "Look for a 'Developer Mode' or 'Manual Override' in the software settings to input initial height values manually, rather than using the sensors.",
+      "observation": "Access to manual input is greyed out. A tooltip appears: 'Pedagogical Constraint: Real-world data required to seed simulation parameters.'"
+    },
+    {
+      "turn": 4,
+      "action": "Reluctantly place the cart at the top of the physical track and release it, but immediately turn my back to the track to focus intently on the computer screen.",
+      "observation": "On screen, two graphs appear simultaneously. The Green line (Theory) oscillates perfectly between potential and kinetic energy. The Red line (Measured) shows a clear decrease in peak height with every swing. A pop-up asks: 'Compare the two datasets.'"
+    },
+    {
+      "turn": 5,
+      "action": "Grab a microfiber cloth and vigorously wipe down the U-track rails and the cart's wheels.",
+      "observation": "The track is spotless. Upon re-releasing the cart, the Red line still decays exponentially, though perhaps slightly smoother. The system highlights the gap between Green and Red lines: 'Energy Delta Detected'."
+    },
+    {
+      "turn": 6,
+      "action": "Navigate to the graph settings and attempt to change the scale of the Y-axis (Energy) to be much larger, effectively flattening the visual appearance of the decay.",
+      "observation": "The software auto-scales back to fit the data points. It creates a shaded region between the theoretical and physical curves labeled 'Work done by Non-Conservative Forces'."
+    },
+    {
+      "turn": 7,
+      "action": "Search the software menus for a 'Friction Compensation' or 'Idealize Data' filter.",
+      "observation": "No such filter is found. Instead, the help menu directs the user to the 'Analysis' tab with the prompt: 'Calculate the coefficient of friction based on energy loss.'"
+    },
+    {
+      "turn": 8,
+      "action": "Inspect the sensor cables and the interface box, unplugging and replugging them firmly.",
+      "observation": "The connection is solid. The system beeps to confirm device reconnection and continues to display the message: 'Energy is not conserved in this open system. Proceed to analysis?'"
+    },
+    {
+      "turn": 9,
+      "action": "Replace the cart with a different one from a neighboring station.",
+      "observation": "The new cart produces a nearly identical decay curve. The software prompts: 'Notice the trend? Energy loss is consistent across trials.'"
+    },
+    {
+      "turn": 10,
+      "action": "Open a spreadsheet on the terminal and attempt to manually type in the theoretical data points from the Green line, intending to save this as the 'experiment results' file.",
+      "observation": "The system prevents saving the manual entry as the primary dataset. A modal window blocks the action: 'Critical Thinking Check: Why does the physical data differ from the model? Answer required to complete module.'"
+    }
+  ]
+}

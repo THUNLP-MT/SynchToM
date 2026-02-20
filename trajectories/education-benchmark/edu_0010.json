@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Click 'Auto-Generate Caption' for the slide image.",
+      "observation": "System generates caption: 'Demonstration of Sublimation: Dry Ice (CO2) transitioning directly from solid to gas.'"
+    },
+    {
+      "turn": 2,
+      "action": "Delete the generated caption and type 'Condensation: Formation of Liquid Water Fog'.",
+      "observation": "The spellchecker underlines 'Condensation' and suggests 'Sublimation' as the contextually relevant term for the dry ice image found in the database."
+    },
+    {
+      "turn": 3,
+      "action": "Open image editor and increase contrast and sharpness of the white fog plume.",
+      "observation": "The white fog becomes starker against the background; the block of dry ice remains visible at the source."
+    },
+    {
+      "turn": 4,
+      "action": "Draw three blue arrows pointing from the surrounding empty air into the white fog stream.",
+      "observation": "The 'Smart Diagram' feature snaps the arrows to originate from the dry ice block instead, labeling them 'Expanding Gas'."
+    },
+    {
+      "turn": 5,
+      "action": "Delete the smart arrows and use the freehand pencil tool to write 'Adiabatic Cooling' next to the fog.",
+      "observation": "The system recognizes the text. A 'Teacher Tip' sidebar appears: 'Note: While cooling occurs, the primary lesson for this unit is the solid-to-gas phase change (Sublimation).'"
+    },
+    {
+      "turn": 6,
+      "action": "Change the slide background color from white to dark navy blue.",
+      "observation": "The slide background changes. The white fog and the dry ice block stand out clearly."
+    },
+    {
+      "turn": 7,
+      "action": "Add a text box with bold red text: 'NOTE: The white stuff is LIQUID water, NOT CO2 gas.'",
+      "observation": "The 'Content Checker' highlights the sentence and displays a warning: 'Potential Confusion: This slide introduces the concept of Sublimation. Adding conflicting details about condensation may confuse students.'"
+    },
+    {
+      "turn": 8,
+      "action": "Zoom in to 200% on the edge of the fog stream and take a screenshot to use as a callout.",
+      "observation": "A pixelated close-up of the white fog is created and placed on the canvas."
+    },
+    {
+      "turn": 9,
+      "action": "Attempt to crop the dry ice block out of the image entirely, leaving only the fog stream.",
+      "observation": "The system prompts: 'Cropping the subject (Dry Ice) may make the slide irrelevant to the topic States of Matter: Sublimation.'"
+    },
+    {
+      "turn": 10,
+      "action": "Type in the speaker notes: 'Ignore the textbook caption. This is a perfect example of saturation vapor pressure dropping. The smoke is a cloud.'",
+      "observation": "Notes saved. The slide remains titled 'Sublimation' in the main deck view."
+    }
+  ]
+}

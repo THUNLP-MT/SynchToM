@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Open the developer settings to inspect the 'scroll-behavior' and 'transform' CSS properties.",
+      "observation": "The CSS shows complex 3D transforms. Meanwhile, a tester rubs their eyes and says, 'I feel like I have to squint just to make out the headers.'"
+    },
+    {
+      "turn": 2,
+      "action": "Ask the testing team to rate their dizziness on a scale of 1 to 10.",
+      "observation": "The team looks confused. One replies, 'I'm not really dizzy, it's just a headache right behind my eyes. It feels like I've been staring at the sun, but the screen is actually quite dim.'"
+    },
+    {
+      "turn": 3,
+      "action": "Instruct the engineering team to immediately comment out the JavaScript event listeners for scroll-based animation.",
+      "observation": "The scrolling is now static. The team resumes testing. After five minutes, one tester pushes their chair back and says, 'It's still really hard to focus on this. My eyes are watering.'"
+    },
+    {
+      "turn": 4,
+      "action": "Check the monitor refresh rates and response times in the hardware settings.",
+      "observation": "Monitors are high-end 144Hz displays. A tester points to a paragraph and says, 'Is this light grey text on a white background? I literally can't read it without leaning in 5 inches from the screen.'"
+    },
+    {
+      "turn": 5,
+      "action": "Dim the overhead lights in the testing room.",
+      "observation": "The room is darker. The team groans. 'Now it's even worse. I can't see the letters at all. It's just a blur.'"
+    },
+    {
+      "turn": 6,
+      "action": "Review the UI code for 'micro-interactions' or subtle hover effects that might still be active.",
+      "observation": "The code is clean of motion. The UI designer suggests, 'Maybe we should check the WCAG accessibility guidelines for color?'"
+    },
+    {
+      "turn": 7,
+      "action": "Mandate a 15-minute break for all testers to go outside and look at the horizon.",
+      "observation": "The team returns from the break. Within 60 seconds of looking at the screen, two people start rubbing their temples again. 'It just requires so much effort to decipher the words,' one complains."
+    },
+    {
+      "turn": 8,
+      "action": "Disable hardware acceleration in the browser settings.",
+      "observation": "The browser reloads. Performance drops slightly. A tester says, 'Please, can we just make the font black? It's currently #DDDDDD on #FFFFFF.'"
+    },
+    {
+      "turn": 9,
+      "action": "Search the internal wiki for 'previous reports of motion sickness with current font rendering engine'.",
+      "observation": "Search yields zero results for motion sickness. It returns 15 warnings about 'Low Contrast Accessibility Failures' in the linter logs."
+    },
+    {
+      "turn": 10,
+      "action": "File a Critical Bug ticket: 'Remove all depth-based design elements and revert to Flat Design 1.0 to prevent user vertigo.'",
+      "observation": "The ticket is filed. The team leads look at the screen, squinting at the faint text, and sigh in frustration."
+    }
+  ]
+}

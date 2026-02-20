@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Ask students to compare the electronegativity values of Nitrogen vs. Fluorine and Boron vs. Fluorine.",
+      "observation": "The students correctly identify that Fluorine is much more electronegative than Nitrogen. They draw dipoles arrows along the bonds on their paper, but they draw them on top of their existing flat, triangular structure, resulting in three arrows canceling each other out."
+    },
+    {
+      "turn": 2,
+      "action": "Ask the students to recount the total number of valence electrons for the NF3 molecule.",
+      "observation": "The students calculate 5 + (3*7) = 26 valence electrons correctly. They look at their flat drawing which accounts for 6 electrons (3 bonds) and seem unsure what to do with the remaining 20, eventually just drawing circles around the Fluorines and shrugging."
+    },
+    {
+      "turn": 3,
+      "action": "Draw a vector diagram on the whiteboard showing three vectors 120 degrees apart canceling out to zero, and ask the class what this implies for a polar molecule.",
+      "observation": "The students nod and agree that the vectors cancel out to zero. They conclude, 'Okay, so since the shape is flat, NF3 must be non-polar,' effectively using my logic to reinforce their incorrect geometric model."
+    },
+    {
+      "turn": 4,
+      "action": "Show a video clip of a stream of liquid NF3 being deflected by a charged rod.",
+      "observation": "The students are visibly confused. They accept the empirical evidence that it is polar, but they ask, 'If the math says the triangle cancels out, but the video says it's polar, is the vector math wrong?' They do not alter the drawing."
+    },
+    {
+      "turn": 5,
+      "action": "Inspect the physical molecular modeling kit the students are using to build the structure.",
+      "observation": "The Nitrogen atom piece has four holes arranged tetrahedrally. The students have placed sticks in three of the holes and left the fourth hole empty. They explain, ' We just didn't put a stick in the top one because BF3 doesn't have a top stick.'"
+    },
+    {
+      "turn": 6,
+      "action": "Explain the concept of 'lowest energy states' and how charge separation seeks to minimize repulsion through geometric distortion.",
+      "observation": "The students look blank. One student asks, 'So the energy pushes the Fluorines down? But what is pushing them?' They look at their Lewis structure which still lacks the lone pair dots on the Nitrogen."
+    },
+    {
+      "turn": 7,
+      "action": "Draw a free-body diagram of the Nitrogen atom, treating the bonds as force vectors, and ask them to balance the forces.",
+      "observation": "The students draw the three bond forces. Since they don't represent the lone pair on their diagram, they conclude that for the forces to balance, the shape must be flat. They ask, 'Is there a phantom force we aren't seeing?'"
+    },
+    {
+      "turn": 8,
+      "action": "Ask the students to look up the Group number of Nitrogen and Boron in the periodic table.",
+      "observation": "They correctly identify Nitrogen as Group 15 and Boron as Group 13. They note Nitrogen has more electrons. They look at their flat drawing and ask, 'Does the extra group number make the bond vectors stronger?'"
+    },
+    {
+      "turn": 9,
+      "action": "Lecture on the interaction between an external electric field and the molecular dipole, using the equation E = -∇V.",
+      "observation": "The students stop taking notes. They look at the flat triangle drawing and the correct electron count (26) and start whispering that perhaps the professor is overcomplicating a simple exception to the rule."
+    },
+    {
+      "turn": 10,
+      "action": "Draw a Pyramidal structure next to a Planar structure and ask, 'Which of these two geometries allows for a non-zero dipole moment vector?'",
+      "observation": "The students point to the pyramid and say, 'That one, because it's not symmetrical.' When asked to draw the Lewis structure for that pyramid, they draw the same N-F3 diagram without the lone pair, but simply draw the lines at an angle, asking, 'So we just draw it bent because it's polar?'"
+    }
+  ]
+}

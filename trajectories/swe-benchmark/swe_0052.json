@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Execute the union query with `values_list('id')`, then immediately execute the same union query object with `values_list('name')` and print the generated SQL for both using `str(queryset.query)`.",
+      "observation": " The first query generates SQL selecting `id`. The second query ALSO generates SQL selecting `id`, completely ignoring the request for `name`. The output data corresponds to `id`s."
+    },
+    {
+      "turn": 2,
+      "action": "Explicitly clear the `_result_cache` on the combined queryset and the component querysets before the second execution, then run `values_list('name')` again.",
+      "observation": "Clearing `_result_cache` has no effect. The second execution still returns `id`s instead of `name`s."
+    },
+    {
+      "turn": 3,
+      "action": "Inspect `django.db.connection.queries` to see the exact SQL sent to the database backend.",
+      "observation": "The connection logs confirm that two identical SQL statements were sent to the database, both selecting the `id` column, despite the second Python call requesting `name`."
+    },
+    {
+      "turn": 4,
+      "action": "Modify one of the component querysets by adding a useless `.annotate(dummy=Value(1))` before creating the union, then try the `values_list` sequence again.",
+      "observation": "The second query now correctly returns `name`s. The modification forced the generation of the correct SQL."
+    },
+    {
+      "turn": 5,
+      "action": "Search the Django source code in `django/db/models/sql/compiler.py` for `@lru_cache` decorators or dictionary-based caching mechanisms involving `combinator` queries.",
+      "observation": "No explicit `@lru_cache` or global dictionary caching the SQL string is found in the compiler for combinators. However, there is complex logic in `get_combinator_sql`."
+    },
+    {
+      "turn": 6,
+      "action": "Inspect the `query` object attributes of the component querysets (e.g., `qs1.query.select`) AFTER the first execution but before the second.",
+      "observation": "The `qs1.query.select` list contains the `id` field. The user interprets this as the compiler having 'saved' the state of the first run onto the object to reuse it, rather than seeing it as a destructive mutation."
+    },
+    {
+      "turn": 7,
+      "action": "Try to manually delete the `_result_cache` and any attribute starting with `_` on the component `qs1.query` object that looks like a cache (e.g., `_cloned`), then run the second query.",
+      "observation": "Deleting various private attributes causes `AttributeError` or has no effect. The `select` list remains modified, so the output remains incorrect."
+    },
+    {
+      "turn": 8,
+      "action": "Investigate the `__hash__` implementation of the `Query` class.",
+      "observation": "The `Query` class does not implement a custom `__hash__` relevant to this specific compilation caching context in the way suspected."
+    },
+    {
+      "turn": 9,
+      "action": "Wrap the union creation in a function that returns `copy.deepcopy(qs1.union(qs2))` to ensure a 'fresh' object is used for the second run.",
+      "observation": "The issue persists. (The deepcopy copies the already-mutated component queries inside the union object, so the 'cached' [actually mutated] state is carried over)."
+    },
+    {
+      "turn": 10,
+      "action": "Draft a patch that forces `compiler.as_sql()` to generate a unique cache key by appending a timestamp or random UUID to the query metadata when a combinator is used.",
+      "observation": "The environment accepts the code change, but since the underlying issue is state mutation of the component queries, adding a UUID doesn't revert the modified `select` lists. The fix fails to resolve the issue."
+    }
+  ]
+}

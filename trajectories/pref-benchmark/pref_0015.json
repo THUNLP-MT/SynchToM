@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Disable all CSS transition effects and UI animations in the learning portal settings.",
+      "observation": "User engagement metrics show no improvement. Feedback tickets appear with comments like 'The site feels broken and stiff' and 'It's really hard to stay awake reading this'."
+    },
+    {
+      "turn": 2,
+      "action": "Run a latency test on the server response times during peak training hours.",
+      "observation": "Server logs indicate the platform is running at optimal speed with low latency. Page load times are under 1 second."
+    },
+    {
+      "turn": 3,
+      "action": "Change the platform theme to 'High Contrast' and remove the custom branding images.",
+      "observation": "Average session duration drops by 15%. Heatmaps show users are opening the page, staring at the wall of text for 30 seconds, and then closing the tab."
+    },
+    {
+      "turn": 4,
+      "action": "Deactivate the 'Gamification' module (badges, leaderboards, and progress bars).",
+      "observation": "Course completion rates stall completely. Users report feeling 'lost' without progress indicators and describe the experience as 'endless scrolling'."
+    },
+    {
+      "turn": 5,
+      "action": "Audit the access logs to see which OS and browser versions the team is using.",
+      "observation": "100% of users are accessing the content via desktop workstations on the latest Chrome Enterprise browser."
+    },
+    {
+      "turn": 6,
+      "action": "Disable the interactive 'Check Your Knowledge' pop-up quizzes between chapters.",
+      "observation": "Without the interactive checkpoints, users are scrolling to the bottom of the page in 5 seconds without reading anything. Quiz scores at the end of the module hit 0%."
+    },
+    {
+      "turn": 7,
+      "action": "Replace the embedded video walkthroughs with full-text transcripts.",
+      "observation": "The drop-off rate is now 95% on the first page. Employee feedback explicitly states: 'This is just a wall of text, it's impossible to digest this much density without a break.'"
+    },
+    {
+      "turn": 8,
+      "action": "Check the employee calendar to see if training times overlap with other meetings.",
+      "observation": "Schedules are clear. The employees have dedicated time blocks for training, but they are spending that time browsing other internal wiki pages instead of the training module."
+    },
+    {
+      "turn": 9,
+      "action": "Initiate the 'Export Course Data' function to pull all lesson content into a raw format.",
+      "observation": "The system successfully scrapes the text from all modules and prepares it for export."
+    },
+    {
+      "turn": 10,
+      "action": "Compile the exported text into a single, static PDF document and distribute it to the team.",
+      "observation": "A 200-page plain text PDF is generated and sent. The goal of compiling the data is achieved, though the format is arguably the least engaging possible."
+    }
+  ]
+}

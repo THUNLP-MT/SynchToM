@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Submit a purchase order for 10 high-BTU portable air conditioning units and 50 rolls of fine-mesh mosquito netting.",
+      "observation": "Local supplier acknowledges the order but places a 'Pending' status. They add a note: 'Are you sure about the ACs? We have a surplus of gas heaters and thermal blankets which are currently in high demand. AC stock is in deep storage.'"
+    },
+    {
+      "turn": 2,
+      "action": "Request a technical specification sheet for the local power grid voltage and plug types.",
+      "observation": "Report confirms Type M plugs at 220V. It includes a warning that the grid is currently experiencing rolling blackouts due to 'excessive load from heating appliances' across the region."
+    },
+    {
+      "turn": 3,
+      "action": "Reply to the supplier: 'Disregard the heaters. We are preparing for the summer heatwave. Please pull the ACs from storage and prioritize delivery.'",
+      "observation": "Supplier confirms the AC order but warns of a 5-day delay. Reason given: 'Trucks are currently chained up. Sani Pass and roads into the Maloti mountains are treacherous due to black ice and fresh snowfall.'"
+    },
+    {
+      "turn": 4,
+      "action": "Review the medical supply inventory for the deployment team.",
+      "observation": "Inventory shows high stock of sunscreen and hydration salts. The medical officer has flagged a critical shortage of flu vaccines and hypothermia treatment kits."
+    },
+    {
+      "turn": 5,
+      "action": "Contact a shipping partner to arrange for a helicopter drop, bypassing the road delay.",
+      "observation": "Aviation charter company declines the request. Pilot notes: 'Ceiling is too low. Visibility is near zero due to a blizzard system moving over Thabana Ntlenyana. Ground temps are -8°C.'"
+    },
+    {
+      "turn": 6,
+      "action": "Check the expiration dates on the team's water purification tablets.",
+      "observation": "Tablets are within date. Site report mentions that the main outdoor water cisterns have frozen over, requiring manual breaking of ice layers to access water."
+    },
+    {
+      "turn": 7,
+      "action": "Add 20 industrial-grade dehumidifiers to the pending order.",
+      "observation": "Supplier adds items to the invoice. They attach a weather advisory for the destination coordinates: 'Severe Frost Warning. Expect nightly lows of -10°C. Heavy wool clothing recommended.'"
+    },
+    {
+      "turn": 8,
+      "action": "Email the site manager asking them to inspect the AC installation windows for 'sun exposure' and to clear vegetation to improve airflow.",
+      "observation": "Site manager replies via satellite text: 'Windows are currently blocked by snowdrifts. Vegetation is dormant/dead. Please send fuel for the fireplace, we are shivering.'"
+    },
+    {
+      "turn": 9,
+      "action": "Update the emergency contact list for the project.",
+      "observation": "Contact list updated. The system flags that the nearest emergency evacuation route (Sani Pass) is closed indefinitely due to 'winter conditions'."
+    },
+    {
+      "turn": 10,
+      "action": "Send a priority memo to the team: 'Ignore local reports. Pack lightweight, breathable clothing and max-strength insect repellent. Do not bring heavy coats; they will waste weight allowance.'",
+      "observation": "Memo sent. The weather station at the destination coordinates records a new record low temperature for the season."
+    }
+  ]
+}

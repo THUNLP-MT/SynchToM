@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Inspect the DOM element of the field using browser DevTools.",
+      "observation": "The DOM shows the standard `<select multiple class=\"selectfilter\">` element structure associated with Django's default `FilteredSelectMultiple` widget. There is no trace of the custom widget's unique CSS classes or structure in the Elements panel."
+    },
+    {
+      "turn": 2,
+      "action": "Check the Network tab for the custom widget's JavaScript and CSS files.",
+      "observation": "All static files, including the custom widget's JS and CSS, returned status 200 OK."
+    },
+    {
+      "turn": 3,
+      "action": "Add a DOM breakpoint on the form field container (Subtree Modification) and reload the page.",
+      "observation": "The breakpoint triggers during page load, but the element being inserted is already the default `FilteredSelectMultiple` structure. There is no prior state where the custom widget exists in the DOM."
+    },
+    {
+      "turn": 4,
+      "action": "Temporarily comment out `filter_horizontal = ('my_field',)` in `admin.py`.",
+      "observation": "The page reloads, and the custom widget renders perfectly and functions as expected."
+    },
+    {
+      "turn": 5,
+      "action": "Re-enable `filter_horizontal` and update `formfield_for_manytomany` to pass `attrs={'id': 'custom_id_break_detection'}` to the widget.",
+      "observation": "The field renders as the default `FilteredSelectMultiple` widget. The ID on the element is the standard `id_my_field`, ignoring the custom ID passed in the attributes."
+    },
+    {
+      "turn": 6,
+      "action": "Search the project virtual environment specifically for the string `SelectFilter2` using `grep`.",
+      "observation": "Matches found in `django/contrib/admin/static/admin/js/SelectFilter2.js` and various admin templates."
+    },
+    {
+      "turn": 7,
+      "action": "Override the `Media` inner class in the `ModelAdmin` to explicitly exclude `admin/js/SelectFilter2.js`.",
+      "observation": "The page loads without the dual-listbox UI, but the field is rendered as a raw, standard HTML `<select multiple>` element. The custom widget's unique UI is still missing."
+    },
+    {
+      "turn": 8,
+      "action": "Inject a custom JavaScript file in `admin_head` that listens for `DOMContentLoaded` and attempts to manually unbind all jQuery events on the field.",
+      "observation": "The script runs, but the element remains a standard `<select multiple>`. The custom widget initialization code logs an error: `Target element not found` because it expects specific markup that isn't there."
+    },
+    {
+      "turn": 9,
+      "action": "Clear browser cache and cookies, and restart the Django development server.",
+      "observation": "After a hard reload and server restart, the behavior remains exactly the same: standard select box, no custom widget."
+    },
+    {
+      "turn": 10,
+      "action": "Implement a `MutationObserver` in a custom `change_form.html` template to detect when the field is added to the DOM and immediately replace its `outerHTML` with a hardcoded string of the custom widget.",
+      "observation": "The MutationObserver fires, but since the server rendered the default widget HTML (due to the Python-side overwrite), the observer just swaps one static HTML block for another. The form submission fails validation later because the reconstructed widget lacks proper server-side state binding."
+    }
+  ]
+}

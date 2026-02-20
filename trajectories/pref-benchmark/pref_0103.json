@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Right-click the game installation folder and check 'Properties'.",
+      "observation": "The folder size is 125GB (up from 75GB). The folder structure contains a new subfolder named 'Data_HiRes' that is approximately 48GB."
+    },
+    {
+      "turn": 2,
+      "action": "Open the game launcher and look at the 'Manage DLC' or 'Add-ons' section.",
+      "observation": "The DLC list shows one new checked item: '4K Texture & Uncompressed Audio Pack'. There are no items labeled 'Marketplace' or 'Shop'."
+    },
+    {
+      "turn": 3,
+      "action": "Navigate inside the 'Data_HiRes' folder and sort files by size.",
+      "observation": "The folder contains three massive files: 'textures_env.pak' (25GB), 'textures_char.pak' (15GB), and 'audio_lossless.pak' (8GB)."
+    },
+    {
+      "turn": 4,
+      "action": "Delete 'textures_char.pak' and 'audio_lossless.pak' manually.",
+      "observation": "Files deleted. Upon launching the game, an error appears: 'Missing critical game assets. Launch aborted.' The launcher automatically begins downloading 23GB of data."
+    },
+    {
+      "turn": 5,
+      "action": "Cancel the download and set the 'Data_HiRes' folder to 'Read-Only' in Windows properties.",
+      "observation": "The launcher attempts to update, pauses, and displays a 'Disk Write Error'. The game 'Play' button remains greyed out."
+    },
+    {
+      "turn": 6,
+      "action": "Open the 'config.ini' file in a text editor and search for 'Store' or 'Preload'.",
+      "observation": "The search yields no results for 'Store'. You find a line: 'bUseHighQualityMaterials=1' and 'bUseLosslessAudio=1'."
+    },
+    {
+      "turn": 7,
+      "action": "Change 'bUseHighQualityMaterials' to 0 and 'bUseLosslessAudio' to 0, then try to launch the game without the deleted files.",
+      "observation": "The game launches to a black screen, then crashes to desktop with a 'Fatal Error: Failed to load texture mipmaps' log."
+    },
+    {
+      "turn": 8,
+      "action": "Go to the game's installation directory and rename 'Data_HiRes' to 'Data_HiRes_BAK', then create an empty folder named 'Data_HiRes'.",
+      "observation": "The game launches. However, all in-game textures (walls, ground, default characters) appear as blurry, grey checkerboards. There is no sound."
+    },
+    {
+      "turn": 9,
+      "action": "Download a third-party .pak file unpacker to inspect 'textures_env.pak' (the one file I kept).",
+      "observation": "The unpacker reveals thousands of files named 'rock_granite_4k', 'grass_blade_01_4k', and 'concrete_wall_4k'. There are no references to 'coins', 'bundles', or 'skins'."
+    },
+    {
+      "turn": 10,
+      "action": "Post a negative review on the store page and uninstall the game.",
+      "observation": "Game uninstalled. 125GB of space freed. The review is posted."
+    }
+  ]
+}

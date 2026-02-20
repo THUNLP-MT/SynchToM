@@ -1,0 +1,54 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "Examine the map on the wall to identify the specific dialect region.",
+      "observation": "The map indicates the Guangdong/Guangxi region."
+    },
+    {
+      "turn": 2,
+      "action": "Inspect the vendor's equipment, specifically looking at the size of the ladle used for the tofu.",
+      "observation": "The ladle is a standard flat iron scoop."
+    },
+    {
+      "turn": 3,
+      "action": "Smile at the vendor and ask, 'Is this style specific to this city, or is it a general regional recipe?'",
+      "observation": "The vendor replies, 'It is very traditional style.'"
+    },
+    {
+      "turn": 4,
+      "action": "Look around the seating area to see if there are napkins or wet wipes available on the tables.",
+      "observation": "There are no napkins on the tables, only a dispenser at the counter."
+    },
+    {
+      "turn": 5,
+      "action": "Gesture to the bowl and ask, 'Is the texture soft or firm today?'",
+      "observation": "The vendor says, 'Very silky, melts in your mouth.'"
+    },
+    {
+      "turn": 6,
+      "action": "Ask the vendor, 'Do most locals eat this for breakfast or as an afternoon snack?'",
+      "observation": "The vendor answers, 'It is good at any time of day.'"
+    },
+    {
+      "turn": 7,
+      "action": "Scan the counter for a menu or price list to see if 'extra toppings' are listed separately.",
+      "observation": "The sign just says 'Tofu Pudding - 5 RMB'."
+    },
+    {
+      "turn": 8,
+      "action": "Point to a covered jar on the back of the cart and ask, 'Is that a house-made sauce?'",
+      "observation": "The vendor nods, 'Yes, homemade ginger syrup.'"
+    },
+    {
+      "turn": 9,
+      "action": "Pause, then look for another container and ask, 'And do you keep the other condiments under the counter to keep them fresh?'",
+      "observation": "The vendor looks confused and asks, 'What other condiments?'"
+    },
+    {
+      "turn": 10,
+      "action": "Ask politely, 'I prefer a stronger flavor profile; is it possible to adjust the seasoning to be more savory?'",
+      "observation": "The vendor hesitates but reaches for a bottle of soy sauce."
+    }
+  ]
+}

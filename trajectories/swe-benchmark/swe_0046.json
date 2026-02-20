@@ -1,0 +1,53 @@
+{
+  "trajectory": [
+    {
+      "turn": 1,
+      "action": "pytest tests/test_migrations.py -k test_mixed_constraints_migration",
+      "observation": "E   django.db.utils.OperationalError: malformed database schema (new__app_testconstraint) - no such column: new__app_testconstraint.field_1\n\n.../django/db/backends/sqlite3/schema.py:384: in _remake_table\n    self.create_model(new_model)"
+    },
+    {
+      "turn": 2,
+      "action": "cat django/db/backends/sqlite3/schema.py | grep -A 20 \"def _remake_table\"",
+      "observation": "def _remake_table(self, model, create_field=None, delete_field=None, alter_field=None):\n    ...\n    # Create a new table with the updated schema.\n    new_model = model._meta.concrete_model\n    new_model._meta.db_table = 'new__%s' % model._meta.db_table\n    self.create_model(new_model)\n    ..."
+    },
+    {
+      "turn": 3,
+      "action": "cat app/models.py",
+      "observation": "class TestConstraint(models.Model):\n    field_1 = models.IntegerField()\n    class Meta:\n        constraints = [\n            models.CheckConstraint(check=Q(field_1__gt=1) | Q(field_1__lt=10), name='mixed_logic')\n        ]"
+    },
+    {
+      "turn": 4,
+      "action": "sed -i '/self.execute(sql, params or None)/i \\        print(f\"DEBUG SQL: {sql}\")' django/db/backends/sqlite3/schema.py && pytest tests/test_migrations.py -k test_mixed_constraints_migration",
+      "observation": "DEBUG SQL: CREATE TABLE \"new__app_testconstraint\" (\"id\" integer NOT NULL PRIMARY KEY AUTOINCREMENT, \"field_1\" integer NOT NULL, CONSTRAINT \"mixed_logic\" CHECK (\"app_testconstraint\".\"field_1\" > 1 OR \"app_testconstraint\".\"field_1\" < 10))\nE   django.db.utils.OperationalError: malformed database schema..."
+    },
+    {
+      "turn": 5,
+      "action": "grep -r \"quote_name\" django/db/backends/sqlite3/",
+      "observation": "django/db/backends/sqlite3/operations.py:    def quote_name(self, name):\ndjango/db/backends/sqlite3/schema.py:        return self.connection.ops.quote_name(name)"
+    },
+    {
+      "turn": 6,
+      "action": "sqlite3 --version",
+      "observation": "SQLite 3.31.1 2020-01-27 19:55:54"
+    },
+    {
+      "turn": 7,
+      "action": "vim django/db/backends/sqlite3/schema.py",
+      "observation": "(Developer opens the file and stares at the `with self.connection.constraint_checks_disabled():` block, convinced the issue is local to this method's scope handling)."
+    },
+    {
+      "turn": 8,
+      "action": "sed -i '/new_model._meta.db_table =/a \\    print(f\"DEBUG: Swapped table name to {new_model._meta.db_table}\")' django/db/backends/sqlite3/schema.py && pytest tests/test_migrations.py",
+      "observation": "DEBUG: Swapped table name to new__app_testconstraint\nDEBUG SQL: CREATE TABLE \"new__app_testconstraint\" ... CHECK (\"app_testconstraint\".\"field_1\" ...)"
+    },
+    {
+      "turn": 9,
+      "action": "rm -f db.sqlite3 && rm -rf app/migrations/__pycache__",
+      "observation": "(No output, files removed. Re-running test yields exact same error)."
+    },
+    {
+      "turn": 10,
+      "action": "grep -r \"def column_sql\" django/db/backends/sqlite3/schema.py"
+    }
+  ]
+}
